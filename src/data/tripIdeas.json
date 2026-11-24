@@ -1,0 +1,976 @@
+[
+  {
+    "id": "udupi-temple-circuit",
+    "title": "The Udupi Temple Circuit",
+    "hook": "Dawn darshan, a free temple lunch, Car Street after dark.",
+    "duration": "1 day",
+    "days": 1,
+    "transport": "bike",
+    "difficulty": "easy",
+    "route": "Manipal → Udupi Sri Krishna Matha & the Ashta Mathas → Anantheshwara & Chandramouleeshwara Temples, Udupi → Udupi Sri Krishna Matha & the Ashta Mathas → Pajaka Kshetra (Madhvacharya's birthplace) → Kunjarugiri Durga Temple (Durga Betta) → Car Street (Ratha Beedi), Udupi after dark → Manipal",
+    "roadKmRoundTrip": 40,
+    "stops": [
+      {
+        "placeId": "udupi-sri-krishna-matha",
+        "name": "Udupi Sri Krishna Matha & the Ashta Mathas",
+        "day": 1,
+        "time": "5:30 am",
+        "note": "Weekday dawn is the quietest darshan. Men go shirtless inside the Matha all day."
+      },
+      {
+        "placeId": "udupi-anantheshwara-chandramouleeshwara",
+        "name": "Anantheshwara & Chandramouleeshwara Temples, Udupi",
+        "day": 1,
+        "time": "7:30 am",
+        "note": "Two Shiva temples across the square. Ten minutes each."
+      },
+      {
+        "placeId": "udupi-sri-krishna-matha",
+        "name": "Udupi Sri Krishna Matha & the Ashta Mathas",
+        "day": 1,
+        "time": "12:00 pm",
+        "note": "Back for prasada bhojana at noon."
+      },
+      {
+        "placeId": "pajaka-kshetra",
+        "name": "Pajaka Kshetra (Madhvacharya's birthplace)",
+        "day": 1,
+        "time": "3:30 pm",
+        "note": "Madhvacharya's birthplace, through the paddy."
+      },
+      {
+        "placeId": "kunjarugiri-durga-temple",
+        "name": "Kunjarugiri Durga Temple (Durga Betta)",
+        "day": 1,
+        "time": "4:30 pm",
+        "note": "Short climb, wide views at golden hour."
+      },
+      {
+        "placeId": "udupi-car-street-night",
+        "name": "Car Street (Ratha Beedi), Udupi after dark",
+        "day": 1,
+        "time": "7:00 pm",
+        "note": "Evening palanquin round and night pujas around the square."
+      }
+    ],
+    "vegMealStops": [
+      "Mitra Samaj (Car Street): goli baje and buns for breakfast after darshan.",
+      "Krishna Matha prasada bhojana (free, noon).",
+      "Woodlands, Udupi: neer dosa with veg stew for dinner."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Oct, Nov, Dec. See each place's season note.",
+    "packThis": "A dhoti or veshti for men, a shawl, a cloth bag for footwear, small change for the hundi.",
+    "safety": null,
+    "placeIds": [
+      "udupi-sri-krishna-matha",
+      "udupi-anantheshwara-chandramouleeshwara",
+      "pajaka-kshetra",
+      "kunjarugiri-durga-temple",
+      "udupi-car-street-night"
+    ]
+  },
+  {
+    "id": "malpe-island-and-backwaters",
+    "title": "Island Morning, Backwater Evening",
+    "hook": "St Mary's basalt at 9, a kayak by 3, Delta's sandbar at sunset.",
+    "duration": "1 day",
+    "days": 1,
+    "transport": "bike",
+    "difficulty": "easy",
+    "route": "Manipal → St. Mary's Island (Thonsepar) → Malpe Beach & Sea Walk → Kemmannu Hanging Bridge & Hoode backwaters → Delta Beach (Kodi Bengre) → Manipal",
+    "roadKmRoundTrip": 50,
+    "stops": [
+      {
+        "placeId": "st-marys-island",
+        "name": "St. Mary's Island (Thonsepar)",
+        "day": 1,
+        "time": "9:00 am",
+        "note": "First boats from Malpe beat the heat and the crowds. No food on the island."
+      },
+      {
+        "placeId": "malpe-beach-sea-walk",
+        "name": "Malpe Beach & Sea Walk",
+        "day": 1,
+        "time": "12:30 pm",
+        "note": "Walk the Sea Walk out to the breakwater."
+      },
+      {
+        "placeId": "kemmannu-hanging-bridge-hoode",
+        "name": "Kemmannu Hanging Bridge & Hoode backwaters",
+        "day": 1,
+        "time": "3:00 pm",
+        "note": "Hanging bridge, then kayak the Hoode backwater."
+      },
+      {
+        "placeId": "delta-beach-kodi-bengre",
+        "name": "Delta Beach (Kodi Bengre)",
+        "day": 1,
+        "time": "5:30 pm",
+        "note": "Sunset where the Swarna meets the sea. Look, do not swim."
+      }
+    ],
+    "vegMealStops": [
+      "Mitra Samaj or Woodlands in Udupi town for lunch (no pure-veg spot at the Malpe jetty could be confirmed).",
+      "Carry water and snacks for the island."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Mar, Oct, Nov, Dec. See each place's season note.",
+    "packThis": "Sunscreen, a cap, a dry bag for the kayak, a change of clothes, 2 litres of water.",
+    "safety": null,
+    "placeIds": [
+      "st-marys-island",
+      "malpe-beach-sea-walk",
+      "kemmannu-hanging-bridge-hoode",
+      "delta-beach-kodi-bengre"
+    ]
+  },
+  {
+    "id": "coastal-sunset-ride-north",
+    "title": "The NH-66 Sunset Run",
+    "hook": "Two Ganapatis, three beaches and the best sunset on the coast.",
+    "duration": "1 day",
+    "days": 1,
+    "transport": "bike",
+    "difficulty": "easy",
+    "route": "Manipal → Anegudde Sri Vinayaka Temple (Kumbashi) → Hattiangadi Siddhi Vinayaka Temple → Kodi Beach & Sea Walk (Kundapura) → Trasi Beach → Maravanthe Beach → Ottinene Viewpoint (Kshitija Nesara Dhama), Byndoor → Manipal",
+    "roadKmRoundTrip": 190,
+    "stops": [
+      {
+        "placeId": "anegudde-vinayaka-temple",
+        "name": "Anegudde Sri Vinayaka Temple (Kumbashi)",
+        "day": 1,
+        "time": "7:30 am",
+        "note": "Morning darshan at Kumbashi."
+      },
+      {
+        "placeId": "hattiangadi-siddhi-vinayaka-temple",
+        "name": "Hattiangadi Siddhi Vinayaka Temple",
+        "day": 1,
+        "time": "9:00 am",
+        "note": "A short detour inland."
+      },
+      {
+        "placeId": "kodi-beach-kundapura",
+        "name": "Kodi Beach & Sea Walk (Kundapura)",
+        "day": 1,
+        "time": "10:30 am",
+        "note": "Sea walk across from Gangolli."
+      },
+      {
+        "placeId": "trasi-beach",
+        "name": "Trasi Beach",
+        "day": 1,
+        "time": "3:30 pm",
+        "note": "Back on NH-66 after a long lunch break out of the sun."
+      },
+      {
+        "placeId": "maravanthe-beach",
+        "name": "Maravanthe Beach",
+        "day": 1,
+        "time": "4:15 pm",
+        "note": "Sea on one side, Sauparnika river on the other."
+      },
+      {
+        "placeId": "ottinene-kshitija-nesara-dhama",
+        "name": "Ottinene Viewpoint (Kshitija Nesara Dhama), Byndoor",
+        "day": 1,
+        "time": "5:30 pm",
+        "note": "Sunset from the hill, with Someshwara beach below."
+      }
+    ],
+    "vegMealStops": [
+      "Anegudde temple anna prasada (lunch time).",
+      "Hotel Parijatha, Kundapura (pure veg; status: verify locally)."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Mar, Oct, Nov, Dec. See each place's season note.",
+    "packThis": "Sunglasses, a scarf for the sea wind, a headlamp, and a reflective vest for the ride home.",
+    "safety": "Riding back from Byndoor after sunset means about 75 km of NH-66 in the dark. Ride slow, or stay the night in Byndoor or Kundapura.",
+    "placeIds": [
+      "anegudde-vinayaka-temple",
+      "hattiangadi-siddhi-vinayaka-temple",
+      "kodi-beach-kundapura",
+      "trasi-beach",
+      "maravanthe-beach",
+      "ottinene-kshitija-nesara-dhama"
+    ]
+  },
+  {
+    "id": "agumbe-sringeri-horanadu",
+    "title": "Agumbe, Sringeri & Horanadu",
+    "hook": "A lake basadi, a rainforest ghat, two great temple kitchens.",
+    "duration": "2 days",
+    "days": 2,
+    "transport": "bike",
+    "difficulty": "moderate",
+    "route": "Manipal → Varanga Kere Basadi (Lake Temple) → Sringeri Sharada Peetham → Agumbe Ghat & Sunset Point → Horanadu Annapoorneshwari Temple → Return via Kalasa–Kudremukh–Karkala → Manipal",
+    "roadKmRoundTrip": 310,
+    "stops": [
+      {
+        "placeId": "varanga-kere-basadi",
+        "name": "Varanga Kere Basadi (Lake Temple)",
+        "day": 1,
+        "time": "8:30 am",
+        "note": "First boat out to the lake temple."
+      },
+      {
+        "placeId": "sringeri-sharada-peetham",
+        "name": "Sringeri Sharada Peetham",
+        "day": 1,
+        "time": "11:00 am",
+        "note": "Darshan, then the annadana lunch from 12:15 pm."
+      },
+      {
+        "placeId": "agumbe-sunset-point-and-ghat",
+        "name": "Agumbe Ghat & Sunset Point",
+        "day": 1,
+        "time": "5:00 pm",
+        "note": "Be at the sunset point early; stay the night in Agumbe."
+      },
+      {
+        "placeId": "horanadu-annapoorneshwari-temple",
+        "name": "Horanadu Annapoorneshwari Temple",
+        "day": 2,
+        "time": "10:00 am",
+        "note": "Morning darshan, stay for the annadana lunch."
+      },
+      {
+        "placeId": null,
+        "name": "Return via Kalasa–Kudremukh–Karkala",
+        "day": 2,
+        "time": "2:00 pm",
+        "note": "Leave by early afternoon to be off the forest roads before dark."
+      }
+    ],
+    "vegMealStops": [
+      "Sringeri Sharada Peetham annadana (lunch about 12:15–2:30 pm).",
+      "Hotel Sri Krishna Bhavan or a vegetarian homestay in Agumbe (verify locally).",
+      "Horanadu annadana (lunch)."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Nov, Dec. See each place's season note.",
+    "packThis": "A dhoti or veshti (Horanadu asks men to remove shirts), a warm layer for the Agumbe evening, a rain shell, a headlamp.",
+    "safety": "Agumbe and the Kudremukh road are hairpin ghats: daylight only, watch for buses on the bends and for fog.",
+    "placeIds": [
+      "varanga-kere-basadi",
+      "sringeri-sharada-peetham",
+      "agumbe-sunset-point-and-ghat",
+      "horanadu-annapoorneshwari-temple"
+    ]
+  },
+  {
+    "id": "dharmasthala-belthangady",
+    "title": "Dharmasthala & the Belthangady Rocks",
+    "hook": "1,876 steps up Gadaikallu, then Annapoorna feeds you.",
+    "duration": "2 days",
+    "days": 2,
+    "transport": "bike",
+    "difficulty": "moderate",
+    "route": "Manipal → Venur Bahubali → Gadaikallu (Jamalabad Fort) → Dharmasthala Shri Manjunatha Swamy Temple → Ratnagiri Bahubali, Manjusha Museum & Vintage Car Museum, Dharmasthala → Sowthadka Shri Mahaganapati Temple → Shishila Shishileshwara Temple (Matsya Theertha) → Manipal",
+    "roadKmRoundTrip": 270,
+    "stops": [
+      {
+        "placeId": "venur-bahubali",
+        "name": "Venur Bahubali",
+        "day": 1,
+        "time": "7:30 am",
+        "note": "A 38 ft monolith on the Phalguni, on the way."
+      },
+      {
+        "placeId": "gadaikallu-jamalabad-fort",
+        "name": "Gadaikallu (Jamalabad Fort)",
+        "day": 1,
+        "time": "9:00 am",
+        "note": "Climb before the rock heats up. Open October–May only."
+      },
+      {
+        "placeId": "dharmasthala-manjunatha-temple",
+        "name": "Dharmasthala Shri Manjunatha Swamy Temple",
+        "day": 1,
+        "time": "5:00 pm",
+        "note": "Evening darshan; stay the night in Dharmasthala."
+      },
+      {
+        "placeId": "dharmasthala-bahubali-manjusha-museums",
+        "name": "Ratnagiri Bahubali, Manjusha Museum & Vintage Car Museum, Dharmasthala",
+        "day": 2,
+        "time": "7:30 am",
+        "note": "Ratnagiri Bahubali in the morning, museums after."
+      },
+      {
+        "placeId": "sowthadka-mahaganapati",
+        "name": "Sowthadka Shri Mahaganapati Temple",
+        "day": 2,
+        "time": "11:00 am",
+        "note": "The open-air Ganapati."
+      },
+      {
+        "placeId": "shishila-matsya-shishileshwara",
+        "name": "Shishila Shishileshwara Temple (Matsya Theertha)",
+        "day": 2,
+        "time": "12:30 pm",
+        "note": "The sacred fish in the Kapila river."
+      }
+    ],
+    "vegMealStops": [
+      "Annapoorna dining hall, Dharmasthala (free annadana: dinner on day 1, lunch on day 2)."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Mar, Nov, Dec. See each place's season note.",
+    "packThis": "Grip shoes for the rock, 2 litres of water per person, a dhoti for darshan, a towel.",
+    "safety": "Gadaikallu has no rails on parts of the final rock face: no climbing in rain, and come down well before the 4 pm cutoff.",
+    "placeIds": [
+      "venur-bahubali",
+      "gadaikallu-jamalabad-fort",
+      "dharmasthala-manjunatha-temple",
+      "dharmasthala-bahubali-manjusha-museums",
+      "sowthadka-mahaganapati",
+      "shishila-matsya-shishileshwara"
+    ]
+  },
+  {
+    "id": "kollur-and-the-falls",
+    "title": "Kollur & the Sauparnika Falls",
+    "hook": "Mookambika at dawn, a forest fall by noon, sunset over Byndoor.",
+    "duration": "1 day",
+    "days": 1,
+    "transport": "bike",
+    "difficulty": "moderate",
+    "route": "Manipal → Kollur Mookambika Temple → Belkal Theertha (Govinda Theertha) Falls → Kollur Mookambika Temple → Ottinene Viewpoint (Kshitija Nesara Dhama), Byndoor → Manipal",
+    "roadKmRoundTrip": 180,
+    "stops": [
+      {
+        "placeId": "kollur-mookambika-temple",
+        "name": "Kollur Mookambika Temple",
+        "day": 1,
+        "time": "7:00 am",
+        "note": "Morning darshan; stay for the anna prasada lunch."
+      },
+      {
+        "placeId": "belkal-theertha-falls",
+        "name": "Belkal Theertha (Govinda Theertha) Falls",
+        "day": 1,
+        "time": "9:30 am",
+        "note": "Best October–January, while it still flows."
+      },
+      {
+        "placeId": "kollur-mookambika-temple",
+        "name": "Kollur Mookambika Temple",
+        "day": 1,
+        "time": "12:30 pm",
+        "note": "Back for lunch prasada."
+      },
+      {
+        "placeId": "ottinene-kshitija-nesara-dhama",
+        "name": "Ottinene Viewpoint (Kshitija Nesara Dhama), Byndoor",
+        "day": 1,
+        "time": "5:15 pm",
+        "note": "Sunset on the way home."
+      }
+    ],
+    "vegMealStops": [
+      "Kollur temple anna prasada (lunch)."
+    ],
+    "bestMonths": [
+      1,
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Oct, Nov, Dec. See each place's season note.",
+    "packThis": "Dhoti or saree for darshan, grip sandals for the falls trail, leech socks after the rains, a headlamp.",
+    "safety": "Arasinagundi Falls is closed by forest order: do not try it. Falls rocks are slippery in every season.",
+    "placeIds": [
+      "kollur-mookambika-temple",
+      "belkal-theertha-falls",
+      "ottinene-kshitija-nesara-dhama"
+    ]
+  },
+  {
+    "id": "jain-heritage-loop",
+    "title": "The Jain Heritage Loop",
+    "hook": "Three Bahubalis, a thousand pillars and a temple on a lake.",
+    "duration": "1 day",
+    "days": 1,
+    "transport": "bike",
+    "difficulty": "easy",
+    "route": "Manipal → Karkala: Gommateshwara (Bahubali) & Chaturmukha Basadi → Varanga Kere Basadi (Lake Temple) → Saavira Kambada Basadi, Moodbidri → Venur Bahubali → Manipal",
+    "roadKmRoundTrip": 190,
+    "stops": [
+      {
+        "placeId": "karkala-bahubali-chaturmukha-basadi",
+        "name": "Karkala: Gommateshwara (Bahubali) & Chaturmukha Basadi",
+        "day": 1,
+        "time": "7:30 am",
+        "note": "Barefoot climb to Gommata before the rock warms up."
+      },
+      {
+        "placeId": "varanga-kere-basadi",
+        "name": "Varanga Kere Basadi (Lake Temple)",
+        "day": 1,
+        "time": "9:30 am",
+        "note": "Boat out to the lake basadi."
+      },
+      {
+        "placeId": "moodbidri-saavira-kambada-basadi",
+        "name": "Saavira Kambada Basadi, Moodbidri",
+        "day": 1,
+        "time": "12:30 pm",
+        "note": "The Thousand-Pillar Basadi and the town walk."
+      },
+      {
+        "placeId": "venur-bahubali",
+        "name": "Venur Bahubali",
+        "day": 1,
+        "time": "3:30 pm",
+        "note": "The riverside Bahubali in soft afternoon light."
+      }
+    ],
+    "vegMealStops": [
+      "Lunch in Moodbidri town (pick a pure-veg hotel on the spot; none was confirmed online, so verify locally)."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Oct, Nov, Dec. See each place's season note.",
+    "packThis": "Socks for hot stone floors, modest clothes (shoulders and knees covered), water.",
+    "safety": null,
+    "placeIds": [
+      "karkala-bahubali-chaturmukha-basadi",
+      "varanga-kere-basadi",
+      "moodbidri-saavira-kambada-basadi",
+      "venur-bahubali"
+    ]
+  },
+  {
+    "id": "kudremukh-trek",
+    "title": "Kudremukh Summit",
+    "hook": "Sixteen kilometres of shola and grass to the horse-face peak.",
+    "duration": "2 days",
+    "days": 2,
+    "transport": "bike",
+    "difficulty": "hard",
+    "route": "Manipal → Karkala: Gommateshwara (Bahubali) & Chaturmukha Basadi → Mullodi homestay → Kudremukh Peak Trek → Manipal",
+    "roadKmRoundTrip": 200,
+    "stops": [
+      {
+        "placeId": "karkala-bahubali-chaturmukha-basadi",
+        "name": "Karkala: Gommateshwara (Bahubali) & Chaturmukha Basadi",
+        "day": 1,
+        "time": "2:00 pm",
+        "note": "On the way up via Karkala."
+      },
+      {
+        "placeId": null,
+        "name": "Mullodi homestay",
+        "day": 1,
+        "time": "5:00 pm",
+        "note": "Sleep at the trailhead; arrange the jeep from Balagal if needed."
+      },
+      {
+        "placeId": "kudremukh-peak-trek",
+        "name": "Kudremukh Peak Trek",
+        "day": 2,
+        "time": "7:30 am",
+        "note": "Start at the Mullodi forest office; turn back by 2 pm."
+      }
+    ],
+    "vegMealStops": [
+      "Mullodi homestay: dinner, breakfast and a packed lunch (confirm a veg-only meal when you book)."
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Oct, Nov, Dec. See each place's season note.",
+    "packThis": "Aranya Vihaara booking + the original ID you booked with, 3 litres of water, trail shoes, a rain shell, snacks, no plastic (bags are checked).",
+    "safety": "A guide is compulsory. Trails close in the monsoon, and in 2026 closed from 14 January for fire season, so plan for October–December.",
+    "placeIds": [
+      "karkala-bahubali-chaturmukha-basadi",
+      "kudremukh-peak-trek"
+    ]
+  },
+  {
+    "id": "kumara-parvatha",
+    "title": "Kukke & Kumara Parvatha",
+    "hook": "Karnataka's toughest day hike, after darshan at Kukke.",
+    "duration": "3 days",
+    "days": 3,
+    "transport": "bike",
+    "difficulty": "hard",
+    "route": "Manipal → Kukke Shri Subrahmanya Temple → Kumara Parvatha Trek (Kukke Subramanya route) → Kukke Shri Subrahmanya Temple → Manipal",
+    "roadKmRoundTrip": 330,
+    "stops": [
+      {
+        "placeId": "kukke-subramanya-temple",
+        "name": "Kukke Shri Subrahmanya Temple",
+        "day": 1,
+        "time": "4:00 pm",
+        "note": "Ride over, evening darshan, sleep in Kukke."
+      },
+      {
+        "placeId": "kumara-parvatha-trek",
+        "name": "Kumara Parvatha Trek (Kukke Subramanya route)",
+        "day": 2,
+        "time": "5:30 am",
+        "note": "Single-day trek, 11–12 hours from the Kukke side: no camping, no overnight at Bhattara Mane. Check which route is open first."
+      },
+      {
+        "placeId": "kukke-subramanya-temple",
+        "name": "Kukke Shri Subrahmanya Temple",
+        "day": 3,
+        "time": "8:00 am",
+        "note": "Rest, a slow morning darshan, then ride home in daylight."
+      }
+    ],
+    "vegMealStops": [
+      "Kukke temple annadana (lunch about 11:30 am–2 pm, dinner about 7:30–9:30 pm; verify locally)."
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Oct, Nov, Dec. See each place's season note.",
+    "packThis": "Aranya Vihaara booking + original ID, 3–4 litres of water, electrolytes, a headlamp, trekking poles, knee support.",
+    "safety": "In 2026 only the Beedahalli (Kodagu side) route had reopened; if the Kukke route is still shut, the Beedahalli checkpost is about 208 km from Manipal. Never start late, and never ride back the same evening.",
+    "placeIds": [
+      "kukke-subramanya-temple",
+      "kumara-parvatha-trek"
+    ]
+  },
+  {
+    "id": "gokarna-murudeshwar-train",
+    "title": "Gokarna & Murudeshwar by Train",
+    "hook": "Konkan Railway to the cliff-beach trail, Shiva by the sea.",
+    "duration": "2 days",
+    "days": 2,
+    "transport": "train",
+    "difficulty": "moderate",
+    "route": "Manipal → Udupi station → Gokarna Road (Konkan Railway) → Gokarna Mahabaleshwar Temple → Gokarna beach trail: Kudle, Om, Half Moon & Paradise → Gokarna Road → Murdeshwar (Konkan Railway) → Murudeshwar Temple & Beach → Murdeshwar → Udupi (Konkan Railway)",
+    "roadKmRoundTrip": null,
+    "stops": [
+      {
+        "placeId": null,
+        "name": "Udupi station → Gokarna Road (Konkan Railway)",
+        "day": 1,
+        "time": "early",
+        "note": "Check trains on NTES/IRCTC; Gokarna Road is about 9 km from town by auto."
+      },
+      {
+        "placeId": "gokarna-mahabaleshwar-temple",
+        "name": "Gokarna Mahabaleshwar Temple",
+        "day": 1,
+        "time": "morning",
+        "note": "Men in dhoti, no shirt; women in saree or salwar."
+      },
+      {
+        "placeId": "gokarna-beach-trail",
+        "name": "Gokarna beach trail: Kudle, Om, Half Moon & Paradise",
+        "day": 1,
+        "time": "afternoon",
+        "note": "Kudle to Om on foot; stay the night in Gokarna."
+      },
+      {
+        "placeId": null,
+        "name": "Gokarna Road → Murdeshwar (Konkan Railway)",
+        "day": 2,
+        "time": "morning",
+        "note": "Check which trains stop at Murdeshwar."
+      },
+      {
+        "placeId": "murudeshwar-temple-beach",
+        "name": "Murudeshwar Temple & Beach",
+        "day": 2,
+        "time": "midday",
+        "note": "Temple, the gopura lift, the beach within the ropes."
+      },
+      {
+        "placeId": null,
+        "name": "Murdeshwar → Udupi (Konkan Railway)",
+        "day": 2,
+        "time": "evening",
+        "note": ""
+      }
+    ],
+    "vegMealStops": [
+      "Mahabaleshwar temple prasada bhojana (free).",
+      "Pai Restaurant, Gokarna (pure veg; verify locally).",
+      "Murudeshwar temple annadana."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Mar, Oct, Nov, Dec. See each place's season note.",
+    "packThis": "A printed or saved ticket, dhoti for Gokarna, trail sandals, 2 litres of water for the cliff path, a torch.",
+    "safety": "Do not swim at Paradise or Half Moon (rocks, undercurrents), and be off the cliff paths before dark.",
+    "placeIds": [
+      "gokarna-mahabaleshwar-temple",
+      "gokarna-beach-trail",
+      "murudeshwar-temple-beach"
+    ]
+  },
+  {
+    "id": "dudhsagar-overnight",
+    "title": "Dudhsagar: The Night-Train Special",
+    "hook": "Sleep on the Netravati, wake in Goa, ride a jeep to the 'sea of milk'.",
+    "duration": "2 days (one night on the train each way)",
+    "days": 2,
+    "transport": "train",
+    "difficulty": "moderate",
+    "route": "Manipal → Udupi → Madgaon (16346 Netravati Exp, dep about 00:22) → Madgaon → Kulem (56962 passenger, about 08:10) → Dudhsagar Falls (overnight via Konkan Railway + Collem jeep safari) → Kulem → Madgaon (56965, about 17:20), then 16345 Netravati home (about 22:42)",
+    "roadKmRoundTrip": null,
+    "stops": [
+      {
+        "placeId": null,
+        "name": "Udupi → Madgaon (16346 Netravati Exp, dep about 00:22)",
+        "day": 1,
+        "time": "00:22",
+        "note": "Timings from etrain.info; confirm on NTES/IRCTC."
+      },
+      {
+        "placeId": null,
+        "name": "Madgaon → Kulem (56962 passenger, about 08:10)",
+        "day": 1,
+        "time": "08:10",
+        "note": "Breakfast near Madgaon station first."
+      },
+      {
+        "placeId": "dudhsagar-falls-overnight",
+        "name": "Dudhsagar Falls (overnight via Konkan Railway + Collem jeep safari)",
+        "day": 1,
+        "time": "10:00 am",
+        "note": "Official forest-dept jeep safari from Collem (gate 8 am–3 pm, life jackets mandatory)."
+      },
+      {
+        "placeId": null,
+        "name": "Kulem → Madgaon (56965, about 17:20), then 16345 Netravati home (about 22:42)",
+        "day": 1,
+        "time": "17:20",
+        "note": "Arrive Udupi around 3 am."
+      }
+    ],
+    "vegMealStops": [
+      "Krishna or Pai Palace near Madgaon station (pure veg per listings; verify locally).",
+      "Carry lunch for the jeep day."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Mar, Apr, May, Oct, Nov, Dec. See each place's season note.",
+    "packThis": "Train tickets + ID, cash for the jeep, a dry bag, quick-dry clothes, a light blanket for the AC coach.",
+    "safety": "Walking on the railway tracks to Dudhsagar is prohibited: RPF has fined tourists. Use only the official jeep safari. By bike, break the ride overnight at Gokarna or Karwar.",
+    "placeIds": [
+      "dudhsagar-falls-overnight"
+    ]
+  },
+  {
+    "id": "mangaluru-by-train",
+    "title": "Mangaluru by Train",
+    "hook": "Temples, a ferry across the river, and the original gadbad.",
+    "duration": "1 day",
+    "days": 1,
+    "transport": "train",
+    "difficulty": "easy",
+    "route": "Manipal → Udupi → Mangaluru Central/Junction (Konkan Railway) → Kadri Manjunatha Temple → Mangaladevi Temple (Bolar) → Kudroli Shree Gokarnanatha Kshetra → Sultan Battery (Boloor) → Tannirbhavi Beach & Sultan Battery ferry",
+    "roadKmRoundTrip": null,
+    "stops": [
+      {
+        "placeId": null,
+        "name": "Udupi → Mangaluru Central/Junction (Konkan Railway)",
+        "day": 1,
+        "time": "early",
+        "note": "Check which station your train uses; the two are about 6 km apart."
+      },
+      {
+        "placeId": "kadri-manjunatha-temple",
+        "name": "Kadri Manjunatha Temple",
+        "day": 1,
+        "time": "8:30 am",
+        "note": "Before the midday break."
+      },
+      {
+        "placeId": "mangaladevi-temple",
+        "name": "Mangaladevi Temple (Bolar)",
+        "day": 1,
+        "time": "10:30 am",
+        "note": "The goddess the city is named after."
+      },
+      {
+        "placeId": "kudroli-gokarnanatha-temple",
+        "name": "Kudroli Shree Gokarnanatha Kshetra",
+        "day": 1,
+        "time": "4:30 pm",
+        "note": "Colourful gopuram, evening puja."
+      },
+      {
+        "placeId": "sultan-battery",
+        "name": "Sultan Battery (Boloor)",
+        "day": 1,
+        "time": "5:15 pm",
+        "note": "Tipu's watchtower, then the ferry across."
+      },
+      {
+        "placeId": "tannirbhavi-beach",
+        "name": "Tannirbhavi Beach & Sultan Battery ferry",
+        "day": 1,
+        "time": "5:45 pm",
+        "note": "Sunset; ask at the jetty for the last ferry back."
+      }
+    ],
+    "vegMealStops": [
+      "New Taj Mahal Café (Kodialbail): buns and tuppa dosa.",
+      "Woodlands or Indra Bhavan for a banana-leaf meal.",
+      "Pabbas: gadbad (an ice-cream parlour; pure-veg status not stated, so order the ice cream)."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Oct, Nov, Dec. See each place's season note.",
+    "packThis": "Train ticket, small cash for autos and the ferry, a hat, comfortable sandals.",
+    "safety": null,
+    "placeIds": [
+      "kadri-manjunatha-temple",
+      "mangaladevi-temple",
+      "kudroli-gokarnanatha-temple",
+      "sultan-battery",
+      "tannirbhavi-beach"
+    ]
+  },
+  {
+    "id": "kasaragod-lake-temple-and-bekal",
+    "title": "Ananthapura & Bekal",
+    "hook": "A lake temple with a crocodile story, then Kerala's biggest fort.",
+    "duration": "1 day",
+    "days": 1,
+    "transport": "bike",
+    "difficulty": "easy",
+    "route": "Manipal → Ananthapura Lake Temple → Madhur Madanantheshwara Siddhivinayaka Temple → Chandragiri Fort (Kasaragod) → Bekal Fort → Manipal",
+    "roadKmRoundTrip": 260,
+    "stops": [
+      {
+        "placeId": "ananthapura-lake-temple",
+        "name": "Ananthapura Lake Temple",
+        "day": 1,
+        "time": "8:30 am",
+        "note": "Morning light on the tank; open till 12:30 pm."
+      },
+      {
+        "placeId": "madhur-temple",
+        "name": "Madhur Madanantheshwara Siddhivinayaka Temple",
+        "day": 1,
+        "time": "10:30 am",
+        "note": "Three-tiered roof on the Madhuvahini river."
+      },
+      {
+        "placeId": "chandragiri-fort",
+        "name": "Chandragiri Fort (Kasaragod)",
+        "day": 1,
+        "time": "1:30 pm",
+        "note": "River-mouth views."
+      },
+      {
+        "placeId": "bekal-fort",
+        "name": "Bekal Fort",
+        "day": 1,
+        "time": "3:30 pm",
+        "note": "Open till 5:30 pm; afternoon light on the ramparts."
+      }
+    ],
+    "vegMealStops": [
+      "Udupi Sree Krishna Veg Restaurant or Vrindavan Pure Veg near Bekal (verify locally)."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Mar, Oct, Nov, Dec. See each place's season note.",
+    "packThis": "ID for the Kerala border, cash for the ₹25 fort ticket, a hat, water.",
+    "safety": "Bekal is about 125 km each way on NH-66: leave Bekal by 5:30 pm and expect to finish the ride in the dark, or take the train back from Kasaragod.",
+    "placeIds": [
+      "ananthapura-lake-temple",
+      "madhur-temple",
+      "chandragiri-fort",
+      "bekal-fort"
+    ]
+  },
+  {
+    "id": "kuvempu-country",
+    "title": "Kuvempu Country: Forts, Hills & a Poet's House",
+    "hook": "A Keladi fort, Kuvempu's home and the view from Kundadri.",
+    "duration": "1 day",
+    "days": 1,
+    "transport": "bike",
+    "difficulty": "moderate",
+    "route": "Manipal → Kavaledurga Fort → Kuppalli: Kuvempu's Kavimane & Kavishaila → Kundadri Hill & Jain Temple → Agumbe Ghat & Sunset Point → Manipal",
+    "roadKmRoundTrip": 230,
+    "stops": [
+      {
+        "placeId": "kavaledurga-fort",
+        "name": "Kavaledurga Fort",
+        "day": 1,
+        "time": "8:30 am",
+        "note": "Climb in the cool morning."
+      },
+      {
+        "placeId": "kuppalli-kavimane-kavishaila",
+        "name": "Kuppalli: Kuvempu's Kavimane & Kavishaila",
+        "day": 1,
+        "time": "12:00 pm",
+        "note": "Kuvempu's house, then the walk up to Kavishaila."
+      },
+      {
+        "placeId": "kundadri-hill",
+        "name": "Kundadri Hill & Jain Temple",
+        "day": 1,
+        "time": "3:30 pm",
+        "note": "Jain temple on top; be down before dark."
+      },
+      {
+        "placeId": "agumbe-sunset-point-and-ghat",
+        "name": "Agumbe Ghat & Sunset Point",
+        "day": 1,
+        "time": "5:30 pm",
+        "note": "Sunset, then descend the ghat slowly."
+      }
+    ],
+    "vegMealStops": [
+      "Thirthahalli town for lunch (pick a pure-veg hotel on the spot; verify locally)."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Nov, Dec. See each place's season note.",
+    "packThis": "Grip shoes, a light jacket, a headlamp, a reflective vest.",
+    "safety": "Descending Agumbe ghat after sunset means hairpins in the dark: ride slow, or stay the night in Agumbe.",
+    "placeIds": [
+      "kavaledurga-fort",
+      "kuppalli-kavimane-kavishaila",
+      "kundadri-hill",
+      "agumbe-sunset-point-and-ghat"
+    ]
+  },
+  {
+    "id": "charmadi-belur-halebidu",
+    "title": "Charmadi to the Hoysalas",
+    "hook": "A dawn ghat climb to the most ornate temples in Karnataka.",
+    "duration": "2 days",
+    "days": 2,
+    "transport": "bike",
+    "difficulty": "moderate",
+    "route": "Manipal → Dharmasthala Shri Manjunatha Swamy Temple → Charmadi Ghat Ride (Ujire to Kottigehara) → Belur Chennakeshava & Halebidu Hoysaleswara Temples → Manipal",
+    "roadKmRoundTrip": 370,
+    "stops": [
+      {
+        "placeId": "dharmasthala-manjunatha-temple",
+        "name": "Dharmasthala Shri Manjunatha Swamy Temple",
+        "day": 1,
+        "time": "6:30 am",
+        "note": "Ride out at 4:30 for first darshan (or stay in Dharmasthala the night before)."
+      },
+      {
+        "placeId": "charmadi-ghat-ride",
+        "name": "Charmadi Ghat Ride (Ujire to Kottigehara)",
+        "day": 1,
+        "time": "9:00 am",
+        "note": "Daylight only; wait out any morning mist at the top."
+      },
+      {
+        "placeId": "belur-halebidu-hoysala-temples",
+        "name": "Belur Chennakeshava & Halebidu Hoysaleswara Temples",
+        "day": 1,
+        "time": "1:00 pm",
+        "note": "Belur Chennakeshava in the afternoon; stay in Belur or Hassan."
+      },
+      {
+        "placeId": "belur-halebidu-hoysala-temples",
+        "name": "Belur Chennakeshava & Halebidu Hoysaleswara Temples",
+        "day": 2,
+        "time": "8:00 am",
+        "note": "Halebidu Hoysaleswara in the morning, then ride home before dark."
+      }
+    ],
+    "vegMealStops": [
+      "Annapoorna, Dharmasthala (breakfast/lunch annadana).",
+      "Belur town for dinner (pick a pure-veg hotel; verify locally)."
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ],
+    "bestSeason": "Best when every stop is in season: Jan, Feb, Mar, Apr, May, Oct, Nov, Dec. See each place's season note.",
+    "packThis": "Riding jacket and gloves, a rain shell, modest clothes for the temples, a power bank.",
+    "safety": "Charmadi has tight hairpins, heavy trucks and landslide history: never ride it at night or in heavy rain.",
+    "placeIds": [
+      "dharmasthala-manjunatha-temple",
+      "charmadi-ghat-ride",
+      "belur-halebidu-hoysala-temples"
+    ]
+  }
+]
