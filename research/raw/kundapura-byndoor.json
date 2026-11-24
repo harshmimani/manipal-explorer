@@ -1,0 +1,679 @@
+[
+  {
+    "id": "kodi-beach-kundapura",
+    "name": "Kodi Beach & Sea Walk (Kundapura)",
+    "chapter": "coast",
+    "tags": ["beach", "estuary", "sea-walk", "sunset", "lighthouse"],
+    "hook": "Walk a kilometre into the sea where five rivers quit.",
+    "why": "Kundapura's own beach sits where the Panchagangavalli river meets the Arabian Sea, and a breakwater sea walk lets you stroll straight out between river and surf. Tetrapods, fishing lines, a lighthouse nearby and juice stalls at the start make it a proper evening hangout for locals. Go for sunset and stay until the walkway lights come on.",
+    "lat": 13.6302717,
+    "lng": 74.6662563,
+    "distanceKmFromManipal": 43,
+    "rideTimeFromManipal": "50m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Kundapura",
+        "notes": "Kundapura is a Konkan Railway stop; onward by auto or local bus to Kodi. Station-to-beach distance not verified — verify locally."
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Late afternoon to sunset, October to March",
+    "decJanVerdict": "great",
+    "decJanNote": "Dry, clear evenings and calm-ish post-monsoon seas. This is sea-walk weather. Boating off the beach was suspended during monsoons in past years, so ask on the spot whether it is running.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "From Manipal take NH-66 north to Kundapura and turn off onto Kodi road near the town (eNidhi notes Kodi road joins NH-66 near Vinayaka theatre). eNidhi also rates the beach-side road south from Kundapura towards Sasthana, coconut palms on one side and sea on the other, as a scenic alternative ride back.",
+    "safety": "Do not climb out onto the tetrapods beside the sea walk: they are wet, algae-slick and the gaps between them are deep. The estuary mouth has river and tidal currents, so treat it as a no-swim zone. No lifeguard presence was confirmed online — verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.enidhi.net/2020/07/kodi-beach-with-seawalk-swings-boating-kundapura.html",
+      "https://www.enidhi.net/2020/07/best-top-beaches-in-udupi-district-karnataka-complete-details.html",
+      "https://en.wikipedia.org/wiki/Gangolli",
+      "https://nominatim.openstreetmap.org/search?q=Kodi+Beach&format=json&limit=4&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6662563,13.6302717?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "trasi-beach",
+    "name": "Trasi Beach",
+    "chapter": "coast",
+    "tags": ["beach", "highway-beach", "sunset", "islet"],
+    "hook": "A long gold stripe of sand right off the highway.",
+    "why": "Trasi is a kilometre-long, gently sloping beach that starts the famous Trasi–Maravanthe run where NH-66 hugs the sand. A small rocky islet sits just offshore, and the sunsets line up straight over it. Easy to hit on the way to Kollur or Byndoor without a detour.",
+    "lat": 13.6919988,
+    "lng": 74.6445581,
+    "distanceKmFromManipal": 53,
+    "rideTimeFromManipal": "50m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Kundapura",
+        "notes": "Karnataka Tourism puts Kundapura railway station about 12 km away; buses run along NH-66."
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Sunset, October to March",
+    "decJanVerdict": "great",
+    "decJanNote": "Prime season. Dry skies and the sun drops right into the sea. Combine with Maravanthe a few minutes north and Anegudde on the way up.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Straight up NH-66 past Kundapura. Park well off the highway shoulder: this stretch has fast through traffic and long-distance buses, and people stepping off the road to take photos.",
+    "safety": "Karnataka Tourism calls the water relatively calm, but no lifeguard service was confirmed online and this is the open Arabian Sea. Wade, don't swim, especially near the islet and at low light. Watch traffic when crossing NH-66.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/trasi-beach-kundapura",
+      "https://en.wikipedia.org/wiki/Trasi",
+      "https://www.enidhi.net/2020/07/best-top-beaches-in-udupi-district-karnataka-complete-details.html",
+      "https://nominatim.openstreetmap.org/search?q=Trasi+Beach&format=json&limit=4&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6445581,13.6919988?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "maravanthe-beach",
+    "name": "Maravanthe Beach",
+    "chapter": "coast",
+    "tags": ["beach", "highway-beach", "river", "sunset", "iconic-ride"],
+    "hook": "Sea on your left, river on your right, highway between.",
+    "why": "NH-66 runs on a thin strip of land here with the Arabian Sea on one side and the Souparnika river on the other, which almost touches the sea before swinging away. It is the coast's most famous few hundred metres of road. Ride it slowly at golden hour, then sit on the sand with a tender coconut.",
+    "lat": 13.7088543,
+    "lng": 74.6418646,
+    "distanceKmFromManipal": 54,
+    "rideTimeFromManipal": "55m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Senapura",
+        "notes": "Wikipedia names Senapura on the Konkan Railway as the nearest station; few trains stop there, so check the timetable. Kundapura is the bigger alternative with onward buses on NH-66."
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Sunset, October to March",
+    "decJanVerdict": "great",
+    "decJanNote": "The money shot of the whole coast, and Dec–Jan gives clean skies for it. Weekends get busy with highway stoppers; weekday evenings are calmer.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Trasi and Maravanthe run together on NH-66, around 55 minutes from Manipal. Boat rides on the Souparnika side have been offered outside monsoon (eNidhi). Pull fully off the road for photos: the carriageway is narrow and traffic is fast.",
+    "safety": "Udayavani reported a youth swept away by strong waves at the Maravanthe beach near the Maraswamy temple (July 2019). Treat it as an open-sea beach: no swimming beyond knee depth, and none at all in rough water or after dark. The biggest everyday danger here is the highway itself, so don't stop or stand on the carriageway.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Maravanthe",
+      "https://udayavani.com/english-news/youth-drowns-at-maravanthe-beach",
+      "https://www.enidhi.net/2020/07/best-top-beaches-in-udupi-district-karnataka-complete-details.html",
+      "https://nominatim.openstreetmap.org/search?q=Maravanthe+Beach&format=json&limit=4&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6418646,13.7088543?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "ottinene-kshitija-nesara-dhama",
+    "name": "Ottinene Viewpoint (Kshitija Nesara Dhama), Byndoor",
+    "chapter": "coast",
+    "tags": ["viewpoint", "sunset", "cliff", "estuary", "forest-department"],
+    "hook": "A cliff-top deck over the Byndoor river mouth at sunset.",
+    "why": "A laterite hillock just north of Byndoor looks down on the spot where the Byndoor river slides into the sea, with flat rocks and sand below. The forest department's Kshitija Nesara Dhama on top has an elevated observation deck and a few cottages. Fifteen minutes is enough for the view; stay an hour and walk down to the beach.",
+    "lat": 13.8711284,
+    "lng": 74.6051363,
+    "distanceKmFromManipal": 75,
+    "rideTimeFromManipal": "1h 15m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mookambika Road Byndoor",
+        "notes": "Karnataka Tourism puts the station about 4 km away; auto from Byndoor town."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Sunset, October to March",
+    "decJanVerdict": "great",
+    "decJanNote": "Dry-season clarity is exactly what this view needs. Pair it with Someshwara beach below and a Kollur temple visit for a full day.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Coordinates and ride time are to Someshwara beach at the foot of the Ottinene hillock (the exact viewpoint was not on OpenStreetMap). eNidhi says there are two ways in: ride up to Kshitija Nesara Dhama on top (road paved as of 2021–22), or park at the Someshwara temple and walk up the hill. Entry was Rs 10 per person with a forest-department register entry; no parking fee (eNidhi, 2021–22). Verify the current fee locally.",
+    "safety": "Stay behind the railings at the cliff edge, especially at dusk. Karnataka Tourism warns that river currents near the estuary are unpredictable, so don't swim at the river mouth. eNidhi reported no toilets or canteen for day visitors at the top. Ride back to NH-66 before full dark if you're not used to the local roads.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.enidhi.net/2020/09/ottinene-beach-kshitija-nesara-dhama.html",
+      "https://www.karnatakatourism.org/tour-item/ottinene-beach",
+      "https://inkl.com/news/someshwara-beach-in-byndoor-is-being-given-a-new-look-by-tourism-department-upcoming-star-in-coastal-circuit-of-karnataka",
+      "https://nominatim.openstreetmap.org/search?q=Someshwara+Beach+Byndoor&format=json&limit=4&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6051363,13.8711284?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kollur-mookambika-temple",
+    "name": "Kollur Mookambika Temple",
+    "chapter": "gods",
+    "tags": ["temple", "devi", "annadana", "pilgrimage", "kodachadri-base", "western-ghats"],
+    "hook": "Coastal Karnataka's great Devi shrine, below Kodachadri.",
+    "why": "Mookambika is worshipped here as a linga with Maha Kali, Maha Lakshmi and Maha Saraswathi integrated on its left side, on the south bank of the Souparnika at the foot of the Kodachadri hills. The temple runs free anna prasada for devotees at lunch and dinner. Kollur is also where you hire jeeps for Kodachadri, so it anchors a whole Ghats weekend.",
+    "lat": 13.8638054,
+    "lng": 74.8145333,
+    "distanceKmFromManipal": 76,
+    "rideTimeFromManipal": "1h 25m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mookambika Road Byndoor",
+        "notes": "About 28–30 km from Kollur (Karnataka Tourism, Wikipedia). Buses and taxis run from Byndoor and Kundapura."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Early morning darshan; weekdays are quieter",
+    "decJanVerdict": "great",
+    "decJanNote": "Cool mornings and a dry ride through the Ghats foothills. Expect bigger crowds around holidays and New Year, and confirm timings before festival days, when they change.",
+    "vegFoodNearby": [
+      "Temple anna prasada (free temple prasada meal): lunch from about 12 noon, dinner from about 8 pm, per the temple facilities listing — verify locally"
+    ],
+    "temple": {
+      "dressCode": "Traditional is safest. Karnataka Tourism: men in dhoti or formal trousers, women in saree or other traditional wear, modest clothing; footwear left at the counter. Several guides say men remove shirts and vests to enter the inner shrine and should avoid shorts, lungis and caps. Rules on shirts were not confirmed by an official page — verify locally.",
+      "darshanTimings": "Karnataka Tourism: 5:00 AM to 9:00 PM with short breaks for rituals and alankara. Third-party guides give roughly 5:00 AM–1:30 PM and 3:00–9:00 PM, with about 3:00–5:00 PM as darshan-only. Timings change on festival days. Verify locally.",
+      "annadana": "Free lunch and dinner served to devotees as prasadam: from about 12 noon and from about 8 pm (temple facilities listing). It can be suspended on special days, e.g. only darshan and no anna prasada on the 25 Oct 2022 solar eclipse (Udayavani). Verify locally."
+    },
+    "trek": null,
+    "bikeTips": "Manipal–Kundapura on NH-66, then inland via Hattiangadi on the Kundapura–Kollur road; Hattiangadi and Anegudde make easy stops. Fuel up in Kundapura. Ride the last forested stretch in daylight. Kodachadri jeeps are hired in Kollur (see the Kodachadri entry).",
+    "safety": "Forest-edge roads around Kollur run through Mookambika Wildlife Sanctuary: watch for animals at dawn and dusk and avoid riding them at night. The Souparnika bathing ghats can run fast after rain, so don't go beyond the steps. Leave valuables secure; footwear goes to the counter.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/sri-mookambika-temple",
+      "https://en.wikipedia.org/wiki/Kollur_Mookambika_Temple",
+      "https://blog.yatradham.org/kollur-mookambika-temple-timings-dress-code-annadhanam-history/",
+      "https://www.holidify.com/places/udupi/mookambika-temple-sightseeing-123914.html",
+      "https://kollurmookambikatemple.org/?p=140",
+      "https://www.udayavani.com/english-news/solar-eclipse-only-darshan-seva-on-oct-25-at-kollur-mookambika-temple-no-anna-prasadam",
+      "https://en.wikipedia.org/wiki/Mookambika_Wildlife_Sanctuary",
+      "https://nominatim.openstreetmap.org/search?q=Kollur%2C+Udupi&format=json&limit=4&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8145333,13.8638054?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "anegudde-vinayaka-temple",
+    "name": "Anegudde Sri Vinayaka Temple (Kumbashi)",
+    "chapter": "gods",
+    "tags": ["temple", "ganesha", "hilltop", "annadana", "on-nh66"],
+    "hook": "Hillock Ganesha at Kumbashi, right beside NH-66.",
+    "why": "This hillock Ganapati shrine at Kumbashi is one of the best-known Ganesha temples in Udupi district. It is one of the seven Parashurama Kshetra mukti sthalas of the coast and finds a mention in Vadiraja Tirtha's Tirtha Prabandha. It's only half an hour from Manipal, which makes it the natural first stop on any northbound ride.",
+    "lat": 13.5697457,
+    "lng": 74.7047289,
+    "distanceKmFromManipal": 33,
+    "rideTimeFromManipal": "35m",
+    "transport": {
+      "bike": true,
+      "train": { "available": false, "station": null, "notes": null }
+    },
+    "tripType": "quick",
+    "bestTime": "Morning, or around the lunch-time anna prasada",
+    "decJanVerdict": "great",
+    "decJanNote": "Weather doesn't matter much here. Morning start, darshan, then carry on to Kundapura, Trasi and Maravanthe.",
+    "vegFoodNearby": [
+      "Temple anna prasada (free lunch reported daily; one listing gives 1:00–2:30 pm) — verify locally"
+    ],
+    "temple": {
+      "dressCode": "Not confirmed by an official source. Guides advise modest traditional wear: dhoti for men, saree or salwar for women; Holidify says no sleeveless tops, shorts or short skirts. Verify locally.",
+      "darshanTimings": "Listings disagree: 5:30 AM–8:30 PM (templesinindiainfo, templesofindia.org), 5:30 AM–9:00 PM (Yatradham), 7:00 AM–8:00 PM (Holidify). Verify locally.",
+      "annadana": "Free lunch for devotees reported (Wanderlog reviews); one listing gives 1:00–2:30 pm. Not confirmed on an official page — verify locally."
+    },
+    "trek": null,
+    "bikeTips": "NH-66 north from Udupi; the temple hillock is at Kumbashi just off the highway before Kundapura. Short climb or ride up to the shrine.",
+    "safety": "Busy NH-66 junction: slow down well before turning in, and watch for buses pulling over.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kumbashi",
+      "https://templesinindiainfo.com/?p=121684",
+      "https://templesofindia.org/temple-view/anegudde-sri-vinayaka-devasthana-udupi-karnataka-624wtk",
+      "https://temple.yatradham.org/temple/annegudde-vinayaka-temple",
+      "https://www.holidify.com/places/udupi/anegudde-vinayak-temple-sightseeing-123904.html",
+      "https://wanderlog.com/place/details/274158/anegudde-sri-vinayaka-temple",
+      "https://overpass-api.de/api/interpreter (OSM way 188445118 'Shri Kshetra Anegudde')",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7047289,13.5697457?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "hattiangadi-siddhi-vinayaka-temple",
+    "name": "Hattiangadi Siddhi Vinayaka Temple",
+    "chapter": "gods",
+    "tags": ["temple", "ganesha", "alupa-history", "river-varahi", "annadana"],
+    "hook": "A Bala Ganesha with loose jata, in an old Alupa capital.",
+    "why": "On the banks of the Varahi on the Kundapura–Kollur road, Hattiangadi was once Pattinagara, a capital of the Alupa kings. The roughly three-foot saligrama idol is a standing Bala Ganesha with a jata (matted hair) worn loose at the back, which Deccan Herald calls unique in India. There's a dining hall for devotees and an older Lokanatheshwara temple and kalyani just below.",
+    "lat": 13.6469344,
+    "lng": 74.7334077,
+    "distanceKmFromManipal": 48,
+    "rideTimeFromManipal": "50m",
+    "transport": {
+      "bike": true,
+      "train": { "available": false, "station": null, "notes": null }
+    },
+    "tripType": "quick",
+    "bestTime": "Morning or noon puja",
+    "decJanVerdict": "great",
+    "decJanNote": "An easy stop on the way to Kollur. Dry roads, pleasant mornings.",
+    "vegFoodNearby": [
+      "Temple meals for devotees in the on-site dining hall (Deccan Herald; itslife.in says free food is served) — timings verify locally"
+    ],
+    "temple": {
+      "dressCode": "Not confirmed online — verify locally. Traditional, modest wear is the safe default.",
+      "darshanTimings": "Not confirmed online — verify locally. A Deccan Herald writer found alankara and puja under way at noon. Office phone listed by itslife.in: 08254 264201.",
+      "annadana": "Meals served to devotees in the temple dining hall after puja (Deccan Herald); exact times not confirmed — verify locally."
+    },
+    "trek": null,
+    "bikeTips": "From Kundapura take the Kundapura–Kollur (Shimoga) road east; the village is about 8 km north-east of Kundapura. Combine with Kollur and Kamalashile in one loop.",
+    "safety": "Narrow state-highway stretches with buses to Kollur. Overtake carefully. The Varahi riverbank can be slippery, so stay off it.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.deccanherald.com/content/339299/shrine-varahi-beckons.html",
+      "https://en.wikipedia.org/wiki/Hattiangadi",
+      "https://www.itslife.in/?p=22797",
+      "https://nominatim.openstreetmap.org/search?q=Hattiangadi&format=json&limit=4&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7334077,13.6469344?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kamalashile-brahmi-durgaparameshwari",
+    "name": "Kamalashile Sri Brahmi Durgaparameshwari Temple & Suparshwa Cave",
+    "chapter": "gods",
+    "tags": ["temple", "devi", "cave", "river-kubja", "annadana", "forest"],
+    "hook": "The goddess as a stone linga, a bat cave next door.",
+    "why": "Here Brahmi Durgaparameshwari is worshipped as a linga, on the banks of the Kubja in thick forest about 35 km from Kundapura. A kilometre away, the pitch-dark Suparshwa cave holds trishakti lingas, a Naga sannidhi under a dome full of bats, and the spring said to become the Kubja. The morning 'salaam pooja' honours Hyder Ali and Tipu Sultan's faith in the goddess.",
+    "lat": 13.7132,
+    "lng": 74.9166,
+    "distanceKmFromManipal": 64,
+    "rideTimeFromManipal": "1h 15m",
+    "transport": {
+      "bike": true,
+      "train": { "available": false, "station": null, "notes": null }
+    },
+    "tripType": "day",
+    "bestTime": "Morning, to catch the salaam pooja and do the cave in daylight",
+    "decJanVerdict": "great",
+    "decJanNote": "Dry season means a drier cave floor and a calmer Kubja; the temple was submerged by a 1968 flood. Pair with Kollur on the same day.",
+    "vegFoodNearby": [
+      "Temple annadana in the temple dining hall (listings describe continuous annadana) — timings verify locally"
+    ],
+    "temple": {
+      "dressCode": "Not confirmed online — verify locally. Traditional, modest wear is the safe default.",
+      "darshanTimings": "6:00 AM to 8:00 PM per a 2022 travel blog; no official source found. Verify locally. Phone numbers listed by a temple-accommodation site: +91 95915 60809, +91 63644 80126.",
+      "annadana": "Annadana served to devotees (travel listings); timings not confirmed — verify locally."
+    },
+    "trek": null,
+    "bikeTips": "Reached via Kundapura and Siddapura side roads; Deccan Herald notes a good road between Kollur and Kamalashile that continues towards the Agumbe ghats. Bring a strong torch for the cave; the DH writer was guided in by a local shopkeeper.",
+    "safety": "The Suparshwa cave is pitch dark with uneven, damp rock. Go with a local guide and a proper torch, mind your head, and don't disturb the bats. Stay off the Kubja banks when the river is high. Forest roads: no night riding.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.deccanherald.com/content/332167/devotion-amidst-natures-splendour.html",
+      "https://en.wikipedia.org/wiki/Kamalashile",
+      "https://travelospective.blogspot.com/2022/06/unique-temple-of-brahmi-durga.html",
+      "https://karnatakatemplesaccommodation.com/e/temples/sri-brahmi-durga-parameshwari-temple-accommodation-kamalashile",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.9166,13.7132?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "arasinagundi-falls",
+    "name": "Arasinagundi (Arishina Gundi) Falls",
+    "chapter": "ghats",
+    "tags": ["waterfall", "mookambika-wildlife-sanctuary", "forest-permit", "closure-risk"],
+    "hook": "Kollur's jungle waterfall, but check that it's open.",
+    "why": "Arasinagundi sits inside Mookambika Wildlife Sanctuary a few km from Kollur, at the end of a 1–2 km walk through dense forest. The name comes from the yellow (arasina) tint of the water where it lands. Access has been restricted after a fatal accident, so this is one you confirm before you ride.",
+    "lat": null,
+    "lng": null,
+    "distanceKmFromManipal": 76,
+    "rideTimeFromManipal": "1h 25m",
+    "transport": {
+      "bike": true,
+      "train": { "available": false, "station": null, "notes": null }
+    },
+    "tripType": "day",
+    "bestTime": "September to January, if open",
+    "decJanVerdict": "skip",
+    "decJanNote": "Udayavani reported entry restrictions after an incident here, and a July 2024 forest order barred entry to Arasinagundi among other spots. One 2026 guide says the falls are permanently closed since a 2023 death while filming; other guides still describe permits from the Kollur forest office. Treat it as closed unless the Kollur RFO office confirms otherwise. Verify locally.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "moderate",
+      "duration": "1–2 km forest walk each way; 2–3 hours round trip (guides)",
+      "permitRequired": true,
+      "howToBook": "Historically, a permit from the forest-department office (RFO) opposite the Kollur bus stand. Current status may be a full closure — verify locally before going.",
+      "guideMandatory": null,
+      "openDecJan": null
+    },
+    "bikeTips": "Distance and ride time are to Kollur town, the permit office and approach. Coordinates of the falls weren't on OpenStreetMap. Jungle Lodges' Anejhari camp has offered visits here, a sign that it may only be reachable through official channels.",
+    "safety": "A visitor died here in 2023 while filming near the falls (triphippies). The rocks around the plunge pool are slick and the drop is real. Do not enter without a valid permit: sanctuary rules apply and closures are enforced. Wildlife present; go in daylight only.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://english.udayavani.com/article/english-news/udupi-district-admin-extends-tourist-visit-restrictions-till-august-end/1519189",
+      "https://www.triphippies.com/arasinagundi-falls/",
+      "https://touristinindia.com/arashinagundi-falls",
+      "https://www.junglelodges.com/anejhari-butterfly-camp",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8145333,13.8638054?overview=false"
+    ],
+    "confidence": "verify-locally",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "koosalli-falls",
+    "name": "Koosalli Falls (near Shiroor, Byndoor)",
+    "chapter": "ghats",
+    "tags": ["waterfall", "trek", "forest", "multi-tier"],
+    "hook": "Six cascading tiers, and a real uphill scramble to reach them.",
+    "why": "A tiered waterfall in rocky forest near Koosalli village, east of Shiroor; Wikipedia gives six drops totalling about 470 feet. You can see it from the road, but the real payoff is the 2–4 km uphill trail to the base. Budget three hours from the parking spot.",
+    "lat": 13.96416667,
+    "lng": 74.68194444,
+    "distanceKmFromManipal": 86,
+    "rideTimeFromManipal": "1h 30m",
+    "transport": {
+      "bike": true,
+      "train": { "available": false, "station": null, "notes": null }
+    },
+    "tripType": "day",
+    "bestTime": "October to December, while there is still flow and trails are dry",
+    "decJanVerdict": "good",
+    "decJanNote": "December still has decent flow and a much safer trail than monsoon. By late January the volume drops; expect a thinner fall. Current flow — verify locally.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "moderate",
+      "duration": "About 3 hours from the parking spot (90 min up, 30 min at the falls, 1 hour down — eNidhi). Boards disagree: 2 km (govt) vs 4 km (Jaycees) one way.",
+      "permitRequired": null,
+      "howToBook": "No online booking found. eNidhi saw a forest-department board at the entrance. Access rules and any fee — verify locally.",
+      "guideMandatory": null,
+      "openDecJan": null
+    },
+    "bikeTips": "North on NH-66 past Byndoor to Shiroor, then east on the Todalli road. eNidhi advises navigating to 'Kallanikki Kosalli' on Google Maps, not the falls pin, and parking there. Ride time is to the nearest routable road and is approximate.",
+    "safety": "eNidhi reports four deaths on this trek so far. The path is narrow and rocky, and the rocks near the falls are slippery even in dry season. Don't climb the tiers or swim in the pools. Go with someone who knows the trail, start before noon, and be out well before dark.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://enidhi.net/2021/10/koosalli-falls-near-baindoor-karnataka.html",
+      "https://en.wikipedia.org/wiki/Koosalli_Waterfalls",
+      "https://www.udayavani.com/english-news/koosalli-waterfall-is-at-its-full-splendor",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.68194444,13.96416667?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "belkal-theertha-falls",
+    "name": "Belkal Theertha (Govinda Theertha) Falls",
+    "chapter": "ghats",
+    "tags": ["waterfall", "sacred", "trek", "mookambika-wildlife-sanctuary"],
+    "hook": "A holy 300-foot drop, earned with ten hard kilometres.",
+    "why": "A sacred waterfall falling about 300 feet from Korshi Betta into a forest pool inside Mookambika Wildlife Sanctuary, reached via Jadkal and Mudoor village near Kollur. There are no facilities and the trail is rough, but almost nobody makes it here. Bring food from Kollur and start early.",
+    "lat": null,
+    "lng": null,
+    "distanceKmFromManipal": 77,
+    "rideTimeFromManipal": "1h 25m",
+    "transport": {
+      "bike": true,
+      "train": { "available": false, "station": null, "notes": null }
+    },
+    "tripType": "day",
+    "bestTime": "October to December",
+    "decJanVerdict": "good",
+    "decJanNote": "Karnataka Tourism rates October to January as peak season: full falls, drier trails, no leeches. Flow drops noticeably by late January and much more by March.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "hard",
+      "duration": "4–5 km one way from the Mudoor trailhead; 3–4 hours round trip (Karnataka Tourism). eNidhi: about 10 km up and down in total, with very slippery rocks.",
+      "permitRequired": true,
+      "howToBook": "Forest/sanctuary entry fee collected locally (eNidhi saw Rs 100 per person in 2021). No online booking found. Current fee and process — verify locally.",
+      "guideMandatory": null,
+      "openDecJan": null
+    },
+    "bikeTips": "Distance and time are to Mudoor village (the trailhead, per Karnataka Tourism); the falls themselves weren't on OpenStreetMap. Route: Kundapura, Kollur road, Jadkal, Mudoor. Download offline maps because the signal is weak. Carry cash.",
+    "safety": "eNidhi rates it extreme and not for families: sharp, slippery rock and stream crossings. Don't trek during or right after heavy rain (Karnataka Tourism warns of flash floods). Ask before entering the pool. Hire a local guide from Mudoor, start by 8 AM, and be out by daylight's end. Sanctuary rules apply: no plastic, no fires, no loud music.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/attractions/belkal-theertha",
+      "https://enidhi.net/2021/09/belkal-theertha-waterfalls-near-kollur.html",
+      "https://nominatim.openstreetmap.org/search?q=Mudoor%2C+Bainduru&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8840989,13.8098818?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "hidlumane-falls",
+    "name": "Hidlumane Falls",
+    "chapter": "ghats",
+    "tags": ["waterfall", "trek", "kodachadri", "nittur", "multi-tier"],
+    "hook": "Six stacked cascades on the back door to Kodachadri.",
+    "why": "On the Nittur side of Kodachadri, Hidlumane is a chain of six cascades, each 50–70 feet, in the Mookambika reserve forest. The first fall is about 3 km from the jeep drop-off, and the path up the higher tiers turns into rock and stream scrambling. It is also the halfway break on the Nittur trekking route to the Kodachadri summit.",
+    "lat": 13.8797399,
+    "lng": 74.8891416,
+    "distanceKmFromManipal": 104,
+    "rideTimeFromManipal": "1h 55m",
+    "transport": {
+      "bike": true,
+      "train": { "available": false, "station": null, "notes": null }
+    },
+    "tripType": "day",
+    "bestTime": "October to February",
+    "decJanVerdict": "good",
+    "decJanNote": "Winter is the comfortable trekking window and the lower falls still flow in December. Flow thins through January. The bigger issue: Kodachadri–Hidlumane was among trails reported temporarily closed in 2026 pending new safety SOPs. Confirm it's open before riding.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "moderate",
+      "duration": "About 3 km to the first fall from the jeep drop-off; steeper scrambling to the sixth (Muddie Trails). Plan half a day.",
+      "permitRequired": true,
+      "howToBook": "Forest checkpost entry on the Nittur side (Muddie Trails: Rs 100, 'keeps changing'). The Kodachadri–Hidlumane trekking route is booked by route on the Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Current status — verify locally.",
+      "guideMandatory": null,
+      "openDecJan": null
+    },
+    "bikeTips": "Coordinates are the OSM 'Hidlumane Falls trail', so the route figure is to the nearest road (about 2 km off). The road approach is via Nittur (Hosanagara taluk) on the Kollur–Nagara side, over Ghat sections with hairpins. Start early from Manipal.",
+    "safety": "Upper tiers involve climbing wet rock; stop at the lower falls if you're unsure. The ghat road to Nittur has blind hairpins, buses and morning fog: no night riding. It's a reserve forest with wildlife, so stay on the trail and keep to daylight.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://muddietrails.com/blog/trek-to-hidlumane-falls-in-kodachadri/",
+      "https://blog.explurger.com/kodachadri-trek/",
+      "https://trekentrip.com/karnataka-treks-closed-2026/",
+      "https://overpass-api.de/api/interpreter (OSM way 372698743 'Hidlumane Falls trail')",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8891416,13.8797399?overview=false"
+    ],
+    "confidence": "verify-locally",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kodachadri",
+    "name": "Kodachadri (Sarvajna Peetha) — Trek & Jeep Route",
+    "chapter": "ghats",
+    "tags": ["peak", "trek", "jeep", "sunrise", "sarvajna-peetha", "western-ghats"],
+    "hook": "The highest peak in Shivamogga district, by jeep or by foot.",
+    "why": "At 1,343 m, Kodachadri is the highest point in Shivamogga district and a state-declared natural heritage site, and the Mookambika temple sits at its foot. The summit point is Sarvajna Peetha, reached on foot after the jeep track ends. Most people ride a 4x4 jeep up a battered mud track and walk the last stretch; trekkers come from Nittur past Hidlumane Falls.",
+    "lat": 13.8571828,
+    "lng": 74.8672111,
+    "distanceKmFromManipal": 76,
+    "rideTimeFromManipal": "1h 25m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mookambika Road Byndoor",
+        "notes": "Train to Byndoor, then bus or taxi to Kollur (about 28–30 km), then a jeep to the peak."
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "October to February, early morning",
+    "decJanVerdict": "good",
+    "decJanNote": "Winter gives the clearest views and the driest track. The catch is access: in 2026 Kodachadri–Valur and Kodachadri–Hidlumane trekking routes were reported temporarily closed while new forest SOPs were checked, and no confirmed reopening date was found. Check Aranya Vihaara for slots before you commit. Verify locally.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "moderate",
+      "duration": "Nittur route about 9–10 km one way, 8–9 hours round trip (Explurger). Jeep track from Kollur/Nittur reaches near the top, then a short walk to Sarvajna Peetha.",
+      "permitRequired": true,
+      "howToBook": "Trekking permits are booked by route (Hidlumane or Valur) on the Karnataka Forest Department's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in), with ID details and online payment; daily caps apply. Jeeps are hired privately in Kollur or Nittur, with a separate forest entry fee at the checkpost. Fees reported by blogs vary widely and change often — verify locally.",
+      "guideMandatory": true,
+      "openDecJan": null
+    },
+    "bikeTips": "Distance and time are to Kollur, the usual jeep base; you can't ride a private bike to the top (eNidhi, 2021, reported bikes banned on the summit track). Explurger says Nittur jeeps leave around 6 AM and return by late morning, so it's not an on-demand all-day service. Park the bike in Kollur and stay overnight there.",
+    "safety": "Overnight stays or camping at the peak: not confirmed as allowed. One operator says camping inside Kodachadri forest has been banned since 2015, and blogs describe no facilities (water, first aid, camping) at the top. Plan to stay in Kollur or Nittur. The jeep track is rough and steep; hold on. Fog and wind on the ridges: stay on marked paths away from drop-offs. Don't trek without a valid permit and guide, and don't use unofficial routes when trails are closed.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kodachadri",
+      "https://blog.explurger.com/kodachadri-trek/",
+      "https://trekentrip.com/karnataka-treks-closed-2026/",
+      "https://www.enidhi.net/2021/07/kodachadri-trek-costs-18k-in-govt-fees.html",
+      "https://www.enidhi.net/2022/02/karnataka-kodachadri-expensive-trekking.html",
+      "https://karnatakatourism.org/en/attractions/sri-mookambika-temple",
+      "https://www.junglelodges.com/anejhari-butterfly-camp",
+      "https://nominatim.openstreetmap.org/search?q=Kodachadri&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8145333,13.8638054?overview=false"
+    ],
+    "confidence": "verify-locally",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "someshwara-beach-byndoor",
+    "name": "Someshwara Beach (Paduvari, Byndoor)",
+    "chapter": "coast",
+    "tags": ["beach", "family", "temple", "sunset", "estuary"],
+    "hook": "Byndoor's gentle beach, tucked under the Ottinene hillock.",
+    "why": "A one-km strip between the mouth of the Byndoor (Sumanavathi) river and the Ottinene hillock, with a small Someshwara Shiva temple on the shore. The Hindu reports it as one of the safer beaches on the coast because the wave action is mild, and the tourism department has been adding pathways, seating and lighting. Do it with the Ottinene viewpoint above.",
+    "lat": 13.8711284,
+    "lng": 74.6051363,
+    "distanceKmFromManipal": 75,
+    "rideTimeFromManipal": "1h 15m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mookambika Road Byndoor",
+        "notes": "About 4 km away (Karnataka Tourism, Ottinene page); auto from Byndoor town."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Late afternoon to sunset, October to March",
+    "decJanVerdict": "great",
+    "decJanNote": "Calm water and dry evenings. Upgrade works (retaining walls, pathways) were in progress per The Hindu, so some areas may be fenced off. Verify locally.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "NH-66 north past Kundapura and Maravanthe to Byndoor. Easy to stack with Maravanthe and the Ottinene deck in one evening ride, and with Kollur the same day.",
+    "safety": "'Relatively safe' still means open sea: no swimming near the river mouth (Karnataka Tourism warns of unpredictable currents at the estuary) and none after dark. No lifeguard presence confirmed online — verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://inkl.com/news/someshwara-beach-in-byndoor-is-being-given-a-new-look-by-tourism-department-upcoming-star-in-coastal-circuit-of-karnataka",
+      "https://www.karnatakatourism.org/tour-item/ottinene-beach",
+      "https://www.enidhi.net/2020/09/ottinene-beach-kshitija-nesara-dhama.html",
+      "https://nominatim.openstreetmap.org/search?q=Someshwara+Beach+Byndoor&format=json&limit=4&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6051363,13.8711284?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "gangolli-panchagangavalli-estuary",
+    "name": "Gangolli & the Panchagangavalli Estuary",
+    "chapter": "heritage",
+    "tags": ["estuary", "fishing-town", "history", "portuguese", "keladi"],
+    "hook": "Five rivers, one mouth, and a lost Portuguese trading post.",
+    "why": "Gangolli sits on a peninsula with the Arabian Sea on one side and the Panchagangavalli on the other, where the Souparnika, Varahi, Kedaka, Chakra and Kubja rivers meet the sea. The Portuguese set up a trading factory here in the 1500s, and Shivappa Nayaka's Keladi forces destroyed their fleet off Gangolli in 1652. It's a working fishing town today. Come for the estuary views opposite Kodi and the history, not for food (the harbour trade is fish).",
+    "lat": 13.650741,
+    "lng": 74.6686542,
+    "distanceKmFromManipal": 55,
+    "rideTimeFromManipal": "55m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Kundapura",
+        "notes": "Konkan Railway stop at Kundapura; onward by road. Station distance not verified — verify locally."
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Late afternoon",
+    "decJanVerdict": "good",
+    "decJanNote": "Clear skies over the river mouth. Fishing activity peaks in the season, so expect a working harbour atmosphere.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Gangolli is across the Panchagangavalli from Kundapura. Ride north on NH-66 and loop in. Pair with Kodi beach on the opposite bank for the full estuary view.",
+    "safety": "Working fishing harbour: watch for trucks, nets and wet, fish-slick surfaces. Don't swim in the estuary: there are river and tidal currents at the mouth.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gangolli",
+      "https://en.wikipedia.org/wiki/Kundapura",
+      "https://www.enidhi.net/2020/07/kodi-beach-with-seawalk-swings-boating-kundapura.html",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6686542,13.650741?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "anejhari-butterfly-camp",
+    "name": "Anejhari Butterfly Camp (Jungle Lodges, near Kollur)",
+    "chapter": "ghats",
+    "tags": ["nature-camp", "butterflies", "birding", "mookambika-wildlife-sanctuary", "kodachadri-base", "stay"],
+    "hook": "Sleep by the Souparnika, wake up to butterflies and hornbills.",
+    "why": "A government-run Jungle Lodges camp inside Mookambika Wildlife Sanctuary near Kollur, beside the Souparnika. The butterfly trail turns up species like the Tamil Lacewing, Malabar Tree Nymph and Red Helen, with a chance of Malabar giant squirrel and gaur. Packages include guided treks, and it's the tidy, legal way to base yourself for Kollur and Kodachadri.",
+    "lat": null,
+    "lng": null,
+    "distanceKmFromManipal": null,
+    "rideTimeFromManipal": null,
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mookambika Road Byndoor",
+        "notes": "Byndoor station, then road to Kollur (about 28–30 km); the camp is near Kollur. Exact transfer — verify locally."
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "October to February",
+    "decJanVerdict": "good",
+    "decJanNote": "Post-monsoon is butterfly time and the nights are cool. Book ahead for December weekends; tariffs are dynamic. Meals are part of the package, but the menu's veg status wasn't confirmed, so request veg meals when booking.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "JLR says the camp is about 80 km from Udupi, near Kollur; exact coordinates weren't on OpenStreetMap, so distance and ride time are left blank (Kollur is 76 km and 1h 25m from Manipal). Ride in daylight because the last stretch is sanctuary forest.",
+    "safety": "Inside a wildlife sanctuary: no wandering off at night, follow the naturalists, and wear proper shoes for the treks (JLR asks for them). Riverbank: don't swim in the Souparnika.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.junglelodges.com/anejhari-butterfly-camp",
+      "https://blog.explurger.com/kodachadri-trek/",
+      "https://en.wikipedia.org/wiki/Mookambika_Wildlife_Sanctuary"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  }
+]

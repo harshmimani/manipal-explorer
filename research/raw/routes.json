@@ -1,0 +1,517 @@
+{
+  "manipal-end-point": {
+    "km": 3.882,
+    "min": 5.575,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7848287,13.3700386?overview=false"
+  },
+  "manipal-lake": {
+    "km": 2.0991,
+    "min": 2.77,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7856116,13.3422976?overview=false"
+  },
+  "hasta-shilpa-heritage-village": {
+    "km": 1.8514000000000002,
+    "min": 2.8133333333333335,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7818837,13.337986?overview=false"
+  },
+  "udupi-sri-krishna-matha": {
+    "km": 4.8762,
+    "min": 4.333333333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7520421,13.341185?overview=false"
+  },
+  "udupi-car-street-night": {
+    "km": 5.289899999999999,
+    "min": 4.258333333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7513437,13.340773?overview=false"
+  },
+  "udupi-anantheshwara-chandramouleeshwara": {
+    "km": 5.289899999999999,
+    "min": 4.258333333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7518614,13.340778?overview=false"
+  },
+  "pajaka-kshetra": {
+    "km": 18.8369,
+    "min": 16.183333333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.791444,13.2711083?overview=false"
+  },
+  "kunjarugiri-durga-temple": {
+    "km": 16.299799999999998,
+    "min": 16.74833333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7988642,13.2708286?overview=false"
+  },
+  "kemmannu-hanging-bridge-hoode": {
+    "km": 13.6913,
+    "min": 13.053333333333335,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7091185,13.4007564?overview=false"
+  },
+  "swarna-river-kayaking": {
+    "km": 13.6913,
+    "min": 13.053333333333335,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7091185,13.4007564?overview=false"
+  },
+  "malpe-beach-sea-walk": {
+    "km": 11.7811,
+    "min": 10.401666666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6978648,13.362013?overview=false"
+  },
+  "st-marys-island": {
+    "km": 13.9971,
+    "min": 12.945,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6731,13.3794?overview=false"
+  },
+  "kaup-beach-lighthouse": {
+    "km": 22.6233,
+    "min": 20.33833333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7368225,13.223927?overview=false"
+  },
+  "delta-beach-kodi-bengre": {
+    "km": 20.642599999999998,
+    "min": 23.08,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6938933,13.4458212?overview=false"
+  },
+  "mattu-beach": {
+    "km": 16.206799999999998,
+    "min": 14.708333333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7296777,13.2711323?overview=false"
+  },
+  "padubidri-blue-flag-beach": {
+    "km": 32.0436,
+    "min": 28.126666666666665,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.76222,13.13194?overview=false"
+  },
+  "brahmavar": {
+    "km": 16.4625,
+    "min": 13.613333333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7453972,13.4375352?overview=false"
+  },
+  "barkur": {
+    "km": 20.7196,
+    "min": 18.763333333333332,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7497,13.4667?overview=false"
+  },
+  "saligrama-guru-narasimha": {
+    "km": 25.2957,
+    "min": 20.795,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7117663,13.4987?overview=false"
+  },
+  "mandarthi-durgaparameshwari": {
+    "km": 30.8266,
+    "min": 33.361666666666665,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8103269,13.4982574?overview=false"
+  },
+  "karkala-bahubali-chaturmukha-basadi": {
+    "km": 36.0561,
+    "min": 38.575,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.005566,13.2037564?overview=false"
+  },
+  "kodi-beach-kundapura": {
+    "km": 42.664,
+    "min": 40.84666666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6662563,13.6302717?overview=false"
+  },
+  "trasi-beach": {
+    "km": 52.6652,
+    "min": 43.25666666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6445581,13.6919988?overview=false"
+  },
+  "maravanthe-beach": {
+    "km": 54.4193,
+    "min": 44.385,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6418646,13.7088543?overview=false"
+  },
+  "ottinene-kshitija-nesara-dhama": {
+    "km": 75.2358,
+    "min": 62.876666666666665,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6051363,13.8711284?overview=false"
+  },
+  "kollur-mookambika-temple": {
+    "km": 75.6592,
+    "min": 68.76166666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8145333,13.8638054?overview=false"
+  },
+  "anegudde-vinayaka-temple": {
+    "km": 33.4119,
+    "min": 29.188333333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7047289,13.5697457?overview=false"
+  },
+  "hattiangadi-siddhi-vinayaka-temple": {
+    "km": 47.5404,
+    "min": 40.67333333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7334077,13.6469344?overview=false"
+  },
+  "kamalashile-brahmi-durgaparameshwari": {
+    "km": 63.6126,
+    "min": 63.695,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.9166,13.7132?overview=false"
+  },
+  "koosalli-falls": {
+    "km": 85.5472,
+    "min": 77,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.68194444,13.96416667?overview=false"
+  },
+  "hidlumane-falls": {
+    "km": 104.4632,
+    "min": 96.885,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8891416,13.8797399?overview=false"
+  },
+  "kodachadri": {
+    "km": 77.8395,
+    "min": 75.325,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8672111,13.8571828?overview=false"
+  },
+  "someshwara-beach-byndoor": {
+    "km": 75.2358,
+    "min": 62.876666666666665,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6051363,13.8711284?overview=false"
+  },
+  "gangolli-panchagangavalli-estuary": {
+    "km": 54.5593,
+    "min": 46.269999999999996,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6686542,13.650741?overview=false"
+  },
+  "sasihithlu-beach": {
+    "km": 45.8239,
+    "min": 40.99166666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7784424,13.0649204?overview=false"
+  },
+  "someshwara-beach-ullal": {
+    "km": 75.1712,
+    "min": 65.33666666666666,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8555375,12.7853663?overview=false"
+  },
+  "panambur-beach": {
+    "km": 55.271800000000006,
+    "min": 46.906666666666666,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8042355,12.9373062?overview=false"
+  },
+  "tannirbhavi-beach": {
+    "km": 59.764300000000006,
+    "min": 51.875,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8101698,12.9080902?overview=false"
+  },
+  "kateel-durgaparameshwari-temple": {
+    "km": 50.2575,
+    "min": 42.80833333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8701417,13.0438238?overview=false"
+  },
+  "polali-rajarajeshwari-temple": {
+    "km": 71.7921,
+    "min": 63.208333333333336,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.955291,12.933954?overview=false"
+  },
+  "kadri-manjunatha-temple": {
+    "km": 61.9134,
+    "min": 51.181666666666665,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8556002,12.8858853?overview=false"
+  },
+  "kudroli-gokarnanatha-temple": {
+    "km": 62.2362,
+    "min": 51.72666666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8318075,12.8759288?overview=false"
+  },
+  "mangaladevi-temple": {
+    "km": 66.06519999999999,
+    "min": 56.169999999999995,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8452609,12.8492308?overview=false"
+  },
+  "ananthapura-lake-temple": {
+    "km": 105.37,
+    "min": 94.60166666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.982061,12.5841947?overview=false"
+  },
+  "bekal-fort": {
+    "km": 124.8574,
+    "min": 113.06166666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.0327651,12.3922238?overview=false"
+  },
+  "moodbidri-saavira-kambada-basadi": {
+    "km": 50.3654,
+    "min": 47.86333333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.9977182,13.0741732?overview=false"
+  },
+  "pilikula-nisargadhama": {
+    "km": 66.8896,
+    "min": 57.38,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8985438,12.9192492?overview=false"
+  },
+  "mangaluru-city-by-train-bike": {
+    "km": 64.32209999999999,
+    "min": 54.58833333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8432387,12.8634037?overview=false"
+  },
+  "sultan-battery": {
+    "km": 62.1147,
+    "min": 51.91,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8212446,12.88963?overview=false"
+  },
+  "st-aloysius-chapel": {
+    "km": 63.181599999999996,
+    "min": 52.958333333333336,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8453615,12.8737995?overview=false"
+  },
+  "chandragiri-fort": {
+    "km": 116.0209,
+    "min": 104.5,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.0032875,12.4699068?overview=false"
+  },
+  "madhur-temple": {
+    "km": 111.93180000000001,
+    "min": 99.58999999999999,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.0101819,12.5534891?overview=false"
+  },
+  "dharmasthala-manjunatha-temple": {
+    "km": 97.0425,
+    "min": 91.21833333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3808212,12.9503656?overview=false"
+  },
+  "dharmasthala-bahubali-manjusha-museums": {
+    "km": 97.09660000000001,
+    "min": 91.72666666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3787059,12.9553045?overview=false"
+  },
+  "sowthadka-mahaganapati": {
+    "km": 111.7163,
+    "min": 104.37333333333332,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.4141787,12.8627723?overview=false"
+  },
+  "kukke-subramanya-temple": {
+    "km": 163.5199,
+    "min": 137.67000000000002,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.615457,12.6635238?overview=false"
+  },
+  "kumara-parvatha-trek": {
+    "km": 163.5199,
+    "min": 137.67000000000002,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.615457,12.6635238?overview=false"
+  },
+  "gadaikallu-jamalabad-fort": {
+    "km": 87.9963,
+    "min": 85.945,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.2959389,13.0267327?overview=false"
+  },
+  "bandaje-falls-ballalarayana-durga": {
+    "km": 127.5676,
+    "min": 116.68166666666666,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.4464008,13.1584097?overview=false"
+  },
+  "ermai-falls": {
+    "km": 105.4585,
+    "min": 98.53333333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3730988,13.1166061?overview=false"
+  },
+  "charmadi-ghat-ride": {
+    "km": 102.6375,
+    "min": 92.53,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.4298329,13.059099?overview=false"
+  },
+  "coorg-long-ride-sullia-madikeri": {
+    "km": 194.3375,
+    "min": 167.875,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.7387543,12.42149?overview=false"
+  },
+  "talacauvery-bhagamandala": {
+    "km": 199.0464,
+    "min": 188.76833333333335,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.4952765,12.3851618?overview=false"
+  },
+  "belur-halebidu-hoysala-temples": {
+    "km": 174.8854,
+    "min": 143.58333333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.8634851,13.1645671?overview=false"
+  },
+  "venur-bahubali": {
+    "km": 70.0869,
+    "min": 65.94,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1443252,13.0122097?overview=false"
+  },
+  "shishila-matsya-shishileshwara": {
+    "km": 120.6713,
+    "min": 122.67666666666668,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.50389,12.91361?overview=false"
+  },
+  "agumbe-sunset-point-and-ghat": {
+    "km": 46.357800000000005,
+    "min": 34.28333333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.080588,13.4965041?overview=false"
+  },
+  "kudlu-theertha-falls": {
+    "km": 46.7932,
+    "min": 55.39333333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1059323,13.4217146?overview=false"
+  },
+  "jogigundi-falls": {
+    "km": 50.9604,
+    "min": 38.725,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1028906,13.4991064?overview=false"
+  },
+  "varanga-kere-basadi": {
+    "km": 32.425599999999996,
+    "min": 29.686666666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.0085544,13.3961854?overview=false"
+  },
+  "sringeri-sharada-peetham": {
+    "km": 75.67989999999999,
+    "min": 60.89666666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.2513769,13.4161389?overview=false"
+  },
+  "horanadu-annapoorneshwari-temple": {
+    "km": 111.8369,
+    "min": 102.25,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3437693,13.2767097?overview=false"
+  },
+  "kudremukh-peak-trek": {
+    "km": 99.9375,
+    "min": 108.90833333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.2748196,13.1255691?overview=false"
+  },
+  "netravati-peak-trek": {
+    "km": 103.1138,
+    "min": 100.67,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3304916,13.1283843?overview=false"
+  },
+  "kurinjal-peak-trek": {
+    "km": 69.713,
+    "min": 86.17833333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1666906,13.2029628?overview=false"
+  },
+  "narasimha-parvatha-trek": {
+    "km": 74.527,
+    "min": 66.06333333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1536137,13.4264945?overview=false"
+  },
+  "kundadri-hill": {
+    "km": 65.7346,
+    "min": 58.608333333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1689994,13.5580148?overview=false"
+  },
+  "kemmanagundi-z-point-hebbe-falls": {
+    "km": 195.1262,
+    "min": 170.32333333333332,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.752947,13.5473322?overview=false"
+  },
+  "mullayanagiri-peak": {
+    "km": 181.0797,
+    "min": 167.02833333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.7214034,13.3909217?overview=false"
+  },
+  "kavaledurga-fort": {
+    "km": 82.2611,
+    "min": 65.05,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1269652,13.7177176?overview=false"
+  },
+  "kuppalli-kavimane-kavishaila": {
+    "km": 97.0272,
+    "min": 70.96833333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3159614,13.6050475?overview=false"
+  },
+  "sakrebyle-elephant-camp": {
+    "km": 126.2365,
+    "min": 91.26166666666667,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.5118018,13.8360489?overview=false"
+  },
+  "jog-falls": {
+    "km": 161.456,
+    "min": 139.36833333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8085379,14.2253408?overview=false"
+  },
+  "baba-budangiri-dattapeetha": {
+    "km": 189.1421,
+    "min": 181.23,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.754954,13.4320781?overview=false"
+  },
+  "ayyanakere-lake": {
+    "km": 189.1886,
+    "min": 163.19500000000002,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.8740823,13.4433931?overview=false"
+  },
+  "murudeshwar-temple-beach": {
+    "km": 104.48010000000001,
+    "min": 83.91499999999999,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.484754,14.0934908?overview=false"
+  },
+  "netrani-island": {
+    "km": 99.37889999999999,
+    "min": 79.655,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.3259,14.0165?overview=false"
+  },
+  "idagunji-maha-ganapathi": {
+    "km": 120.8414,
+    "min": 99.65833333333333,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.4947601,14.2311069?overview=false"
+  },
+  "gokarna-mahabaleshwar-temple": {
+    "km": 178.7191,
+    "min": 153.99333333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.3165505,14.5435814?overview=false"
+  },
+  "gokarna-beach-trail": {
+    "km": 182.576,
+    "min": 163.45666666666665,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.3254238,14.5190647?overview=false"
+  },
+  "karwar-tagore-beach": {
+    "km": 215.1309,
+    "min": 188.54333333333335,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.1262408,14.8163513?overview=false"
+  },
+  "devbagh-beach": {
+    "km": 223.0778,
+    "min": 197.85166666666666,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.1198145,14.8447472?overview=false"
+  },
+  "mirjan-fort": {
+    "km": 158.60479999999998,
+    "min": 135.025,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.4174838,14.4890572?overview=false"
+  },
+  "apsarakonda-falls": {
+    "km": 123.70089999999999,
+    "min": 102.51333333333334,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.446433,14.2311994?overview=false"
+  },
+  "yana-rocks": {
+    "km": 202.6598,
+    "min": 202.54,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.5673585,14.5902694?overview=false"
+  },
+  "sathodi-falls": {
+    "km": 253.66060000000002,
+    "min": 236.15,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.586,14.948?overview=false"
+  },
+  "magod-falls": {
+    "km": 246.1969,
+    "min": 217.50333333333336,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7502736,14.8481683?overview=false"
+  },
+  "vibhuti-falls": {
+    "km": 200.23239999999998,
+    "min": 177.13500000000002,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.551366,14.5983501?overview=false"
+  },
+  "dandeli-kali-rafting": {
+    "km": 295.5548,
+    "min": 252.34,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6236037,15.2490284?overview=false"
+  },
+  "sirsi-marikamba-temple": {
+    "km": 208.2028,
+    "min": 169.48333333333332,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8395315,14.612194?overview=false"
+  },
+  "dudhsagar-falls-overnight": {
+    "km": 342.49940000000004,
+    "min": 333.79,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.3142493,15.3156176?overview=false"
+  },
+  "kasarkod-eco-beach": {
+    "km": 125.424,
+    "min": 103.37666666666668,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.4322067,14.261313?overview=false"
+  },
+  "basavaraj-durga-island": {
+    "km": 139.8764,
+    "min": 122.195,
+    "url": "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.4022,14.3138?overview=false"
+  }
+}

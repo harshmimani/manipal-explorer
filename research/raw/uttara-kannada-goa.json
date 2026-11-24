@@ -1,0 +1,874 @@
+[
+  {
+    "id": "murudeshwar-temple-beach",
+    "name": "Murudeshwar Temple & Beach",
+    "chapter": "gods",
+    "tags": [
+      "temple",
+      "shiva",
+      "beach",
+      "gopura-lift",
+      "sunset"
+    ],
+    "hook": "A giant Shiva, a 20-storey gopura and the sea at your feet",
+    "why": "The temple sits on a headland with the Arabian Sea on three sides, and one of the world's tallest Shiva statues watches over the bay. Take the lift up the 20-storey Raja Gopura for the full view: temple, town, fishing boats and Netrani on the horizon. Then walk down for free anna prasada and a sunset on the sand.",
+    "lat": 14.0934908,
+    "lng": 74.484754,
+    "distanceKmFromManipal": 104,
+    "rideTimeFromManipal": "1h 40m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Murdeshwar (Konkan Railway)",
+        "notes": "Murdeshwar has its own Konkan Railway station (Karnataka Tourism). Check stops for your train on NTES/IRCTC; the Karnataka Tourism page says Vande Bharat services stop at nearby stations, not Murdeshwar itself. Auto from station to temple; distance not verified, verify locally."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Oct–Mar; weekday early mornings are least crowded (Karnataka Tourism). Avoid Maha Shivaratri unless you want the crowds.",
+    "decJanVerdict": "great",
+    "decJanNote": "Clear post-monsoon skies and calm-ish seas. Go on a weekday morning, do the gopura lift before the tour buses arrive, and stay for sunset. Christmas–New Year weekends get packed.",
+    "vegFoodNearby": [
+      "Temple Anna Prasada (free, served in the afternoon, subject to availability; Karnataka Tourism)"
+    ],
+    "temple": {
+      "dressCode": "Inner areas: men in dhoti/panche or full-length formal trousers; women in saree or salwar kameez/churidar with dupatta. No shorts, sleeveless tops, ripped jeans, T-shirts or skirts in the inner areas (dress code notified June 2025). Footwear off at the entrance; no photography inside the sanctum.",
+      "darshanTimings": "6:00 AM–1:00 PM and 3:00 PM–8:30 PM; abhisheka from 6:30 AM. Timings change on festival days (Karnataka Tourism).",
+      "annadana": "Free anna prasada served daily in the afternoon, subject to availability; exact start time not published, verify locally."
+    },
+    "trek": null,
+    "bikeTips": "NH66 north all the way through Kundapura, Byndoor and Bhatkal. Straight, fast, flat, but crowded with buses and trucks. Park near the temple approach. Lift fee for the gopura is small (about ₹10–20 per Karnataka Tourism). Bring a dhoti or formal trousers in your tank bag.",
+    "safety": "Murudeshwar beach was closed after four schoolgirls drowned on 10 Dec 2024 when a wave hit them; it reopened around 26 Dec 2024 with shoreline safety ropes. Stay inside the roped zone, do not swim beyond waist depth, and obey lifeguards. Use only certified water-sports operators and wear a life jacket. NH66 has heavy truck/bus traffic; avoid night riding.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/tour-item/murudeshwara/",
+      "https://bhatkallys.com/news/read/murudeshwar-temple-introduces-dress-code",
+      "https://mail.sahilonline.org/murdeshwar-beach-to-reopen-soon-with-enhanced-safety-measures-following-tragic-drowning-incident",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Murudeshwar",
+      "https://nominatim.openstreetmap.org/search?q=Murudeshwara%20Temple&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.484754,14.0934908?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "netrani-island",
+    "name": "Netrani Island (snorkelling & scuba from Murudeshwar)",
+    "chapter": "coast",
+    "tags": [
+      "island",
+      "scuba",
+      "snorkelling",
+      "coral",
+      "boat"
+    ],
+    "hook": "Karnataka's heart-shaped dive island, 19 km out to sea",
+    "why": "Netrani is a rocky, heart-shaped island off Murudeshwar, ringed with coral and fish. You don't land on it: boats moor offshore and you snorkel or dive along the reef. The boat ride out is about 1.5 hours each way, so this is a full, salty, sunburnt day.",
+    "lat": 14.0165,
+    "lng": 74.3259,
+    "distanceKmFromManipal": 104,
+    "rideTimeFromManipal": "1h 40m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Murdeshwar (Konkan Railway)",
+        "notes": "Dive boats leave from Murudeshwar; ride or take the train to Murdeshwar station and confirm pickup point with your operator."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Nov–May, strictly outside the monsoon (Karnataka Tourism); operators have been allowed to dive Oct–Apr per district rules (reported).",
+    "decJanVerdict": "good",
+    "decJanNote": "Diving season is open in Dec–Jan, but visibility depends on the day's sea. Book the morning boat, keep a buffer day, and don't expect Andaman-clear water every time.",
+    "vegFoodNearby": [
+      "Murudeshwar temple anna prasada on your way back (free, afternoon, subject to availability; Karnataka Tourism)"
+    ],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Distance and time are to Murudeshwar (the departure point); the island itself is about 19 km offshore and roughly 1.5 h by boat. Reach Murudeshwar by 7:30 AM; operators confirm the jetty. Carry photo ID.",
+    "safety": "Public landing on Netrani is prohibited: Karnataka Tourism calls it a restricted naval area, and earlier reports say casual visitors need coastal police permission (operators handle paperwork). The Navy historically used it for target practice. Only dive with a certified operator; PADI minimum age for diving is 10. Trips stop completely June–September. Sea-sickness on the 1.5 h crossing is common.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/experiences/scuba-diving-at-netrani-island/",
+      "https://karnatakatourism.org/tour-item/murudeshwara/",
+      "https://www.thenewsminute.com/karnataka/karnataka-coast-netrani-island-offers-divers-stunning-coral-reef-and-marine-life-138255",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Netrani_Island",
+      "https://nominatim.openstreetmap.org/search?q=Netrani%20Island&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.484754,14.0934908;74.3259,14.0165?overview=false",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.484754,14.0934908?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "idagunji-maha-ganapathi",
+    "name": "Idagunji Maha Ganapathi Temple",
+    "chapter": "gods",
+    "tags": [
+      "temple",
+      "ganesha",
+      "honnavar"
+    ],
+    "hook": "Honnavar's beloved Ganapati, a short hop off NH66",
+    "why": "One of the coast's best-loved Ganapati shrines, a few kilometres inland from Honnavar. Doors open at 6 AM and the abhisheka crowd builds fast. Pair it with Murudeshwar and Apsarakonda for a tidy coastal temple-and-waterfall day.",
+    "lat": 14.2311069,
+    "lng": 74.4947601,
+    "distanceKmFromManipal": 121,
+    "rideTimeFromManipal": "2h 00m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Honnavar or Murdeshwar (Konkan Railway)",
+        "notes": "Both are Konkan Railway stops near Idagunji; which is closer and the onward auto fare were not verified online, verify locally."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Oct–Feb mornings; festival days are crowded.",
+    "decJanVerdict": "great",
+    "decJanNote": "Cool mornings, short queues on weekdays. Easy add-on to a Murudeshwar run.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": "Traditional, formal clothing expected (Yatradham); men are advised dhoti or trousers, no shorts. No photography.",
+      "darshanTimings": "6:00 AM–1:00 PM and 3:00 PM–8:30 PM (Yatradham). One listing gives a 4 PM evening start, verify locally.",
+      "annadana": "Not confirmed as a daily free meal online. Prasada is available, and a donor-sponsored Shashwatha Annadana seva exists. Verify locally (temple office 08387 247227)."
+    },
+    "trek": null,
+    "bikeTips": "NH66 to Honnavar side, then the short turn inland to Idagunji. Easy, flat ride. Combine with Apsarakonda (a few km away) and Murudeshwar on the way back.",
+    "safety": "NH66 traffic is heavy and fast; avoid riding after dark. Temple area gets congested on Sankashti and festival days.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://temple.yatradham.org/temple/shri-idagunji-maha-ganapati-temple",
+      "https://temple.yatradham.org/Temples-in-Melin-Idgunji",
+      "https://nominatim.openstreetmap.org/search?q=Idagunji&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.4947601,14.2311069?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "gokarna-mahabaleshwar-temple",
+    "name": "Gokarna Mahabaleshwar Temple",
+    "chapter": "gods",
+    "tags": [
+      "temple",
+      "shiva",
+      "atmalinga",
+      "gokarna",
+      "annadana"
+    ],
+    "hook": "Touch the Atmalinga yourself, then eat with the town",
+    "why": "An ancient Dravidian-style Shiva temple facing Gokarna beach, home to the Atmalinga. Devotees can enter the sanctum, touch the linga and do abhisheka with their own hands. Come shirtless in a dhoti, then join the free Amrutanna bhojana: rice, rasam, sambar, buttermilk, payasa.",
+    "lat": 14.5435814,
+    "lng": 74.3165505,
+    "distanceKmFromManipal": 179,
+    "rideTimeFromManipal": "3h 05m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Gokarna Road (Konkan Railway)",
+        "notes": "Gokarna Road station is about 9 km from the temple; autos and taxis available (Karnataka Tourism)."
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Oct–Mar. Maha Shivaratri is the big festival; book early if you go then.",
+    "decJanVerdict": "great",
+    "decJanNote": "Perfect weather for the 10-minute bazaar walk to the temple. Stay the night in Gokarna and fold it into the beach trail next morning.",
+    "vegFoodNearby": [
+      "Amrutanna Prasad Bhojana at the temple (free, 12:00–2:00 PM and 7:30–8:30 PM; temple trust site)"
+    ],
+    "temple": {
+      "dressCode": "Men: dhoti only, shirt, T-shirt and vest removed (bare-chested); no jeans, trousers, shorts, hats. Women: saree or salwar suit, no jeans/pants. Rule announced Oct 2018; Karnataka Tourism still describes shirt removal for the sanctum. No photography inside.",
+      "darshanTimings": "6:00 AM–12:30 PM and 5:00 PM–8:00 PM (Mangalarti at 8 PM); open daily. Hours shift on festivals, Mondays and Shivaratri (Karnataka Tourism).",
+      "annadana": "Free Amrutanna Prasad Bhojana twice daily: 12:00–2:00 PM and 7:30–8:30 PM (Shri Mahabaleshwara Deva trust)."
+    },
+    "trek": null,
+    "bikeTips": "NH66 north past Murudeshwar, Honnavar and Kumta, then the Gokarna turn-off. Vehicles are not allowed near the temple: park and walk about 10 minutes along Car Street. Carry a dhoti.",
+    "safety": "Narrow, crowded Car Street; watch your bag. NH66 Honnavar–Kumta stretch has heavy trucks; avoid night riding.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/attractions/mahabaleshwar-temple-gokarna",
+      "http://www.srigokarna.org/about-us/",
+      "https://english.newsnationtv.com/cities/bangalore/karnatakas-mahabaleshwar-temple-announces-rigid-dress-code-no-jeans-t-shirts-and-shorts-205265.html",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Mahabaleshwar_Temple,_Gokarna",
+      "https://nominatim.openstreetmap.org/search?q=Mahabaleshwara%20Temple&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.3165505,14.5435814?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "gokarna-beach-trail",
+    "name": "Gokarna beach trail: Kudle, Om, Half Moon & Paradise",
+    "chapter": "coast",
+    "tags": [
+      "beach",
+      "cliff-trail",
+      "boat",
+      "sunset",
+      "gokarna"
+    ],
+    "hook": "Four coves, one cliff path, and a boat back",
+    "why": "Start at Kudle, climb over the headland to Om, then follow the jungle path off Om's southern end to Half Moon (about 30 minutes) and on to the last cove beyond. No electricity at the far beaches, just shacks, cliffs and very blue water. Walk out in the morning, catch a boat back to Om when your legs say so.",
+    "lat": 14.5190647,
+    "lng": 74.3254238,
+    "distanceKmFromManipal": 183,
+    "rideTimeFromManipal": "3h 15m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Gokarna Road (Konkan Railway)",
+        "notes": "Gokarna Road station is about 9 km from town (Karnataka Tourism); autos/taxis to Kudle or Om."
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Oct–Mar; mornings have calmer seas. Bioluminescence at the far cove is best on new-moon nights (Karnataka Tourism).",
+    "decJanVerdict": "great",
+    "decJanNote": "Prime season. Start walking by 6:30 AM, carry 2 litres of water each, and be back on the road side before dark.",
+    "vegFoodNearby": [
+      "Mahabaleshwar temple Amrutanna Prasad Bhojana in town (free, 12–2 PM & 7:30–8:30 PM; temple trust site)"
+    ],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Lat/lng and distance are for Om Beach parking. Kudle and Om have road access, parking and toilets; Half Moon and the last cove are walk-or-boat only. Leave the bike at Om and don't ride the beach roads after dark.",
+    "safety": "Drownings are recurring around Gokarna: two MBBS students were swept away watching sunset near Jatayu Teertha, Kudle, in April 2025. No dated Om-specific drowning report was found online, but Karnataka Tourism says Om's water can be rough. At Half Moon, currents are strong and drownings have happened (Holidify); at Paradise Beach avoid swimming entirely: sharp rocks and strong undercurrents (Karnataka Tourism). Stick to marked trails; cliff edges are slippery; never walk the trail after sunset or in the monsoon. Boat activities are suspended June–Sept; use operators with life jackets. No closure order for Half Moon or Paradise found online; verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/blogs/gokarna-beaches",
+      "https://www.karnatakatourism.org/tour-item/om-beach-gokarna/",
+      "https://holidify.com/places/gokarna/half-moon-beach-sightseeing-1884.html",
+      "https://deccanchronicle.com/tamil-nadu-mbbs-students-drown-off-gokarna-coast-during-tour",
+      "http://www.srigokarna.org/about-us/",
+      "https://nominatim.openstreetmap.org/search?q=Om%20Beach%20Gokarna&format=json&limit=3&countrycodes=in",
+      "https://nominatim.openstreetmap.org/search?q=Kudle%20Beach&format=json&limit=3&countrycodes=in",
+      "https://nominatim.openstreetmap.org/search?q=Half%20Moon%20Beach&format=json&limit=3&countrycodes=in",
+      "https://nominatim.openstreetmap.org/search?q=Paradise%20Beach%2C%20Gokarna&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.3254238,14.5190647?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "karwar-tagore-beach",
+    "name": "Karwar town & Rabindranath Tagore Beach",
+    "chapter": "coast",
+    "tags": [
+      "beach",
+      "town",
+      "warship-museum",
+      "kali-river"
+    ],
+    "hook": "A navy town's promenade, with a missile boat parked on the sand",
+    "why": "Karwar sits where the Kali river meets the sea, and its long town beach carries Rabindranath Tagore's name. The decommissioned missile boat INS Chapal sits on the beach as a museum. Good overnight base for Devbagh or an early run to Dudhsagar.",
+    "lat": 14.8163513,
+    "lng": 74.1262408,
+    "distanceKmFromManipal": 215,
+    "rideTimeFromManipal": "3h 45m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Karwar (Konkan Railway)",
+        "notes": "Karwar station is a Konkan Railway stop a few km from town; check stopping trains on NTES/IRCTC. The 70101/70102 Madgaon–Karwar MEMU runs daily (Konkan Railway list)."
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Oct–Mar; evenings for the promenade.",
+    "decJanVerdict": "good",
+    "decJanNote": "Pleasant evenings on the promenade and an easy halt between Gokarna and Goa. Not a destination on its own; use it as a base.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "NH66 north from Gokarna via Ankola. Overnight here if you're heading to Collem for Dudhsagar (87 km, about 1h 45m by OSRM). INS Chapal museum hours and fee vary by source (commonly 10 AM–1 PM and about 4:30–6 PM, about ₹15), verify locally.",
+    "safety": "Town beach: swim only where lifeguards are present; none confirmed online, verify locally. Naval areas around Karwar are off-limits; obey signs and don't photograph naval installations.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/tour-item/devbagh-beach-karwar/",
+      "https://trawell.in/karnataka/karwar/warship-museum",
+      "https://wanderlog.com/place/details/264115/ins-chapal-k94-warship-museum",
+      "https://konkanrailway.com/sites/default/files/2026-05/Trains%20running%20on%20KR.pdf",
+      "https://nominatim.openstreetmap.org/search?q=Rabindranath%20Tagore%20Beach&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.1262408,14.8163513?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "devbagh-beach",
+    "name": "Devbagh Beach & Kali River Mouth",
+    "chapter": "coast",
+    "tags": [
+      "beach",
+      "island",
+      "river-mouth",
+      "jlr",
+      "casuarina"
+    ],
+    "hook": "Casuarina sandbar where the Kali river runs into the sea",
+    "why": "A long strip of sand and casuarina groves at the mouth of the Kali, about 6 km from Karwar, reached by a short boat ride across the river. Jungle Lodges & Resorts runs a beach resort here. Sunrise over the river, sunset over the sea, same day.",
+    "lat": 14.8447472,
+    "lng": 74.1198145,
+    "distanceKmFromManipal": 223,
+    "rideTimeFromManipal": "3h 55m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Karwar (Konkan Railway)",
+        "notes": "Karwar station is about 6 km away (Karnataka Tourism); auto to the jetty, then boat."
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Oct–Mar.",
+    "decJanVerdict": "good",
+    "decJanNote": "Calm, shallow water and cool nights. Book the JLR resort well ahead for December weekends.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Distance/time are to Devbagh jetty near the Kali bridge on NH66. Boat departure point and transfer arrangements vary by source (JLR office in Karwar, Karwar dock, or the jetty near Kali bridge); confirm with Jungle Lodges when booking. Bike stays on the mainland.",
+    "safety": "Karnataka Tourism calls the water calm and shallow, but the river mouth has currents; don't swim near it. Use operators with life jackets for water sports. Carry insect repellent in the casuarinas.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/tour-item/devbagh-beach-karwar/",
+      "https://www.avathi.com/experience/devbagh-beach-resort/701",
+      "https://nominatim.openstreetmap.org/search?q=Devbagh&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.1198145,14.8447472?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "mirjan-fort",
+    "name": "Mirjan Fort",
+    "chapter": "heritage",
+    "tags": [
+      "fort",
+      "pepper-queen",
+      "laterite",
+      "kumta"
+    ],
+    "hook": "The Pepper Queen's moss-green laterite fort",
+    "why": "Built by Rani Chennabhairadevi, the 16th-century 'Queen of Pepper', this laterite fort has four gates, moats and underground passages. In winter the walls are green with moss and the place is near-silent. Ten minutes off NH66, an hour well spent.",
+    "lat": 14.4890572,
+    "lng": 74.4174838,
+    "distanceKmFromManipal": 159,
+    "rideTimeFromManipal": "2h 40m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Kumta (Konkan Railway)",
+        "notes": "Kumta station is about 12 km away; autos and taxis available (Karnataka Tourism)."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Oct–Feb; mornings.",
+    "decJanVerdict": "great",
+    "decJanNote": "Dry paths, soft light and still-green moss. Combine with Gokarna (about 22 km) or Yana.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "About 0.5 km off NH66 between Kumta and Gokarna. Bring water and snacks; nothing nearby to buy.",
+    "safety": "Uneven laterite steps and slippery moss; watch your footing on walls. Avoid heavy rain. Hours listed as 9 AM–5 PM, free entry (Karnataka Tourism); other listings say 8 AM–6 PM, verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/tour-item/mirjan-fort/",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Mirjan_Fort",
+      "https://trawell.in/karnataka/gokarna/mirjan-fort",
+      "https://nominatim.openstreetmap.org/search?q=Mirjan%20Fort&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.4174838,14.4890572?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "apsarakonda-falls",
+    "name": "Apsarakonda Falls",
+    "chapter": "ghats",
+    "tags": [
+      "waterfall",
+      "honnavar",
+      "caves",
+      "short-walk"
+    ],
+    "hook": "Small falls, a pool and a sea view near NH66",
+    "why": "A short drop into a pool in a forest park near Honnavar, with Pandava caves and a viewpoint over the sea close by. It's small, but the combination of falls, caves and coast in one stop makes it worth the detour.",
+    "lat": 14.2311994,
+    "lng": 74.446433,
+    "distanceKmFromManipal": 124,
+    "rideTimeFromManipal": "2h 05m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Honnavar (Konkan Railway)",
+        "notes": "Apsarakonda is about 8 km from Honnavar bus stand (Wikipedia); auto from town."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Monsoon and just after for flow; winter for comfort.",
+    "decJanVerdict": "ok",
+    "decJanNote": "Expect a thin trickle by Dec–Jan; blog reports doubt the flow lasts into January. Go for the caves and the sea view, not the water.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Turn off NH66 near Honnavar; last stretch is a village road. Pair with Idagunji and Kasarkod Eco Beach.",
+    "safety": "Steps (roughly 100–150 per a blog) are slippery when wet. Swimming rules not confirmed officially; verify locally before getting in. Fee and hours vary by source, verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/blogs/places-to-visit-in-honnavar",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Apsarakonda",
+      "https://enidhi.net/2021/07/apsarakonda-falls-marine-park-honnavara.html",
+      "https://nominatim.openstreetmap.org/search?q=Apsarakonda%20Falls&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.446433,14.2311994?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "yana-rocks",
+    "name": "Yana Rocks",
+    "chapter": "ghats",
+    "tags": [
+      "karst",
+      "trek",
+      "cave-temple",
+      "shiva",
+      "geo-monument"
+    ],
+    "hook": "Two black karst towers rising out of the forest",
+    "why": "Bhairaveshwara Shikhara (about 120 m) and Mohini Shikhara are jet-black karst monoliths in the Sahyadri forest, with a cave temple where spring water drips on a Shiva linga. The squeeze through the cave passage is the highlight. GSI declared the site a National Geological Monument in 2026 (Wikipedia).",
+    "lat": 14.5902694,
+    "lng": 74.5673585,
+    "distanceKmFromManipal": 203,
+    "rideTimeFromManipal": "4h 05m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Kumta (Konkan Railway)",
+        "notes": "Kumta station is about 25–30 km away; local taxis and buses run to Yana (Karnataka Tourism)."
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Oct–Mar; Nov–Feb peak; early mornings (Karnataka Tourism).",
+    "decJanVerdict": "great",
+    "decJanNote": "Dry trails, no leeches, cool forest. Arrive at 8 AM opening and do it before the heat.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "easy",
+      "duration": "2–3 hours for the full circuit (about 260 steps to the monoliths plus cave steps)",
+      "permitRequired": false,
+      "howToBook": "No booking; pay the Forest Department eco-development fee (about ₹20–50 per person per Karnataka Tourism) and parking (₹20 two-wheeler) at the gate. Cash only.",
+      "guideMandatory": false,
+      "openDecJan": true
+    },
+    "bikeTips": "From Kumta take the Sirsi road via Hiregutti/Mattighatta side; the Mattighatta approach has a short paved walk (500 m–1 km). Final roads are narrow forest roads; ride in daylight. Open 8 AM–6 PM.",
+    "safety": "Remove footwear at the base counter before the cave passage (Karnataka Tourism), so carry socks or wipes. Wear grippy shoes on the trail. Steep, uneven cave steps. Plastic deposit system in force. Forest road: watch for wildlife and don't ride after dark.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/tour-item/yana/",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Yana,_India",
+      "https://nominatim.openstreetmap.org/search?q=Bhairaveshwara%20Shikhara&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.5673585,14.5902694?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "sathodi-falls",
+    "name": "Sathodi Falls",
+    "chapter": "ghats",
+    "tags": [
+      "waterfall",
+      "yellapur",
+      "kali-backwaters",
+      "forest-road"
+    ],
+    "hook": "A wide, short falls spilling into the Kali backwaters",
+    "why": "A broad, rectangular 15 m curtain of water in the forest near Yellapur that feeds the backwaters of the Kodasalli dam on the Kali. The pool below is shallow enough that it looks like an invitation. Remote, rough road, worth it for the drama.",
+    "lat": 14.948,
+    "lng": 74.586,
+    "distanceKmFromManipal": 254,
+    "rideTimeFromManipal": "4h 45m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": "Nearest railhead per Karnataka Tourism is Hubballi (97 km); not practical from Udupi."
+      }
+    },
+    "tripType": "long-ride",
+    "bestTime": "Nov–Apr per Trawell; avoid monsoon (slippery, and entry has been restricted when the Kali swells).",
+    "decJanVerdict": "good",
+    "decJanNote": "Dec–Jan is inside the recommended window and roads are dry. Flow is reduced from monsoon levels; exact volume not documented online, verify locally. Pair with Magod and stay in Yellapur.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "From Yellapur take the Hubli highway and turn towards Ganeshgudi; the last stretch is poor and better with ground clearance (Trawell). Walk the final 0.5 km from the gate. Coordinates from Wikipedia; OSRM routes to the nearest road point.",
+    "safety": "Rough forest road; ride only in daylight and carry fuel. Wet rocks are extremely slippery; don't climb on the falls. The Forest Dept restricted entry in June 2025 when Kali water levels rose. Entry about ₹5 and 6 AM–5 PM per Trawell; current status and fee verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/sathodi-falls",
+      "https://trawell.in/karnataka/dandeli/sathodi-falls",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Sathodi_Falls",
+      "https://nominatim.openstreetmap.org/search?q=Sathodi&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.5841747,14.9504732?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "magod-falls",
+    "name": "Magod Falls",
+    "chapter": "ghats",
+    "tags": [
+      "waterfall",
+      "bedthi",
+      "viewpoint",
+      "yellapur"
+    ],
+    "hook": "The Bedthi drops about 200 m in two steps into a gorge",
+    "why": "The Bedthi river plunges nearly 200 m in two stages into a deep, forested gorge. A handrailed walkway leads from the parking to the viewpoint, so it's all view, no scramble. Jenukallu Gudda viewpoint is 4 km away for sunset.",
+    "lat": 14.8481683,
+    "lng": 74.7502736,
+    "distanceKmFromManipal": 246,
+    "rideTimeFromManipal": "4h 20m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": "Nearest railhead is Hubballi (86 km per Karnataka Tourism); not practical from Udupi."
+      }
+    },
+    "tripType": "long-ride",
+    "bestTime": "Jul–Dec (Karnataka Tourism); minimal water in summer.",
+    "decJanVerdict": "good",
+    "decJanNote": "December is the tail end of Karnataka Tourism's recommended window; by late January expect a thinner falls. Go early in the trip if this is on your list.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "About 17 km from Yellapur town. Combine with Sathodi and Sirsi in a two-night Yellapur–Sirsi loop. Open 9 AM–6 PM (Karnataka Tourism).",
+    "safety": "Stay behind the handrails; the gorge edge is sheer. Ghat and forest roads around Yellapur carry heavy trucks on the Hubli highway; avoid night riding. Entry fee not stated officially, verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/magod-falls",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Magod_Falls",
+      "https://nominatim.openstreetmap.org/search?q=Magod%20Falls&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7502736,14.8481683?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "vibhuti-falls",
+    "name": "Vibhuti Falls",
+    "chapter": "ghats",
+    "tags": [
+      "waterfall",
+      "yana",
+      "forest-walk"
+    ],
+    "hook": "A forest falls and stream crossing, minutes from Yana",
+    "why": "A short forest walk (a paved path, then a rocky trail with stream crossings) leads to a tall falls over limestone near Yana. Easy to do the same morning as Yana Rocks.",
+    "lat": 14.5983501,
+    "lng": 74.551366,
+    "distanceKmFromManipal": 200,
+    "rideTimeFromManipal": "3h 35m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": "Kumta (Konkan Railway) is the nearest station but needs a taxi on poor roads; distance not verified."
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Monsoon and Oct–Jan for flow; winter for comfort.",
+    "decJanVerdict": "ok",
+    "decJanNote": "Still flowing in early winter per most guides, thinner by January. Worth it only as a Yana add-on.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "From Kumta via Hiregutti is the better road; the road from Yana is bad (eNidhi blog). Parking is close to the trailhead. Carry food and water; no canteen near the falls.",
+    "safety": "Signs prohibit entering the pool and trekking uphill; obey them. Rocky, slippery path with stream crossings. Fee about ₹10 and hours roughly 9 AM–5 PM per a 2020 blog, verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.enidhi.net/2020/09/vibhoothi-waterfalls-near-yana-details.html",
+      "https://karnatakatourism.org/tour-item/yana/",
+      "https://nominatim.openstreetmap.org/search?q=Vibhuti%20Falls&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.551366,14.5983501?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "dandeli-kali-rafting",
+    "name": "Dandeli & Kali River Rafting",
+    "chapter": "ghats",
+    "tags": [
+      "rafting",
+      "kali-river",
+      "wildlife",
+      "hornbill",
+      "jlr"
+    ],
+    "hook": "Whitewater on the Kali, hornbills over the camp",
+    "why": "Dandeli sits on the Kali river inside hornbill country, and the rafting stretch from Ganeshgudi below Supa Dam is the Kali's commercial whitewater run. Short, mid and long runs are on offer, with the long run covering 9–12 km. Mornings are for birding; afternoons for the river.",
+    "lat": 15.2490284,
+    "lng": 74.6236037,
+    "distanceKmFromManipal": 296,
+    "rideTimeFromManipal": "5h 05m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": "No sensible Konkan Railway approach; nearest major railhead is Hubballi or Dharwad (verify locally)."
+      }
+    },
+    "tripType": "long-ride",
+    "bestTime": "Rafting runs roughly Oct–Jun depending on Supa Dam releases and forest clearance (Karnataka Tourism); suspended in the rains.",
+    "decJanVerdict": "good",
+    "decJanNote": "In season, but check status before riding: long rafting's licence was under Forest Dept challenge as of Jan 2026, so the long run may not be available. Book ahead.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Long day: about 5 hours from Manipal via the coast and the ghat roads. Split it with a night in Sirsi or Yellapur. Ganeshgudi (rafting launch area) is about 308 km from Manipal by OSRM.",
+    "safety": "Raft only with operators that provide life jackets, helmets and trained river guides (mandatory per Karnataka Tourism). Age and weight limits vary by operator (commonly 12–14+ for long runs), verify locally. Rafting is inside the Hornbill Conservation Reserve / tiger reserve area: no off-road wandering, and wildlife on roads at dawn and dusk. Ghat roads: hairpins, trucks, fog in early mornings; don't ride after dark. Veg-friendly stays not verified online; ask resorts for pure-veg meals and verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/experiences/rafting-in-dandeli/",
+      "https://greenminute.in/2026/01/13/karnataka-forest-deptt-fails-to-stop-long-rafting-in-kali-river-impacting-dandeli-forests/",
+      "https://muddietrails.com/blog/everything-about-the-dandeli-river-rafting/",
+      "https://nominatim.openstreetmap.org/search?q=Dandeli&format=json&limit=3&countrycodes=in",
+      "https://nominatim.openstreetmap.org/search?q=Ganeshgudi&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6236037,15.2490284?overview=false",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.5335693,15.2815822?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "sirsi-marikamba-temple",
+    "name": "Sirsi Marikamba Temple",
+    "chapter": "gods",
+    "tags": [
+      "temple",
+      "devi",
+      "sirsi",
+      "jatre"
+    ],
+    "hook": "Sirsi's fierce goddess, and a jatre every two years",
+    "why": "The Marikamba temple is Sirsi's heart and the seat of one of Karnataka's biggest temple fairs, held once every two years. On normal days it's a busy town temple; on jatre years the whole town turns into a fair ground.",
+    "lat": 14.612194,
+    "lng": 74.8395315,
+    "distanceKmFromManipal": 208,
+    "rideTimeFromManipal": "3h 25m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": "Nearest railhead is Hubballi Junction (Bhakti Bharat); from the coast, Kumta (Konkan Railway) plus a bus up the ghat is possible, verify locally."
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Oct–Feb. The biennial Marikamba Jatre last ran 24 Feb–4 Mar 2026; the next is due in 2028 (Wikipedia), so there is no jatre in your Dec 2026–Jan 2027 window.",
+    "decJanVerdict": "good",
+    "decJanNote": "No jatre this season, so expect a calmer visit. Good base for Yana, Magod and Sathodi.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": null,
+      "darshanTimings": "7:00 AM–9:00 PM, all week (Bhakti Bharat; single source, verify locally).",
+      "annadana": "Not confirmed online — verify locally. Prasad is available."
+    },
+    "trek": null,
+    "bikeTips": "Ride up from Kumta via the Devimane ghat or from Honnavar; ghat sections have hairpins and buses. Stay the night in Sirsi.",
+    "safety": "Ghat roads to Sirsi: hairpins, buses, morning fog. Avoid night riding. Dress code not published online; wear traditional clothes to be safe (verify locally).",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marikamba_Temple,_Sirsi",
+      "https://www.bhaktibharat.com/en/mandir/sirsi-marikamba-temple",
+      "https://nominatim.openstreetmap.org/search?q=Marikamba%20Temple%2C%20Sirsi&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8395315,14.612194?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "dudhsagar-falls-overnight",
+    "name": "Dudhsagar Falls (overnight via Konkan Railway + Collem jeep safari)",
+    "chapter": "ghats",
+    "tags": [
+      "waterfall",
+      "goa",
+      "train",
+      "jeep-safari",
+      "overnight",
+      "mollem"
+    ],
+    "hook": "Night train to Goa, forest jeep to a 310 m milk-white falls",
+    "why": "Dudhsagar is a four-tier, 310 m falls on the Mahadayi river, and the Belagavi–Vasco railway line runs right past it. The legal way in is the official jeep safari from Collem: a bumpy forest track, river crossings, then a walk to the pool. Do it by night train from Udupi and you're at the gate by 9 AM.",
+    "lat": 15.3156176,
+    "lng": 74.3142493,
+    "distanceKmFromManipal": 302,
+    "rideTimeFromManipal": "5h 25m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Madgaon (MAO), then Kulem/Collem (QLM)",
+        "notes": "UDUPI -> MADGAON (Konkan Railway). Daily options (timings from etrain.info listing, Nov 2026; confirm on NTES/IRCTC): 16346 Netravati Exp dep Udupi 00:22, arr Madgaon 04:35; 12134 Mangaluru–CSMT SF Exp dep 15:18, arr 18:40; 12620 Matsyagandha Exp dep 15:50, arr 20:00; 12617 Mangala Lakshadweep Exp dep 23:06, arr 03:00. Also 20646 Vande Bharat dep 09:50, arr 13:10 (not daily). MADGAON -> KULEM (Collem, QLM), South Western Railway, daily passengers: 56962 dep Madgaon 08:10, arr Kulem 09:15; 56964 dep 13:40, arr 14:55; 56966 dep 18:12, arr 19:25. RETURN Kulem -> Madgaon: 56961 dep 06:30 arr 07:18; 56963 dep 12:20 arr 13:08; 56965 dep 17:20 arr 18:10. Madgaon -> Udupi: 12618 Mangala dep 16:10 arr 20:20; 20645 Vande Bharat dep 18:10 arr 21:12 (not daily); 16345 Netravati dep 22:42 arr 03:00; 12619 Matsyagandha dep 01:15 arr 05:18. SUGGESTED PLAN A (one night on the train): Netravati 16346 out of Udupi at 00:22 -> breakfast at Madgaon -> 56962 to Kulem by 09:15 -> jeep safari -> 56965 at 17:20 -> Madgaon 18:10 -> Netravati 16345 at 22:42 -> Udupi 03:00. PLAN B (hotel night): Matsyagandha 12620 at 15:50 -> Madgaon 20:00, sleep in Margao -> 56962 next morning. Kulem station is in Collem village; the jeep counter location is not documented online, verify locally. NEVER get off at Dudhsagar station or any Braganza Ghat stop and never walk the tracks."
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Jeep safari season opens after the monsoon (early October; 2026–27 season opened early Oct 2026 per a forest department order reported by Curly Tales) and runs until the monsoon closure.",
+    "decJanVerdict": "good",
+    "decJanNote": "The 2026–27 safari season is running (reopened early Oct 2026). Peak Dec–Jan demand means book online early and expect queues at Collem. Flow is lower than monsoon photos; size of the falls in Jan not documented, verify locally.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "easy",
+      "duration": "Half day from Collem (jeep ride plus a short walk to the pool); exact durations verify locally",
+      "permitRequired": true,
+      "howToBook": "Book an authorised Forest Department-registered jeep through the GTDC (Goa Tourism Development Corporation) online portal; the exact portal URL was not confirmable from an official page, so get it from goa-tourism / GTDC channels and don't pay unverified sites. Collem gate runs 8 AM–3 PM, batches of 30–40 hourly, max 240 trips/day, 7 adults per jeep. Fee: Outlook Traveller cited about ₹500 per passenger in 2023; current 2026–27 fee not confirmed, verify locally.",
+      "guideMandatory": null,
+      "openDecJan": true
+    },
+    "bikeTips": "Route breaks overnight. Option 1: Manipal -> Gokarna (179 km, ~3h 05m), sleep, then Gokarna -> Collem (134 km, ~2h 45m). Option 2: push to Karwar (215 km, ~3h 45m), sleep, then Karwar -> Collem (87 km, ~1h 45m) to make the 8 AM gate. Two-wheelers and private vehicles are NOT allowed into the safari circuit: park at Collem and take the jeep. Total Manipal -> Kulem is 302 km by OSRM.",
+    "safety": "Walking on the railway tracks or bridge to Dudhsagar is prohibited: South Western Railway bars public access via the railway route, and RPF (Hubballi Division, Castle Rock post) fined 32 tourists ₹500 each under Section 147 of the Railways Act in July 2026; a South Goa Collector's order (2023) bans entry by train or on foot along the track and has RPF stop people de-boarding near Dudhsagar. Inside the circuit: life jackets are mandatory at the falls, no plastic bottles/bags, no alcohol, and trips can be suspended on orange/red weather alerts. Rocks at the pool are slippery. If riding, don't do Anmod/forest roads at night.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://curlytales.com/goas-dudhsagar-falls-reopens-for-tourists-time-entry-rules-what-to-know-before-visiting/",
+      "https://goemkarponn.com/dudhsagar-circuit-reopens-post-monsoon-for-authorized-eco-tourism",
+      "https://www.outlooktraveller.com/whats-new/goas-dudhsagar-waterfall-reopens-for-visitors-bookings-open-now",
+      "https://www.thegoan.net/goa-news/32-tourists-fined-for-walking-on-railway-tracks-to-reach-dudhsagar/150717.html",
+      "https://www.thegoan.net/goa-news/complete-ban-strict-curbs-on-tourists-at-dudhsagar-waterfall/101760.html",
+      "https://etrain.info/trains/Udupi-UD-to-Madgaon-MAO",
+      "https://etrain.info/trains/Madgaon-MAO-to-Kulem-QLM",
+      "https://etrain.info/trains/Kulem-QLM-to-Madgaon-MAO",
+      "https://etrain.info/trains/Madgaon-MAO-to-Udupi-UD",
+      "https://konkanrailway.com/sites/default/files/2026-05/Trains%20running%20on%20KR.pdf",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Dudhsagar_Falls",
+      "https://nominatim.openstreetmap.org/search?q=Dudhsagar%20Falls&format=json&limit=3&countrycodes=in",
+      "https://nominatim.openstreetmap.org/search?q=Kulem&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.2445945,15.3341595?overview=false",
+      "https://router.project-osrm.org/route/v1/driving/74.3165505,14.5435814;74.2445945,15.3341595?overview=false",
+      "https://router.project-osrm.org/route/v1/driving/74.1262408,14.8163513;74.2445945,15.3341595?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kasarkod-eco-beach",
+    "name": "Kasarkod Eco Beach & Sharavathi Mangrove Boardwalk",
+    "chapter": "coast",
+    "tags": [
+      "beach",
+      "blue-flag",
+      "mangroves",
+      "boardwalk",
+      "honnavar"
+    ],
+    "hook": "A Blue Flag beach, then a boardwalk through Sharavathi mangroves",
+    "why": "Kasarkod is one of India's Blue Flag certified beaches: 5 km of clean sand with proper facilities. Across the road, the Sharavathi Kandla mangrove boardwalk takes you into the estuary where the river meets the sea. A calm, family-easy stop between Idagunji and Apsarakonda.",
+    "lat": 14.261313,
+    "lng": 74.4322067,
+    "distanceKmFromManipal": 125,
+    "rideTimeFromManipal": "2h 05m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Honnavar (Konkan Railway)",
+        "notes": "Honnavar has direct trains from Mangalore and Goa (Karnataka Tourism); short auto ride to the beach, distance verify locally."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Oct–Feb (Karnataka Tourism, Honnavar guide).",
+    "decJanVerdict": "great",
+    "decJanNote": "Cool breeze, clean sand, sunset straight ahead. Easy combo with Idagunji and Apsarakonda the same day.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Just off NH66 at Honnavar. Fold into a Murudeshwar–Idagunji–Apsarakonda–Kasarkod loop and be home by dark.",
+    "safety": "Blue Flag beaches have designated swim zones; swim only in them and follow lifeguards (specific timings not published, verify locally). Boardwalk can be slick after rain.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/blogs/places-to-visit-in-honnavar",
+      "https://nominatim.openstreetmap.org/search?q=Kasarkod&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.4322067,14.261313?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "basavaraj-durga-island",
+    "name": "Basavaraj Durga Island Fort",
+    "chapter": "heritage",
+    "tags": [
+      "island",
+      "fort",
+      "keladi",
+      "boat",
+      "honnavar"
+    ],
+    "hook": "A laterite island fort off Honnavar, reached only by boat",
+    "why": "A small island off Honnavar ringed by laterite fortification walls, named after the Keladi prince Basavaraja after Shivappa Nayaka took it. Rusting cannon and sea on every side. Getting there is the adventure, and access is not guaranteed.",
+    "lat": 14.3138,
+    "lng": 74.4022,
+    "distanceKmFromManipal": 128,
+    "rideTimeFromManipal": "2h 05m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Honnavar (Konkan Railway)",
+        "notes": "From Honnavar, boat to the island; departure point and boatmen not verified, verify locally."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Oct–May; not in the monsoon.",
+    "decJanVerdict": "ok",
+    "decJanNote": "Sea is calm enough in winter, but whether you can land depends on local permission and boats. Ask at Honnavar before riding up just for this.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Distance and time are to Honnavar town (the boat side); the island is about 4–7 km offshore. Ask at Honnavar port/riverfront for a boat.",
+    "safety": "Access is uncertain: some listings say landing is only allowed at Sankranti with local permission. Never take an unlicensed boat without life jackets. Fort walls are crumbling; watch the edges.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/blogs/places-to-visit-in-honnavar",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Basavaraj_Durga_Island",
+      "https://en.wikipedia.org/wiki/Basavaraj_Durga_Island",
+      "https://nominatim.openstreetmap.org/search?q=Honnavar&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.4446716,14.2810827?overview=false"
+    ],
+    "confidence": "verify-locally",
+    "lastChecked": "2026-11"
+  }
+]

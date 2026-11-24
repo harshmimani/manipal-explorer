@@ -1,1 +1,808 @@
-[]
+{
+  "dishes": [
+    {
+      "id": "udupi-masala-dosa",
+      "name": "Udupi masala dosa",
+      "kannadaOrTuluName": "Masale dose (ಮಸಾಲೆ ದೋಸೆ, Kannada)",
+      "whatItIs": "A crisp rice-and-urad crepe cooked with ghee and folded over spiced potato, with coconut chutney and sambar on the side. Udupi hotel cooks get the credit for taking it national, so eating one on Car Street feels like going to the source.",
+      "whenToEat": "Breakfast, or any time the tawa is hot",
+      "whereToTry": [
+        "mitra-samaj",
+        "woodlands-udupi",
+        "pai-tiffins-manipal",
+        "indra-bhavan-mangaluru",
+        "new-taj-mahal-cafe"
+      ],
+      "vegNote": "Always veg.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Udupi_cuisine",
+        "https://en.wikipedia.org/wiki/Masala_dosa",
+        "https://eatwithachar.blogspot.com/2022/11/mitra-samaj-udupi.html",
+        "https://wanderlog.com/place/details/2396835/woodlands-restaurant"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "goli-baje",
+      "name": "Goli baje",
+      "kannadaOrTuluName": "Also called Mangalore bajji",
+      "whatItIs": "Puffy deep-fried balls of maida batter, crisp shell, soft and airy inside, flecked with curry leaves. Mitra Samaj fries them to order, so they land too hot to hold. Dunk in coconut chutney, or in your coffee like the regulars.",
+      "whenToEat": "Evening snack with coffee",
+      "whereToTry": [
+        "mitra-samaj",
+        "woodlands-mangaluru",
+        "indra-bhavan-mangaluru",
+        "new-taj-mahal-cafe",
+        "kushi-santhekatte"
+      ],
+      "vegNote": "Always veg (maida batter, fried).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Udupi_cuisine",
+        "https://eatwithachar.blogspot.com/2022/11/mitra-samaj-udupi.html",
+        "https://homegrown.co.in/5-lesser-known-mangalorean-dishes-and-a-secret-recipe",
+        "https://wanderlog.com/place/details/11686426/woodlands-restaurant--mangalore"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "mangalore-buns",
+      "name": "Mangalore buns",
+      "kannadaOrTuluName": "Buns (ಬನ್ಸ್, Kannada and Tulu)",
+      "whatItIs": "Not a bakery bun. Ripe banana goes into a maida dough, which is rolled and deep-fried into a puffy, faintly sweet puri. Eat it with coconut chutney and sambar, or plain. Mitra Samaj regulars say theirs is the one.",
+      "whenToEat": "Breakfast (sells out early at Indra Bhavan, often by 9 am)",
+      "whereToTry": [
+        "mitra-samaj",
+        "woodlands-udupi",
+        "new-taj-mahal-cafe",
+        "indra-bhavan-mangaluru",
+        "janatha-deluxe-mangaluru"
+      ],
+      "vegNote": "Sources list only banana and maida, with no egg. They're fried, not baked. If you buy 'buns' at a bakery rather than a pure-veg tiffin room, ask (verify locally).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mangalore_buns",
+        "https://www.slurrp.com/article/mangalore-buns-your-guide-to-finding-the-port-citys-iconic-breakfast-item-1650247275643",
+        "https://www.tripoto.com/mangalore/trips/traditional-vegetarian-dishes-to-try-out-in-mangalore-56752f4e4060d",
+        "https://wanderlog.com/place/details/531817/mitra-samaj",
+        "https://wanderlog.com/place/details/5029299/hotel-indra-bhavan"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "neer-dosa-veg",
+      "name": "Neer dosa with veg sides",
+      "kannadaOrTuluName": "Neer dose ('neer' means water in Tulu and Kannada)",
+      "whatItIs": "A lacy, unfermented rice crepe so thin you can see the plate through it. It's soft, not crisp, and it's built to soak up whatever's next to it: coconut chutney, sambar, saagu or a veg stew.",
+      "whenToEat": "Breakfast or a light dinner",
+      "whereToTry": [
+        "woodlands-udupi",
+        "woodlands-mangaluru",
+        "new-taj-mahal-cafe",
+        "janatha-deluxe-mangaluru",
+        "madhuvan-veg-manipal"
+      ],
+      "vegNote": "The dosa itself is just rice and salt. Across the coast it's also commonly paired with chicken, fish or egg curries, so eat it only at pure-veg places and ask for the veg sides.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Neer_dosa",
+        "https://wanderlog.com/place/details/2396835/woodlands-restaurant",
+        "https://wanderlog.com/place/details/1976224/new-tajmahal-cafe-private-ltd"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "kotte-kadubu",
+      "name": "Kotte kadubu (and its cousin moode)",
+      "kannadaOrTuluName": null,
+      "whatItIs": "Idli batter steamed inside a little cup of jackfruit leaves, which gives it a faint green, leafy smell. Moode is the same idea steamed in a tall roll of screw-pine leaf, and it comes out as a cylinder.",
+      "whenToEat": "Breakfast",
+      "whereToTry": [
+        "indra-bhavan-mangaluru",
+        "new-taj-mahal-cafe",
+        "woodlands-udupi"
+      ],
+      "vegNote": "Always veg (rice and urad batter).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Udupi_cuisine",
+        "https://finelychopped.net/?p=16845",
+        "https://wanderlog.com/place/details/5029299/hotel-indra-bhavan",
+        "https://wanderlog.com/place/details/2396835/woodlands-restaurant"
+      ],
+      "confidence": "partial"
+    },
+    {
+      "id": "patrode",
+      "name": "Patrode",
+      "kannadaOrTuluName": "Patrode (Kannada); patrodu (Konkani); the colocasia leaves are 'chevu' in Tulu",
+      "whatItIs": "Colocasia leaves smeared with spiced rice-flour paste (sweet-sour from tamarind and jaggery), rolled tight, steamed and sliced into spirals. It's a monsoon favourite, so in Dec–Jan it may not be on every menu.",
+      "whenToEat": "Evening snack or a side at lunch",
+      "whereToTry": [
+        "new-taj-mahal-cafe",
+        "janatha-deluxe-mangaluru"
+      ],
+      "vegNote": "Always veg. The leaves must be cooked thoroughly, so eat it from a kitchen, not half-done.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Patrode",
+        "https://en.wikipedia.org/wiki/Udupi_cuisine",
+        "https://wanderlog.com/place/details/1976224/new-tajmahal-cafe-private-ltd",
+        "https://wanderlog.com/place/details/2172020/hotel-janatha-deluxe-pathumudi-soudha"
+      ],
+      "confidence": "partial"
+    },
+    {
+      "id": "kadle-manoli",
+      "name": "Kadle manoli",
+      "kannadaOrTuluName": "Manoli (Tulu for ivy gourd; tondekai in Kannada)",
+      "whatItIs": "A home-style coastal dish built on manoli, the little striped ivy gourd. We couldn't find a solid source for the exact recipe, so ask for it at a meals counter or a home kitchen rather than expecting it on a menu.",
+      "whenToEat": "Lunch, with rice (verify locally)",
+      "whereToTry": [],
+      "vegNote": "Vegetable dish, but recipe not verified online. Verify locally.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Coccinia_grandis"
+      ],
+      "confidence": "verify-locally"
+    },
+    {
+      "id": "sajjige-bajil",
+      "name": "Sajjige-bajil",
+      "kannadaOrTuluName": "Sajjige (semolina upma) + bajil (seasoned beaten rice)",
+      "whatItIs": "Two breakfasts on one plate. Sajjige is a soft upma of coarse semolina. Bajil is poha tempered with coconut and spice. Mangaluru tiffin rooms sell the pair as 'uppit avalakki'.",
+      "whenToEat": "Breakfast",
+      "whereToTry": [
+        "indra-bhavan-mangaluru",
+        "new-taj-mahal-cafe",
+        "mitra-samaj"
+      ],
+      "vegNote": "Always veg.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Udupi_cuisine",
+        "https://www.karnataka.com/restaurants/10-best-breakfast-places-in-mangalore",
+        "https://finelychopped.net/?p=16845",
+        "https://wanderlog.com/place/details/531817/mitra-samaj"
+      ],
+      "confidence": "partial"
+    },
+    {
+      "id": "udupi-sambar-saaru",
+      "name": "Udupi sambar & saaru",
+      "kannadaOrTuluName": "Saaru (Kannada); sambar is 'kodhel' or 'koddel' locally",
+      "whatItIs": "Udupi sambar is built on ground coconut and coconut oil, often with pumpkin or gourd, and it leans gently sweet. Saaru is the thin, peppery one you drink off the leaf. Mitra Samaj's jaggery-sweetened rasam is famous, but one reviewer warns that Woodlands' sambar packs heat.",
+      "whenToEat": "Lunch and dinner meals; sambar comes with every tiffin",
+      "whereToTry": [
+        "mitra-samaj",
+        "woodlands-udupi"
+      ],
+      "vegNote": "Always veg. Temple versions skip onion and garlic.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Udupi_cuisine",
+        "https://finelychopped.net/?p=16845",
+        "https://wanderlog.com/place/details/2396835/woodlands-restaurant"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "thambuli",
+      "name": "Thambuli",
+      "kannadaOrTuluName": null,
+      "whatItIs": "A cool buttermilk-and-coconut side, sometimes made with brahmi leaf, that you mix into rice. Think of it as the coast's answer to raita, and the thing your stomach thanks you for after a spicy meal.",
+      "whenToEat": "Lunch, with rice",
+      "whereToTry": [],
+      "vegNote": "Veg (dairy).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Udupi_cuisine"
+      ],
+      "confidence": "partial"
+    },
+    {
+      "id": "gadbad-ice-cream",
+      "name": "Gadbad ice cream",
+      "kannadaOrTuluName": "From 'gadibidi', Kannada for hurry",
+      "whatItIs": "A tall glass of three or more ice-cream flavours stacked with jelly, nuts and chopped fruit. Udupi (Diana) and Mangaluru (Ideal/Pabbas) both say they invented it. Eat one in each town and pick your own side.",
+      "whenToEat": "Afternoon or after dinner",
+      "whereToTry": [
+        "pabbas",
+        "ideal-cafe",
+        "diana-udupi",
+        "woodlands-udupi"
+      ],
+      "vegNote": "Dairy. No source states whether the ice cream or jelly contains egg or gelatin. Ask at the counter (verify locally).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ideal_Ice_Cream",
+        "https://karnatakatourism.org/experiences/pabbas",
+        "https://curlytales.com/india/food/enjoy-horlicks-ice-cream-at-this-60-year-old-legendary-eatery-near-bangalore/",
+        "https://www.enidhi.net/2020/08/udupi-mangaluru-must-try-gadbad-icecream.html"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "banana-leaf-temple-meal",
+      "name": "Banana-leaf temple meal",
+      "kannadaOrTuluName": null,
+      "whatItIs": "You sit on the floor and dishes land on the leaf in a set order and place: salt, pickle, kosambari, palya, gojju, then rice, saaru, sambar, payasa and finally buttermilk. Everyone starts and finishes together. Have it as annadana at a temple, or at a meals counter in town.",
+      "whenToEat": "Lunch",
+      "whereToTry": [
+        "woodlands-mangaluru",
+        "new-taj-mahal-cafe"
+      ],
+      "vegNote": "Always veg. Temple meals are sattvik, with no onion or garlic.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Udupi_cuisine",
+        "https://www.hindu-blog.com/2018/10/udupi-temple-food-facts-about-food-served-in-udupi-krishna-temple-prasadam.html",
+        "https://wanderlog.com/place/details/11686426/woodlands-restaurant--mangalore",
+        "https://wanderlog.com/place/details/1976224/new-tajmahal-cafe-private-ltd"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "mangalore-pickles-chips",
+      "name": "Mangalore pickles & chips",
+      "kannadaOrTuluName": "Uppinakayi (pickle); adagai (Konkani jackfruit pickle)",
+      "whatItIs": "The coast pickles everything: mango, and raw jackfruit packed in crystal salt (uppadachir). Konkani kitchens make adagai, a jackfruit pickle. We couldn't source specific chip shops, so pick those up from a busy condiments store and taste before you buy a kilo.",
+      "whenToEat": "Take-home",
+      "whereToTry": [],
+      "vegNote": "Pickles and chips are veg. Some coastal pickles are made with fish or prawn, so check the label.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Udupi_cuisine",
+        "https://homegrown.co.in/5-lesser-known-mangalorean-dishes-and-a-secret-recipe"
+      ],
+      "confidence": "partial"
+    },
+    {
+      "id": "veg-ghee-roast",
+      "name": "Paneer / mushroom ghee roast (veg version)",
+      "kannadaOrTuluName": null,
+      "whatItIs": "VEG VERSION of a famous non-veg dish. The original ghee roast is chicken, and Shetty Lunch Home in Kundapura claims it. Veg kitchens toss paneer (or mushroom) in the same ghee-rich roast masala. Ideal Cafe in Mangaluru serves a green paneer ghee roast with neer dosa.",
+      "whenToEat": "Lunch or dinner",
+      "whereToTry": [
+        "ideal-cafe"
+      ],
+      "vegNote": "Only order the paneer or mushroom version, and only at a pure-veg kitchen. The default 'ghee roast' on most coastal menus is chicken. Mushroom ghee roast: no specific outlet sourced, verify locally.",
+      "sources": [
+        "https://en.wikivoyage.org/wiki/Kundapur",
+        "https://wanderlog.com/place/details/2848883"
+      ],
+      "confidence": "partial"
+    }
+  ],
+  "places": [
+    {
+      "id": "mitra-samaj",
+      "name": "Mitra Samaj",
+      "town": "Udupi",
+      "area": "Car Street (Rathabeedi), Sri Krishna Temple complex",
+      "lat": 13.3407518,
+      "lng": 74.7524249,
+      "pureVeg": true,
+      "operatingStatus": "open",
+      "knownFor": [
+        "goli baje",
+        "Mangalore buns",
+        "masala dosa",
+        "button idli",
+        "filter coffee",
+        "badam milk"
+      ],
+      "order": "Goli baje straight from the oil and a plate of buns. Skip the dosa if you're short on stomach space, the regulars do.",
+      "hours": "6:30am–12:45pm and 3:45–9pm; closed Wednesday (Wanderlog listing). Another listing says 7:30am–10pm, so verify locally.",
+      "priceBand": "About ₹700 for two (district.in listing)",
+      "sources": [
+        "https://wanderlog.com/place/details/531817/mitra-samaj",
+        "https://www.district.in/dining/manipal/mitra-samaj-maruthi-veethika-udupi",
+        "https://eatwithachar.blogspot.com/2022/11/mitra-samaj-udupi.html",
+        "https://en.wikivoyage.org/wiki/Udupi",
+        "https://nominatim.openstreetmap.org/search?q=Mitra+Samaj+Udupi&format=json"
+      ],
+      "confidence": "verified",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "diana-udupi",
+      "name": "Diana (Hotel Diana)",
+      "town": "Udupi",
+      "area": "Diana Circle (Canara Mutual Building), near KM Marg",
+      "lat": 13.3361108,
+      "lng": 74.7493963,
+      "pureVeg": null,
+      "operatingStatus": "open",
+      "knownFor": [
+        "gadbad ice cream",
+        "Horlicks ice cream",
+        "veg cutlet",
+        "banana bonda",
+        "puri korma"
+      ],
+      "order": "Come for the gadbad and the Horlicks ice cream, plus a veg cutlet if you're hungry. Order only the clearly veg items.",
+      "hours": null,
+      "priceBand": null,
+      "sources": [
+        "https://curlytales.com/india/food/enjoy-horlicks-ice-cream-at-this-60-year-old-legendary-eatery-near-bangalore/",
+        "https://en.wikivoyage.org/wiki/Udupi",
+        "https://au.trip.com/restaurant/india/udupi/detail/diana-restaurant-19966351",
+        "https://yappe.in/karnataka/udupi/hotel-diana/1262145",
+        "https://www.tripoto.com/trip/diana-icecream-udupi-mustvisit-61db8e502be12",
+        "https://nominatim.openstreetmap.org/search?q=Diana,+Udupi&format=json"
+      ],
+      "confidence": "partial",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "woodlands-udupi",
+      "name": "Woodlands",
+      "town": "Udupi",
+      "area": "Dr U. R. Rao Complex, Thenkpete, near Sri Krishna Matha",
+      "lat": 13.3393811,
+      "lng": 74.7511876,
+      "pureVeg": true,
+      "operatingStatus": "open",
+      "knownFor": [
+        "neer dosa with veg stew",
+        "South Indian thali",
+        "moode idli",
+        "banana buns",
+        "mini gadbad"
+      ],
+      "order": "Neer dosa with veg stew, then a mini gadbad. Go early because the queue outside is real.",
+      "hours": "Daily 8:30am–3:15pm and 5:30–10:15pm (Wanderlog listing)",
+      "priceBand": null,
+      "sources": [
+        "https://wanderlog.com/place/details/2396835/woodlands-restaurant",
+        "https://en.wikivoyage.org/wiki/Udupi",
+        "https://journeum.com/dst/Asia/India/Southern India/Karnataka/Karavali/Udupi/Udupi/Eat",
+        "https://nominatim.openstreetmap.org/search?q=Woodlands+Udupi&format=json"
+      ],
+      "confidence": "verified",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "pabbas",
+      "name": "Pabbas (Ideal Ice Cream flagship)",
+      "town": "Mangaluru",
+      "area": "Shree Krishna Prasad Complex, MG Road, Lalbagh",
+      "lat": 12.8862912,
+      "lng": 74.8383251,
+      "pureVeg": null,
+      "operatingStatus": "open",
+      "knownFor": [
+        "gadbad",
+        "Dilkhush",
+        "tiramisu",
+        "jackfruit sundae",
+        "veg cutlet",
+        "paneer sandwich"
+      ],
+      "order": "Gadbad first, then come back another day for the Dilkhush. Weekday afternoons skip the token queue.",
+      "hours": "Daily 10am–9pm (Wanderlog listing)",
+      "priceBand": null,
+      "sources": [
+        "https://karnatakatourism.org/experiences/pabbas",
+        "https://en.wikipedia.org/wiki/Ideal_Ice_Cream",
+        "https://wanderlog.com/place/details/778747/pabbas",
+        "https://nominatim.openstreetmap.org/search?q=Pabbas&format=json"
+      ],
+      "confidence": "verified",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "ideal-cafe",
+      "name": "Ideal Cafe (Ideal Ice Cream)",
+      "town": "Mangaluru",
+      "area": "Hampankatta, opp. Sharavu Ganapathi Temple Road",
+      "lat": 12.8698639,
+      "lng": 74.8406577,
+      "pureVeg": true,
+      "operatingStatus": "verify locally",
+      "knownFor": [
+        "gadbad",
+        "neer dosa with green paneer ghee roast",
+        "veg cutlet",
+        "masala dosa",
+        "chole bhature"
+      ],
+      "order": "Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg.",
+      "hours": null,
+      "priceBand": null,
+      "sources": [
+        "https://wanderlog.com/place/details/2848883",
+        "https://en.wikipedia.org/wiki/Ideal_Ice_Cream",
+        "https://nominatim.openstreetmap.org/search?q=Ideal+Cafe+Mangalore&format=json"
+      ],
+      "confidence": "partial",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "new-taj-mahal-cafe",
+      "name": "New Taj Mahal Café",
+      "town": "Mangaluru",
+      "area": "Hotel Panchmahal complex, Kodialbail (moved from Car Street in 2009)",
+      "lat": null,
+      "lng": null,
+      "pureVeg": true,
+      "operatingStatus": "open",
+      "knownFor": [
+        "Mangalore buns",
+        "tuppa (ghee) dosa",
+        "biscuit rotti",
+        "leaf-steamed idli",
+        "patrode",
+        "filter kaapi"
+      ],
+      "order": "Buns, a biscuit rotti and a filter kaapi. It's an old Konkani institution, so don't expect a smile, expect good coffee.",
+      "hours": "Daily 6am–6:30pm (Wanderlog listing)",
+      "priceBand": null,
+      "sources": [
+        "https://wanderlog.com/place/details/1976224/new-tajmahal-cafe-private-ltd",
+        "https://kudpiraj.blogspot.com/2012/09/memories-of-car-street-taj-mahal-cafe.html",
+        "https://finelychopped.net/?p=16845",
+        "https://www.slurrp.com/article/mangalore-buns-your-guide-to-finding-the-port-citys-iconic-breakfast-item-1650247275643",
+        "https://www.karnataka.com/restaurants/10-best-breakfast-places-in-mangalore"
+      ],
+      "confidence": "verified",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "pai-tiffins-manipal",
+      "name": "Pai Tiffins",
+      "town": "Manipal",
+      "area": "Manipal Commercial Complex, near Tiger Circle",
+      "lat": 13.3527086,
+      "lng": 74.7894388,
+      "pureVeg": true,
+      "operatingStatus": "verify locally",
+      "knownFor": [
+        "dosas",
+        "filter coffee"
+      ],
+      "order": "A dosa and a ₹20 filter coffee. It's the nearest fix to Tiger Circle when you can't be bothered to ride to Udupi.",
+      "hours": "Daily 7am–11pm (Wanderlog listing)",
+      "priceBand": null,
+      "sources": [
+        "https://wanderlog.com/place/details/3204794",
+        "https://nominatim.openstreetmap.org/search?q=Pai+Tiffins&format=json"
+      ],
+      "confidence": "partial",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "madhuvan-veg-manipal",
+      "name": "Madhuvan Veg",
+      "town": "Manipal",
+      "area": "Madhuvan Serai, Upendra Nagar / Eshwar Nagar",
+      "lat": 13.350283,
+      "lng": 74.7877291,
+      "pureVeg": true,
+      "operatingStatus": "verify locally",
+      "knownFor": [
+        "paneer tikka biryani",
+        "methi mutter malai",
+        "neer dosa",
+        "masala buttermilk"
+      ],
+      "order": "Go North Indian here. Paneer tikka biryani and a masala buttermilk, and skip the pizza.",
+      "hours": "Daily 7am–11pm (Wanderlog listing)",
+      "priceBand": null,
+      "sources": [
+        "https://wanderlog.com/place/details/2814259/madhuvan-veg-restaurant",
+        "https://nominatim.openstreetmap.org/search?q=Madhuvan+Serai&format=json"
+      ],
+      "confidence": "partial",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "kushi-santhekatte",
+      "name": "Hotel Kushi",
+      "town": "Udupi",
+      "area": "Santhekatte, on NH66 (~5 km from Udupi)",
+      "lat": null,
+      "lng": null,
+      "pureVeg": true,
+      "operatingStatus": "verify locally",
+      "knownFor": [
+        "goli baje",
+        "masala dosa",
+        "idli vada sambar",
+        "ice cream",
+        "lassi"
+      ],
+      "order": "Goli baje and a lassi, a handy highway stop on the way south. Check it's still running before you detour.",
+      "hours": null,
+      "priceBand": null,
+      "sources": [
+        "https://en.wikivoyage.org/wiki/Udupi",
+        "https://journeum.com/dst/Asia/India/Southern India/Karnataka/Karavali/Udupi/Udupi/Eat"
+      ],
+      "confidence": "verify-locally",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "parijatha-kundapura",
+      "name": "Hotel Parijatha",
+      "town": "Kundapura",
+      "area": "Near Shenoy Park",
+      "lat": null,
+      "lng": null,
+      "pureVeg": true,
+      "operatingStatus": "verify locally",
+      "knownFor": [],
+      "order": "A safe pure-veg stop in a town better known for chicken ghee roast. Ask what's fresh off the tawa.",
+      "hours": null,
+      "priceBand": null,
+      "sources": [
+        "https://en.wikivoyage.org/wiki/Kundapur"
+      ],
+      "confidence": "verify-locally",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "indra-bhavan-mangaluru",
+      "name": "Hotel Indra Bhavan",
+      "town": "Mangaluru",
+      "area": "Dwaraka Complex, Arya Samaj Rd, Balmatta",
+      "lat": null,
+      "lng": null,
+      "pureVeg": true,
+      "operatingStatus": "open",
+      "knownFor": [
+        "tuppa dosa",
+        "uppit avalakki",
+        "goli baje",
+        "Mangalore buns",
+        "kotte",
+        "filter coffee"
+      ],
+      "order": "Get there before 7am for hot ghee dosa and buns. They're often gone by nine.",
+      "hours": "Mon–Sat 6:30am–1pm and 3–7pm; closed Sunday (Wanderlog listing)",
+      "priceBand": null,
+      "sources": [
+        "https://wanderlog.com/place/details/5029299/hotel-indra-bhavan",
+        "https://www.karnataka.com/restaurants/10-best-breakfast-places-in-mangalore",
+        "https://www.slurrp.com/article/mangalore-buns-your-guide-to-finding-the-port-citys-iconic-breakfast-item-1650247275643"
+      ],
+      "confidence": "verified",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "woodlands-mangaluru",
+      "name": "Woodlands Hotel",
+      "town": "Mangaluru",
+      "area": "Bunts Hostel Rd, Balmatta/Hampankatta",
+      "lat": 12.8746829,
+      "lng": 74.8484013,
+      "pureVeg": true,
+      "operatingStatus": "open",
+      "knownFor": [
+        "goli baje",
+        "rava masala dosa",
+        "neer dosa",
+        "banana-leaf Udupi meals with red rice",
+        "filter coffee"
+      ],
+      "order": "Lunch on a banana leaf with red rice, then goli baje for the road.",
+      "hours": "Daily 6:30am–9:30pm (Wanderlog listing)",
+      "priceBand": null,
+      "sources": [
+        "https://wanderlog.com/place/details/11686426/woodlands-restaurant--mangalore",
+        "https://www.karnataka.com/restaurants/10-best-breakfast-places-in-mangalore",
+        "https://nominatim.openstreetmap.org/search?q=Woodlands+Mangaluru&format=json"
+      ],
+      "confidence": "verified",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "janatha-deluxe-mangaluru",
+      "name": "Hotel Janatha Deluxe (Pathumudi Soudha)",
+      "town": "Mangaluru",
+      "area": "Ballalbagh, Kodialbail",
+      "lat": null,
+      "lng": null,
+      "pureVeg": true,
+      "operatingStatus": "verify locally",
+      "knownFor": [
+        "buns with sambar",
+        "neer dosa",
+        "veg thali",
+        "patrode (evenings)"
+      ],
+      "order": "Buns and neer dosa in the morning. Come back in the evening for patrode.",
+      "hours": "Daily 7am–10:30pm (Wanderlog listing)",
+      "priceBand": null,
+      "sources": [
+        "https://wanderlog.com/place/details/2172020/hotel-janatha-deluxe-pathumudi-soudha",
+        "https://www.karnataka.com/restaurants/10-best-breakfast-places-in-mangalore",
+        "https://www.slurrp.com/article/mangalore-buns-your-guide-to-finding-the-port-citys-iconic-breakfast-item-1650247275643"
+      ],
+      "confidence": "partial",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "akshaya-mess-sringeri",
+      "name": "Akshaya Mess",
+      "town": "Sringeri",
+      "area": "Bharathi Street, near Sharada Peetham",
+      "lat": null,
+      "lng": null,
+      "pureVeg": true,
+      "operatingStatus": "verify locally",
+      "knownFor": [
+        "sattvik home-style breakfast",
+        "idli vada"
+      ],
+      "order": "Idli-vada before darshan. It's tucked slightly off the main road, so follow the signs.",
+      "hours": "Daily 7:30–10am and 5:30–8pm (Wanderlog listing)",
+      "priceBand": null,
+      "sources": [
+        "https://wanderlog.com/place/details/6222306"
+      ],
+      "confidence": "partial",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "maruthi-tiffin-sringeri",
+      "name": "Maruthi Tiffin Centre (Holla's hotel)",
+      "town": "Sringeri",
+      "area": "A few yards from the Sharada Peetham main entrance",
+      "lat": null,
+      "lng": null,
+      "pureVeg": true,
+      "operatingStatus": "verify locally",
+      "knownFor": [
+        "poori saagu",
+        "idli vada",
+        "Malnad coffee"
+      ],
+      "order": "Poori fried to order with saagu, and a low-sugar Malnad coffee. No onion or garlic in this kitchen.",
+      "hours": null,
+      "priceBand": "~₹10 per idli/vada/poori and ₹15 coffee (2022 blog, verify locally)",
+      "sources": [
+        "https://eatwithachar.blogspot.com/2022/11/maruthi-tiffin-center-sringeri.html"
+      ],
+      "confidence": "verify-locally",
+      "lastChecked": "2026-11"
+    },
+    {
+      "id": "pai-restaurant-gokarna",
+      "name": "Pai Restaurant",
+      "town": "Gokarna",
+      "area": "Main Road",
+      "lat": null,
+      "lng": null,
+      "pureVeg": true,
+      "operatingStatus": "verify locally",
+      "knownFor": [
+        "dosa",
+        "idli",
+        "thali"
+      ],
+      "order": "A thali after the beach walk. Don't confuse it with Pai Hotel around the corner, they're separate places.",
+      "hours": "Daily 8am–9pm (HappyCow listing, Jan 2025)",
+      "priceBand": null,
+      "sources": [
+        "https://www.happycow.net/reviews/pai-restaurant-karnataka-445324"
+      ],
+      "confidence": "partial",
+      "lastChecked": "2026-11"
+    }
+  ],
+  "annadana": [
+    {
+      "id": "udupi-krishna-matha",
+      "temple": "Sri Krishna Matha",
+      "town": "Udupi",
+      "lunchTimings": "Roughly 11:30am–2:30pm. Sources differ (11:30–2:30 and 12–2), so verify locally.",
+      "dinnerTimings": "Roughly 8–9:30pm. Sources differ (7–9, 8–9:30 and 8–10pm), so verify locally.",
+      "whatsServed": "Sattvik veg, with no onion or garlic: rice, sambar, rasam, veg sides, payasam and ghee, varying with the season (gojju, kosambari, chutneys). About 5,000 people eat daily, rising to 30,000+ at festivals.",
+      "etiquette": [
+        "Seated on the floor. The public hall is the Bhojanashala.",
+        "Traditionally served on banana leaves in a set order and position, and diners start and finish together. A March 2026 review says it is now served on plates as a buffet, with floor seating only.",
+        "A Wanderlog listing says diners wash their own plates before leaving.",
+        "Reviews mention separate seating sections; follow staff directions.",
+        "Arrive early because items can run out.",
+        "Eating with the right hand, donation norms: not confirmed online, verify locally."
+      ],
+      "dressCode": "From Jan 2026, enforced all day: men may not enter the Math premises in shirts or bermudas (remove shirt, a shawl is allowed). Women may not wear half skirts or bermudas. It isn't stated whether this applies inside the dining hall, so verify locally.",
+      "sources": [
+        "https://www.hindu-blog.com/2018/10/udupi-temple-food-facts-about-food-served-in-udupi-krishna-temple-prasadam.html",
+        "https://wanderlog.com/place/details/3826701/shri-krishna-matha-bhojanalaya",
+        "https://en.wikipedia.org/wiki/Udupi_cuisine",
+        "https://en.wikivoyage.org/wiki/Udupi",
+        "https://deccanchronicle.com/southern-states/karnataka/dress-norms-to-be-followed-throughout-the-day-at-sri-krishna-math-1931366"
+      ],
+      "confidence": "partial"
+    },
+    {
+      "id": "kollur-mookambika",
+      "temple": "Sri Mookambika Temple",
+      "town": "Kollur",
+      "lunchTimings": "12–1:30pm (one third-party guide), verify locally",
+      "dinnerTimings": null,
+      "whatsServed": null,
+      "etiquette": [
+        "Leave footwear at the counter or racks outside.",
+        "Follow staff instructions and keep quiet; no photography inside the sanctum.",
+        "Devotees can sponsor 'Anna Santharpana' (one-time annadana) as a daily seva.",
+        "Hall seating, leaf or plate, clearing norms: not confirmed online, verify locally."
+      ],
+      "dressCode": "Dress modestly. Men: dhoti or formal trousers (shirts OK, vests/shorts discouraged). Women: saree, salwar or other traditional wear.",
+      "sources": [
+        "https://audiala.com/en/india/baindur/kollur-mookambika-temple",
+        "https://karnatakatourism.org/en/attractions/sri-mookambika-temple",
+        "https://templesinindiainfo.com/?p=16058"
+      ],
+      "confidence": "verify-locally"
+    },
+    {
+      "id": "dharmasthala",
+      "temple": "Sri Manjunatha Temple (Annapoorna dining hall)",
+      "town": "Dharmasthala",
+      "lunchTimings": "Tue–Sat 11am–2:45pm; Sun–Mon 10:30am–4:30pm (templesinindiainfo, undated). A 2024 guide gives 12:30–2:30pm. Verify locally.",
+      "dinnerTimings": "7–10pm (templesinindiainfo); a 2024 guide gives 8–10pm. Verify locally.",
+      "whatsServed": "Rice, sambar, rasam, seasonal veg curry, pickle, curd and a sweet such as kesari bath or payasam (2024 guide). Breakfast is served in the queue on crowded days.",
+      "etiquette": [
+        "Queue outside the hall, where volunteers manage the lines.",
+        "First come, first served; staff guide you to open seats.",
+        "Served on banana leaves or steel plates.",
+        "Leave your seat promptly when done so the next batch can sit.",
+        "Whether you clear your own leaf, donation norms: not confirmed online, verify locally."
+      ],
+      "dressCode": "Men: white pancha/dhoti or trousers; shirts, T-shirts and vests are removed before the sanctum. Women: saree, churidar or Punjabi dress with dupatta, or half-saree.",
+      "sources": [
+        "https://templesinindiainfo.com/?p=70513",
+        "https://gokshetra.com/dharmasthala-temple-annaprasadam-timings-menu-hall-location",
+        "https://www.shridharmasthala.org/"
+      ],
+      "confidence": "partial"
+    },
+    {
+      "id": "kukke-subramanya",
+      "temple": "Kukke Sri Subrahmanya Temple",
+      "town": "Subramanya",
+      "lunchTimings": "11:30am–2pm (third-party guide), verify locally",
+      "dinnerTimings": "7:30–9:30pm (third-party guide), verify locally",
+      "whatsServed": "Free vegetarian meal; menu varies by day and festival.",
+      "etiquette": [
+        "Free and open to everyone.",
+        "Senior citizens and differently-abled devotees are served first.",
+        "Non-veg food, alcohol and tobacco are banned in the temple town.",
+        "Leaf or plate, clearing, donation norms: not confirmed online, verify locally."
+      ],
+      "dressCode": "Men remove shirt, vest and cap before entering; dhoti with angavastram or kurta-pyjama preferred; no shorts. Women: saree, salwar or set-mundu covering shoulders and knees.",
+      "sources": [
+        "https://kukkedevasthanam.org.in/temple-timings"
+      ],
+      "confidence": "partial"
+    },
+    {
+      "id": "horanadu-annapoorneshwari",
+      "temple": "Sri Annapoorneshwari Temple",
+      "town": "Horanadu",
+      "lunchTimings": "12–3pm",
+      "dinnerTimings": "7:30–9:30pm",
+      "whatsServed": "A vegetarian meal with dessert (described as three courses).",
+      "etiquette": [
+        "Open to everyone regardless of religion or caste.",
+        "Seating, leaf or plate, clearing, donation norms: not confirmed online, verify locally."
+      ],
+      "dressCode": "Men remove shirt and vest and may cover shoulders with a towel or shawl. Traditional wear recommended for women.",
+      "sources": [
+        "https://www.hindu-blog.com/2020/03/horanadu-annapurna-temple-horanadu.html",
+        "https://templesinindiainfo.com/?p=16120"
+      ],
+      "confidence": "partial"
+    },
+    {
+      "id": "sringeri-sharada-peetham",
+      "temple": "Sri Sharada Peetham (Sri Bharathi Theertha Prasada hall)",
+      "town": "Sringeri",
+      "lunchTimings": "About 12:15–2:30pm",
+      "dinnerTimings": "About 7:15–8:30pm",
+      "whatsServed": "Rice, sambar with vegetables, a special curry, buttermilk and two sweets (2022 description). The hall seats 2,500+ at once.",
+      "etiquette": [
+        "Served in two sittings at the Sri Bharathi Theertha Prasada hall near the Sharada temple.",
+        "Leaf or plate, clearing, dress, donation norms: not confirmed online, verify locally."
+      ],
+      "dressCode": null,
+      "sources": [
+        "https://www.sringeri.net/pilgrim-info/pilgrim-facilities",
+        "https://www.hindu-blog.com/2022/07/food-offered-to-devotees-sri-sringeri-sharada-peetham.html"
+      ],
+      "confidence": "verified"
+    }
+  ]
+}

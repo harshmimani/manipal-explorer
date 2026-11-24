@@ -1,0 +1,1043 @@
+[
+  {
+    "id": "agumbe-sunset-point-and-ghat",
+    "name": "Agumbe Ghat & Sunset Point",
+    "chapter": "ghats",
+    "tags": [
+      "ghat ride",
+      "sunset",
+      "viewpoint",
+      "rainforest",
+      "agumbe"
+    ],
+    "hook": "Hairpins up, sun down, the whole coast laid out below.",
+    "why": "The Agumbe ghat on NH 169A is the classic Manipal ride: a staircase of hairpins climbing out of the coastal heat into Malnad mist. At the top, the Sunset Point sits right on the highway and, on a clear evening, the sun drops into the Arabian Sea. Agumbe itself gets around 7,500 mm of rain a year, which explains why everything here is green, mossy and dripping.",
+    "lat": 13.4965041,
+    "lng": 75.080588,
+    "distanceKmFromManipal": 46,
+    "rideTimeFromManipal": "40m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Clear winter evenings, November to February; get there before sunset because it fills up in season.",
+    "decJanVerdict": "great",
+    "decJanNote": "Peak season. Dry, clear skies make Dec–Jan the best shot at a proper sea sunset. The heavy-vehicle bans are a monsoon thing (2026's ran from 15 June to the end of the monsoon) and light vehicles were allowed even then. No ban was reported for Dec–Jan, but check locally.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Ride time is the OSRM estimate plus a buffer; the hairpin section is slower than it looks, so add time if you stop for photos. The Sunset Point is on the highway, so you can ride right up to it. Agumbe village, where much of Malgudi Days was shot, is about a ten-minute walk from the point (Wikipedia). Leave the viewpoint as soon as the sun goes down, or plan to sleep in Agumbe rather than descend in the dark.",
+    "safety": "Ghat road: tight hairpins, blind corners, buses and trucks swinging wide. Hold your lane and use the horn on blind bends. Fog can roll in fast and evening mist on the descent makes the surface greasy. Avoid riding down after dark. Heavy vehicles are banned on this ghat during the monsoon (June–September/October in recent years) because of landslide risk; outside that window expect trucks. The Agumbe Rainforest Research Station is a working research station (founded in 2005 by Romulus Whitaker), not a visitor attraction. We found no public visiting info, so don't just turn up. King cobra country: stay on paths if you walk into the forest.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/agumbe-sunset-point",
+      "https://karnatakatourism.org/tour-item/agumbe/",
+      "https://en.wikipedia.org/wiki/Agumbe",
+      "https://en.wikipedia.org/wiki/Agumbe_Rainforest_Research_Station",
+      "https://agumberainforest.org/",
+      "https://www.thehansindia.com/karnataka/heavy-vehicles-banned-in-agumbe-ghat-from-june-15-1085394",
+      "https://newskarnataka.com/udupi/heavy-vehicles-banned-on-agumbe-ghati-amid-landslide-risk/14062025/",
+      "https://nominatim.openstreetmap.org/search?q=Agumbe+Sunset+Point%2C+Karnataka&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.080588,13.4965041?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kudlu-theertha-falls",
+    "name": "Kudlu Theertha Falls",
+    "chapter": "ghats",
+    "tags": [
+      "waterfall",
+      "short trek",
+      "wildlife sanctuary",
+      "someshwara",
+      "hebri"
+    ],
+    "hook": "A rainbow-throwing plunge pool, two stream crossings in.",
+    "why": "Inside Someshwara Wildlife Sanctuary, Kudlu Theertha drops into a wide pool, and on a sunny morning the spray throws rainbows. The walk in is about 2 km of mostly paved path with 150–200 steps and two streams to wade. It's the falls locals rate for December, if the forest gate is open.",
+    "lat": 13.4217146,
+    "lng": 75.1059323,
+    "distanceKmFromManipal": 47,
+    "rideTimeFromManipal": "1h 05m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Post-monsoon mornings. A 2021–24 visitor blog rates December–January best, when the falls are open.",
+    "decJanVerdict": "good",
+    "decJanNote": "Water stays decent into December. The catch is access. In January 2026 the Kudremukh Wildlife Division shut trekking routes in Someshwara sanctuary from 14 January for the fire season, so go in December and confirm the gate is open before riding out.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "easy",
+      "duration": "About 2–2.5 km each way from the entry gate (roughly 30 minutes), with 150–200 steps and two stream crossings",
+      "permitRequired": true,
+      "howToBook": "A visitor blog (Nov 2024 update) says online registration is now required and you still fill in details and pay cash at the counter. The portal isn't named. Verify locally.",
+      "guideMandatory": null,
+      "openDecJan": null
+    },
+    "bikeTips": "Coordinates and distance are for Kudlu Falls Road, the OSM-mapped access road off the Hebri–Agumbe side, not the falls. A blog notes the last ~3 km to the gate was rough in 2022, with loose gravel and steep bits. Go slow on a loaded bike. Reported fees (2024): ₹100 per person, ₹15 bike parking, ₹300 for a camera. Verify locally.",
+    "safety": "Two stream crossings on the walk; skip them if the water is high. Wet rocks around the pool are slippery. Leeches were reported as late as November. Gates reportedly open around 9–9:30 AM and you must be out by 4 PM, so start walking by about 2 PM. The forest department closes the falls when elephants or other wild animals are spotted, and trekking in this sanctuary was banned from 14 Jan 2026 for fire risk. Verify the current status locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.enidhi.net/2021/12/kudlu-theertha-falls-near-someshwara.html",
+      "https://www.devdiscourse.com/article/science-environment/3770272-temporary-trekking-ban-enforced-to-prevent-forest-fires-in-kudremukh",
+      "https://en.wikipedia.org/wiki/Someshwara_Wildlife_Sanctuary",
+      "https://nominatim.openstreetmap.org/search?q=Kudlu+Falls&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1059323,13.4217146?overview=false"
+    ],
+    "confidence": "verify-locally",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "barkana-falls-viewpoint",
+    "name": "Barkana Falls & Viewpoint",
+    "chapter": "ghats",
+    "tags": [
+      "waterfall",
+      "viewpoint",
+      "agumbe",
+      "seetha river",
+      "forest walk"
+    ],
+    "hook": "One of India's tallest falls, seen across a whole valley.",
+    "why": "Karnataka Tourism puts the Seetha River's drop at Barkana at about 260 m, which makes it one of India's tallest falls. Most people see it from the Barkana viewpoint: an easy 2 km forest walk from a forest gate past Jogi Gundi that ends with the falls threading down a distant cliff and the Agumbe valley falling away below. Getting to the falls themselves is a proper forest trek that needs permission and a guide.",
+    "lat": null,
+    "lng": null,
+    "distanceKmFromManipal": null,
+    "rideTimeFromManipal": null,
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "day",
+    "bestTime": "October to February per Karnataka Tourism; early mornings can be fogged in.",
+    "decJanVerdict": "ok",
+    "decJanNote": "Honest take: the view is the draw, not the volume. Karnataka Tourism says flow holds into February, but Wikipedia says the falls fill mainly in the rains, so expect a thin ribbon by January. Clear winter air does help the valley view.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "easy",
+      "duration": "Viewpoint: about 2 km easy walk from the forest gate. The falls trek is separate and longer.",
+      "permitRequired": null,
+      "howToBook": "Viewpoint: pay at the forest check post near the Jogi Gundi turn (a 2022 blog says about ₹100 per person plus camera and parking). The trek to the falls needs prior Forest Department permission and a guided trek is strongly advised. Booking route not confirmed online, so verify locally.",
+      "guideMandatory": null,
+      "openDecJan": null
+    },
+    "bikeTips": "We couldn't get reliable coordinates for the viewpoint, so lat/lng and distance are left null. For planning, Jogi Gundi is 51 km / about 45 min from Manipal (OSRM). From Agumbe take the Sringeri road, turn off for Jogi Gundi after about 1 km, carry on a few km past houses, turn right at the sign and ride about 2 km to the forest gate (2022 directions). The road was under repair but car-friendly then.",
+    "safety": "Fog can hide the falls completely, especially early morning. If you do the falls trek, the rocks at the top of Barkana on the Seetha River are very slippery. Stay well back from the edge. Leeches after rain. Don't trek to the falls without permission. It's sensitive forest.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/tour-item/barkana-falls/",
+      "https://www.enidhi.net/2022/11/barkana-falls-viewpoint-agumbe.html",
+      "https://en.wikipedia.org/wiki/Barkana_Falls",
+      "https://www.indiahikes.com/documented-trek/narasimha-parvatha-trek",
+      "https://nominatim.openstreetmap.org/search?q=Jogi+Gundi&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1028906,13.4991064?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "jogigundi-falls",
+    "name": "Jogi Gundi Falls",
+    "chapter": "ghats",
+    "tags": [
+      "waterfall",
+      "short walk",
+      "agumbe"
+    ],
+    "hook": "Agumbe's pocket waterfall, best caught right after the rains.",
+    "why": "A short forest walk and about 300 m of steps drop you to a deep pool under a forest waterfall. It's close to Agumbe and pairs easily with the Barkana viewpoint. In monsoon it roars. By late autumn it's down to a trickle.",
+    "lat": 13.4991064,
+    "lng": 75.1028906,
+    "distanceKmFromManipal": 51,
+    "rideTimeFromManipal": "45m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "July to October (visitor blog). Entry is restricted in heavy monsoon rain.",
+    "decJanVerdict": "skip",
+    "decJanNote": "A visitor who went back in November 2022 found it nearly dry except the left-most stream and advised against going after October. In Dec–Jan, only stop if you're already heading to the Barkana viewpoint.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "From Agumbe, take the Sringeri road and turn off after about 1 km. Then it's about 1 km on foot: 300–500 m on the flat, then steps down. A blog lists 9 AM–5 PM hours (gate shut if you come early) and ₹100 per person. Some sites say entry is free, so verify locally. No facilities at the site. Agumbe town is about 4 km away.",
+    "safety": "The pool is too deep to stand under the fall. If you get in, stay at the edges. Wet steps and rocks are slippery. Entry is restricted during heavy monsoon rain.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.enidhi.net/2022/08/jogi-gundi-waterfalls-agumbe.html",
+      "https://www.enidhi.net/2022/11/barkana-falls-viewpoint-agumbe.html",
+      "https://nominatim.openstreetmap.org/search?q=Jogi+Gundi&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1028906,13.4991064?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "varanga-kere-basadi",
+    "name": "Varanga Kere Basadi (Lake Temple)",
+    "chapter": "heritage",
+    "tags": [
+      "jain basadi",
+      "lake",
+      "boat ride",
+      "hebri",
+      "12th century"
+    ],
+    "hook": "A four-faced Jain shrine you can only reach by boat.",
+    "why": "A 12th-century chaturmukha basadi sits alone in a lily-covered lake. Parshvanatha, Neminatha, Shantinatha and Anantanatha face the four directions, and a short boat ride is the only way in. Ashore, the 9th-century Neminatha Basadi has a 45-foot monolithic manastambha. It's 35 minutes from Manipal and feels a century further away.",
+    "lat": 13.3961854,
+    "lng": 75.0085544,
+    "distanceKmFromManipal": 32,
+    "rideTimeFromManipal": "35m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Early morning or late afternoon, inside the boat hours.",
+    "decJanVerdict": "great",
+    "decJanNote": "Not seasonal. Cool mornings, lilies on the water and an easy ride make it a perfect half-day in Dec–Jan. Time it to the boat's morning session.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": null,
+      "darshanTimings": "Boat to Kere Basadi: 8:30 AM–1 PM and 3–6 PM (Holidify); other listings give 4–6 PM for the evening session. Verify locally.",
+      "annadana": null
+    },
+    "trek": null,
+    "bikeTips": "Straight run up the Hebri side of the Udupi–Agumbe road, all on good highway (Varanga sits on SH1 per OSM). The boat is about 100 m and costs ₹10 (karnataka.com, Holidify).",
+    "safety": "Short boat crossing. Sit still and follow the boatman. Basadi etiquette applies: footwear off, dress modestly (no official dress code found online, so verify locally).",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kere_Basadi",
+      "https://en.wikipedia.org/wiki/Varanga",
+      "https://www.karnataka.com/udupi/varanga-jain-pilgrimage",
+      "https://www.holidify.com/places/udupi/varanga-jain-temple-sightseeing-1265640.html",
+      "https://www.trawell.in/karnataka/udupi/kere-basadi-varanga",
+      "https://nominatim.openstreetmap.org/search?q=Kere+Basadi&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.0085544,13.3961854?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "sringeri-sharada-peetham",
+    "name": "Sringeri Sharada Peetham",
+    "chapter": "gods",
+    "tags": [
+      "temple",
+      "matha",
+      "adi shankaracharya",
+      "tunga river",
+      "annadana"
+    ],
+    "hook": "Adi Shankara's southern seat, with lunch for thousands daily.",
+    "why": "The Dakshinamnaya Sharada Peetham is one of the four mathas Adi Shankaracharya founded, set on the Tunga with the Sharadamba temple at its heart. Next door, the Vidyashankara temple blends Hoysala and Vijayanagara styles and has zodiac carvings. The Peetham's dining hall serves Nitya Annadana to about 7,500 people a day.",
+    "lat": 13.4161389,
+    "lng": 75.2513769,
+    "distanceKmFromManipal": 76,
+    "rideTimeFromManipal": "1h 15m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "day",
+    "bestTime": "October to March (Karnataka Tourism). Arrive for the morning darshan and stay for lunch.",
+    "decJanVerdict": "great",
+    "decJanNote": "Cool, dry and easy. Sringeri pairs well with Agumbe on the same day: Wikipedia puts the two about 24 km apart. Guru darshan and the Jagadguru's evening puja depend on his camps, and the Peetham's 2026 Vijayayatra tour is running, so check sringeri.net before you plan around it.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": "Modest, traditional dress (Karnataka Tourism: 'modest dressing is advised'; Yatradham: traditional and formal clothing). The Peetham's own detailed dress-code notice isn't readable online. Verify locally.",
+      "darshanTimings": "Sharadamba temple: 6 AM–2 PM and 4–9 PM. Maha-Mangalarati at 10 AM, 12 noon and 7:30 PM. Other temples: 6 AM–1 PM and 5–8 PM. Guru Darshanam 10:30–11:30 AM. Chandramoulishwara Puja by the Jagadguru 9–10 PM (8:30–10 PM on Fridays). Timings change with events and the Jagadguru's camps (official site).",
+      "annadana": "Nitya Annadana at the Sri Bharathi Theertha Prasada hall near the Sharada temple: 12:15–2:30 PM and 7:15–8:30 PM (official site)."
+    },
+    "trek": null,
+    "bikeTips": "The ride climbs the Agumbe ghat, so do the hairpins in daylight. Guest houses near the temple go first-come-first-served, with no advance booking. Ask at the Information Office by the main entrance.",
+    "safety": "Agumbe ghat hairpins on the way: avoid descending after dark and watch for buses. Photography is not allowed inside the temple (Yatradham). Respect queue and silence rules.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://sringeri.net/pilgrim-info/temple-timings",
+      "https://sringeri.net/pilgrim-info/pilgrim-facilities",
+      "https://karnatakatourism.org/en/attractions/sringeri-sharada-peetham",
+      "https://temple.yatradham.org/temple/shri-jagadguru-shankaracharya-mahasamsthana-dakshinamnaya-sri-sharada-peetham",
+      "https://en.wikipedia.org/wiki/Sringeri_Sharada_Peetham",
+      "https://en.wikipedia.org/wiki/Agumbe",
+      "https://nominatim.openstreetmap.org/search?q=Sharadamba+Temple+Sringeri&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.2513769,13.4161389?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "horanadu-annapoorneshwari-temple",
+    "name": "Horanadu Annapoorneshwari Temple",
+    "chapter": "gods",
+    "tags": [
+      "temple",
+      "devi",
+      "annadana",
+      "bhadra river",
+      "kalasa"
+    ],
+    "hook": "The goddess of food, and she means it: everyone eats.",
+    "why": "Annapoorneshwari stands in gold on the Bhadra's banks, deep in Western Ghats forest. Pilgrims get free meals three times a day, plus tea or coffee and snacks, whatever their religion or caste. Men take their shirts off for the darshan line, so bring a shawl or towel.",
+    "lat": 13.2767097,
+    "lng": 75.3437693,
+    "distanceKmFromManipal": 112,
+    "rideTimeFromManipal": "2h 05m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Any season. Reach for the morning darshan and stay through lunch.",
+    "decJanVerdict": "great",
+    "decJanNote": "Clear roads and cool forest air in Dec–Jan. Combine with Kalasa or Sringeri. Karnataka Tourism says Kalasa is about 10 km away.",
+    "vegFoodNearby": [
+      "Temple annadana hall (on site): free vegetarian meals for all pilgrims, served afternoon and evening (templesinindiainfo; Karnataka Tourism says three times a day)."
+    ],
+    "temple": {
+      "dressCode": "Men: full pants, pancha or dhoti. Shirts must come off for the darshan line, and a towel or shawl over the shoulders is fine (Holidify, Trawell, templesinindiainfo). Women: saree, salwar or other modest traditional wear. These are third-party listings, so verify locally.",
+      "darshanTimings": "6:30–9 AM, 11 AM–2 PM, 7–9:30 PM daily (Holidify, Trawell, templesinindiainfo). Third-party listings, so verify locally.",
+      "annadana": "Free meals three times a day, including tea, coffee and snacks, open to all (Karnataka Tourism). Prasada Bhojana listed as 12 noon–3 PM and 7:30–9:30 PM (templesinindiainfo). Verify locally."
+    },
+    "trek": null,
+    "bikeTips": "Ride time is OSRM plus buffer. The road climbs into the ghats via Kalasa, with forest stretches and narrow sections, so start early and be back on the plains before dark.",
+    "safety": "Ghat and forest roads with narrow bends and buses. Avoid riding them at night. Watch for wildlife crossing in forest sections.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/horanadu-sri-annapoorneshwari-devi",
+      "https://www.holidify.com/places/horanadu/annapoorneeshwari-temple-sightseeing-4745.html",
+      "https://trawell.in/karnataka/sringeri/horanadu-annapoorneswari-temple",
+      "https://templesinindiainfo.com/?p=16120",
+      "https://en.wikipedia.org/wiki/Annapoorneshwari_Temple",
+      "https://nominatim.openstreetmap.org/search?q=Annapoorneshwari+Temple+Horanadu&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3437693,13.2767097?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kudremukh-peak-trek",
+    "name": "Kudremukh Peak Trek",
+    "chapter": "ghats",
+    "tags": [
+      "trek",
+      "peak",
+      "shola grassland",
+      "national park",
+      "aranya vihaara"
+    ],
+    "hook": "Karnataka's signature trek: 16 km of grass, shola and sky.",
+    "why": "The 'horse face' peak (1,867 m) gives its name to the whole national park. The trail rolls through shola forest, streams and miles of open grassland to a summit that once guided sailors along the coast. IndiaHikes calls it the most iconic trek in Karnataka, and it's a full, honest day on your legs.",
+    "lat": 13.1255691,
+    "lng": 75.2748196,
+    "distanceKmFromManipal": 98,
+    "rideTimeFromManipal": "2h 05m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Post-monsoon to early winter, when the grass is green and the skies are clear.",
+    "decJanVerdict": "good",
+    "decJanNote": "Trails reopened in June–July 2026 under a new SOP, and the Aranya Vihaara portal lists Kudremukh as its highest-demand trek. December is the sweet spot. January is a gamble: last season the whole division shut on 14 January for fire risk. We couldn't confirm this winter's status online, so book for December and check the portal.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "hard",
+      "duration": "Full day, about 16 km return. Start from the Mullodi forest office by 7:30 AM to summit around noon. Turn back by 2 PM at the latest and you'll be down around 4:30 PM (IndiaHikes).",
+      "permitRequired": true,
+      "howToBook": "Book on the Karnataka Forest Dept's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Portal rules effective 15 Jul 2026: slots open up to 30 days ahead and must be booked at least 1 day ahead; cancel 8+ days out for a 50% refund, nothing back within 7 days; carry the original ID you booked with and report 10 minutes before your slot. Helpline 1926. Listed under Chikkamagaluru district treks. One blog reports a 2026 cap of 50 trekkers a day, but other reports conflict, so check the portal.",
+      "guideMandatory": true,
+      "openDecJan": null
+    },
+    "bikeTips": "Distance and time are to Mullodi, the trailhead locality with the forest office, routed via Karkala and SH66. The peak coordinates are in lat/lng. Ride up the day before and sleep at a Mullodi homestay. IndiaHikes says homestays there do breakfast and a packed lunch (about ₹200) if you book ahead. Camping on the trek isn't allowed.",
+    "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. The final ~3 km from the second Ontimara is a steep, sustained climb. Turn around on time, because getting stuck after dark in a national park is a real risk. Guides are mandatory: one per 10 trekkers, about ₹1,000 per guide (IndiaHikes).",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.indiahikes.com/documented-trek/kudremukh-trek",
+      "https://aranyavihaara.karnataka.gov.in/",
+      "https://www.thenewsminute.com/karnataka/karnataka-introduces-trekking-sop-in-kudremukh-enforces-new-rules-on-four-trails",
+      "https://newsable.asianetnews.com/amp/gallery/karnataka-news/kudremukh-trekking-reopens-june-1-advance-booking-mandatory-szpe3rg",
+      "https://www.deccanherald.com/india/karnataka/trekking-temporarily-banned-in-kudremukh-wildlife-division-to-prevent-forest-fires-3862929",
+      "https://www.devdiscourse.com/article/science-environment/3770272-temporary-trekking-ban-enforced-to-prevent-forest-fires-in-kudremukh",
+      "https://blog.explurger.com/?p=14100",
+      "https://en.wikipedia.org/wiki/Kudremukh",
+      "https://nominatim.openstreetmap.org/search?q=Kudremukh+Peak&format=json&limit=3&countrycodes=in",
+      "https://nominatim.openstreetmap.org/search?q=Mullodi&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3068537,13.1622376?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "netravati-peak-trek",
+    "name": "Netravati Peak Trek",
+    "chapter": "ghats",
+    "tags": [
+      "trek",
+      "peak",
+      "grassland",
+      "national park",
+      "aranya vihaara"
+    ],
+    "hook": "Kudremukh's shorter sibling, and harder to book than to climb.",
+    "why": "Netravati (about 1,520 m) sits on the Chikkamagaluru–Dakshina Kannada border inside Kudremukh National Park. It's a gentler 12–14 km day through forest and open meadow. It got so popular that slots now reportedly vanish within a minute of opening.",
+    "lat": 13.1283843,
+    "lng": 75.3304916,
+    "distanceKmFromManipal": 96,
+    "rideTimeFromManipal": "1h 45m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Post-monsoon to early winter.",
+    "decJanVerdict": "good",
+    "decJanNote": "Netravathi was among the trails reopened in mid-2026 and shows as highest demand on Aranya Vihaara. Aim for December. Last season it was named in the fire-season ban from 14 January. This winter's status isn't confirmed online.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "moderate",
+      "duration": "Full day, about 12–14 km round trip (2026 blog estimate). Verify locally.",
+      "permitRequired": true,
+      "howToBook": "Book on the Karnataka Forest Dept's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Portal rules effective 15 Jul 2026: slots open up to 30 days ahead and must be booked at least 1 day ahead; cancel 8+ days out for a 50% refund, nothing back within 7 days; carry the original ID you booked with and report 10 minutes before your slot. Helpline 1926. No offline permits. One 2026 blog reports a 50-a-day cap with slots opening at midnight and selling out within a minute. That's unconfirmed, so check the portal.",
+      "guideMandatory": true,
+      "openDecJan": null
+    },
+    "bikeTips": "Distance and time are to Samse village, the base about 14 km from Kalasa (2026 blog). The peak coordinates are in lat/lng. Stay overnight near Samse or Kalasa so you're at the start early. Horanadu temple fits on the same trip.",
+    "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. Guides are compulsory: one per batch of 10 under the 2026 SOP.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://aranyavihaara.karnataka.gov.in/",
+      "https://www.thenewsminute.com/karnataka/karnataka-introduces-trekking-sop-in-kudremukh-enforces-new-rules-on-four-trails",
+      "https://newsable.asianetnews.com/amp/gallery/karnataka-news/kudremukh-trekking-reopens-june-1-advance-booking-mandatory-szpe3rg",
+      "https://www.deccanherald.com/india/karnataka/trekking-temporarily-banned-in-kudremukh-wildlife-division-to-prevent-forest-fires-3862929",
+      "https://blog.explurger.com/?p=14100",
+      "https://nominatim.openstreetmap.org/search?q=Netravati+Peak%2C+Karnataka&format=json&limit=3",
+      "https://nominatim.openstreetmap.org/search?q=Samse%2C+Karnataka&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3343192,13.1879829?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kurinjal-peak-trek",
+    "name": "Kurinjal Peak Trek",
+    "chapter": "ghats",
+    "tags": [
+      "trek",
+      "peak",
+      "kudremukh national park",
+      "evergreen forest"
+    ],
+    "hook": "Dense evergreen forest, then a grandstand view of Kudremukh.",
+    "why": "Kurinjal starts at Bhagavathi Nature Camp and climbs through evergreen forest loud with birds before opening onto a huge grassy clearing. From the top you look straight across at Kudremukh peak. It's the trek people switch to when Kudremukh slots are gone, and a visitor says only the last kilometre is properly steep.",
+    "lat": 13.2029628,
+    "lng": 75.1666906,
+    "distanceKmFromManipal": 77,
+    "rideTimeFromManipal": "1h 30m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Post-monsoon to winter. IndiaHikes advises against peak summer because the upper section is exposed.",
+    "decJanVerdict": "good",
+    "decJanNote": "Kurinjal was among the first four trails reopened in 2026, with Aranya Vihaara booking mandatory. December is ideal. January carries the same fire-season closure risk as the rest of Kudremukh NP (from 14 Jan last year).",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "moderate",
+      "duration": "About 12–16 km round trip depending on source. Plan a full day.",
+      "permitRequired": true,
+      "howToBook": "Book on the Karnataka Forest Dept's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Portal rules effective 15 Jul 2026: slots open up to 30 days ahead and must be booked at least 1 day ahead; cancel 8+ days out for a 50% refund, nothing back within 7 days; carry the original ID you booked with and report 10 minutes before your slot. Helpline 1926. Older IndiaHikes notes mention a forest office at the Bhagavathi Nature Camp entrance, where bags are checked for plastic and packaged food.",
+      "guideMandatory": true,
+      "openDecJan": null
+    },
+    "bikeTips": "Distance and time are to Bhagavathi Nature Camp, the trailhead about 29 km from Kalasa on SH66, routed via Karkala. The peak coordinates are in lat/lng. It works as a long day from Manipal if you leave at dawn. The trail gate is about 500 m along the highway from the forest office.",
+    "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. Bags are checked, so leave plastic, packaged food and alcohol behind. Guides are compulsory: one per 10 under the 2026 SOP.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://indiahikes.com/documented-trek/kurinjal-peak",
+      "https://aranyavihaara.karnataka.gov.in/",
+      "https://www.thenewsminute.com/karnataka/karnataka-introduces-trekking-sop-in-kudremukh-enforces-new-rules-on-four-trails",
+      "https://newsable.asianetnews.com/amp/gallery/karnataka-news/kudremukh-trekking-reopens-june-1-advance-booking-mandatory-szpe3rg",
+      "https://www.deccanherald.com/india/karnataka/trekking-temporarily-banned-in-kudremukh-wildlife-division-to-prevent-forest-fires-3862929",
+      "https://nominatim.openstreetmap.org/search?q=Kurinjal%2C+Karnataka&format=json&limit=3",
+      "https://nominatim.openstreetmap.org/search?q=Bhagavathi+Nature+Camp%2C+Karnataka&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.195259,13.1992922?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "narasimha-parvatha-trek",
+    "name": "Narasimha Parvatha Trek",
+    "chapter": "ghats",
+    "tags": [
+      "trek",
+      "peak",
+      "agumbe rainforest",
+      "kigga",
+      "sringeri",
+      "barkana"
+    ],
+    "hook": "Rainforest to grassy summit, with Barkana Falls on the long route.",
+    "why": "Narasimha Parvatha (about 3,700 ft) is the high point above the Agumbe rainforest. The short loop from Kigga starts at the Rishyasringeshwara temple and is about 9 km. The full 15 km crossover from Mallanduru on the Agumbe side runs through rainforest, shola and grassland, and passes the top of Barkana Falls.",
+    "lat": 13.4264945,
+    "lng": 75.1536137,
+    "distanceKmFromManipal": 74,
+    "rideTimeFromManipal": "1h 15m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Post-monsoon to winter.",
+    "decJanVerdict": "good",
+    "decJanNote": "Both routes reopened in mid-2026, but the trek was named in the January 2026 fire-season ban from 14 January. Book a December date if you can, and verify the January 2027 status.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "moderate",
+      "duration": "Kigga–Kigga: about 9 km, easy to moderate. Mallanduru–Kigga crossover: about 15 km, moderate and a long day. Start by 7–7:30 AM (IndiaHikes).",
+      "permitRequired": true,
+      "howToBook": "Book on the Karnataka Forest Dept's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Portal rules effective 15 Jul 2026: slots open up to 30 days ahead and must be booked at least 1 day ahead; cancel 8+ days out for a 50% refund, nothing back within 7 days; carry the original ID you booked with and report 10 minutes before your slot. Helpline 1926. The Kigga route is under Chikkamagaluru district treks, and the Mallanduru route under Shivamogga district treks (IndiaHikes).",
+      "guideMandatory": null,
+      "openDecJan": null
+    },
+    "bikeTips": "Distance and time are to Kigga village, the trailhead near Sringeri, routed over the Agumbe ghat (NH169A, then SH27). Do the ghat in daylight both ways. Pair it with Sringeri darshan and the Peetham's annadana. The peak coordinates are in lat/lng.",
+    "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. Dry leaves make the forest descent slippery, so watch your knees and ankles. On the crossover, the rocks at the top of Barkana Falls on the Seetha River are very slippery. Stay well back from the edge.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.indiahikes.com/documented-trek/narasimha-parvatha-trek",
+      "https://aranyavihaara.karnataka.gov.in/",
+      "https://www.thenewsminute.com/karnataka/karnataka-introduces-trekking-sop-in-kudremukh-enforces-new-rules-on-four-trails",
+      "https://www.deccanherald.com/india/karnataka/trekking-temporarily-banned-in-kudremukh-wildlife-division-to-prevent-forest-fires-3862929",
+      "https://nominatim.openstreetmap.org/search?q=Narasimha+Parvata&format=json&limit=3&countrycodes=in",
+      "https://nominatim.openstreetmap.org/search?q=Kigga%2C+Karnataka&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1875329,13.4182367?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kundadri-hill",
+    "name": "Kundadri Hill & Jain Temple",
+    "chapter": "heritage",
+    "tags": [
+      "jain temple",
+      "hilltop",
+      "viewpoint",
+      "hairpins",
+      "agumbe"
+    ],
+    "hook": "A 17th-century basadi, two rock pools, and wind.",
+    "why": "Kundadri (826 m) is a forested hill near Agumbe topped by a 17th-century Jain temple to Parshwanatha, the 23rd Tirthankara. Tradition says Acharya Kundakunda sheltered here. Two small pools in the rock beside the temple once gave water to the sages. An all-weather road corkscrews to the top, and the summit looks out over the whole Malnad canopy.",
+    "lat": 13.5580148,
+    "lng": 75.1689994,
+    "distanceKmFromManipal": 66,
+    "rideTimeFromManipal": "1h 10m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Clear winter mornings or late afternoons. Be down before dark.",
+    "decJanVerdict": "great",
+    "decJanNote": "Dry, clear winter days bring the long views. Easy to combine with Agumbe, Kuppalli or Kavaledurga, and the road is far less sketchy without monsoon slime.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": null,
+      "darshanTimings": null,
+      "annadana": null
+    },
+    "trek": {
+      "difficulty": "easy",
+      "duration": "Optional hike of about 7 km / 3 hours to the peak (Karnataka Tourism), or ride all the way up.",
+      "permitRequired": null,
+      "howToBook": "No booking found online. The road is open to private vehicles. Verify locally.",
+      "guideMandatory": null,
+      "openDecJan": null
+    },
+    "bikeTips": "Take SH1 (Agumbe road) from the Thirthahalli side to Guddekeri, then the left turn-off to the hill (Wikipedia). Karnataka Tourism puts Agumbe 16 km away. The last stretch is steep and narrow with several hairpins. Ride it in first or second gear and don't attempt it on a weak scooter with a pillion.",
+    "safety": "Steep, narrow climb with hairpins. Karnataka Tourism advises against it for inexperienced drivers. There are no facilities and no people at the top, so carry water and plan to be back in town before nightfall. Mind the drop-offs at the edge of the summit rocks.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/kundadri-hills",
+      "https://karnatakatourism.org/en/attractions/kundadri-jain-temple",
+      "https://en.wikipedia.org/wiki/Kundadri",
+      "https://nominatim.openstreetmap.org/search?q=Kundadri%2C+Karnataka&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1689994,13.5580148?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kemmanagundi-z-point-hebbe-falls",
+    "name": "Kemmanagundi, Z-Point & Hebbe Falls",
+    "chapter": "ghats",
+    "tags": [
+      "hill station",
+      "viewpoint",
+      "waterfall",
+      "jeep ride",
+      "chikkamagaluru",
+      "bhadra"
+    ],
+    "hook": "Old hill station, rose garden, and a 168 m two-step waterfall.",
+    "why": "Kemmanagundi (about 1,434 m) is a Horticulture Department hill resort. Its Raj Bhavan guest house sits inside a botanical park full of roses. From there, a steep 45-minute climb past Shanti Falls takes you to Z-Point, a ridge-top lookout. Hebbe Falls drops 168 m in two stages, Dodda and Chikka Hebbe, about 7 km away down a jeep track.",
+    "lat": 13.5473322,
+    "lng": 75.752947,
+    "distanceKmFromManipal": 195,
+    "rideTimeFromManipal": "3h 25m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Post-monsoon, August to January, for Hebbe Falls (Karnataka Tourism).",
+    "decJanVerdict": "good",
+    "decJanNote": "Clear views from Z-Point and Hebbe still flowing in December, still inside Karnataka Tourism's August–January window. By late January expect a thinner fall. Hebbe's current access status isn't stated anywhere official we could find, so verify locally.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "moderate",
+      "duration": "Z-Point: about 45 minutes steep uphill from Raj Bhavan (Wikipedia). Hebbe Falls: about 7 km each way on foot or by local 4x4 jeep, plus a short hike (Karnataka Tourism).",
+      "permitRequired": null,
+      "howToBook": "No booking info found online. Local 4x4 jeeps run to Hebbe (Karnataka Tourism). Fares and current operating status: verify locally.",
+      "guideMandatory": null,
+      "openDecJan": null
+    },
+    "bikeTips": "A long ride: 195 km and about 3h25m by OSRM, crossing the Agumbe ghat. Overnight in Chikkamagaluru or Kemmanagundi. Wikipedia puts Kemmanagundi 53 km from Chikkamagaluru and 17 km from Lingadahalli. Don't take a road bike down the Hebbe jeep track. Park it and take a jeep or walk. Combine with Mullayanagiri and Baba Budangiri.",
+    "safety": "Long ghat sections both ways, so avoid night riding. Z-Point is a steep, exposed climb, so watch your footing and the edges in wind or mist. At Hebbe the rocks are slippery, and Karnataka Tourism warns about leeches and slick rock in the rains. Hebbe is inside a coffee estate in the eastern part of Bhadra Wildlife Sanctuary (Wikipedia), so respect estate and forest rules.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kemmangundi",
+      "https://karnatakatourism.org/en/attractions/hebbe-falls",
+      "https://en.wikipedia.org/wiki/Hebbe_Falls",
+      "https://en.wikipedia.org/wiki/Bhadra_Wildlife_Sanctuary",
+      "https://nominatim.openstreetmap.org/search?q=Kemmannagundi&format=json&limit=3&countrycodes=in",
+      "https://nominatim.openstreetmap.org/search?q=Z+Point+Kemmangundi%2C+Karnataka&format=json&limit=3",
+      "https://nominatim.openstreetmap.org/search?q=Hebbe+Falls%2C+Karnataka&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.752947,13.5473322?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "mullayanagiri-peak",
+    "name": "Mullayanagiri & Seethalayanagiri",
+    "chapter": "ghats",
+    "tags": [
+      "highest peak",
+      "karnataka",
+      "viewpoint",
+      "chikkamagaluru",
+      "booking required"
+    ],
+    "hook": "Karnataka's rooftop. Book the slot, then climb 464 steps.",
+    "why": "At about 1,925–1,930 m, Mullayanagiri is the highest peak in Karnataka. Wikipedia calls it the fourth-highest between the Himalayas and the Nilgiris. A road runs nearly to the top, then 464 steps lead to the small Mullappa Swamy shrine at the summit. Seethalayanagiri, the peak beside it, and the old Sarpadhari trail give you a way up on foot.",
+    "lat": 13.3909217,
+    "lng": 75.7214034,
+    "distanceKmFromManipal": 181,
+    "rideTimeFromManipal": "3h 20m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Clear winter mornings. Take the 6 AM slot for visibility and thinner crowds.",
+    "decJanVerdict": "great",
+    "decJanNote": "Dec–Jan is prime: cold, crisp and clear. It also means weekend crowds, so pre-book the morning slot. The online slot system began on 1 Sept 2025, and we couldn't confirm 2026 changes online, so verify on the district site.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "easy",
+      "duration": "464 steps from the road-end to the summit (Wikipedia). The Sarpadhari trail is the older walking route (no current details found).",
+      "permitRequired": null,
+      "howToBook": "Every vehicle needs an online entry pass from the Chikkamagaluru district tourism site (chikkamagaluru.nic.in/en/tourism; a 2025 local guide points to pgbiz.omniware.in/chikkamagalurutourism). Two slots: 6 AM–12 noon and 1–6 PM, 600 vehicles per slot, pre-booked vehicles first. Fees (Aug 2025): ₹50 bike, ₹100 car. This covers the Chandradrona range: Mullayanagiri, Seethalayyanagiri, Baba Budan dargah and Manikyadhara. Verify current rules.",
+      "guideMandatory": null,
+      "openDecJan": null
+    },
+    "bikeTips": "OSRM's route is 181 km, about 3h20m, over the Agumbe ghat (NH169A to SH27) then NH173. Sleep in Chikkamagaluru the night before and ride up at dawn for the 6 AM slot. The summit road is narrow and single-lane in places. Carry your pass confirmation.",
+    "safety": "Narrow hill road with blind corners and heavy weekend traffic. Use the horn and give way to vehicles coming down. The summit is windy and cold in winter mornings, so layer up. Fog can drop visibility to a few metres. Avoid riding back down the ghats after dark.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mullayanagiri",
+      "https://en.wikipedia.org/wiki/Baba_Budangiri",
+      "https://www.deccanherald.com/india/karnataka/online-booking-mandatory-for-visiting-mullayyanagiri-bababudangiri-from-sept-1-3702729",
+      "https://www.nammachikmagaluru.com/post/heading-to-chikkamagaluru-s-peaks-don-t-forget-your-digital-pass",
+      "https://nominatim.openstreetmap.org/search?q=Mullayanagiri%2C+Karnataka&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.7214034,13.3909217?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kavaledurga-fort",
+    "name": "Kavaledurga Fort",
+    "chapter": "heritage",
+    "tags": [
+      "fort",
+      "keladi nayakas",
+      "ruins",
+      "short trek",
+      "thirthahalli"
+    ],
+    "hook": "Keladi's last hilltop capital, swallowed by forest and mist.",
+    "why": "Kavaledurga was the Keladi Nayakas' fortress. Queen Chennamma rallied her forces here in 1677, and Maratha prince Rajaram hid here from Aurangzeb in 1689. You walk through paddy fields, then up through three concentric granite walls, past a stepped tank, palace plinths and the Kashi Vishwanath and Srikanteshwara shrines. Built into the boulders, it still feels like a hideout.",
+    "lat": 13.7177176,
+    "lng": 75.1269652,
+    "distanceKmFromManipal": 82,
+    "rideTimeFromManipal": "1h 20m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Winter mornings. Start early: entry hours are reported as early as 6 AM–2 PM, and Karnataka Tourism says entry closes by 5 PM.",
+    "decJanVerdict": "great",
+    "decJanNote": "Cool air for the climb and clear views from the ramparts in Dec–Jan. Get there by mid-morning, because ticket hours conflict between sources.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": {
+      "difficulty": "easy",
+      "duration": "About 5 km round trip, half a day. Allow 2–3 hours to explore (IndiaHikes, Karnataka Tourism).",
+      "permitRequired": false,
+      "howToBook": "No permit. Buy a ticket at the checkpost (₹50 per IndiaHikes; ₹25 in a 2022 blog; parking around ₹20). Verify locally.",
+      "guideMandatory": false,
+      "openDecJan": null
+    },
+    "bikeTips": "Ride over the Agumbe ghat towards Thirthahalli. The fort is about 18 km from Thirthahalli (Wikipedia, Karnataka Tourism). Park at the base and pick up a ticket at the checkpost. Pairs well with Kuppalli or Kundadri on the same day.",
+    "safety": "Granite steps and boulder sections get slippery when wet. The topmost portion was reported closed to visitors in Aug 2024. No plastic or packed food inside, and drones are banned (bags are checked). Facilities are minimal, a tea shop by the parking at most, so carry water. Don't stay up for sunset if it means riding the ghat in the dark.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kavaledurga",
+      "https://karnatakatourism.org/en/attractions/kavaledurga-fort",
+      "https://www.indiahikes.com/documented-trek/kavaledurga-trek",
+      "https://enidhi.net/2017/10/kavaledurga-fort-thirthahalli-karnataka.html",
+      "https://nominatim.openstreetmap.org/search?q=Kavaledurga%2C+Karnataka&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.1269652,13.7177176?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kuppalli-kavimane-kavishaila",
+    "name": "Kuppalli: Kuvempu's Kavimane & Kavishaila",
+    "chapter": "heritage",
+    "tags": [
+      "museum",
+      "kuvempu",
+      "literature",
+      "malnad house",
+      "thirthahalli"
+    ],
+    "hook": "The poet's childhood home, and a Stonehenge built for him.",
+    "why": "Kuvempu, the Kannada poet, grew up in this house. His family trust has turned it into the Kavimane museum. Up the hill, Kavishaila is a ring of megalithic rocks modelled on Stonehenge, with his memorial at the centre. Nearby is a rock signed by Kuvempu, B. M. Srikantaiah and T. S. Venkannaiah, which Poornachandra Tejaswi later signed too.",
+    "lat": 13.6050475,
+    "lng": 75.3159614,
+    "distanceKmFromManipal": 97,
+    "rideTimeFromManipal": "1h 25m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Any season. Mornings are quieter.",
+    "decJanVerdict": "great",
+    "decJanNote": "Not weather-dependent, and Dec–Jan is pleasant for the walk up to Kavishaila. Combine with Kavaledurga or Kundadri.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Over the Agumbe ghat and on past Thirthahalli. Karnataka Tourism puts Kuppalli 31 km from Kundadri, so a Kundadri–Kuppalli–Kavaledurga loop works on one bike day.",
+    "safety": "Short uphill walk to Kavishaila on rock, which can be slippery when damp. No photography inside the house museum. The ghat ride back should be done before dark.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kuppalli",
+      "https://karnatakatourism.org/en/attractions/kundadri-jain-temple",
+      "https://karnatakatourism.org/en/attractions/kavaledurga-fort",
+      "https://nominatim.openstreetmap.org/search?q=Kavimane+Kuppalli&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3159614,13.6050475?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "sakrebyle-elephant-camp",
+    "name": "Sakrebyle Elephant Camp",
+    "chapter": "ghats",
+    "tags": [
+      "elephants",
+      "wildlife",
+      "shivamogga",
+      "morning",
+      "forest department"
+    ],
+    "hook": "Morning bath time for a herd of trained elephants.",
+    "why": "On the Shivamogga–Thirthahalli road, Sakrebyle is a forest department camp where elephants are trained. Mornings are when the elephants are bathed and fed, and you can watch from close range. Get there by 8:30 or you'll only catch them drying off.",
+    "lat": 13.8360489,
+    "lng": 75.5118018,
+    "distanceKmFromManipal": 126,
+    "rideTimeFromManipal": "1h 50m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": "Shivamogga",
+        "notes": "Karnataka Tourism says the camp is 14 km from Shimoga, but there's no sensible direct rail link from Udupi. Ride instead."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Early morning, by 8:30 AM.",
+    "decJanVerdict": "good",
+    "decJanNote": "Cool mornings make the dawn ride over the Agumbe ghat bearable. Leave Manipal by about 6:15 AM or stay over in Thirthahalli or Shivamogga.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "OSRM routes it over the Agumbe ghat via Thirthahalli on NH169A/NH169: 126 km, about 1h50m. The morning window is short (8:30–11:30 AM per karnataka.com), so a dawn start or an overnight stop is the only way to see the bath.",
+    "safety": "Elephants are wild animals, trained or not. Keep the distance the mahouts set, don't feed them unless invited, and never stand behind one. The ground at the bathing spot is wet and slippery. A pre-dawn ghat ride means fog and low light, so ride slow with lights on.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/sakrebyle-elephant-camp",
+      "https://www.karnataka.com/shimoga/sakrebailu-elephant-camp",
+      "https://nominatim.openstreetmap.org/search?q=Sakrebailu%2C+Karnataka&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.5118018,13.8360489?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "jog-falls",
+    "name": "Jog Falls",
+    "chapter": "ghats",
+    "tags": [
+      "waterfall",
+      "sharavathi",
+      "viewpoint",
+      "shivamogga",
+      "sagara"
+    ],
+    "hook": "Raja, Rani, Roarer, Rocket: a 253 m drop.",
+    "why": "The Sharavathi drops 253 m at Jog in four named strands: Raja, Rani, Roarer and Rocket. Karnataka Tourism calls it India's second-highest plunge waterfall. The main deck at Kargal gives the full panorama, and a viewing tower opened in 2025. The British Bungalow looks across from the Siddapur side. About 1,400 steps lead to the base when they're open.",
+    "lat": 14.2253408,
+    "lng": 74.8085379,
+    "distanceKmFromManipal": 161,
+    "rideTimeFromManipal": "2h 45m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": "Talaguppa",
+        "notes": "Talaguppa is 13–18 km from the falls, but it's on the Shivamogga line, not the Konkan Railway. No sensible rail route from Udupi."
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "August to December. Karnataka Tourism rates October–December best overall.",
+    "decJanVerdict": "good",
+    "decJanNote": "Honestly: December still has a decent show, but flow depends on releases from the upstream Linganamakki dam. By January Karnataka Tourism calls it 'moderate'. Fine for photos, but not the monsoon thunder. In 2025 the main entrance was shut 1 Jan–30 Apr for development works. We found no closure notice for this winter, so verify locally.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "161 km, about 2h45m by OSRM, up the NH66 coast and then SH50 inland. Do it as an overnight: sleep in Jog, Sagara or by the Linganamakki backwaters. Parking is ₹30 for two-wheelers. Entry ₹20 (Indians), and visits are capped at 2 hours. Hours are 7:30 AM–9:30 PM (Karnataka Tourism).",
+    "safety": "The 1,400-step trek to the base is tough (45–60 minutes each way). Karnataka Tourism says it's often restricted for safety, so check on site and never go past barriers. Stay behind viewpoint railings, because the gorge edge is sheer. The Watkins Platform near the base depends on water levels and safety rules. Patchy phone signal, and the nearest hospital is in Sagara, about 30 km away. Drones need a ₹500 ticket.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/jog-falls",
+      "https://en.wikipedia.org/wiki/Jog_Falls",
+      "https://newsable.asianetnews.com/karnataka-news/jog-falls-reopens-for-tourists-on-may-1st-with-new-entry-restrictions-kmv/articleshow-a9x94w6",
+      "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Ftourists-allowed-to-see-jog-falls-from-alternative-viewpoints-3335675",
+      "https://nominatim.openstreetmap.org/search?q=Jog+Falls+viewpoint&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8085379,14.2253408?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "baba-budangiri-dattapeetha",
+    "name": "Baba Budangiri (Inam Dattatreya Peetha)",
+    "chapter": "gods",
+    "tags": [
+      "shrine",
+      "dattatreya",
+      "sufi",
+      "coffee history",
+      "chandradrona range",
+      "booking required"
+    ],
+    "hook": "Where India's first coffee seeds are said to have been planted.",
+    "why": "The Chandradrona range is where Baba Budan is said to have brought coffee from Mocha, Yemen, starting India's coffee story. His cave shrine is revered by both Hindus and Muslims as the Dattatreya Peetha and Baba Budan dargah. Manikyadhara Falls tumbles down the same hillside.",
+    "lat": 13.4320781,
+    "lng": 75.754954,
+    "distanceKmFromManipal": 189,
+    "rideTimeFromManipal": "3h 35m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Clear winter mornings. Book the 6 AM slot.",
+    "decJanVerdict": "good",
+    "decJanNote": "Same slot booking as Mullayanagiri, so do both on one pass and one morning. The shrine's status is politically sensitive (Wikipedia), so be respectful and follow on-site instructions.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": null,
+      "darshanTimings": null,
+      "annadana": null
+    },
+    "trek": null,
+    "bikeTips": "Same approach as Mullayanagiri: overnight in Chikkamagaluru, then an online vehicle pass for the 6 AM–12 or 1–6 PM slot (₹50 bike, Aug 2025). 189 km and about 3h35m from Manipal (OSRM).",
+    "safety": "Narrow hill road with weekend traffic, fog and cold mornings. Follow police and shrine instructions. Manikyadhara's rocks are slippery.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Baba_Budangiri",
+      "https://en.wikipedia.org/wiki/Bhadra_Wildlife_Sanctuary",
+      "https://www.deccanherald.com/india/karnataka/online-booking-mandatory-for-visiting-mullayyanagiri-bababudangiri-from-sept-1-3702729",
+      "https://www.nammachikmagaluru.com/post/heading-to-chikkamagaluru-s-peaks-don-t-forget-your-digital-pass",
+      "https://nominatim.openstreetmap.org/search?q=Dattatreya+Peetha%2C+Karnataka&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.754954,13.4320781?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "ayyanakere-lake",
+    "name": "Ayyanakere Lake",
+    "chapter": "heritage",
+    "tags": [
+      "lake",
+      "hoysala",
+      "irrigation tank",
+      "chikkamagaluru",
+      "sunrise"
+    ],
+    "hook": "A Hoysala-era tank still watering fields, Shakunagiri behind.",
+    "why": "Ayyanakere, near Sakharayapatna, is an old irrigation lake that local tradition credits to Rukmangada Raya, renovated by the Hoysalas in 1156. It still feeds about 1,560 hectares through ten canals. Shakunagiri hill rises behind the water, and there are almost no tourist facilities, which is half the point.",
+    "lat": 13.4433931,
+    "lng": 75.8740823,
+    "distanceKmFromManipal": 189,
+    "rideTimeFromManipal": "3h 15m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "overnight",
+    "bestTime": "Post-monsoon, when the tank is fuller. Mornings for soft light.",
+    "decJanVerdict": "ok",
+    "decJanNote": "Worth a dawn stop if you're already overnighting in Chikkamagaluru for Mullayanagiri. It's 18 km from town (Wikipedia). Not worth the ride from Manipal on its own.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "189 km / about 3h15m from Manipal (OSRM). Treat it as an add-on from Chikkamagaluru town, 18 km away.",
+    "safety": "No facilities or lifeguards. Don't swim in the tank, and keep off the slippery bund edges. Carry water.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ayyanakere",
+      "https://nominatim.openstreetmap.org/search?q=Ayyanakere%2C+Karnataka&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.8740823,13.4433931?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  }
+]

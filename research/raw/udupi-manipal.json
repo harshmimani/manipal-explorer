@@ -1,0 +1,992 @@
+[
+  {
+    "id": "manipal-end-point",
+    "name": "Manipal End Point",
+    "chapter": "ghats",
+    "tags": [
+      "viewpoint",
+      "sunset",
+      "manipal",
+      "park",
+      "quick"
+    ],
+    "hook": "Where Manipal's plateau runs out and the sky takes over.",
+    "why": "The northern lip of town. Officially it's End Point Park; unofficially, it's where students go for sunset. The Swarna river passes just north of Manipal, so the view falls away to green river country instead of concrete. Ten minutes from Tiger Circle, zero planning, a chai-and-dusk reset.",
+    "lat": 13.3700386,
+    "lng": 74.7848287,
+    "distanceKmFromManipal": 4,
+    "rideTimeFromManipal": "5m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Late afternoon to sunset. Park hours not confirmed online (verify locally).",
+    "decJanVerdict": "great",
+    "decJanNote": "Dry, clear Dec-Jan evenings make this the easiest sunset you'll get. Weekend evenings fill with students, so go on a weekday for quiet.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "A short town ride to Manipal's northern edge. Park outside the park and walk in. Opening hours and any parking fee aren't confirmed online, so verify locally.",
+    "safety": "The plateau edges are laterite and can crumble, so stay behind the railings. Ride back slowly after dark: campus roads are thick with two-wheelers and pedestrians.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Manipal",
+      "https://nominatim.openstreetmap.org/search?q=End+Point%2C+Manipal&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7848287,13.3700386?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "manipal-lake",
+    "name": "Manipal Lake (Mannapalla)",
+    "chapter": "heritage",
+    "tags": [
+      "lake",
+      "walk",
+      "boating",
+      "manipal",
+      "quick"
+    ],
+    "hook": "The 'muddy lake' that gave Manipal its name and its evening loop.",
+    "why": "The name is Tulu: Manna Palla means 'muddy lake', and the town is named after it. Today it's a freshwater circle about 500 m across, right in the middle of town, with a boating facility, joggers and students doing laps. Low effort, high mood, next door.",
+    "lat": 13.3422976,
+    "lng": 74.7856116,
+    "distanceKmFromManipal": 2,
+    "rideTimeFromManipal": "5m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Early morning or evening. Boating hours and fees not confirmed online (verify locally).",
+    "decJanVerdict": "good",
+    "decJanNote": "Cool Dec-Jan mornings are the best time for a lap. Hasta Shilpa is minutes away, so pair them.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Two kilometres from Tiger Circle. Park on the lake road and never ride onto the walking path.",
+    "safety": "No swimming. Boat only through the official facility, wearing a life jacket. Watch for joggers and kids on the path at dusk.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Manipal",
+      "https://nominatim.openstreetmap.org/search?q=Manipal+Lake&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7856116,13.3422976?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "hasta-shilpa-heritage-village",
+    "name": "Hasta Shilpa Heritage Village Museum",
+    "chapter": "heritage",
+    "tags": [
+      "museum",
+      "architecture",
+      "crafts",
+      "heritage",
+      "manipal"
+    ],
+    "hook": "Eighteen rescued old homes, rebuilt brick by brick in Manipal.",
+    "why": "An open-air museum of real dwellings moved here from Malnad, the Canara coast and North Karnataka: the Miyar House at the gate, a Mudhol palace Darbar Hall, a 13th-century Harihara shrine. Inside are textiles, utensils, Ganjifa cards, toys and folk deities. Give it two unhurried hours.",
+    "lat": 13.337986,
+    "lng": 74.7818837,
+    "distanceKmFromManipal": 2,
+    "rideTimeFromManipal": "5m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Weekday mornings. 10 am-5 pm, last ticket 3 pm per Karnataka Tourism or 3:45 pm per Outlook Traveller. Both say closed Mondays and holidays, but a Dec 2025 blog says Tuesdays, so verify locally.",
+    "decJanVerdict": "great",
+    "decJanNote": "Mostly outdoors, so the dry winter is ideal. Karnataka Tourism lists adults Rs 300, students and children over 10 Rs 150, camera Rs 250. Tickets online or at the counter.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Two kilometres from Tiger Circle, near the Alevoor-Manipal road. The map pin is OpenStreetMap's 'Old Heritage Village' point, so confirm the gate locally.",
+    "safety": "Old wooden stairs and low thresholds: mind your head and your step. Electric vehicles are available for seniors and visitors with disabilities.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/hasta-shilpa-kala-village",
+      "https://www.outlooktraveller.com/experiences/heritage/all-about-the-hasta-shilpa-heritage-village-museum-in-manipal",
+      "https://nominatim.openstreetmap.org/search?q=Heritage+Village+Manipal&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7818837,13.337986?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "udupi-sri-krishna-matha",
+    "name": "Udupi Sri Krishna Matha & the Ashta Mathas",
+    "chapter": "gods",
+    "tags": [
+      "temple",
+      "krishna",
+      "madhva",
+      "annadana",
+      "udupi",
+      "pilgrimage"
+    ],
+    "hook": "Everyone sees Krishna through the same nine holes in a wall.",
+    "why": "Darshan is through the Kanakana Kindi, a silver window with nine openings in the west wall. Legend says the idol turned to face Kanakadasa, the saint who was kept outside, and there's still no paid queue-jumping. Around the temple sit the eight Ashta Mathas (Palimaru, Admaru, Krishnapura, Puttige, Shirur, Sodhe, Kaniyoor, Pejavara), which take turns running it in two-year Paryayas. Then there's the free leaf-plate meal that made 'Udupi' a word for food.",
+    "lat": 13.341185,
+    "lng": 74.7520421,
+    "distanceKmFromManipal": 5,
+    "rideTimeFromManipal": "5m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Weekday mornings, roughly 5-7 am, for a quieter darshan (Karnataka Tourism). Around noon for prasada bhojana.",
+    "decJanVerdict": "great",
+    "decJanNote": "Peak season, so expect longer queues. Karnataka Tourism lists Makara Sankranti (mid-January) and Rathotsava among the festivals; expect crowds and processions. The next Paryaya handover is in January 2028.",
+    "vegFoodNearby": [
+      "Krishna Matha prasada bhojana (free pure-veg temple meal, ~5 km): served at noon per Wikipedia; dinner timing not confirmed online, verify locally"
+    ],
+    "temple": {
+      "dressCode": "Since 19 Jan 2026 (Shiroor Matha Paryaya, Sri Vedavardhana Tirtha): men must remove shirts and vests (a shawl is allowed) for the WHOLE day inside the Matha premises, and no bermudas. Before this, the shirt-off rule applied only until the afternoon Mahapuja. Women: no half-skirts or bermudas; saree or salwar kameez recommended, no jeans or sleeveless. Footwear outside; no photography in the main shrine.",
+      "darshanTimings": "Sources differ: 4:30 am-9:30 pm (Karnataka Tourism, trawell.in) or 5 am-9 pm (Wikipedia). Rituals pause the queue briefly. Approximate pujas: Nirmalya Visarjana ~5 am, Mahapuja ~11 am, Ratri Puja ~7:30 pm, Ekanta Seva ~8:50 pm (Wikipedia). Darshan is through the Kanakana Kindi (nine-hole window). One free queue, no paid darshan.",
+      "annadana": "Free daily prasada bhojana in the Anna Brahma tradition: you sit on the floor and eat off a leaf. Served at noon per Wikipedia. The exact lunch window and any dinner service aren't confirmed by an official source, so verify locally."
+    },
+    "trek": null,
+    "bikeTips": "Five kilometres from Tiger Circle. Car Street is packed with pedestrians, so park in the lots around Rathabeedi and walk in. Leave shoes and helmets at the stands. Udupi station is about 4 km from the city bus stand if friends come by Konkan Railway.",
+    "safety": "Crowds, and the stone floors get slippery after washing. Carry little while you're shirtless in the queue. Midday stone can be hot underfoot.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Udupi_Sri_Krishna_Matha",
+      "https://karnatakatourism.org/en/attractions/udupi-sri-krishna-temple/",
+      "https://deccanchronicle.com/southern-states/karnataka/dress-norms-to-be-followed-throughout-the-day-at-sri-krishna-math-1931366",
+      "https://shubhpanchang.com/temples/udupi-sri-krishna-temple",
+      "https://trawell.in/karnataka/udupi/udupi-sri-krishna-temple",
+      "https://en.wikipedia.org/wiki/Udupi",
+      "https://nominatim.openstreetmap.org/search?q=Krishna+Temple%2C+Udupi&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7520421,13.341185?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "udupi-car-street-night",
+    "name": "Car Street (Ratha Beedi), Udupi after dark",
+    "chapter": "heritage",
+    "tags": [
+      "night",
+      "culture",
+      "temple-town",
+      "walk",
+      "udupi"
+    ],
+    "hook": "Lamps, chants and palanquins: Udupi's temple square works late.",
+    "why": "Ratha Beedi is the square around the Krishna Matha, ringed by the Ashta Mathas' own quarters and the Anantheshwara and Chandramouleeshwara temples. Evening rituals run from Ratri Puja (about 7:30 pm) to Ekanta Seva (about 8:50 pm). The child Krishna goes round the temple in a palanquin, and the chariots come out on special occasions. Don't treat it as a sight. Wander between the mathas and let the old town do its thing.",
+    "lat": 13.340773,
+    "lng": 74.7513437,
+    "distanceKmFromManipal": 5,
+    "rideTimeFromManipal": "5m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Roughly 7-9 pm, between Ratri Puja and Ekanta Seva (Wikipedia; times approximate).",
+    "decJanVerdict": "great",
+    "decJanNote": "Cool nights, festival season, and the square peaks around Makara Sankranti in mid-January. Which nights the chariots come out isn't published online, so ask at the Matha office.",
+    "vegFoodNearby": [
+      "Krishna Matha prasada bhojana (free pure-veg temple meal, ~5 km): served at noon per Wikipedia; dinner timing not confirmed online, verify locally"
+    ],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Five kilometres from Manipal on lit town roads. Park outside the square and walk.",
+    "safety": "Festival nights are packed: watch kids and pockets. Shoes come off where the square becomes temple ground. If you go into the Matha, the dress code applies (men shirtless all day since Jan 2026).",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Udupi_Sri_Krishna_Matha",
+      "https://trawell.in/karnataka/udupi/udupi-sri-krishna-temple",
+      "https://karnatakatourism.org/en/attractions/udupi-sri-krishna-temple/",
+      "https://inditales.com/ancient-shiva-temples-of-udupi/",
+      "https://nominatim.openstreetmap.org/search?q=Car+Street%2C+Udupi&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7513437,13.340773?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "udupi-anantheshwara-chandramouleeshwara",
+    "name": "Anantheshwara & Chandramouleeshwara Temples, Udupi",
+    "chapter": "gods",
+    "tags": [
+      "temple",
+      "shiva",
+      "udupi",
+      "ancient",
+      "madhva"
+    ],
+    "hook": "Shiva first, then Krishna: Udupi's oldest bit of etiquette.",
+    "why": "Tradition says you visit these two Shiva shrines before the Krishna Matha, and the Paryaya Swamiji does too. Chandramouleeshwara sits about six feet below street level with a tilted Nandi, so you tilt your head to see the linga. Anantheshwara, credited to the 8th-century Alupas and built in Kerala style, has a 40-ft deepasthambha. Madhvacharya is said to have taught here, and to have vanished from here.",
+    "lat": 13.340778,
+    "lng": 74.7518614,
+    "distanceKmFromManipal": 5,
+    "rideTimeFromManipal": "5m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Morning, before Krishna darshan. Mondays are busy (Inditales).",
+    "decJanVerdict": "great",
+    "decJanNote": "A ten-minute add-on to the Krishna Matha. Mahashivaratri, with its nightly rathotsavas, falls outside Dec-Jan.",
+    "vegFoodNearby": [
+      "Krishna Matha prasada bhojana (free pure-veg temple meal, ~5 km): served at noon per Wikipedia; dinner timing not confirmed online, verify locally"
+    ],
+    "temple": {
+      "dressCode": "Not confirmed online for these two shrines, verify locally. Next door, the Krishna Matha requires men to stay shirtless all day (since Jan 2026).",
+      "darshanTimings": "Not confirmed. Third-party listings conflict: Anantheshwara 4:30 am-9 pm, or 4:30-11:30 am and 6-9 pm; Chandramouleeshwara opening 5 or 6 am, closing 7, 8 or 9 pm. Verify locally.",
+      "annadana": "No separate annadana found. Use the Krishna Matha's prasada bhojana next door."
+    },
+    "trek": null,
+    "bikeTips": "Same parking as the Krishna Matha. Both are on the square; Chandramouleeshwara is directly opposite the Matha.",
+    "safety": "Steps lead down into Chandramouleeshwara, and the smooth granite floors are slippery when wet.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Anantheshwara_Temple,_Udupi",
+      "https://inditales.com/ancient-shiva-temples-of-udupi/",
+      "https://en.wikipedia.org/wiki/Udupi_Sri_Krishna_Matha",
+      "https://nominatim.openstreetmap.org/search?q=Anantheshwara+Temple%2C+Udupi&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7518614,13.340778?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "pajaka-kshetra",
+    "name": "Pajaka Kshetra (Madhvacharya's birthplace)",
+    "chapter": "gods",
+    "tags": [
+      "madhva",
+      "pilgrimage",
+      "village",
+      "temple",
+      "dvaita"
+    ],
+    "hook": "The village where Madhvacharya was born, still full of his legends.",
+    "why": "A green village south-east of Udupi, with a small shrine that holds Madhvacharya's footprint. The stories are all around it: the Vasudeva Teertha pond he's said to have made for his mother, and the tamarind tree whose seeds became coins to clear his father's debt. Kunjarugiri hill is a kilometre or two away; legend says he leapt home from it.",
+    "lat": 13.2711083,
+    "lng": 74.791444,
+    "distanceKmFromManipal": 19,
+    "rideTimeFromManipal": "20m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Morning, combined with Kunjarugiri. Shrine timings not confirmed online (verify locally).",
+    "decJanVerdict": "good",
+    "decJanNote": "A pleasant dry-season ride through paddy. No Dec-Jan festival confirmed online.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": "Not confirmed online, verify locally.",
+      "darshanTimings": "Not confirmed online, verify locally.",
+      "annadana": "Not confirmed online, verify locally."
+    },
+    "trek": null,
+    "bikeTips": "An easy 20-minute ride on village roads. Climb Kunjarugiri first, then roll down to Pajaka.",
+    "safety": "Narrow village lanes with blind bends, buses and cattle. The ponds have no railings, so watch kids.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pajaka",
+      "https://www.nativeplanet.com/travel-guide/one-day-trip-at-kunjarugiri-in-udupi-003292.html",
+      "https://en.wikipedia.org/wiki/Kunjarugiri",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.791444,13.2711083?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kunjarugiri-durga-temple",
+    "name": "Kunjarugiri Durga Temple (Durga Betta)",
+    "chapter": "gods",
+    "tags": [
+      "temple",
+      "durga",
+      "hill",
+      "steps",
+      "view",
+      "madhva"
+    ],
+    "hook": "A short stair climb to Durga, with the coastal plain below.",
+    "why": "A hilltop Durga shrine credited to Parashurama, ringed by four ponds named after his weapons: Dhanus, Gada, Bana and Parashu. The goddess is under two feet tall; the view from the top is huge. Young Madhvacharya is said to have climbed up every day, and his footprints are worshipped in a rock cave.",
+    "lat": 13.2708286,
+    "lng": 74.7988642,
+    "distanceKmFromManipal": 16,
+    "rideTimeFromManipal": "20m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Early morning or late afternoon. Temple hours not confirmed online (verify locally).",
+    "decJanVerdict": "great",
+    "decJanNote": "Clear dry-season views and an easy climb of about 15 minutes. Step counts vary by source, from 100+ to 250-300. Parashurama Betta is next door.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": "Not confirmed online, verify locally.",
+      "darshanTimings": "Not confirmed online, verify locally.",
+      "annadana": "Not confirmed online, verify locally."
+    },
+    "trek": null,
+    "bikeTips": "Native Planet reports ample parking and clean restrooms at the temple. Go before noon, while the steps are still cool.",
+    "safety": "The stone steps are shadeless in places, so carry water. The ponds around the hill are deep; stay off the edges.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kunjarugiri",
+      "https://www.nativeplanet.com/travel-guide/one-day-trip-at-kunjarugiri-in-udupi-003292.html",
+      "https://nominatim.openstreetmap.org/search?q=Kunjarugiri&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7988642,13.2708286?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kemmannu-hanging-bridge-hoode",
+    "name": "Kemmannu Hanging Bridge & Hoode backwaters",
+    "chapter": "coast",
+    "tags": [
+      "backwaters",
+      "suspension-bridge",
+      "swarna",
+      "sunset",
+      "kayaking"
+    ],
+    "hook": "A wobbly footbridge onto an island in the Swarna backwaters.",
+    "why": "A narrow suspension bridge (search 'Thimmana Kudru Hanging Bridge') swings out to an island where the Swarna nears the sea at Hoode. Coconut palms, canoes, still water. Kayak operators wait on the far side, and Hoode beach and the Kodi Bengre spit are minutes further on.",
+    "lat": 13.4007564,
+    "lng": 74.7091185,
+    "distanceKmFromManipal": 14,
+    "rideTimeFromManipal": "15m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Morning, or the hour before sunset.",
+    "decJanVerdict": "great",
+    "decJanNote": "Post-monsoon you can just walk in, with kayaks on the water all day (eNidhi). Calm, clear and cool.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Take the Udupi-Santhekatte-Hoode beach road and turn for Kemmannu about 1.5 km before Hoode beach. The last kilometre is narrow, which suits a bike.",
+    "safety": "Don't crowd or bounce the bridge; its load limit isn't confirmed online, so follow any posted signs. The island has private properties, so stay on the paths. Wear a life jacket if you paddle.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://enidhi.net/2020/07/kayaking-adventure-suvarna-river-watersports-kemmannu-near-udupi.html",
+      "https://enidhi.net/2022/03/kodi-bengre-delta-beach-10-things-to-do.html",
+      "https://karnatakatourism.org/experiences/kayaking-in-udupi-backwaters",
+      "https://nominatim.openstreetmap.org/search?q=Kemmannu&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7091185,13.4007564?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "swarna-river-kayaking",
+    "name": "Swarna River kayaking (Kemmannu & Thonse-Hoode)",
+    "chapter": "coast",
+    "tags": [
+      "kayaking",
+      "backwaters",
+      "mangroves",
+      "birds",
+      "swarna"
+    ],
+    "hook": "Paddle mangrove channels with egrets, mudskippers and the odd otter.",
+    "why": "The Swarna's tidal backwaters around Kemmannu and Thonse-Hoode are shallow, slow and lined with mangroves. Expect egrets, herons, crabs and mudskippers, and sometimes otters. Most outfits use double kayaks, with an operator paddling alongside. Thirty minutes is plenty for most people; sessions also run to about 1.5 hours.",
+    "lat": 13.4007564,
+    "lng": 74.7091185,
+    "distanceKmFromManipal": 14,
+    "rideTimeFromManipal": "15m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Early morning or evening (Karnataka Tourism).",
+    "decJanVerdict": "great",
+    "decJanNote": "Walk-in season. The only prices found come from a 2020 blog updated in 2022: Rs 100 per half hour or Rs 200 per hour, some operators down to Rs 50 per 30 min (eNidhi). Treat them as dated and verify locally. Named operators: Watersports/Water Adventures Kemmannu (eNidhi); Kemmannu Riverside Adventures, plus a Thonse-Hoode mangrove kayaking outfit (Karnataka Tourism).",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Ride to the Kemmannu hanging bridge; the put-in is across it. There are no lockers or changing rooms (eNidhi), so leave valuables with the bike.",
+    "safety": "Life jacket on, always. Keep away from the strong currents near the river mouth and follow the operator's line. Use a dry bag; capsizes happen.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://enidhi.net/2020/07/kayaking-adventure-suvarna-river-watersports-kemmannu-near-udupi.html",
+      "https://karnatakatourism.org/experiences/kayaking-in-udupi-backwaters",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7091185,13.4007564?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "malpe-beach-sea-walk",
+    "name": "Malpe Beach & Sea Walk",
+    "chapter": "coast",
+    "tags": [
+      "beach",
+      "sunset",
+      "promenade",
+      "water-sports",
+      "malpe"
+    ],
+    "hook": "Udupi's big beach, plus a promenade walking out to sea.",
+    "why": "A wide sweep of sand with jet skis, parasailing and banana boats in season. The Sea Walk is about 450 m of promenade with the sea on one side and the Swarna backwaters on the other. You'll find the fisherman-family sculpture there, plus the St. Mary's boats and lamps after dark.",
+    "lat": 13.362013,
+    "lng": 74.6978648,
+    "distanceKmFromManipal": 12,
+    "rideTimeFromManipal": "10m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Sunset. Main beach 6 am-7 pm; Sea Walk and floating bridge 8 am-6 pm; water sports 9 am-6 pm (Karnataka Tourism; subject to change).",
+    "decJanVerdict": "great",
+    "decJanNote": "Karnataka Tourism rates Oct-Jan best: calm seas, everything running. Water sports and island boats restarted on 18 Sept 2026 (News Karnataka). Sea Walk entry is about Rs 20.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Twelve kilometres, an easy ride via Udupi. Weekend evenings jam up near the Sea Walk, so arrive by 4:30 pm.",
+    "safety": "Swim only in designated zones near lifeguards; lifeguards and tourist mitras are deployed (News Karnataka, Sept 2026). Never enter the water from the Sea Walk (Karnataka Tourism). The beach is barricaded in the monsoon for rough seas.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/malpe-beach/",
+      "https://en.wikipedia.org/wiki/Malpe",
+      "https://newskarnataka.com/udupi/malpe-beach-reopens-as-water-sports-st-marys-island-trips-resume/20092026/",
+      "https://nominatim.openstreetmap.org/search?q=Malpe+Beach&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6978648,13.362013?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "st-marys-island",
+    "name": "St. Mary's Island (Thonsepar)",
+    "chapter": "coast",
+    "tags": [
+      "island",
+      "geology",
+      "basalt",
+      "boat",
+      "malpe"
+    ],
+    "hook": "Hexagonal lava columns, ~90 million years old, a short boat ride out.",
+    "why": "Four small uninhabited islands of columnar basalt, with hexagonal pillars up to about 6 m tall, dated to roughly 85-90 million years. They're a National Geological Monument. The rock looks stacked by an engineer, and the inner beach has palms for shade.",
+    "lat": 13.3794,
+    "lng": 74.6731,
+    "distanceKmFromManipal": 12,
+    "rideTimeFromManipal": "10m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "day",
+    "bestTime": "The first boats of the morning, before the heat and the crowds.",
+    "decJanVerdict": "great",
+    "decJanNote": "Ferries run Oct-May (Karnataka Tourism) and restarted on 18 Sept 2026 (News Karnataka). Boats leave about every 20 min, 9 am-5:30 pm (Wikipedia), and take about 30 min. Karnataka Tourism lists the fare at about Rs 400-600 return; verify locally.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Distance and ride time are to Malpe beach and the Sea Walk, where you board. Park there and buy tickets at the jetty counter.",
+    "safety": "Daylight only; no overnight stays. Don't climb the basalt columns: they're protected and sharp-edged. Swim only in designated safe zones. Shade and facilities are scarce, so carry water. Boats are cancelled in rough seas.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/St._Mary%27s_Islands",
+      "https://karnatakatourism.org/en/attractions/st-marys-island/",
+      "https://karnatakatourism.org/en/attractions/malpe-beach/",
+      "https://newskarnataka.com/udupi/malpe-beach-reopens-as-water-sports-st-marys-island-trips-resume/20092026/",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6978648,13.362013?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kaup-beach-lighthouse",
+    "name": "Kaup (Kapu) Beach & Lighthouse",
+    "chapter": "coast",
+    "tags": [
+      "beach",
+      "lighthouse",
+      "sunset",
+      "rocks"
+    ],
+    "hook": "A 1901 lighthouse on black rocks, open around sunset.",
+    "why": "The British built this 27 m lighthouse in 1901 on a rock outcrop right above the sand. From the top on a clear evening, the coast runs both ways and the sun drops straight into the sea. Below, a shallow river mouth is good for paddling ankles. Kapu town also has the Hale and Hosa Marigudi shrines.",
+    "lat": 13.223927,
+    "lng": 74.7368225,
+    "distanceKmFromManipal": 23,
+    "rideTimeFromManipal": "25m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "4-6 pm, when the lighthouse climb is reportedly open (eNidhi, 2022); verify locally.",
+    "decJanVerdict": "great",
+    "decJanNote": "Clear skies, proper sunsets. Weekend evenings are crowded and you may park a walk away. A small fee is charged to go to the top; the amount isn't confirmed, so verify locally.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "About 25 min straight down NH66 via Udupi and Katapadi. Bike parking is paid. NH66 has fast trucks and buses, so avoid riding it at night.",
+    "safety": "The rocks are wet and slippery; stay off the outer ones at high tide. The river mouth turns dangerous at high tide (eNidhi). The lighthouse stairs are narrow and steep. Swim only where police or lifeguards are on duty.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kapu,_Udupi",
+      "https://www.enidhi.net/2022/03/kapu-lighthouse-beach-visitor.html",
+      "https://karnatakatourism.org/en/attractions/kapu-beach/",
+      "https://nominatim.openstreetmap.org/search?q=Kaup+Lighthouse&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7368225,13.223927?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "delta-beach-kodi-bengre",
+    "name": "Delta Beach (Kodi Bengre)",
+    "chapter": "coast",
+    "tags": [
+      "beach",
+      "estuary",
+      "sunset",
+      "sandbar",
+      "swarna"
+    ],
+    "hook": "A thin sand spit where the Swarna finally meets the sea.",
+    "why": "Ride down a long sand spit, river on one side, sea on the other, until the road gives out. The Swarna estuary is scattered with small kudru islands, fishing boats and birds, and the sunset light is ridiculous. Few facilities, huge views.",
+    "lat": 13.4458212,
+    "lng": 74.6938933,
+    "distanceKmFromManipal": 21,
+    "rideTimeFromManipal": "30m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Sunrise or sunset; October-April is the season (Karnataka Tourism).",
+    "decJanVerdict": "great",
+    "decJanNote": "Peak conditions. Do it on the same road as Kemmannu and Hoode. Amenities are thin, so bring water.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Go via Santhekatte and Hoode; the Hoode-Kodi Bengre road is narrow (eNidhi). Alternatively, take the ferry or barge from Hangarakatte across the river. It runs daytime only with limited frequency; verify times locally.",
+    "safety": "Strong currents at the river mouth and estuary, so don't swim there (Karnataka Tourism). Respect the fishing boats and nets. Don't get stranded on the Hangarakatte side after the last ferry.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/delta-beach-udupi-district",
+      "https://enidhi.net/2022/03/kodi-bengre-delta-beach-10-things-to-do.html",
+      "https://nominatim.openstreetmap.org/search?q=Delta+Beach&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6938933,13.4458212?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "mattu-beach",
+    "name": "Mattu Beach",
+    "chapter": "coast",
+    "tags": [
+      "beach",
+      "quiet",
+      "coconut-groves",
+      "estuary",
+      "sunset"
+    ],
+    "hook": "Coconut groves, an estuary, and the GI-tagged Mattu Gulla brinjal.",
+    "why": "A quiet beach near Katapadi, backed by coconut groves, with the Pangala river mouth close by and St. Mary's visible offshore. The fields around grow Mattu Gulla, the round green brinjal with its own GI tag. It's the cure for Malpe's weekend crowds.",
+    "lat": 13.2711323,
+    "lng": 74.7296777,
+    "distanceKmFromManipal": 16,
+    "rideTimeFromManipal": "20m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Sunset (Karnataka Tourism). No posted timings.",
+    "decJanVerdict": "good",
+    "decJanNote": "Calm and quiet. Mattu Gulla's harvest season isn't confirmed online; ask locally if you want to see it growing.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Off NH66 at Katapadi, then village roads. The map pin is Mattu village (OpenStreetMap); the beach is at the sea end.",
+    "safety": "Lifeguards may not be on duty (Karnataka Tourism), so don't swim. The estuary has currents. Keep clear of fishing boats.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/mattu-beach",
+      "https://nominatim.openstreetmap.org/search?q=Mattu%2C+Udupi&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7296777,13.2711323?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "padubidri-blue-flag-beach",
+    "name": "Padubidri Blue Flag Beach",
+    "chapter": "coast",
+    "tags": [
+      "beach",
+      "blue-flag",
+      "clean",
+      "family"
+    ],
+    "hook": "Karnataka's ticketed, swept-clean Blue Flag beach.",
+    "why": "One of India's first eight Blue Flag beaches, certified in 2020 along with Kasarkod. It's managed sand: watch towers, changing rooms, a garden walking track, solar lights, and a view towards the Hejamadi delta. The certified stretch is fenced, about 1.5 km south of the free main Padubidri beach, so don't mix them up.",
+    "lat": 13.13194,
+    "lng": 74.76222,
+    "distanceKmFromManipal": 32,
+    "rideTimeFromManipal": "35m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Padubidri (Konkan Railway)",
+        "notes": "Wikipedia names Padubidri as the nearest railway station. Train timings and station-to-beach transport not checked; verify locally."
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Reported open 9 am-6 pm (eNidhi, 2021); verify locally.",
+    "decJanVerdict": "good",
+    "decJanNote": "Clean and calm, but ticketed: Rs 30 entry and Rs 20-50 parking in 2021, likely changed since. No source opened confirms this season's Blue Flag status, so verify locally. No source used the name 'End Point beach'.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Thirty-five minutes down NH66 past Kaup. Stop at Kaup lighthouse on the way back for sunset.",
+    "safety": "Swim only in designated zones and follow the signage (Karnataka Tourism). NH66 traffic is heavy and fast, so avoid riding back after dark.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Padubidri_Beach",
+      "https://karnatakatourism.org/en/attractions/padubidri-beach-udupi-district",
+      "https://www.enidhi.net/2021/01/padubidris-blue-flag-rated-beach-what.html",
+      "https://www.sanskritiias.com/current-affairs/blue-flag-certification-202627-three-maharashtra-beaches-receive-international-recognition",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.76222,13.13194?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "brahmavar",
+    "name": "Brahmavar (and why you'd stop)",
+    "chapter": "heritage",
+    "tags": [
+      "town",
+      "backwaters",
+      "hub",
+      "honest"
+    ],
+    "hook": "Honestly? A highway town. Its value is what's next door.",
+    "why": "Brahmavar is a taluk town on NH66, and no source checked names a headline sight in the town itself. Its value is location. The Suvarna and Sita rivers form backwaters here before meeting the sea at Hangarakatte, where a ferry crosses to Kodi Bengre. Barkur, the old Alupa capital, is 3 km away, and Mandarthi and Saligrama are short hops.",
+    "lat": 13.4375352,
+    "lng": 74.7453972,
+    "distanceKmFromManipal": 16,
+    "rideTimeFromManipal": "15m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "As a pass-through on a Barkur-Mandarthi-Saligrama loop.",
+    "decJanVerdict": "ok",
+    "decJanNote": "Nothing in Brahmavar itself is worth a dedicated trip. Do the loop instead: Barkur ruins, Mandarthi temple, Saligrama.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Thirteen kilometres north of Udupi on NH66. Turn off for Hangarakatte if you want the ferry to Kodi Bengre (daytime only; verify times).",
+    "safety": "NH66 junctions here are busy with buses and trucks. Take care at U-turns, especially at night.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brahmavar",
+      "https://en.wikipedia.org/wiki/Barkur",
+      "https://enidhi.net/2022/03/kodi-bengre-delta-beach-10-things-to-do.html",
+      "https://nominatim.openstreetmap.org/search?q=Brahmavar&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7453972,13.4375352?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "barkur",
+    "name": "Barkur, the old Alupa capital",
+    "chapter": "heritage",
+    "tags": [
+      "ruins",
+      "jain",
+      "fort",
+      "history",
+      "alupa"
+    ],
+    "hook": "A forgotten capital: Jain pillars, fort ruins, temples in the paddy.",
+    "why": "Barkur was the Alupa capital, and later a Vijayanagara province. What survives is scattered: the ruined Kattale Basadi Jain complex with a 20-ft monolithic pillar, the Panchalingeshwara temple, the roughly 900-year-old Chowlikere Ganapathy, and fort ruins with posts once used to tie elephants. Archaeology without crowds or signboards.",
+    "lat": 13.4667,
+    "lng": 74.7497,
+    "distanceKmFromManipal": 21,
+    "rideTimeFromManipal": "25m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Morning, before the heat. Site timings not confirmed online (verify locally).",
+    "decJanVerdict": "good",
+    "decJanNote": "Dry and walkable. Pair it with Mandarthi temple, a short ride up the same road.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Three kilometres from Brahmavar on the Barkur-Mandarthi road. The lanes between sites are narrow; ask locals for Kattale Basadi.",
+    "safety": "Ruins are uneven with loose stone, and snakes can be in the long grass. Don't climb on the monuments.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barkur",
+      "https://nominatim.openstreetmap.org/search?q=Barkur&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7497,13.4667?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "saligrama-guru-narasimha",
+    "name": "Saligrama Guru Narasimha Temple",
+    "chapter": "gods",
+    "tags": [
+      "temple",
+      "narasimha",
+      "nh66",
+      "ratha"
+    ],
+    "hook": "A yogic Narasimha carved from saligrama stone, right on NH66.",
+    "why": "Narasimha sits here in yoga posture, calm rather than ferocious, carved in saligrama stone and dated to around the 8th century. The Kota Brahmins of 14 villages treat him as their guru. A Hanuman faces the shrine, and there are two temple tanks: Chakra and Shankha Theertha.",
+    "lat": 13.4987,
+    "lng": 74.7117663,
+    "distanceKmFromManipal": 25,
+    "rideTimeFromManipal": "25m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Morning darshan.",
+    "decJanVerdict": "great",
+    "decJanNote": "Wikipedia puts the Ratharohana (chariot festival) on 16 January, Uttarayana Sankranti, which is inside your window. Verify the 2027 date locally.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": "Not confirmed online, verify locally.",
+      "darshanTimings": "5:30 am-1 pm and 4-8 pm (Chitra's blog, Feb 2026); verify locally.",
+      "annadana": "No regular annadana confirmed online, verify locally."
+    },
+    "trek": null,
+    "bikeTips": "Twenty-five minutes north on NH66, and the temple is right on the highway. Karnataka Tourism lists U-like Mangrove Kayaking near Saligrama if you want a paddle.",
+    "safety": "Crossing NH66 on foot is dangerous. Use the proper turn and park on the temple side.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Guru_Narasimha_Temple,_Saligrama",
+      "https://chitra-myblog.blogspot.com/2026/02/sri-guru-narasimha-temple-saligrama.html",
+      "https://karnatakatourism.org/experiences/kayaking-in-udupi-backwaters",
+      "https://nominatim.openstreetmap.org/search?q=Guru+Narasimha+Temple&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7117663,13.4987?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "mandarthi-durgaparameshwari",
+    "name": "Mandarthi Sri Durgaparameshwari Temple",
+    "chapter": "gods",
+    "tags": [
+      "temple",
+      "durga",
+      "yakshagana",
+      "annadana",
+      "village"
+    ],
+    "hook": "Durga's temple, with five Yakshagana troupes of her own.",
+    "why": "A big village Durga temple in the paddy north of Udupi. It runs five Yakshagana melas, each with about 45 members and its own bus, staging the Ramayana and Mahabharata as devotees' vow offerings. If you've never seen Yakshagana up close, this is its home ground.",
+    "lat": 13.4982574,
+    "lng": 74.8103269,
+    "distanceKmFromManipal": 31,
+    "rideTimeFromManipal": "40m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Morning darshan, then stay for the free afternoon prasadam.",
+    "decJanVerdict": "good",
+    "decJanNote": "The annual festival (February) and Kumbha Sankramana both fall outside the window. Mela schedules aren't online; call the temple on 0820-2568433 to find a show.",
+    "vegFoodNearby": [
+      "Temple prasadam (free, at the temple): afternoon 12:30-3 pm per the official site; dinner reportedly 8 pm (Mangalore Heritage), verify locally"
+    ],
+    "temple": {
+      "dressCode": "Not confirmed online, verify locally.",
+      "darshanTimings": "5:30 am-8 pm on regular days; to 9:15 pm on Ranga Pooja seva days; 24 hours on Kumbha Masa Sankramana (official site).",
+      "annadana": "Free prasadam 12:30-3 pm (official site). Dinner reportedly 8 pm (Mangalore Heritage); verify locally."
+    },
+    "trek": null,
+    "bikeTips": "About 40 min via Brahmavar and Barkur on the Barkur-Mandarthi road. Two-wheeler parking at the temple. Buses every 30 min from Udupi and Brahmavar.",
+    "safety": "Narrow rural roads with buses, so ride slowly through villages. Don't ride home sleepy after an all-night Yakshagana; the temple has a 20-room guest house.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://mandarthidurgaparameshwari.com/",
+      "https://mandarthidurgaparameshwari.com/mandarthi-facilities",
+      "https://mandarthidurgaparameshwari.com/mandarthi-yakshagana",
+      "https://mangaloreheritage.com/temples/mandarthi-durgaparameshwari/",
+      "https://nominatim.openstreetmap.org/search?q=Durgaparameshwari+Temple%2C+Mandarthi&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8103269,13.4982574?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "karkala-bahubali-chaturmukha-basadi",
+    "name": "Karkala: Gommateshwara (Bahubali) & Chaturmukha Basadi",
+    "chapter": "heritage",
+    "tags": [
+      "jain",
+      "monolith",
+      "basadi",
+      "history",
+      "karkala"
+    ],
+    "hook": "A 42-foot monolith from 1432, and a temple with four front doors.",
+    "why": "Bahubali stands 42 ft (13 m) on a granite hill. He was installed on 13 Feb 1432 under King Veera Pandya; the Brahmadeva pillar was added in front in 1436. On a nearby rock, the 1586 Chaturmukha Basadi is fully symmetrical: four identical entrances, 108 granite pillars, and life-size Tirthankaras facing every direction. Karkala's lakes, Anekere with its Kere Basadi and Ramasamudra, round off the day.",
+    "lat": 13.2037564,
+    "lng": 75.005566,
+    "distanceKmFromManipal": 36,
+    "rideTimeFromManipal": "45m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": null
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Early morning (Karnataka Tourism). Timings not confirmed online (verify locally).",
+    "decJanVerdict": "great",
+    "decJanNote": "Winter is right for the barefoot climb. The Attur (St. Lawrence) church feast nearby in January draws big crowds of every faith (Wikipedia), so expect Karkala traffic around then.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": "Dress modestly; footwear off before entering (Karnataka Tourism, Chaturmukha Basadi).",
+      "darshanTimings": "Not confirmed online, verify locally.",
+      "annadana": "Not confirmed online, verify locally."
+    },
+    "trek": null,
+    "bikeTips": "About 45 min inland from Manipal. The basadi is 1.6 km from Karkala town centre. The climb to Bahubali is short, so go early, before the rock heats up.",
+    "safety": "Granite gets very hot by midday and slippery with dew. Some steps are narrow with no railings. No climbing on statues; these are active places of worship.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Karkala",
+      "https://karnatakatourism.org/en/attractions/chaturmukha-basadi/",
+      "https://nominatim.openstreetmap.org/search?q=Gomateshwara+statue+Karkala&format=json&limit=3",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.005566,13.2037564?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  }
+]

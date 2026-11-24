@@ -1,0 +1,767 @@
+[
+  {
+    "id": "sasihithlu-beach",
+    "name": "Sasihithlu Beach (Mulki)",
+    "chapter": "coast",
+    "tags": ["beach", "surfing", "river-mouth", "sunset", "mulki"],
+    "hook": "Two rivers, one sandbar, and Karnataka's original surf break",
+    "why": "The Shambhavi and Nandini rivers meet the sea here, and the shifting sandbars at the mouth shape the waves. This is where Mantra Surf Club started in 2004 and where the Indian Open of Surfing has been held. Come for a lesson in the morning, or just sit on the spit and watch the river and the sea argue.",
+    "lat": 13.0649204,
+    "lng": 74.7784424,
+    "distanceKmFromManipal": 46,
+    "rideTimeFromManipal": "0h 50m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mulki (Konkan Railway)",
+        "notes": "Karnataka Tourism puts Mulki station about 5 km from Mulki beach; take an auto onward. Few trains stop at Mulki, so check NTES/IRCTC. Mangaluru Central is about 23 km away."
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Nov–Apr for surf (Karnataka Tourism); early morning for lessons, late afternoon for light.",
+    "decJanVerdict": "great",
+    "decJanNote": "Peak surf season and dry weather. Book a beginner session with a surf school, stay inside the instructor's zone, and keep clear of the river mouth where the current pulls hardest.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "NH66 south via Padubidri, then turn west towards Sasihitlu village; the coordinates are Sasihitlu Road (OSM), so follow local signs the last stretch to the sand. Flat, easy ride. Amenities are basic, so carry water (Karnataka Tourism).",
+    "safety": "Strong currents near the river mouth (Karnataka Tourism). A 23-year-old drowned at Sasihithlu Mooda beach in Aug 2025 after being swept by waves; authorities warn against entering deep water in rough seas. Swim or surf only with a surf school or where lifeguards are posted; don't wade near the delta, at dusk or after a drink. District beach-water restrictions are imposed during the monsoon and after drownings; check for current notices locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/sasihithlu-beach-mangaluru",
+      "https://karnatakatourism.org/attractions/mulki-beach-mangaluru",
+      "https://www.lonelyplanet.com/articles/best-surfing-in-india",
+      "https://caravanmagazine.in/lede/rising-aspirations-india-first-surfing-hotspot",
+      "https://newskarnataka.com/mangaluru/youth-drowns-at-sasihithlu-mooda-beach-three-rescued/25082025/",
+      "https://nominatim.openstreetmap.org/search?q=Sasihitlu&format=json&limit=4&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.7784424,13.0649204?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "someshwara-beach-ullal",
+    "name": "Someshwara Beach (Ullal)",
+    "chapter": "coast",
+    "tags": ["beach", "rocks", "sunset", "shiva-temple", "ullal"],
+    "hook": "Black rocks, a seaside Shiva temple and waves you watch, not swim",
+    "why": "A cluster of black boulders called Rudra Paade (Rudra Shile) juts into the surf, and the Someshwara Shiva temple sits right by the shore. Legend says Sage Sukadeva meditated on these rocks. Climb up for sunset, keep your shoes on, and enjoy the spray from a safe height.",
+    "lat": 12.7853663,
+    "lng": 74.8555375,
+    "distanceKmFromManipal": 75,
+    "rideTimeFromManipal": "1h 20m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mangaluru Central",
+        "notes": "Karnataka Tourism puts Mangaluru Central about 15 km away; bus, auto or taxi onward via Ullal."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Early morning or late afternoon (Karnataka Tourism); low tide shows more of the rocks.",
+    "decJanVerdict": "good",
+    "decJanNote": "Clear winter sunsets and dry rocks make this a lovely end to a Mangaluru day. It is a looking beach, not a swimming one. Pair it with Mangaladevi temple on the way back.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "NH66 all the way through Mangaluru, cross the Netravati bridge and turn off for Ullal/Someshwara. City traffic through Mangaluru adds time; avoid the evening rush on NH66. Coordinates are Someshwara locality (OSM); the beach is at its western edge.",
+    "safety": "Swimming is not advised: hidden rocks and strong currents near Rudra Shile (Karnataka Tourism; Wikipedia). A young doctor died in Sept 2023 after slipping off the Rudrapade rocks into the sea. Stay off wet, wave-washed rocks, especially at high tide and after dark. Little shade: carry water and sun protection.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/someshwara-beach",
+      "https://en.wikipedia.org/wiki/Someshwar_Beach",
+      "https://udayavani.com/?p=1528492",
+      "https://mangaloreheritage.com/beach/someshwara-beach/",
+      "https://nominatim.openstreetmap.org/search?q=Someshwara&format=json&limit=8&viewbox=74.82,12.83,74.87,12.76&bounded=1",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8555375,12.7853663?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "panambur-beach",
+    "name": "Panambur Beach",
+    "chapter": "coast",
+    "tags": ["beach", "lifeguards", "water-sports", "port-views", "family"],
+    "hook": "Mangaluru's busy, lifeguarded beach with ships queuing on the horizon",
+    "why": "Wide sand, patrol vehicles, lifeguards, and cargo ships waiting off New Mangalore Port. Jet skis, parasailing and boat rides run in season, and the district holds its Karavali Utsav beach festival and an international kite festival here. It is loud and lively, so come for people-watching and sunset, not solitude.",
+    "lat": 12.9373062,
+    "lng": 74.8042355,
+    "distanceKmFromManipal": 55,
+    "rideTimeFromManipal": "0h 55m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Surathkal (Konkan Railway)",
+        "notes": "Wikipedia gives Surathkal station 6 km and Mangaluru Central 14 km from the beach; auto or city bus onward."
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Day visitors 8 AM–7 PM (Karnataka Tourism); go for the last two hours before sunset.",
+    "decJanVerdict": "great",
+    "decJanNote": "Dry, clear evenings and the water sports operating outside the monsoon. Weekends and the Christmas–New Year week get crowded. Karavali Utsav and kite-festival dates change each year, so check local news before you plan around them.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Straight down NH66 past Surathkal; the beach turn-off is just before NMPT. Watch for port trucks and container traffic on this stretch of highway, especially at the Panambur and Baikampady junctions.",
+    "safety": "Lifeguards and patrol vehicles on duty; sea entry can be prohibited when currents are strong (Karnataka Tourism). Walking on the port breakwater rocks is forbidden (Wikipedia). All water sports are suspended in the monsoon (June 2026 notice). Stay within the flagged swimming zone and leave by 7 PM.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/tour-item/panambur-beach/",
+      "https://en.wikipedia.org/wiki/Panambur_Beach",
+      "https://newskarnataka.com/mangaluru/monsoon-safety-rules-in-place-at-mangaluru-beaches/18062026/",
+      "https://nominatim.openstreetmap.org/search?q=Panambur+Beach&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8042355,12.9373062?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "tannirbhavi-beach",
+    "name": "Tannirbhavi Beach & Sultan Battery ferry",
+    "chapter": "coast",
+    "tags": ["beach", "ferry", "lifeguards", "tree-park", "sunset"],
+    "hook": "Take a five-minute river ferry to a calmer Mangaluru beach",
+    "why": "You can ride to Tannirbhavi via Kuloor bridge, but it is more fun to leave the bike near Sultan Battery and take the small ferry across the Gurupura river. A path through trees then drops you onto a long, quieter stretch of sand with lifeguards. Tannirbhavi Tree Park (15 acres) is next door if you want shade.",
+    "lat": 12.9080902,
+    "lng": 74.8101698,
+    "distanceKmFromManipal": 60,
+    "rideTimeFromManipal": "1h 0m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mangaluru Central",
+        "notes": "From Mangaluru Central take an auto (or city bus 16/16A from Statebank, per Wikipedia) to Sultan Battery, then the ferry across the Gurupura river."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Oct–Feb (Karnataka Tourism); weekday afternoons are quietest.",
+    "decJanVerdict": "great",
+    "decJanNote": "Calm, clear and pleasant. Do the ferry one way at golden hour. Ferry timings and fares aren't published officially, so ask at the Sultan Battery jetty and don't miss the last boat back.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "By road: NH66 to Kuloor, then the Tannirbhavi road down the spit (watch for port and industrial traffic). By ferry: ride to Sultan Battery in Boloor (OSRM about 62 km, 1h from Manipal), park, and cross on foot. Ferry fare is reported at about ₹15 per person on travel blogs; not confirmed officially, so verify locally.",
+    "safety": "Lifeguards on duty during the day, but tides change quickly (Karnataka Tourism). Strong waves and currents put Tannirbhavi on the district's monsoon high alert, with water activities suspended in season (June 2026). Swim only in front of lifeguards and not after sunset. The Blue Flag certification has been in progress for years; no official confirmation that it has been awarded.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tannirbhavi_Beach",
+      "https://www.karnatakatourism.org/tour-item/tannirbhavi-beach/",
+      "https://newskarnataka.com/mangaluru/monsoon-safety-rules-in-place-at-mangaluru-beaches/18062026/",
+      "https://udayavani.com/english-news/mangaluru-tannirbhavi-beach-to-maintain-blue-flag-standards-says-deputy-commissioner-muhilan",
+      "https://southindiaplacestovisit.blogspot.com/2023/05/tannirbhavi-beach-mangalore-very.html",
+      "https://nominatim.openstreetmap.org/search?q=Tannirbhavi+Beach&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8101698,12.9080902?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kateel-durgaparameshwari-temple",
+    "name": "Kateel Sri Durgaparameshwari Temple",
+    "chapter": "gods",
+    "tags": ["temple", "devi", "river-islet", "yakshagana", "annadana"],
+    "hook": "Devi on a river islet, and Yakshagana that runs till midnight",
+    "why": "The shrine sits on an islet in the Nandini river among paddy fields. Kateel's Yakshagana mela now has seven troupes, more than any other organisation, and they play about 180 shows each a season from November to May. Arrive for evening darshan, eat the temple meal, then find where a Kateel troupe is performing that night.",
+    "lat": 13.0438238,
+    "lng": 74.8701417,
+    "distanceKmFromManipal": 50,
+    "rideTimeFromManipal": "0h 50m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mangaluru Central / Mangaluru Junction",
+        "notes": "Karnataka Tourism puts the nearest railhead about 18 km away; bus or taxi onward. By bike from Manipal is far simpler."
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Nov–Mar (Karnataka Tourism). Evenings in Yakshagana season (Nov–May).",
+    "decJanVerdict": "great",
+    "decJanNote": "Dec–Jan is the heart of Yakshagana season. The mela opens with all troupes performing together at the temple after Tulasi Pooja in November; after that they tour villages nightly, and shows now end by midnight. Ask at the temple office which troupe plays where that night.",
+    "vegFoodNearby": [
+      "Temple annadana (free prasada meal, twice daily after the midday and night Mahapooja; templesinindiainfo.com, verify locally)"
+    ],
+    "temple": {
+      "dressCode": "Dress modestly and respectfully (Karnataka Tourism). Traditional wear advised; exact rules not confirmed by the temple online, verify locally.",
+      "darshanTimings": "Sources differ: 5:30 AM–9:30 PM, Fridays to 10:30 PM (Mangalore Tourism; templesinindiainfo.com); Incredible India lists 5:00 AM–9:00 PM. Mahapooja at 12 noon. Verify locally.",
+      "annadana": "Annadana twice daily, after the midday and night Mahapooja, with ganji (rice porridge) in the morning (templesinindiainfo.com). Exact serving times not confirmed officially; verify locally."
+    },
+    "trek": null,
+    "bikeTips": "NH66 south to Mulki, then inland via Kinnigoli to Kateel (state highway). Good roads through villages and paddy. Riding home after a late Yakshagana show means 50 km of dark highway: stay over in Mangaluru or leave before the end.",
+    "safety": "Village roads are unlit at night and busy with buses on NH66; avoid riding back tired after midnight shows. Watch for bathing ghats on the river around the temple.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kateel",
+      "https://karnatakatourism.org/destinations/kateelu",
+      "https://www.incredibleindia.gov.in/en/karnataka/mangalore/kateel-durga-parameshwari-temple",
+      "https://mangaloretourism.in/shree-durgaparameshwari-temple-kateel-mangalore",
+      "https://templesinindiainfo.com/?p=63155",
+      "https://www.deccanchronicle.com/southern-states/karnataka/karnataka-kateel-mela-expands-with-seventh-yakshagana-troupe-1914113",
+      "https://newskarnataka.com/mangaluru/kateel-yakshagana-mela-to-launch-its-seventh-troupe-on-november-16/04102025/",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8701417,13.0438238?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "polali-rajarajeshwari-temple",
+    "name": "Polali Rajarajeshwari Temple",
+    "chapter": "gods",
+    "tags": ["temple", "devi", "clay-idol", "festival"],
+    "hook": "A ten-foot goddess shaped from herb-mixed clay",
+    "why": "The main image is a roughly 10-foot stucco idol, made from clay said to be mixed with medicinal herbs, and an inscription nearby points to a temple here by the 8th century. Every year the festival includes Polali Chendu, a ball game with up to 500 players. On a normal day it is a quiet village temple, which is the point.",
+    "lat": 12.933954,
+    "lng": 74.955291,
+    "distanceKmFromManipal": 72,
+    "rideTimeFromManipal": "1h 15m",
+    "transport": {
+      "bike": true,
+      "train": { "available": false, "station": null, "notes": null }
+    },
+    "tripType": "day",
+    "bestTime": "Morning darshan. The annual festival with Polali Chendu falls around Feb–Apr (dates vary by source); verify locally.",
+    "decJanVerdict": "good",
+    "decJanNote": "Pleasant, dry rides through the Gurupura valley. The big festival is outside the window, so expect a calm darshan. Combine with Kateel or Pilikula the same day.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": null,
+      "darshanTimings": "Incredible India: 5:30 AM–8:00 PM. Other listings show a midday break (about 8:30 AM–12:30 PM and 5:00–8:30 PM). Verify locally.",
+      "annadana": null
+    },
+    "trek": null,
+    "bikeTips": "Via Mangaluru outskirts towards Kaikamba/Gurupura and on to Polali (OSRM about 72 km). There is an arch at Kaikamba on the Gurupura road (OSM). Rural roads; watch for buses and cattle.",
+    "safety": "Narrow village roads with sharp bends and private buses. Avoid riding these back roads after dark. Dress code and annadana are not confirmed online; verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Polali_Rajarajeshwari_Temple",
+      "https://www.incredibleindia.gov.in/en/karnataka/mangalore/polali-rajarajeshwari-temple",
+      "https://www.pilgrimaide.com/temples/polali-rajarajeshwari-temple",
+      "https://nominatim.openstreetmap.org/search?q=Polali+Rajarajeshwari+Temple&format=json&limit=2",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.955291,12.933954?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kadri-manjunatha-temple",
+    "name": "Kadri Manjunatha Temple",
+    "chapter": "gods",
+    "tags": ["temple", "shiva", "buddhist-history", "caves", "mangaluru"],
+    "hook": "Shiva, a bronze Lokeshwara and caves on a Mangaluru hill",
+    "why": "Mangaluru's oldest Shiva temple stands where Buddhist monks once ran Kadarika Vihara, and a bronze Lokeshwara still sits inside. Spring-fed tanks step up the hill behind it, with the laterite Pandava Caves alongside. The car festival is at Makar Sankranti in mid-January.",
+    "lat": 12.8858853,
+    "lng": 74.8556002,
+    "distanceKmFromManipal": 62,
+    "rideTimeFromManipal": "1h 0m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mangaluru Central / Mangaluru Junction",
+        "notes": "Karnataka Tourism puts the temple about 5 km from the city; auto from either station."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Early morning; Car Festival around Makar Sankranti (mid-January) (Karnataka Tourism).",
+    "decJanVerdict": "great",
+    "decJanNote": "The Car Festival at Makar Sankranti falls inside your window. Note that daily puja times reportedly shift from mid-December to mid-January, so check before you go.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": "Modest and respectful dress (Karnataka Tourism). Men in full-length trousers or dhoti are safest; no shorts or beachwear.",
+      "darshanTimings": "Not officially published; listings vary (about 5:30/6:30 AM–1/2 PM and 4–8/8:30 PM). Puja times reportedly change mid-Dec to mid-Jan. Verify locally.",
+      "annadana": null
+    },
+    "trek": null,
+    "bikeTips": "NH66 into Mangaluru, exit at Kottara/KPT towards Kadri. City traffic; park near the temple base and walk up to the tanks and caves.",
+    "safety": "Steps to the springs and caves can be slippery and uneven. Keep silence inside the main sanctum. Annadana not confirmed online; verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://karnatakatourism.org/en/attractions/kadri-manjunatha-temple",
+      "https://www.hindu-blog.com/2012/06/sri-kadri-manjunatha-temple-timing.html",
+      "https://www.holidify.com/places/mangalore/kadri-manjunatha-temple-sightseeing-2773.html",
+      "https://nominatim.openstreetmap.org/search?q=Kadri+Manjunatha+Temple&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8556002,12.8858853?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "kudroli-gokarnanatha-temple",
+    "name": "Kudroli Shree Gokarnanatha Kshetra",
+    "chapter": "gods",
+    "tags": ["temple", "shiva", "narayana-guru", "dasara", "mangaluru"],
+    "hook": "Narayana Guru's 1912 temple, built for those kept out",
+    "why": "Built in 1912 under Sri Narayana Guru's guidance for the Billava community, who were then kept out of other temples. The Chola-style gopuram dates from 1991 and blazes with colour, and the complex has a Navagraha chamber with murals. During Navaratri this is the centre of Mangaluru Dasara.",
+    "lat": 12.8759288,
+    "lng": 74.8318075,
+    "distanceKmFromManipal": 62,
+    "rideTimeFromManipal": "1h 0m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mangaluru Central",
+        "notes": "About 2.5–3 km from Mangaluru Central (trawell.in); short auto ride."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Morning or evening puja. Navaratri (Mangaluru Dasara) is outside the Dec–Jan window.",
+    "decJanVerdict": "good",
+    "decJanNote": "No Dasara crowds in winter, so you get the colourful gopuram and evening puja in peace. Easy add-on to Sultan Battery, which is a couple of kilometres north.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": "Modest dress, shoulders and knees covered; traditional wear recommended; no shorts or sleeveless tops (trawell.in).",
+      "darshanTimings": "Listings differ: 6 AM–1 PM and 4–8:30 PM (trawell.in); Incredible India gives 6 AM–9 PM. Verify locally.",
+      "annadana": null
+    },
+    "trek": null,
+    "bikeTips": "NH66 into the city, then via Ladyhill/Urva towards Kudroli. Narrow old-town lanes and parking is tight on festival days.",
+    "safety": "Heavy city traffic and crowds at evening pujas. Annadana not confirmed online; verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.incredibleindia.gov.in/en/karnataka/mangalore/kudroli-temple",
+      "https://www.trawell.in/karnataka/mangalore/kudroli-temple",
+      "https://hindutone.com/temples/india/karnataka/gokarnanatheshwara-temple-kudroli/",
+      "https://nominatim.openstreetmap.org/search?q=Shree+Gokarnanatha+Kshetra&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8318075,12.8759288?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "mangaladevi-temple",
+    "name": "Mangaladevi Temple (Bolar)",
+    "chapter": "gods",
+    "tags": ["temple", "devi", "kerala-style", "mangaluru", "history"],
+    "hook": "The goddess who gave Mangaluru its name",
+    "why": "The city takes its name from Mangaladevi, and her temple in Bolar is traditionally dated to the 9th century and the Alupa king Kundavarman. It is Kerala-style, with a two-storey gateway and a raised sanctum. On the tenth day of Navaratri devotees haul her chariot through the streets.",
+    "lat": 12.8492308,
+    "lng": 74.8452609,
+    "distanceKmFromManipal": 66,
+    "rideTimeFromManipal": "1h 5m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mangaluru Central",
+        "notes": "Bolar is about 3 km southwest of the city centre (Wikipedia); a short auto ride from Mangaluru Central."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Morning or evening darshan. Navaratri and the Rathotsava fall outside the Dec–Jan window.",
+    "decJanVerdict": "good",
+    "decJanNote": "A calm, quick darshan in winter. Do it on the way to Someshwara beach for sunset.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": null,
+      "darshanTimings": "Wikipedia gives 6 AM–1 PM and 4–8:30 PM (another section of the same article says 6–10 AM, 12–1 PM, 4–8 PM). Verify locally.",
+      "annadana": null
+    },
+    "trek": null,
+    "bikeTips": "Through Mangaluru city towards Bolar/Jeppu, near the Netravati side of town. Parking is limited in the lanes.",
+    "safety": "City traffic. Dress code and annadana are not confirmed online; verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mangaladevi_Temple",
+      "https://www.holidify.com/places/mangalore/mangaladevi-temple-sightseeing-124864.html",
+      "https://nominatim.openstreetmap.org/search?q=Mangaladevi+Temple%2C+Mangaluru&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8452609,12.8492308?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "ananthapura-lake-temple",
+    "name": "Ananthapura Lake Temple",
+    "chapter": "gods",
+    "tags": ["temple", "vishnu", "lake", "kerala", "crocodile"],
+    "hook": "A shrine in a spring-fed lake, and a crocodile back again",
+    "why": "Kerala's only lake temple sits in a 302-foot-square tank fed by springs, linked to shore by a narrow footbridge. It is held to be the original seat of Ananthapadmanabha. Babiya, the 'vegetarian' crocodile, died on 9 Oct 2022. A new, smaller one was first reported in Nov 2023 and was filmed on the bank in June 2024; locals call it Babiya-3.",
+    "lat": 12.5841947,
+    "lng": 74.982061,
+    "distanceKmFromManipal": 105,
+    "rideTimeFromManipal": "1h 55m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Kasaragod",
+        "notes": "Incredible India puts Kasaragod station (KGQ) about 14–15 km from the temple; taxi or auto onward. Trains from Udupi to Kasaragod run via Mangaluru; check NTES/IRCTC."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Oct–Mar (Incredible India). Morning session for the light on the lake.",
+    "decJanVerdict": "great",
+    "decJanNote": "Cool, dry weather and full tanks. Make a Kasaragod loop: Ananthapura in the morning, Madhur, then Bekal for late afternoon. The crocodile shows up when it pleases; don't plan around it.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": "Traditional wear advised; sources disagree on whether men must remove shirts. Not confirmed officially; verify locally.",
+      "darshanTimings": "5:30 AM–12:30 PM and 5:30–7:30 PM (Kerala Tourism; hindu-blog.com). Closed during eclipses; times change for major rituals.",
+      "annadana": null
+    },
+    "trek": null,
+    "bikeTips": "NH66 through Mangaluru and Talapady into Kerala, then inland from Kumbla to Ananthapura (OSRM about 105 km, 1h 55m). Carry your licence and vehicle papers when crossing into Kerala.",
+    "safety": "Do not feed, call or approach the crocodile. Stay on the footbridge and steps and away from the water's edge. Long NH66 ride with heavy truck and bus traffic; avoid riding back after dark.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.keralatourism.org/destination/ananthapura-lake-temple-kasaragod/159",
+      "https://www.incredibleindia.gov.in/en/kerala/kasargod/ananthapura-lake-temple",
+      "https://www.hindu-blog.com/2017/02/ananthapura-lake-temple-timings-opening.html",
+      "https://keralakaumudi.com/en/special/general/baby-babiya-reappears-at-ananthapuram-temple-1327045",
+      "https://www.onmanorama.com/travel/kerala/2023/11/12/babia-vegetarian-crocodile-kasaragod-temple-successor.html",
+      "https://www.wionews.com/india-news/india-kerala-temple-lake-welcomes-new-crocodile-a-year-after-demise-of-revered-babiya-658624",
+      "https://nominatim.openstreetmap.org/search?q=Ananthapura+Temple&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.982061,12.5841947?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "bekal-fort",
+    "name": "Bekal Fort",
+    "chapter": "heritage",
+    "tags": ["fort", "asi", "kerala", "sea-views", "keyhole-fort"],
+    "hook": "A keyhole-shaped laterite fort with its feet in the sea",
+    "why": "Shivappa Nayaka of Keladi built this 40-acre fort in the mid-17th century, and the walls still drop straight into the Arabian Sea. Climb the central observation tower for a 360° view of surf, beach and coconut palms. Then find the old water tank with its steps and the tunnels.",
+    "lat": 12.3922238,
+    "lng": 75.0327651,
+    "distanceKmFromManipal": 125,
+    "rideTimeFromManipal": "2h 15m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Bekal Fort (BFR)",
+        "notes": "Incredible India lists Bekal Fort station (BFR) as nearest. Only some trains stop there; Kasaragod and Kanhangad are bigger stops. Check NTES/IRCTC."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Oct–Mar (Kerala Tourism). Open 8:00 AM–5:30 PM daily (Incredible India); go after 3 PM for the light.",
+    "decJanVerdict": "great",
+    "decJanNote": "Peak season and the best weather. Counter tickets are ₹25 for Indians, free for under-15s, ₹300 for foreigners; you can also buy online on the ASI site (Onmanorama, Oct 2026). It closes at 5:30 PM, so watch the sunset from the beach outside.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "The longest ride in this region: NH66 through Mangaluru, Kasaragod and on to Bekal (OSRM about 125 km, 2h 15m). Start early, cross Mangaluru before the morning rush, and carry papers for the Karnataka–Kerala border.",
+    "safety": "Laterite walls and bastions have long unfenced drops to rocks and sea; keep kids close and stay off parapets. Heat and glare at midday: carry water. Riding back 125 km after dark on NH66 is a bad idea; consider an overnight in Kasaragod or the train.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://www.incredibleindia.gov.in/en/kerala/kasargod/bekal-fort",
+      "https://www.onmanorama.com/news/kerala/2026/10/13/bekal-fort-visitors-latest-financial-year.html",
+      "https://www.keralatourism.org/destination/bekal-fort/303/",
+      "https://nominatim.openstreetmap.org/search?q=Bekal+Fort&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.0327651,12.3922238?overview=false"
+    ],
+    "confidence": "verified",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "moodbidri-saavira-kambada-basadi",
+    "name": "Saavira Kambada Basadi, Moodbidri",
+    "chapter": "heritage",
+    "tags": ["jain-basadi", "architecture", "moodbidri", "heritage-town"],
+    "hook": "A thousand carved pillars, and no two alike",
+    "why": "Built in 1430 by the local chieftain Devaraya Wodeyar, this is the finest of Moodbidri's 18 basadis. Its pillars are all carved differently, and an eight-foot panchaloha Chandraprabha sits in the shrine. A 50-foot manastambha stands out front. Walk on to Guru Basadi, with its 12th-century palm-leaf Dhavala texts, and the carved wooden pillars of the Chowta palace.",
+    "lat": 13.0741732,
+    "lng": 74.9977182,
+    "distanceKmFromManipal": 50,
+    "rideTimeFromManipal": "0h 55m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": false,
+        "station": null,
+        "notes": "No rail line to Moodbidri; Mangaluru Junction is about 34 km away (mangaloretourism.in). Ride or take a bus."
+      }
+    },
+    "tripType": "quick",
+    "bestTime": "Morning or late afternoon. Listed hours vary: 7:30 AM–6 PM (mangaloretourism.in) vs 9 AM–8 PM elsewhere; verify locally.",
+    "decJanVerdict": "great",
+    "decJanNote": "Cool mornings make the town walk between basadis a pleasure. Pair it with Karkala's Gommata on the same loop from Manipal.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": "Modest clothing; footwear off before entering (india-guide.in). Verify locally.",
+      "darshanTimings": "7:30 AM–6:00 PM daily (mangaloretourism.in); other listings say 9 AM–8 PM. Verify locally.",
+      "annadana": null
+    },
+    "trek": null,
+    "bikeTips": "OSRM routes inland via Karkala (about 50 km). Watch for private buses on blind bends.",
+    "safety": "Respect Jain temple customs: no leather inside, quiet in the shrine, ask before photographing. Entry is free according to mangaloretourism.in, but one listing shows a fee; verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Saavira_Kambada_Basadi",
+      "https://en.wikipedia.org/wiki/Moodabidri",
+      "https://mangaloretourism.in/saavira-kambada-basadi-thousand-pillars-temple-mangalore",
+      "https://india-guide.in/destinations/moodbidri/timings/",
+      "https://nominatim.openstreetmap.org/search?q=Thousand+Pillar+Basadi&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.9977182,13.0741732?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "pilikula-nisargadhama",
+    "name": "Pilikula Nisargadhama",
+    "chapter": "heritage",
+    "tags": ["zoo", "science-centre", "planetarium", "heritage-village", "lake", "family"],
+    "hook": "Zoo, 3D planetarium and a Tulu landlord's house in one campus",
+    "why": "The Pilikula Biological Park holds over 700 animals, including Asiatic lions, dholes and gharials. Next door, the Swami Vivekananda planetarium has an 18 m tilted dome and claims India's first active 3D show in 8K. The heritage village has a restored Guthu Mane, a nagabana and a kambala track, and a 5-acre lake has boating.",
+    "lat": 12.9192492,
+    "lng": 74.8985438,
+    "distanceKmFromManipal": 67,
+    "rideTimeFromManipal": "1h 10m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mangaluru Junction",
+        "notes": "Pilikula is about 10 km from Mangaluru (Karnataka Tourism); taxi or bus onward from either Mangaluru station."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Tue–Sun mornings. Closed Mondays (Karnataka Tourism; Central Zoo Authority).",
+    "decJanVerdict": "good",
+    "decJanNote": "Cool mornings are when the animals are active. Don't come on a Monday. Online booking is 'coming soon' and the battery buggies are temporarily unavailable (official site), so expect to walk between sections.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "NH66 to Mangaluru, then inland via Kuloor–Vamanjoor (OSRM about 67 km). Large parking area at the main gate, where the central ticket counter sells tickets for all attractions.",
+    "safety": "Closed Mondays. Stay behind zoo barriers and follow the zoo's do's and don'ts. Section timings and fees are not consistently published: Karnataka Tourism says 10 AM–5 PM, the official contact page says 10 AM–5:30 PM, and the zoo is listed as 9:30 AM–5:30 PM. Boating hours are not published. Verify locally (zoo: 0824-2263300).",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://pilikula.karnataka.gov.in/en",
+      "https://pilikula.karnataka.gov.in/35/pilikula-biological-park/en",
+      "https://pilikula.karnataka.gov.in/32/swami-vivekananda-planetarium/en",
+      "https://pilikula.karnataka.gov.in/45/heritage-village/en",
+      "https://pilikula.karnataka.gov.in/50/lake-garden/en",
+      "https://pilikula.karnataka.gov.in/63/facilities/en",
+      "https://pilikula.karnataka.gov.in/73/contact-us/en",
+      "https://pilikula.karnataka.gov.in/383/online-booking/en",
+      "https://karnatakatourism.org/en/attractions/pilikula-village-nisargadham",
+      "https://cza.nic.in/uploads/documents/zoos/information/hindi/385.pdf",
+      "https://mangaloretourism.in/pilikula-biological-park-mangalore",
+      "https://nominatim.openstreetmap.org/search?q=Pilikula+Nisargadhama&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8985438,12.9192492?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "mangaluru-city-by-train-bike",
+    "name": "Mangaluru city (by train or bike)",
+    "chapter": "heritage",
+    "tags": ["city", "train", "temples", "beaches", "day-trip"],
+    "hook": "Two stations, a fleet of autos, and Mangaluru in a day",
+    "why": "Mangaluru has two main stations six kilometres apart: Mangaluru Central (MAQ) at Hampankatta, the terminus, and Mangaluru Junction (MAJN) at Padil, once called Kankanadi. Take the train down, then autos between Kudroli, Mangaladevi, Kadri, St Aloysius Chapel and Sultan Battery. Finish with sunset at Tannirbhavi or Someshwara.",
+    "lat": 12.8634037,
+    "lng": 74.8432387,
+    "distanceKmFromManipal": 64,
+    "rideTimeFromManipal": "1h 5m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mangaluru Central (MAQ) / Mangaluru Junction (MAJN)",
+        "notes": "Central is the city terminus (Matsyagandha Express starts/ends here). Junction (Padil) links the Konkan, Hassan–Mysuru and Malabar lines; some Konkan trains start or end there. The two are about 6 km apart, so check which one your Udupi train uses on NTES/IRCTC. Central is closer to Kudroli, Mangaladevi and St Aloysius; Junction is closer to Kadri and Pilikula."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Dec–Jan weekdays; start early, temples break at midday.",
+    "decJanVerdict": "great",
+    "decJanNote": "Train down, autos around, train back. It saves you the NH66 traffic in town and lets you stay for sunset without riding home in the dark. Kadri's Car Festival at Makar Sankranti (mid-Jan) is a good day to pick.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "If riding: NH66 via Surathkal and Kuloor. The city stretch from Kottara to Pumpwell is the slow part, especially in the evening rush. Park once and use autos inside the old town.",
+    "safety": "Busy city roads and NH66 truck traffic; avoid the 5–8 PM rush. Check which station your return train leaves from: missing it because you went to the wrong one is easy.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mangalore_Central_railway_station",
+      "https://en.wikipedia.org/wiki/Mangalore_Junction_railway_station",
+      "https://karnatakatourism.org/en/attractions/kadri-manjunatha-temple",
+      "https://nominatim.openstreetmap.org/search?q=Mangaluru+Central&format=json&limit=3&countrycodes=in",
+      "https://nominatim.openstreetmap.org/search?q=Mangaluru+Junction&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8432387,12.8634037?overview=false",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8792308,12.866628?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "sultan-battery",
+    "name": "Sultan Battery (Boloor)",
+    "chapter": "heritage",
+    "tags": ["watchtower", "tipu-sultan", "asi", "river", "ferry"],
+    "hook": "Tipu's black-stone watchtower, guarding the Gurupura river mouth",
+    "why": "Tipu Sultan built this squat black-stone tower in Boloor to stop warships slipping up the Gurupura river; it is now an ASI-protected monument. Climb up for the river view, and peer at the locked underground magazine. The Tannirbhavi ferry leaves from just below.",
+    "lat": 12.88963,
+    "lng": 74.8212446,
+    "distanceKmFromManipal": 62,
+    "rideTimeFromManipal": "1h 0m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mangaluru Central",
+        "notes": "About 5 km from Mangaluru Central (trawell.in); auto or city bus 16/16A."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Late afternoon, then the ferry across for sunset at Tannirbhavi.",
+    "decJanVerdict": "good",
+    "decJanNote": "A 20-minute stop, but it pairs perfectly with the Tannirbhavi ferry and Kudroli temple. Opening hours aren't published consistently, so go in daylight.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "NH66 into Mangaluru, then via Urva/Boloor to the riverside. Park here and take the ferry to Tannirbhavi on foot.",
+    "safety": "Take care on the steps and the open top of the tower. The area around is quiet at night. Timings: sources conflict; entry is reported free. Verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sultan_Battery_(Mangalore)",
+      "https://www.trawell.in/karnataka/mangalore/sulthan-battery",
+      "https://www.incredibleindia.gov.in/en/karnataka/mangalore/sultan-batheri-watch-tower",
+      "https://nominatim.openstreetmap.org/search?q=Sultan+Battery&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8212446,12.88963?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "st-aloysius-chapel",
+    "name": "St Aloysius Chapel paintings",
+    "chapter": "heritage",
+    "tags": ["art", "frescoes", "chapel", "mangaluru", "heritage"],
+    "hook": "Every surface painted by one Italian Jesuit",
+    "why": "On Lighthouse Hill, the St Aloysius College chapel is covered in Antonio Moscheni's work from the late 19th century. There are about 600 m² of wall frescoes and 400 m² of oil-on-canvas ceiling, every inch of it saints, cherubs and trompe-l'oeil. Walk in from the noise of Hampankatta and look up.",
+    "lat": 12.8737995,
+    "lng": 74.8453615,
+    "distanceKmFromManipal": 63,
+    "rideTimeFromManipal": "1h 5m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Mangaluru Central",
+        "notes": "On Lighthouse Hill in the city centre; short auto ride from Mangaluru Central. Distance not verified; verify locally."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Weekday daytime; visiting hours not published online, verify locally.",
+    "decJanVerdict": "good",
+    "decJanNote": "Works in any weather and is a good midday stop while temples are shut. Around Christmas the chapel may have services; go when there's no Mass on.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "Up Lighthouse Hill Road from Hampankatta. Park on campus only if allowed.",
+    "safety": "It is a working college chapel: dress modestly, keep quiet, and ask before taking photos. Visiting hours, entry fee and photography rules are not confirmed online; verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/St._Aloysius_Chapel",
+      "https://nominatim.openstreetmap.org/search?q=St+Aloysius+Chapel&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.8453615,12.8737995?overview=false"
+    ],
+    "confidence": "verify-locally",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "chandragiri-fort",
+    "name": "Chandragiri Fort (Kasaragod)",
+    "chapter": "heritage",
+    "tags": ["fort", "ruins", "river-mouth", "sunset", "kerala"],
+    "hook": "A ruined laterite fort where the Payaswini meets the sea",
+    "why": "Another of Shivappa Nayaka's 17th-century forts, this one sits on a 46 m hill above the Chandragiri (Payaswini) river, which once divided Tulunadu from Kolathunadu. It's in ruins now: eight bastions, a trench, a tunnel and cannon-pocked walls. You go for the sunset over the river mouth.",
+    "lat": 12.4699068,
+    "lng": 75.0032875,
+    "distanceKmFromManipal": 116,
+    "rideTimeFromManipal": "2h 5m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Kasaragod",
+        "notes": "About 4–6 km from Kasaragod town (Holidify; Wikipedia); auto or bus onward. Public transport to the fort is thin."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Late afternoon to sunset. Holidify lists 8 AM–5:30 PM; verify locally.",
+    "decJanVerdict": "good",
+    "decJanNote": "Good stop on a Kasaragod day: Ananthapura and Madhur in the morning, Chandragiri on the way to Bekal. Clear skies make the river-mouth view worth the climb.",
+    "vegFoodNearby": [],
+    "temple": null,
+    "trek": null,
+    "bikeTips": "NH66 to Kasaragod, then a short hop south towards Melparamba. Carry documents for the Kerala border.",
+    "safety": "Ruined walls, uneven laterite and unfenced drops; watch your footing and don't climb the bastions. The site is isolated, so don't linger after dark. Entry fee (Holidify: ₹5 Indians) and hours unconfirmed by the State Archaeology Department online; verify locally.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chandragiri_Fort,_Kerala",
+      "https://www.holidify.com/places/bekal/chandragiri-fort-sightseeing-1322.html",
+      "https://nominatim.openstreetmap.org/search?q=Chandragiri+Fort&format=json&limit=3&countrycodes=in",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.0032875,12.4699068?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  },
+  {
+    "id": "madhur-temple",
+    "name": "Madhur Madanantheshwara Siddhivinayaka Temple",
+    "chapter": "gods",
+    "tags": ["temple", "ganesha", "shiva", "kerala-architecture", "kasaragod"],
+    "hook": "A Ganesha temple with a three-tiered elephant-back roof",
+    "why": "Officially it's Shiva's temple, but the south-facing Ganapathi gets the attention. The gajaprishta roof rises in three tiers like an elephant's back, and the walls carry wooden carvings of Ganesha and Ramayana scenes. It stands on the Madhuvahini (Mogral) river, and its famous Moodappam seva covers the idol in appam.",
+    "lat": 12.5534891,
+    "lng": 75.0101819,
+    "distanceKmFromManipal": 112,
+    "rideTimeFromManipal": "2h 0m",
+    "transport": {
+      "bike": true,
+      "train": {
+        "available": true,
+        "station": "Kasaragod",
+        "notes": "About 7 km from Kasaragod town (Wikipedia); auto or bus onward."
+      }
+    },
+    "tripType": "day",
+    "bestTime": "Morning darshan; combine with Ananthapura, which is nearby.",
+    "decJanVerdict": "great",
+    "decJanNote": "Dry, bright mornings for the roofline and the river. Pair with Ananthapura: both are a short hop inland from Kasaragod.",
+    "vegFoodNearby": [],
+    "temple": {
+      "dressCode": null,
+      "darshanTimings": null,
+      "annadana": "Appam offerings (Moodappam seva, Sahasrappa) are distributed as prasada (Wikipedia); no confirmed annadana meal. Verify locally."
+    },
+    "trek": null,
+    "bikeTips": "NH66 to Kasaragod, then inland to Madhur (OSRM about 112 km, 2h). Carry papers for the Kerala border.",
+    "safety": "Dress code and darshan timings are not confirmed online either; verify locally. Long NH66 ride: start early, don't ride back after dark.",
+    "mustDo": false,
+    "images": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Madhur_Temple",
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.0101819,12.5534891?overview=false"
+    ],
+    "confidence": "partial",
+    "lastChecked": "2026-11"
+  }
+]
