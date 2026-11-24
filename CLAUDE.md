@@ -94,3 +94,15 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
   - Design system: src/styles/tokens.css + src/styles/fonts.css. Reference page: review/direction-final.html.
   - Screenshots: `node scripts/shoot-directions.mjs [a b c final]` (needs `npx vite` running) → review/screenshots/. It also flags horizontal overflow.
   - Not yet built: the three.js hero shader (the reference uses a photo with CSS/GSAP depth), GSAP Flip filtering, the real site in index.html.
+- Part 4 (all sections, layout only): DONE (awaiting review).
+  - Real site in index.html + src/main.js; modules in src/modules (sections, card, detail, explore, map, gallery, state, util); styles in base/components/sections.css.
+  - Chapters: I Coast · II Gods · III Ghats · IV The Old Stones (heritage data) · V The Table · VI The Plan. The Part 4 prompt asked for
+    Coast/Gods/Ghats/Heritage as I–IV and Table as IV, which clash; heritage got its own chapter and Table/Plan shifted to V/VI. Open question.
+  - Brief overrides applied: "Dec–Jan verdict" filter → "Good right now" + best-in-month; weekend planner → the 15 Trip Ideas timeline;
+    Dec–Jan festival strip → year-round 12-month calendar starting this month, with "Coming up" (next 75 days) and Worth Watching.
+  - Filters: sticky bar of dropdowns on desktop, bottom sheet on phone; apply to grid and map. Deep link /#place-<id>. Been there + My List in localStorage.
+  - Map: OSM standard tiles darkened with a CSS filter (CARTO dark tiles now need an API key), leaflet.markercluster, lazy-loaded.
+  - New data: src/data/practical.json (hand-authored, sourced: Konkan Railway monsoon timetable, 60-day ARP, Karnataka pillion helmet rule, Udupi rainfall).
+  - Screenshots: `BASE=http://localhost:5173/manipal-explorer/ node scripts/shoot-site.mjs [390 375 1440]` → review/screenshots/site/<vp>/. Also reports overflow + console errors.
+  - Pending for Part 5/6: motion (GSAP/Lenis/SplitText, pinned openers, Flip), hero WebGL shader in [data-shader-slot], custom cursor;
+    JS bundle is ~600 kB because places.json + image-credits.json are inlined (split or lazy-load in the perf pass).

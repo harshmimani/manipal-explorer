@@ -1,0 +1,73 @@
+{
+  "_note": "Hand-authored for Part 4 (not produced by the build scripts). Facts carry sources; advice lines are general riding/packing sense, not claims.",
+  "weather": {
+    "title": "Weather",
+    "lede": "Three seasons, and the rain decides everything.",
+    "seasons": [
+      {
+        "name": "Dry and clear",
+        "months": [11, 12, 1, 2],
+        "text": "Blue skies, calm sea, cool early mornings in the ghats. February is the driest month on the coast. This is when the beaches, islands and long rides are at their best.",
+        "sources": ["https://en.climate-data.org/asia/india/karnataka/udupi-24106/", "https://beach-weather.com/Southern-Asia/India/Karnataka/Udupi/averages/"]
+      },
+      {
+        "name": "Hot and humid",
+        "months": [3, 4, 5],
+        "text": "Sticky afternoons on the coast. Ride early, rest at noon, swim late. The ghats stay a little kinder. Pre-monsoon showers can roll in during May.",
+        "sources": ["https://en.climate-data.org/asia/india/karnataka/udupi-24106/"]
+      },
+      {
+        "name": "Monsoon",
+        "months": [6, 7, 8, 9, 10],
+        "text": "The coast gets most of its year's rain in a few months, and July is usually the wettest. Sources put July somewhere around 800 to 1,000 mm, so expect days of solid rain. Waterfalls roar, rocks get slick, and sea access to the islands shuts. Ghat roads see fog and landslides.",
+        "sources": ["https://en.climate-data.org/asia/india/karnataka/udupi-24106/", "https://weather-and-climate.com/udupi-karnataka-in-July-averages", "https://beach-weather.com/Southern-Asia/India/Karnataka/Udupi/averages/"]
+      }
+    ]
+  },
+  "rail": {
+    "title": "Konkan Railway",
+    "lede": "Udupi station is on the Konkan line. Gokarna, Murdeshwar, Mangaluru and the Goa border are a train away.",
+    "tips": [
+      { "text": "Reserved tickets open 60 days ahead, not counting the day of travel. Book weekend trains as soon as the window opens; Goa-bound coaches fill first.", "sources": ["https://www.businesstoday.in/india/story/new-train-ticket-booking-rules-top-reservation-related-changes-applicable-from-nov-1-452214-2024-11-01"] },
+      { "text": "The monsoon timetable changes times on the whole line. In 2026 it ran from 15 June to 20 October, with speed limits on some stretches. Check your train's monsoon timing before you plan a connection.", "sources": ["https://konkanrailway.com/en/node/7036"] },
+      { "text": "Check live running and platform on NTES or the Konkan Railway site on the day. Delays stack up in the rains.", "sources": ["https://konkanrailway.com/en/node/7036"] },
+      { "text": "Station-to-sight transport (autos, buses) is rarely listed online. Each place card says when that's the case: verify locally.", "sources": [] }
+    ]
+  },
+  "riding": {
+    "title": "Riding safety",
+    "lede": "Most of this guide is a motorcycle ride. These are the rules that bring you home.",
+    "items": [
+      { "head": "Helmets, both of you", "text": "Karnataka requires a helmet for the rider and the pillion, and police expect an ISI-certified one, strapped. A half-shell is a fine waiting to happen.", "sources": ["https://www.deccanherald.com/india/karnataka/helmetless-riding-still-rampant-despite-crackdown-4062425", "https://www.deccanherald.com/content/521272/helmet-must-pillion-riders-karnataka.html"] },
+      { "head": "Ghat roads", "text": "Agumbe, Charmadi, Kudremukh and the Kollur climb are hairpins with buses coming round blind. Stay in your lane, horn before every bend, use engine braking on the way down. In the monsoon, add fog, moss on the tarmac and landslide closures: check before you go.", "sources": [] },
+      { "head": "Night riding", "text": "Avoid the ghats after dark. On NH-66, unlit stretches, trucks with full beams and cattle on the road make night riding a bad trade. Several trip ideas say where to stay the night instead.", "sources": [] },
+      { "head": "Fuel", "text": "Fill up in the last big town before any ghat or forest stretch, and don't count on a pump at the top. Where the next one is: verify locally.", "sources": [] },
+      { "head": "Rain kit", "text": "Rain suit, gloves with grip, a dry bag for the phone, and a clear visor or anti-fog insert. Wet laterite and road paint are slippery.", "sources": [] }
+    ]
+  },
+  "packing": [
+    {
+      "title": "Temple bag",
+      "items": [
+        "Men: a dhoti or veshti and a shawl. Several temples in this guide ask men to remove shirts.",
+        "Women: saree, salwar kameez or a long skirt. No shorts, no sleeveless.",
+        "A cloth bag for footwear, or plan on the stand outside.",
+        "Small change for the hundi, prasada counters and footwear stands.",
+        "Phone in your pocket: many inner shrines ban photos.",
+        "An empty stomach before noon if you're eating the anna prasada."
+      ]
+    },
+    {
+      "title": "Trek bag",
+      "items": [
+        "Your forest-department permit or booking, printed and on your phone.",
+        "Two litres of water each, plus electrolytes.",
+        "Shoes with real grip. Monsoon trails mean leech socks or salt.",
+        "A light rain shell, even in the dry months on the peaks.",
+        "Headtorch, in case the descent runs late.",
+        "Veg packed lunch: many trails have nothing on the way.",
+        "Carry every wrapper back down."
+      ]
+    }
+  ]
+}

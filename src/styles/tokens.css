@@ -39,6 +39,12 @@
   --warn-fill: color-mix(in oklab, var(--c-laterite) 16%, transparent);
   --warn-line: color-mix(in oklab, var(--c-laterite) 55%, transparent);
   --warn-text: var(--c-laterite-text);
+  /* Chapter colours: map pins and legend only (fills, never body text) */
+  --ch-coast: var(--c-monsoon-teal);
+  --ch-gods: var(--c-saffron);
+  --ch-ghats: var(--c-palm);
+  --ch-heritage: var(--c-laterite);
+  --ch-home: var(--c-bone);
   --line: rgb(247 243 234 / .14);
   --line-strong: rgb(247 243 234 / .32);
   --focus: var(--c-saffron);

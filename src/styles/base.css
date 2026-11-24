@@ -1,0 +1,37 @@
+/* Base: reset, type defaults, utilities, global layers. Tokens only. */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; background: var(--surface); scroll-padding-top: 72px; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+html.has-detail, html.has-filters { overflow: hidden; }
+body { margin: 0; background: var(--surface); color: var(--text); font: var(--weight-body) var(--step-0)/var(--lh-body) var(--font-body); overflow-x: clip; -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; height: auto; }
+picture { display: block; background: var(--dominant) center/cover no-repeat; }
+picture img { width: 100%; height: 100%; object-fit: cover; }
+a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px; }
+a:hover { color: var(--text); }
+button, input, select { font: inherit; color: inherit; }
+h1, h2, h3, h4 { text-wrap: balance; }
+p { text-wrap: pretty; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: var(--radius-xs); }
+[hidden] { display: none !important; }
+
+.vh { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip { position: fixed; left: var(--gutter); top: -100px; z-index: var(--z-modal); background: var(--accent); color: var(--on-accent); padding: 12px 16px; border-radius: var(--radius-s); font-weight: var(--weight-strong); }
+.skip:focus { top: calc(var(--safe-top) + 12px); }
+.cap { font: var(--weight-strong) var(--step--2)/1.2 var(--font-body); letter-spacing: var(--track-caps); text-transform: uppercase; }
+.num { font-variant-numeric: tabular-nums lining-nums; }
+.credit { font-size: var(--step--1); color: var(--text-faint); }
+.credit a { color: inherit; }
+.note { color: var(--text-muted); font-size: var(--step--1); margin: var(--space-xs) 0 0; }
+.wrap { padding-inline: max(var(--gutter), var(--safe-left)) max(var(--gutter), var(--safe-right)); max-width: var(--max-w); margin-inline: auto; }
+.anchor { position: relative; top: -72px; display: block; }
+.warn-text { color: var(--warn-text); }
+
+/* Film grain, static in Part 4 (Part 5 animates it). */
+.grain { position: fixed; inset: 0; z-index: var(--z-grain); pointer-events: none; opacity: var(--grain-opacity); mix-blend-mode: overlay;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .grain { display: none; }
+}
