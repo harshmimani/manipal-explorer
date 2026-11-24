@@ -719,7 +719,11 @@
       5
     ],
     "seasonNote": "Ferries from Malpe run roughly October to May (Karnataka Tourism). Morning boats beat the heat, especially from March. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
-    "vegFoodNearby": [],
+    "vegFoodNearby": [
+      "No pure-veg eatery at the Malpe jetty could be confirmed online, so eat in Udupi town (~6 km) before or after: verify locally if you find one on the beach.",
+      "Mitra Samaj, Car Street, Udupi (pure veg, ~6 km): Goli baje straight from the oil and a plate of buns.",
+      "Carry water and a snack on the boat: there is no food on the island."
+    ],
     "temple": null,
     "trek": null,
     "bikeTips": "Distance and ride time are to Malpe beach and the Sea Walk, where you board. Park there and buy tickets at the jetty counter.",
@@ -731,7 +735,9 @@
       "https://karnatakatourism.org/en/attractions/st-marys-island/",
       "https://karnatakatourism.org/en/attractions/malpe-beach/",
       "https://newskarnataka.com/udupi/malpe-beach-reopens-as-water-sports-st-marys-island-trips-resume/20092026/",
-      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6978648,13.362013?overview=false"
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.6978648,13.362013?overview=false",
+      "https://wanderlog.com/place/details/531817/mitra-samaj",
+      "https://www.happycow.net/reviews/santrupti-karnataka-196590"
     ],
     "confidence": "verified",
     "lastChecked": "2026-11"
@@ -2792,7 +2798,10 @@
       3
     ],
     "seasonNote": "October–March (Kerala Tourism). The laterite ramparts are exposed and slippery in the monsoon, and summer afternoons are fierce.",
-    "vegFoodNearby": [],
+    "vegFoodNearby": [
+      "Vrindavan Pure Veg Restaurant & Ice Cream, Pallikkara, Bekal (pure veg per listings): a lunch stop near the fort. Hours and status: verify locally.",
+      "Udupi Sree Krishna Veg Restaurant, Kasaragod–Bekal road (pure veg per listings): reliable meals on the way in. Verify locally."
+    ],
     "temple": null,
     "trek": null,
     "bikeTips": "The longest ride in this region: NH66 through Mangaluru, Kasaragod and on to Bekal (OSRM about 125 km, 2h 15m). Start early, cross Mangaluru before the morning rush, and carry papers for the Karnataka–Kerala border.",
@@ -2804,7 +2813,9 @@
       "https://www.onmanorama.com/news/kerala/2026/10/13/bekal-fort-visitors-latest-financial-year.html",
       "https://www.keralatourism.org/destination/bekal-fort/303/",
       "https://nominatim.openstreetmap.org/search?q=Bekal+Fort&format=json&limit=3&countrycodes=in",
-      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.0327651,12.3922238?overview=false"
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.0327651,12.3922238?overview=false",
+      "https://www.holidify.com/places/bekal/restaurants-places-to-eat-local-cuisine.html",
+      "https://wanderlog.com/explore/4211/bekal"
     ],
     "confidence": "verified",
     "lastChecked": "2026-11"
@@ -3466,7 +3477,7 @@
     ],
     "temple": {
       "dressCode": "Men remove shirt and vest before joining the darshan line; dhoti or white pancha for sevas such as Ashlesha Bali and Sarpa Samskara. Women: saree, churidar or salwar with dupatta, or other modest wear. Shorts and sleeveless tops are not appropriate.",
-      "darshanTimings": "Sources differ. Commonly listed as about 6:30 am–1:30 pm and 3:30–8:00/9:00 pm, closed roughly 1:30–3:30 pm. Timings change on special occasions; verify locally.",
+      "darshanTimings": "Darshan 6:00 AM–1:30 PM and 3:30–8:30 PM; temple closes at 9:00 PM; general darshan is free (kukkedevasthanam.org.in, which appears to be the devasthanam site, updated April 2026). Other guides list 6:30 AM starts or 8 PM closing, and timings change on festival and eclipse days, so verify locally.",
       "annadana": "Free lunch 11:30 am–2 pm and free dinner 7:30–9:30 pm (two non-official sources agree); hours may shift on festival days. Sarpa Samskara is a two-day seva: register in advance and attend both days with photo ID."
     },
     "trek": null,
@@ -4102,7 +4113,10 @@
       2
     ],
     "seasonNote": "November to February for a proper sea sunset. Agumbe is one of the wettest places in India: in the monsoon the view is mostly cloud, the ghat is foggy, and heavy vehicles are banned (2026: from 15 June).",
-    "vegFoodNearby": [],
+    "vegFoodNearby": [
+      "Hotel Sri Krishna Bhavan, Agumbe (vegetarian per listing): idli, vada and masala dosa before the ghat. Status: verify locally.",
+      "Dodda Mane homestay, Agumbe (home-cooked vegetarian, at fixed times; book ahead): the source is old, so verify locally."
+    ],
     "temple": null,
     "trek": null,
     "bikeTips": "Ride time is the OSRM estimate plus a buffer; the hairpin section is slower than it looks, so add time if you stop for photos. The Sunset Point is on the highway, so you can ride right up to it. Agumbe village, where much of Malgudi Days was shot, is about a ten-minute walk from the point (Wikipedia). Leave the viewpoint as soon as the sun goes down, or plan to sleep in Agumbe rather than descend in the dark.",
@@ -4118,7 +4132,9 @@
       "https://www.thehansindia.com/karnataka/heavy-vehicles-banned-in-agumbe-ghat-from-june-15-1085394",
       "https://newskarnataka.com/udupi/heavy-vehicles-banned-on-agumbe-ghati-amid-landslide-risk/14062025/",
       "https://nominatim.openstreetmap.org/search?q=Agumbe+Sunset+Point%2C+Karnataka&format=json&limit=3",
-      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.080588,13.4965041?overview=false"
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.080588,13.4965041?overview=false",
+      "https://www.booked.ai/restaurants/hotel-sri-krishna-bhavan",
+      "https://www.beontheroad.com/2010/12/dodda-mane-at-agumbe-great-hospitality.html"
     ],
     "confidence": "partial",
     "lastChecked": "2026-11"
@@ -4393,7 +4409,11 @@
       12
     ],
     "seasonNote": "Open year-round; October to March per Karnataka Tourism for weather. Navaratri (Sharada Sharannavaratri) is the big festival. Monsoon brings fog, leeches and landslide closures on the ghat roads. That applies to the Agumbe approach.",
-    "vegFoodNearby": [],
+    "vegFoodNearby": [
+      "Sharada Peetham annadana (free prasada meal; lunch about 12:15–2:30 PM, dinner about 7:15–8:30 PM per sringeri.net).",
+      "Akshaya Mess (pure veg): idli-vada before darshan; it's slightly off the main road. Status: verify locally.",
+      "Maruthi Tiffin Centre (pure veg, no onion or garlic): poori-saagu and a Malnad coffee. Status: verify locally."
+    ],
     "temple": {
       "dressCode": "Modest, traditional dress (Karnataka Tourism: 'modest dressing is advised'; Yatradham: traditional and formal clothing). The Peetham's own detailed dress-code notice isn't readable online. Verify locally.",
       "darshanTimings": "Sharadamba temple: 6 AM–2 PM and 4–9 PM. Maha-Mangalarati at 10 AM, 12 noon and 7:30 PM. Other temples: 6 AM–1 PM and 5–8 PM. Guru Darshanam 10:30–11:30 AM. Chandramoulishwara Puja by the Jagadguru 9–10 PM (8:30–10 PM on Fridays). Timings change with events and the Jagadguru's camps (official site).",
@@ -4412,7 +4432,9 @@
       "https://en.wikipedia.org/wiki/Sringeri_Sharada_Peetham",
       "https://en.wikipedia.org/wiki/Agumbe",
       "https://nominatim.openstreetmap.org/search?q=Sharadamba+Temple+Sringeri&format=json&limit=3&countrycodes=in",
-      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.2513769,13.4161389?overview=false"
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.2513769,13.4161389?overview=false",
+      "https://wanderlog.com/place/details/6222306",
+      "https://eatwithachar.blogspot.com/2022/11/maruthi-tiffin-center-sringeri.html"
     ],
     "confidence": "verified",
     "lastChecked": "2026-11"
@@ -4517,7 +4539,10 @@
       12
     ],
     "seasonNote": "Post-monsoon to December, when the grass is green and skies are clear. The forest department closes these trails in the monsoon, and in 2026 it also shut them from 14 January for fire season, so treat late January onward as uncertain and check Aranya Vihaara before you plan.",
-    "vegFoodNearby": [],
+    "vegFoodNearby": [
+      "Mullodi homestays at the trailhead, e.g. Bella Homestay (reviews describe vegetarian home meals and packed trek lunches). Some kitchens also cook non-veg, so confirm a veg-only meal when you book.",
+      "Carry your own snacks: there is no food on the trail."
+    ],
     "temple": null,
     "trek": {
       "difficulty": "hard",
@@ -4542,7 +4567,8 @@
       "https://nominatim.openstreetmap.org/search?q=Kudremukh+Peak&format=json&limit=3&countrycodes=in",
       "https://nominatim.openstreetmap.org/search?q=Mullodi&format=json&limit=3&countrycodes=in",
       "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3068537,13.1622376?overview=false",
-      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.2748196,13.1255691?overview=false"
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.2748196,13.1255691?overview=false",
+      "https://wanderlog.com/place/details/4882233/bella-homestay-kudremukh"
     ],
     "confidence": "partial",
     "lastChecked": "2026-11"
@@ -5531,7 +5557,9 @@
     ],
     "seasonNote": "Prime season is October to March; mornings have calmer seas. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop. The cliff paths turn dangerous in the rain.",
     "vegFoodNearby": [
-      "Mahabaleshwar temple Amrutanna Prasad Bhojana in town (free, 12–2 PM & 7:30–8:30 PM; temple trust site)"
+      "Mahabaleshwar temple prasada bhojana in town (free, pure veg) before or after the walk.",
+      "Pai Restaurant, Gokarna town (pure veg): a thali after the beach walk; don't confuse it with Pai Hotel around the corner. Status: verify locally.",
+      "Beach shacks on Kudle and Om mostly serve seafood too: stick to veg plates or carry food."
     ],
     "temple": null,
     "trek": null,
@@ -5549,7 +5577,8 @@
       "https://nominatim.openstreetmap.org/search?q=Kudle%20Beach&format=json&limit=3&countrycodes=in",
       "https://nominatim.openstreetmap.org/search?q=Half%20Moon%20Beach&format=json&limit=3&countrycodes=in",
       "https://nominatim.openstreetmap.org/search?q=Paradise%20Beach%2C%20Gokarna&format=json&limit=3&countrycodes=in",
-      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.3254238,14.5190647?overview=false"
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.3254238,14.5190647?overview=false",
+      "https://www.happycow.net/reviews/pai-restaurant-karnataka-445324"
     ],
     "confidence": "partial",
     "lastChecked": "2026-11"
@@ -6130,7 +6159,12 @@
       5
     ],
     "seasonNote": "The official jeep safari runs after the monsoon, from about October (the 2026–27 season opened in early October). The falls are fullest right after the rains. Closed in the monsoon. Walking the railway tracks is prohibited in every season.",
-    "vegFoodNearby": [],
+    "vegFoodNearby": [
+      "Krishna, Borda, Margao (pure veg, ~0.6 km from Madgaon Jn per listing): pav bhaji or a South Indian breakfast before the Kulem train. Verify locally.",
+      "Pai Palace, Vidya Nagar, Margao (pure veg family restaurant per listings, ~0.6 km from the station). Verify locally.",
+      "Avoid the station's Benjoe Rail Restaurant if you want strictly veg: it serves both.",
+      "Carry food for the jeep day: options at Collem are limited (verify locally)."
+    ],
     "temple": null,
     "trek": {
       "difficulty": "easy",
@@ -6160,7 +6194,9 @@
       "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.2445945,15.3341595?overview=false",
       "https://router.project-osrm.org/route/v1/driving/74.3165505,14.5435814;74.2445945,15.3341595?overview=false",
       "https://router.project-osrm.org/route/v1/driving/74.1262408,14.8163513;74.2445945,15.3341595?overview=false",
-      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.3142493,15.3156176?overview=false"
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;74.3142493,15.3156176?overview=false",
+      "https://yappe.in/goa/margao/krishna/759914",
+      "https://yappe.in/goa/margao/pai-palace/1255662"
     ],
     "confidence": "partial",
     "lastChecked": "2026-11"
