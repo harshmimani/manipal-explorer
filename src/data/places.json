@@ -46,7 +46,9 @@
     "bikeTips": "A short town ride to Manipal's northern edge. Park outside the park and walk in. Opening hours and any parking fee aren't confirmed online, so verify locally.",
     "safety": "The plateau edges are laterite and can crumble, so stay behind the railings. Ride back slowly after dark: campus roads are thick with two-wheelers and pedestrians.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "manipal-end-point/202959528"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Manipal",
       "https://nominatim.openstreetmap.org/search?q=End+Point%2C+Manipal&format=json&limit=3",
@@ -112,7 +114,9 @@
     "bikeTips": "Two kilometres from Tiger Circle. Park on the lake road and never ride onto the walking path.",
     "safety": "No swimming. Boat only through the official facility, wearing a life jacket. Watch for joggers and kids on the path at dusk.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "manipal-lake/60739785"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Manipal",
       "https://nominatim.openstreetmap.org/search?q=Manipal+Lake&format=json&limit=3",
@@ -172,7 +176,9 @@
     "bikeTips": "Two kilometres from Tiger Circle, near the Alevoor-Manipal road. The map pin is OpenStreetMap's 'Old Heritage Village' point, so confirm the gate locally.",
     "safety": "Old wooden stairs and low thresholds: mind your head and your step. Electric vehicles are available for seniors and visitors with disabilities.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "hasta-shilpa-heritage-village/179651291"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/hasta-shilpa-kala-village",
       "https://www.outlooktraveller.com/experiences/heritage/all-about-the-hasta-shilpa-heritage-village-museum-in-manipal",
@@ -245,7 +251,13 @@
     "bikeTips": "Five kilometres from Tiger Circle. Car Street is packed with pedestrians, so park in the lots around Rathabeedi and walk in. Leave shoes and helmets at the stands. Udupi station is about 4 km from the city bus stand if friends come by Konkan Railway.",
     "safety": "Crowds, and the stone floors get slippery after washing. Carry little while you're shirtless in the queue. Midday stone can be hot underfoot.",
     "mustDo": true,
-    "images": [],
+    "images": [
+      "udupi-sri-krishna-matha/12340718",
+      "udupi-sri-krishna-matha/23255985",
+      "udupi-sri-krishna-matha/89938696",
+      "udupi-sri-krishna-matha/109461871",
+      "udupi-sri-krishna-matha/46055361"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Udupi_Sri_Krishna_Matha",
       "https://karnatakatourism.org/en/attractions/udupi-sri-krishna-temple/",
@@ -317,7 +329,9 @@
     "bikeTips": "Five kilometres from Manipal on lit town roads. Park outside the square and walk.",
     "safety": "Festival nights are packed: watch kids and pockets. Shoes come off where the square becomes temple ground. If you go into the Matha, the dress code applies (men shirtless all day since Jan 2026).",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "udupi-car-street-night/109461871"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Udupi_Sri_Krishna_Matha",
       "https://trawell.in/karnataka/udupi/udupi-sri-krishna-temple",
@@ -391,7 +405,9 @@
     "bikeTips": "Same parking as the Krishna Matha. Both are on the square; Chandramouleeshwara is directly opposite the Matha.",
     "safety": "Steps lead down into Chandramouleeshwara, and the smooth granite floors are slippery when wet.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "udupi-anantheshwara-chandramouleeshwara/72576334"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Anantheshwara_Temple,_Udupi",
       "https://inditales.com/ancient-shiva-temples-of-udupi/",
@@ -453,7 +469,9 @@
     "bikeTips": "An easy 20-minute ride on village roads. Climb Kunjarugiri first, then roll down to Pajaka.",
     "safety": "Narrow village lanes with blind bends, buses and cattle. The ponds have no railings, so watch kids.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "pajaka-kshetra/22857655"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Pajaka",
       "https://www.nativeplanet.com/travel-guide/one-day-trip-at-kunjarugiri-in-udupi-003292.html",
@@ -510,7 +528,9 @@
     "bikeTips": "Native Planet reports ample parking and clean restrooms at the temple. Go before noon, while the steps are still cool.",
     "safety": "The stone steps are shadeless in places, so carry water. The ponds around the hill are deep; stay off the edges.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kunjarugiri-durga-temple/138148487"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Kunjarugiri",
       "https://www.nativeplanet.com/travel-guide/one-day-trip-at-kunjarugiri-in-udupi-003292.html",
@@ -564,7 +584,9 @@
     "bikeTips": "Take the Udupi-Santhekatte-Hoode beach road and turn for Kemmannu about 1.5 km before Hoode beach. The last kilometre is narrow, which suits a bike.",
     "safety": "Don't crowd or bounce the bridge; its load limit isn't confirmed online, so follow any posted signs. The island has private properties, so stay on the paths. Wear a life jacket if you paddle.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kemmannu-hanging-bridge-hoode/49417687"
+    ],
     "sources": [
       "https://enidhi.net/2020/07/kayaking-adventure-suvarna-river-watersports-kemmannu-near-udupi.html",
       "https://enidhi.net/2022/03/kodi-bengre-delta-beach-10-things-to-do.html",
@@ -619,7 +641,9 @@
     "bikeTips": "Ride to the Kemmannu hanging bridge; the put-in is across it. There are no lockers or changing rooms (eNidhi), so leave valuables with the bike.",
     "safety": "Life jacket on, always. Keep away from the strong currents near the river mouth and follow the operator's line. Use a dry bag; capsizes happen.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "swarna-river-kayaking/202959528"
+    ],
     "sources": [
       "https://enidhi.net/2020/07/kayaking-adventure-suvarna-river-watersports-kemmannu-near-udupi.html",
       "https://karnatakatourism.org/experiences/kayaking-in-udupi-backwaters",
@@ -670,7 +694,9 @@
     "bikeTips": "Twelve kilometres, an easy ride via Udupi. Weekend evenings jam up near the Sea Walk, so arrive by 4:30 pm.",
     "safety": "Swim only in designated zones near lifeguards; lifeguards and tourist mitras are deployed (News Karnataka, Sept 2026). Never enter the water from the Sea Walk (Karnataka Tourism). The beach is barricaded in the monsoon for rough seas.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "malpe-beach-sea-walk/80797036"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/malpe-beach/",
       "https://en.wikipedia.org/wiki/Malpe",
@@ -729,7 +755,13 @@
     "bikeTips": "Distance and ride time are to Malpe beach and the Sea Walk, where you board. Park there and buy tickets at the jetty counter.",
     "safety": "Daylight only; no overnight stays. Don't climb the basalt columns: they're protected and sharp-edged. Swim only in designated safe zones. Shade and facilities are scarce, so carry water. Boats are cancelled in rough seas.",
     "mustDo": true,
-    "images": [],
+    "images": [
+      "st-marys-island/73902011",
+      "st-marys-island/49484090",
+      "st-marys-island/49484092",
+      "st-marys-island/4941131",
+      "st-marys-island/4982179"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/St._Mary%27s_Islands",
       "https://karnatakatourism.org/en/attractions/st-marys-island/",
@@ -783,7 +815,9 @@
     "bikeTips": "About 25 min straight down NH66 via Udupi and Katapadi. Bike parking is paid. NH66 has fast trucks and buses, so avoid riding it at night.",
     "safety": "The rocks are wet and slippery; stay off the outer ones at high tide. The river mouth turns dangerous at high tide (eNidhi). The lighthouse stairs are narrow and steep. Swim only where police or lifeguards are on duty.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kaup-beach-lighthouse/81703072"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Kapu,_Udupi",
       "https://www.enidhi.net/2022/03/kapu-lighthouse-beach-visitor.html",
@@ -888,7 +922,9 @@
     "bikeTips": "Off NH66 at Katapadi, then village roads. The map pin is Mattu village (OpenStreetMap); the beach is at the sea end.",
     "safety": "Lifeguards may not be on duty (Karnataka Tourism), so don't swim. The estuary has currents. Keep clear of fishing boats.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "mattu-beach/56682078"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/mattu-beach",
       "https://nominatim.openstreetmap.org/search?q=Mattu%2C+Udupi&format=json&limit=3",
@@ -990,7 +1026,9 @@
     "bikeTips": "Thirteen kilometres north of Udupi on NH66. Turn off for Hangarakatte if you want the ferry to Kodi Bengre (daytime only; verify times).",
     "safety": "NH66 junctions here are busy with buses and trucks. Take care at U-turns, especially at night.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "brahmavar/33625077"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Brahmavar",
       "https://en.wikipedia.org/wiki/Barkur",
@@ -1042,7 +1080,9 @@
     "bikeTips": "Three kilometres from Brahmavar on the Barkur-Mandarthi road. The lanes between sites are narrow; ask locals for Kattale Basadi.",
     "safety": "Ruins are uneven with loose stone, and snakes can be in the long grass. Don't climb on the monuments.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "barkur/124725542"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Barkur",
       "https://nominatim.openstreetmap.org/search?q=Barkur&format=json&limit=3",
@@ -1167,7 +1207,9 @@
     "bikeTips": "About 40 min via Brahmavar and Barkur on the Barkur-Mandarthi road. Two-wheeler parking at the temple. Buses every 30 min from Udupi and Brahmavar.",
     "safety": "Narrow rural roads with buses, so ride slowly through villages. Don't ride home sleepy after an all-night Yakshagana; the temple has a 20-room guest house.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "mandarthi-durgaparameshwari/123324278"
+    ],
     "sources": [
       "https://mandarthidurgaparameshwari.com/",
       "https://mandarthidurgaparameshwari.com/mandarthi-facilities",
@@ -1224,7 +1266,9 @@
     "bikeTips": "About 45 min inland from Manipal. The basadi is 1.6 km from Karkala town centre. The climb to Bahubali is short, so go early, before the rock heats up.",
     "safety": "Granite gets very hot by midday and slippery with dew. Some steps are narrow with no railings. No climbing on statues; these are active places of worship.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "karkala-bahubali-chaturmukha-basadi/97962033"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Karkala",
       "https://karnatakatourism.org/en/attractions/chaturmukha-basadi/",
@@ -1276,7 +1320,9 @@
     "bikeTips": "From Manipal take NH-66 north to Kundapura and turn off onto Kodi road near the town (eNidhi notes Kodi road joins NH-66 near Vinayaka theatre). eNidhi also rates the beach-side road south from Kundapura towards Sasthana, coconut palms on one side and sea on the other, as a scenic alternative ride back.",
     "safety": "Do not climb out onto the tetrapods beside the sea walk: they are wet, algae-slick and the gaps between them are deep. The estuary mouth has river and tidal currents, so treat it as a no-swim zone. No lifeguard presence was confirmed online — verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kodi-beach-kundapura/59740348"
+    ],
     "sources": [
       "https://www.enidhi.net/2020/07/kodi-beach-with-seawalk-swings-boating-kundapura.html",
       "https://www.enidhi.net/2020/07/best-top-beaches-in-udupi-district-karnataka-complete-details.html",
@@ -1328,7 +1374,9 @@
     "bikeTips": "Straight up NH-66 past Kundapura. Park well off the highway shoulder: this stretch has fast through traffic and long-distance buses, and people stepping off the road to take photos.",
     "safety": "Karnataka Tourism calls the water relatively calm, but no lifeguard service was confirmed online and this is the open Arabian Sea. Wade, don't swim, especially near the islet and at low light. Watch traffic when crossing NH-66.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "trasi-beach/145793814"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/trasi-beach-kundapura",
       "https://en.wikipedia.org/wiki/Trasi",
@@ -1381,7 +1429,9 @@
     "bikeTips": "Trasi and Maravanthe run together on NH-66, around 55 minutes from Manipal. Boat rides on the Souparnika side have been offered outside monsoon (eNidhi). Pull fully off the road for photos: the carriageway is narrow and traffic is fast.",
     "safety": "Udayavani reported a youth swept away by strong waves at the Maravanthe beach near the Maraswamy temple (July 2019). Treat it as an open-sea beach: no swimming beyond knee depth, and none at all in rough water or after dark. The biggest everyday danger here is the highway itself, so don't stop or stand on the carriageway.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "maravanthe-beach/59613799"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Maravanthe",
       "https://udayavani.com/english-news/youth-drowns-at-maravanthe-beach",
@@ -1500,7 +1550,13 @@
     "bikeTips": "Manipal–Kundapura on NH-66, then inland via Hattiangadi on the Kundapura–Kollur road; Hattiangadi and Anegudde make easy stops. Fuel up in Kundapura. Ride the last forested stretch in daylight. Kodachadri jeeps are hired in Kollur (see the Kodachadri entry).",
     "safety": "Forest-edge roads around Kollur run through Mookambika Wildlife Sanctuary: watch for animals at dawn and dusk and avoid riding them at night. The Souparnika bathing ghats can run fast after rain, so don't go beyond the steps. Leave valuables secure; footwear goes to the counter.",
     "mustDo": true,
-    "images": [],
+    "images": [
+      "kollur-mookambika-temple/47280688",
+      "kollur-mookambika-temple/23313845",
+      "kollur-mookambika-temple/202954185",
+      "kollur-mookambika-temple/93740635",
+      "kollur-mookambika-temple/187366341"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/sri-mookambika-temple",
       "https://en.wikipedia.org/wiki/Kollur_Mookambika_Temple",
@@ -1569,7 +1625,9 @@
     "bikeTips": "NH-66 north from Udupi; the temple hillock is at Kumbashi just off the highway before Kundapura. Short climb or ride up to the shrine.",
     "safety": "Busy NH-66 junction: slow down well before turning in, and watch for buses pulling over.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "anegudde-vinayaka-temple/157489292"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Kumbashi",
       "https://templesinindiainfo.com/?p=121684",
@@ -1699,7 +1757,9 @@
     "bikeTips": "Reached via Kundapura and Siddapura side roads; Deccan Herald notes a good road between Kollur and Kamalashile that continues towards the Agumbe ghats. Bring a strong torch for the cave; the DH writer was guided in by a local shopkeeper.",
     "safety": "The Suparshwa cave is pitch dark with uneven, damp rock. Go with a local guide and a proper torch, mind your head, and don't disturb the bats. Stay off the Kubja banks when the river is high. Forest roads: no night riding.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kamalashile-brahmi-durgaparameshwari/126987492"
+    ],
     "sources": [
       "https://www.deccanherald.com/content/332167/devotion-amidst-natures-splendour.html",
       "https://en.wikipedia.org/wiki/Kamalashile",
@@ -1750,7 +1810,9 @@
     "bikeTips": "Distance and ride time are to Kollur town, the permit office and approach. Coordinates of the falls weren't on OpenStreetMap. Jungle Lodges' Anejhari camp has offered visits here, a sign that it may only be reachable through official channels.",
     "safety": "A visitor died here in 2023 while filming near the falls (triphippies). The rocks around the plunge pool are slick and the drop is real. Do not enter without a valid permit: sanctuary rules apply and closures are enforced. Wildlife present; go in daylight only.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "arasinagundi-falls/119736533"
+    ],
     "sources": [
       "https://english.udayavani.com/article/english-news/udupi-district-admin-extends-tourist-visit-restrictions-till-august-end/1519189",
       "https://www.triphippies.com/arasinagundi-falls/",
@@ -1917,7 +1979,9 @@
     "bikeTips": "Coordinates are the OSM 'Hidlumane Falls trail', so the route figure is to the nearest road (about 2 km off). The road approach is via Nittur (Hosanagara taluk) on the Kollur–Nagara side, over Ghat sections with hairpins. Start early from Manipal.",
     "safety": "Upper tiers involve climbing wet rock; stop at the lower falls if you're unsure. The ghat road to Nittur has blind hairpins, buses and morning fog: no night riding. It's a reserve forest with wildlife, so stay on the trail and keep to daylight.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "hidlumane-falls/119735983"
+    ],
     "sources": [
       "https://muddietrails.com/blog/trek-to-hidlumane-falls-in-kodachadri/",
       "https://blog.explurger.com/kodachadri-trek/",
@@ -1976,7 +2040,9 @@
     "bikeTips": "Distance and time are to Kollur, the usual jeep base; you can't ride a private bike to the top (eNidhi, 2021, reported bikes banned on the summit track). Explurger says Nittur jeeps leave around 6 AM and return by late morning, so it's not an on-demand all-day service. Park the bike in Kollur and stay overnight there.",
     "safety": "Overnight stays or camping at the peak: not confirmed as allowed. One operator says camping inside Kodachadri forest has been banned since 2015, and blogs describe no facilities (water, first aid, camping) at the top. Plan to stay in Kollur or Nittur. The jeep track is rough and steep; hold on. Fog and wind on the ridges: stay on marked paths away from drop-offs. Don't trek without a valid permit and guide, and don't use unofficial routes when trails are closed.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kodachadri/21902633"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Kodachadri",
       "https://blog.explurger.com/kodachadri-trek/",
@@ -2139,7 +2205,9 @@
     "bikeTips": "JLR says the camp is about 80 km from Udupi, near Kollur; exact coordinates weren't on OpenStreetMap, so distance and ride time are left blank (Kollur is 76 km and 1h 25m from Manipal). Ride in daylight because the last stretch is sanctuary forest.",
     "safety": "Inside a wildlife sanctuary: no wandering off at night, follow the naturalists, and wear proper shoes for the treks (JLR asks for them). Riverbank: don't swim in the Souparnika.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "anejhari-butterfly-camp/93740635"
+    ],
     "sources": [
       "https://www.junglelodges.com/anejhari-butterfly-camp",
       "https://blog.explurger.com/kodachadri-trek/",
@@ -2245,7 +2313,9 @@
     "bikeTips": "NH66 all the way through Mangaluru, cross the Netravati bridge and turn off for Ullal/Someshwara. City traffic through Mangaluru adds time; avoid the evening rush on NH66. Coordinates are Someshwara locality (OSM); the beach is at its western edge.",
     "safety": "Swimming is not advised: hidden rocks and strong currents near Rudra Shile (Karnataka Tourism; Wikipedia). A young doctor died in Sept 2023 after slipping off the Rudrapade rocks into the sea. Stay off wet, wave-washed rocks, especially at high tide and after dark. Little shade: carry water and sun protection.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "someshwara-beach-ullal/52536319"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/someshwara-beach",
       "https://en.wikipedia.org/wiki/Someshwar_Beach",
@@ -2299,7 +2369,9 @@
     "bikeTips": "Straight down NH66 past Surathkal; the beach turn-off is just before NMPT. Watch for port trucks and container traffic on this stretch of highway, especially at the Panambur and Baikampady junctions.",
     "safety": "Lifeguards and patrol vehicles on duty; sea entry can be prohibited when currents are strong (Karnataka Tourism). Walking on the port breakwater rocks is forbidden (Wikipedia). All water sports are suspended in the monsoon (June 2026 notice). Stay within the flagged swimming zone and leave by 7 PM.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "panambur-beach/49194183"
+    ],
     "sources": [
       "https://karnatakatourism.org/tour-item/panambur-beach/",
       "https://en.wikipedia.org/wiki/Panambur_Beach",
@@ -2354,7 +2426,9 @@
     "bikeTips": "By road: NH66 to Kuloor, then the Tannirbhavi road down the spit (watch for port and industrial traffic). By ferry: ride to Sultan Battery in Boloor (OSRM about 62 km, 1h from Manipal), park, and cross on foot. Ferry fare is reported at about ₹15 per person on travel blogs; not confirmed officially, so verify locally.",
     "safety": "Lifeguards on duty during the day, but tides change quickly (Karnataka Tourism). Strong waves and currents put Tannirbhavi on the district's monsoon high alert, with water activities suspended in season (June 2026). Swim only in front of lifeguards and not after sunset. The Blue Flag certification has been in progress for years; no official confirmation that it has been awarded.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "tannirbhavi-beach/49824836"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Tannirbhavi_Beach",
       "https://www.karnatakatourism.org/tour-item/tannirbhavi-beach/",
@@ -2423,7 +2497,9 @@
     "bikeTips": "NH66 south to Mulki, then inland via Kinnigoli to Kateel (state highway). Good roads through villages and paddy. Riding home after a late Yakshagana show means 50 km of dark highway: stay over in Mangaluru or leave before the end.",
     "safety": "Village roads are unlit at night and busy with buses on NH66; avoid riding back tired after midnight shows. Watch for bathing ghats on the river around the temple.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kateel-durgaparameshwari-temple/2793952"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Kateel",
       "https://karnatakatourism.org/destinations/kateelu",
@@ -2488,7 +2564,9 @@
     "bikeTips": "Via Mangaluru outskirts towards Kaikamba/Gurupura and on to Polali (OSRM about 72 km). There is an arch at Kaikamba on the Gurupura road (OSM). Rural roads; watch for buses and cattle.",
     "safety": "Narrow village roads with sharp bends and private buses. Avoid riding these back roads after dark. Dress code and annadana are not confirmed online; verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "polali-rajarajeshwari-temple/163485642"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Polali_Rajarajeshwari_Temple",
       "https://www.incredibleindia.gov.in/en/karnataka/mangalore/polali-rajarajeshwari-temple",
@@ -2554,7 +2632,9 @@
     "bikeTips": "NH66 into Mangaluru, exit at Kottara/KPT towards Kadri. City traffic; park near the temple base and walk up to the tanks and caves.",
     "safety": "Steps to the springs and caves can be slippery and uneven. Keep silence inside the main sanctum. Annadana not confirmed online; verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kadri-manjunatha-temple/16417424"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/kadri-manjunatha-temple",
       "https://www.hindu-blog.com/2012/06/sri-kadri-manjunatha-temple-timing.html",
@@ -2622,7 +2702,9 @@
     "bikeTips": "NH66 into the city, then via Ladyhill/Urva towards Kudroli. Narrow old-town lanes and parking is tight on festival days.",
     "safety": "Heavy city traffic and crowds at evening pujas. Annadana not confirmed online; verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kudroli-gokarnanatha-temple/141773931"
+    ],
     "sources": [
       "https://www.incredibleindia.gov.in/en/karnataka/mangalore/kudroli-temple",
       "https://www.trawell.in/karnataka/mangalore/kudroli-temple",
@@ -2690,7 +2772,9 @@
     "bikeTips": "Through Mangaluru city towards Bolar/Jeppu, near the Netravati side of town. Parking is limited in the lanes.",
     "safety": "City traffic. Dress code and annadana are not confirmed online; verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "mangaladevi-temple/50861834"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Mangaladevi_Temple",
       "https://www.holidify.com/places/mangalore/mangaladevi-temple-sightseeing-124864.html",
@@ -2748,7 +2832,9 @@
     "bikeTips": "NH66 through Mangaluru and Talapady into Kerala, then inland from Kumbla to Ananthapura (OSRM about 105 km, 1h 55m). Carry your licence and vehicle papers when crossing into Kerala.",
     "safety": "Do not feed, call or approach the crocodile. Stay on the footbridge and steps and away from the water's edge. Long NH66 ride with heavy truck and bus traffic; avoid riding back after dark.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "ananthapura-lake-temple/81027051"
+    ],
     "sources": [
       "https://www.keralatourism.org/destination/ananthapura-lake-temple-kasaragod/159",
       "https://www.incredibleindia.gov.in/en/kerala/kasargod/ananthapura-lake-temple",
@@ -2807,7 +2893,13 @@
     "bikeTips": "The longest ride in this region: NH66 through Mangaluru, Kasaragod and on to Bekal (OSRM about 125 km, 2h 15m). Start early, cross Mangaluru before the morning rush, and carry papers for the Karnataka–Kerala border.",
     "safety": "Laterite walls and bastions have long unfenced drops to rocks and sea; keep kids close and stay off parapets. Heat and glare at midday: carry water. Riding back 125 km after dark on NH66 is a bad idea; consider an overnight in Kasaragod or the train.",
     "mustDo": true,
-    "images": [],
+    "images": [
+      "bekal-fort/88116219",
+      "bekal-fort/88116221",
+      "bekal-fort/62688086",
+      "bekal-fort/62688071",
+      "bekal-fort/135551793"
+    ],
     "sources": [
       "https://www.incredibleindia.gov.in/en/kerala/kasargod/bekal-fort",
       "https://www.onmanorama.com/news/kerala/2026/10/13/bekal-fort-visitors-latest-financial-year.html",
@@ -2871,7 +2963,9 @@
     "bikeTips": "OSRM routes inland via Karkala (about 50 km). Watch for private buses on blind bends.",
     "safety": "Respect Jain temple customs: no leather inside, quiet in the shrine, ask before photographing. Entry is free according to mangaloretourism.in, but one listing shows a fee; verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "moodbidri-saavira-kambada-basadi/126616493"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Saavira_Kambada_Basadi",
       "https://en.wikipedia.org/wiki/Moodabidri",
@@ -2926,7 +3020,9 @@
     "bikeTips": "NH66 to Mangaluru, then inland via Kuloor–Vamanjoor (OSRM about 67 km). Large parking area at the main gate, where the central ticket counter sells tickets for all attractions.",
     "safety": "Closed Mondays. Stay behind zoo barriers and follow the zoo's do's and don'ts. Section timings and fees are not consistently published: Karnataka Tourism says 10 AM–5 PM, the official contact page says 10 AM–5:30 PM, and the zoo is listed as 9:30 AM–5:30 PM. Boating hours are not published. Verify locally (zoo: 0824-2263300).",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "pilikula-nisargadhama/77020066"
+    ],
     "sources": [
       "https://pilikula.karnataka.gov.in/en",
       "https://pilikula.karnataka.gov.in/35/pilikula-biological-park/en",
@@ -2996,7 +3092,9 @@
     "bikeTips": "If riding: NH66 via Surathkal and Kuloor. The city stretch from Kottara to Pumpwell is the slow part, especially in the evening rush. Park once and use autos inside the old town.",
     "safety": "Busy city roads and NH66 truck traffic; avoid the 5–8 PM rush. Check which station your return train leaves from: missing it because you went to the wrong one is easy.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "mangaluru-city-by-train-bike/27314300"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Mangalore_Central_railway_station",
       "https://en.wikipedia.org/wiki/Mangalore_Junction_railway_station",
@@ -3056,7 +3154,9 @@
     "bikeTips": "NH66 into Mangaluru, then via Urva/Boloor to the riverside. Park here and take the ferry to Tannirbhavi on foot.",
     "safety": "Take care on the steps and the open top of the tower. The area around is quiet at night. Timings: sources conflict; entry is reported free. Verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "sultan-battery/4446539"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Sultan_Battery_(Mangalore)",
       "https://www.trawell.in/karnataka/mangalore/sulthan-battery",
@@ -3120,7 +3220,9 @@
     "bikeTips": "Up Lighthouse Hill Road from Hampankatta. Park on campus only if allowed.",
     "safety": "It is a working college chapel: dress modestly, keep quiet, and ask before taking photos. Visiting hours, entry fee and photography rules are not confirmed online; verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "st-aloysius-chapel/3598371"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/St._Aloysius_Chapel",
       "https://nominatim.openstreetmap.org/search?q=St+Aloysius+Chapel&format=json&limit=3&countrycodes=in",
@@ -3173,7 +3275,9 @@
     "bikeTips": "NH66 to Kasaragod, then a short hop south towards Melparamba. Carry documents for the Kerala border.",
     "safety": "Ruined walls, uneven laterite and unfenced drops; watch your footing and don't climb the bastions. The site is isolated, so don't linger after dark. Entry fee (Holidify: ₹5 Indians) and hours unconfirmed by the State Archaeology Department online; verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "chandragiri-fort/81905238"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Chandragiri_Fort,_Kerala",
       "https://www.holidify.com/places/bekal/chandragiri-fort-sightseeing-1322.html",
@@ -3235,7 +3339,9 @@
     "bikeTips": "NH66 to Kasaragod, then inland to Madhur (OSRM about 112 km, 2h). Carry papers for the Kerala border.",
     "safety": "Dress code and darshan timings are not confirmed online either; verify locally. Long NH66 ride: start early, don't ride back after dark.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "madhur-temple/157355137"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Madhur_Temple",
       "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.0101819,12.5534891?overview=false"
@@ -3297,7 +3403,13 @@
     "bikeTips": "About 97 km via Karkala and Belthangady, roughly 1h 50m. Park only in the allotted parking slots (temple rule). Leave the riding jacket and bag with the bike or at your room: bags are not allowed inside.",
     "safety": "Heavy crowds on weekends and festival days; keep valuables close, as the temple itself warns. Use the police-aid posts if you get separated from your group. Do not ride back late at night on the Belthangady–Karkala stretch if tired.",
     "mustDo": true,
-    "images": [],
+    "images": [
+      "dharmasthala-manjunatha-temple/145917077",
+      "dharmasthala-manjunatha-temple/179357745",
+      "dharmasthala-manjunatha-temple/82031859",
+      "dharmasthala-manjunatha-temple/179357624",
+      "dharmasthala-manjunatha-temple/145917081"
+    ],
     "sources": [
       "https://www.shridharmasthala.org/temple-routine/",
       "https://www.shridharmasthala.org/darshana/",
@@ -3353,7 +3465,9 @@
     "bikeTips": "The statue is about 1 km from the Manjunatha temple, by steps (around 20 minutes) or by road. Opening hours from the official site: Bahubali hill 7 am–6:30 pm; Manjusha Museum 9:30 am–5:30 pm; Vintage Car Museum 8:30 am–1 pm and 2–7 pm.",
     "safety": "Midday sun on the open hilltop is harsh; there are shelters and drinking water at the top. Steps can be crowded on holidays.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "dharmasthala-bahubali-manjusha-museums/179345516"
+    ],
     "sources": [
       "https://www.shridharmasthala.org/places-to-visit/",
       "https://www.shridharmasthala.org/lord-bahubali-statue/",
@@ -3484,7 +3598,9 @@
     "bikeTips": "About 164 km, roughly 2h 45m. The last stretch from Dharmasthala via Kokkada (SH37) passes Sowthadka. Stay the night if you're doing a seva or the trek.",
     "safety": "Huge crowds on weekends and festival days. Don't swim in the Kumaradhara when the current is strong. The approach roads are forest roads, so avoid riding after dark.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kukke-subramanya-temple/179385332"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/kukke-subramanya-temple",
       "https://blog.yatradham.org/kukke-subramanya-temple-darshan-pooja-timing/",
@@ -3545,7 +3661,9 @@
     "bikeTips": "Distance is to Kukke Subramanya (trailhead side). The Beedahalli checkpost (Kodagu side) is about 208 km, 3h 40m from Manipal. Sleep in Kukke the night before; you need to be at the gate before dawn. Don't plan to ride back the same evening after a 12-hour trek.",
     "safety": "Overnight stays and camping inside the sanctuary are banned; plan to be out by the exit time. Long, steep, exposed sections, so carry 3+ litres of water and food in steel containers. Plastic and paper are banned. Bhattara Mane meal service is not confirmed for 2026, so don't count on it. Leeches in the lower forest early in the season. Don't trek alone, and don't attempt it without a valid permit.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kumara-parvatha-trek/49722168"
+    ],
     "sources": [
       "https://daijiworld.com/news/newsDisplay?newsID=1331710",
       "https://newsable.asianetnews.com/karnataka-news/kumara-parvatha-trek-from-kukke-subramanya-now-requires-online-booking-overnight-stays-banned-articleshow-cdgrnes",
@@ -3616,7 +3734,9 @@
     "bikeTips": "About 88 km via Karkala–Belthangady; the fort is around 8 km north of Belthangady off the road toward Ujire/Charmadi. Combine with Dharmasthala (about 15 km away) or Venur on the same day.",
     "safety": "Steep, exposed rock-cut steps with sheer drops near the summit; they're slippery when wet, which is why entry is closed in the monsoon. Overnight stays are prohibited, so come down before closing. No drinking water at the top; carry plenty.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "gadaikallu-jamalabad-fort/53658185"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Jamalabad",
       "https://karnatakatourism.org/en/attractions/jamalabad-fort",
@@ -3778,7 +3898,9 @@
     "bikeTips": "Distance is to Charmadi village at the foot of the ghat (via Karkala–Belthangady–Ujire). The climb to Kottigehara at the top adds about 24 km (Kottigehara is 127 km, 2h 10m from Manipal). Fuel up in Ujire or Belthangady. Continue to Mudigere and Belur for the long ride, or loop back via Dharmasthala.",
     "safety": "12 hairpins on a narrow road. Buses and lorries cut corners, so stay left and never overtake blind. Landslides hit regularly in the monsoon: a hill collapsed at the 10th turn in July 2024. Past orders have banned heavy vehicles (2018) and all night traffic, with light vehicles allowed only 6 am–7 pm (2021). When Shiradi Ghat shuts, as in June 2025, traffic is diverted here and jams build. Don't ride the ghat at night. In mist, use low beam and slow right down.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "charmadi-ghat-ride/71520516"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Charmadi_Ghat",
       "https://www.deccanherald.com/india/karnataka/vehicles-banned-on-charmadi-ghat-in-the-night-1012244.html",
@@ -3837,7 +3959,9 @@
     "bikeTips": "OSRM route to Madikeri is about 194 km, roughly 3h 20m of riding, via Mangaluru–Sullia–Sampaje. Abbey Falls is about 6–8 km from Madikeri and open 9 am–5 pm. Dubare's elephant camp is near Kushalnagar on the Kaveri. Activity timings and fees were not found online; check with Jungle Lodges (info@junglelodges.com) before going.",
     "safety": "Sampaje ghat and the climb into Madikeri carry buses and trucks; don't ride the ghats after dark. Bathing or swimming at Abbey Falls is not allowed. Keep a respectful distance from the elephants at Dubare, and follow camp staff instructions.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "coorg-long-ride-sullia-madikeri/56433537"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Abbey_Falls",
       "https://karnatakatourism.org/en/attractions/abbey-falls",
@@ -3899,7 +4023,9 @@
     "bikeTips": "Bhagamandala is about 191 km (3h 40m) from Manipal and about 33 km from Madikeri; Talacauvery is about 8 km further uphill. Do the Sangama first, then ride up.",
     "safety": "Narrow, steep hill road up to Talacauvery, often misty; ride slowly and not after dark. Hold railings on the Brahmagiri steps on windy days. Take care bathing at the Sangama, where river levels change.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "talacauvery-bhagamandala/145162857"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Talakaveri",
       "https://en.wikipedia.org/wiki/Bhagamandala",
@@ -3963,7 +4089,9 @@
     "bikeTips": "OSRM gives Belur at about 175 km, 2h 50m (Halebidu about 196 km, 3h 20m), routed over Charmadi Ghat. Belur to Halebidu is about 16 km. Make it an overnight: two ghat descents in one day is too much.",
     "safety": "This route crosses Charmadi Ghat, so read that entry: 12 hairpins, buses, and monsoon landslides. Ride the ghat in daylight only. Watch for cattle and speed breakers on the Mudigere–Belur rural roads.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "belur-halebidu-hoysala-temples/123475915"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Sacred_Ensembles_of_the_Hoysalas",
       "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur",
@@ -4072,7 +4200,9 @@
     "bikeTips": "About 121 km. Wikipedia notes buses from Dharmasthala or Uppinangady stop near the temple, or reach Kokkada and take a jeep or auto. On a bike, ride via Kokkada.",
     "safety": "Fishing is banned. Feed the fish only beaten rice or puffed rice, never packaged food. River-edge steps get slippery; don't wade in.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "shishila-matsya-shishileshwara/116525324"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Shishila",
       "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.50389,12.91361?overview=false"
@@ -4123,7 +4253,13 @@
     "bikeTips": "Ride time is the OSRM estimate plus a buffer; the hairpin section is slower than it looks, so add time if you stop for photos. The Sunset Point is on the highway, so you can ride right up to it. Agumbe village, where much of Malgudi Days was shot, is about a ten-minute walk from the point (Wikipedia). Leave the viewpoint as soon as the sun goes down, or plan to sleep in Agumbe rather than descend in the dark.",
     "safety": "Ghat road: tight hairpins, blind corners, buses and trucks swinging wide. Hold your lane and use the horn on blind bends. Fog can roll in fast and evening mist on the descent makes the surface greasy. Avoid riding down after dark. Heavy vehicles are banned on this ghat during the monsoon (June–September/October in recent years) because of landslide risk; outside that window expect trucks. The Agumbe Rainforest Research Station is a working research station (founded in 2005 by Romulus Whitaker), not a visitor attraction. We found no public visiting info, so don't just turn up. King cobra country: stay on paths if you walk into the forest.",
     "mustDo": true,
-    "images": [],
+    "images": [
+      "agumbe-sunset-point-and-ghat/49797667",
+      "agumbe-sunset-point-and-ghat/22267326",
+      "agumbe-sunset-point-and-ghat/60463023",
+      "agumbe-sunset-point-and-ghat/51493743",
+      "agumbe-sunset-point-and-ghat/51493764"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/agumbe-sunset-point",
       "https://karnatakatourism.org/tour-item/agumbe/",
@@ -4243,7 +4379,9 @@
     "bikeTips": "We couldn't get reliable coordinates for the viewpoint, so lat/lng and distance are left null. For planning, Jogi Gundi is 51 km / about 45 min from Manipal (OSRM). From Agumbe take the Sringeri road, turn off for Jogi Gundi after about 1 km, carry on a few km past houses, turn right at the sign and ride about 2 km to the forest gate (2022 directions). The road was under repair but car-friendly then.",
     "safety": "Fog can hide the falls completely, especially early morning. If you do the falls trek, the rocks at the top of Barkana on the Seetha River are very slippery. Stay well back from the edge. Leeches after rain. Don't trek to the falls without permission. It's sensitive forest.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "barkana-falls-viewpoint/119738082"
+    ],
     "sources": [
       "https://karnatakatourism.org/tour-item/barkana-falls/",
       "https://www.enidhi.net/2022/11/barkana-falls-viewpoint-agumbe.html",
@@ -4293,7 +4431,9 @@
     "bikeTips": "From Agumbe, take the Sringeri road and turn off after about 1 km. Then it's about 1 km on foot: 300–500 m on the flat, then steps down. A blog lists 9 AM–5 PM hours (gate shut if you come early) and ₹100 per person. Some sites say entry is free, so verify locally. No facilities at the site. Agumbe town is about 4 km away.",
     "safety": "The pool is too deep to stand under the fall. If you get in, stay at the edges. Wet steps and rocks are slippery. Entry is restricted during heavy monsoon rain.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "jogigundi-falls/145735582"
+    ],
     "sources": [
       "https://www.enidhi.net/2022/08/jogi-gundi-waterfalls-agumbe.html",
       "https://www.enidhi.net/2022/11/barkana-falls-viewpoint-agumbe.html",
@@ -4355,7 +4495,9 @@
     "bikeTips": "Straight run up the Hebri side of the Udupi–Agumbe road, all on good highway (Varanga sits on SH1 per OSM). The boat is about 100 m and costs ₹10 (karnataka.com, Holidify).",
     "safety": "Short boat crossing. Sit still and follow the boatman. Basadi etiquette applies: footwear off, dress modestly (no official dress code found online, so verify locally).",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "varanga-kere-basadi/94436853"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Kere_Basadi",
       "https://en.wikipedia.org/wiki/Varanga",
@@ -4424,7 +4566,13 @@
     "bikeTips": "The ride climbs the Agumbe ghat, so do the hairpins in daylight. Guest houses near the temple go first-come-first-served, with no advance booking. Ask at the Information Office by the main entrance.",
     "safety": "Agumbe ghat hairpins on the way: avoid descending after dark and watch for buses. Photography is not allowed inside the temple (Yatradham). Respect queue and silence rules.",
     "mustDo": true,
-    "images": [],
+    "images": [
+      "sringeri-sharada-peetham/28767678",
+      "sringeri-sharada-peetham/73353203",
+      "sringeri-sharada-peetham/175837",
+      "sringeri-sharada-peetham/1309417",
+      "sringeri-sharada-peetham/176180435"
+    ],
     "sources": [
       "https://sringeri.net/pilgrim-info/temple-timings",
       "https://sringeri.net/pilgrim-info/pilgrim-facilities",
@@ -4494,7 +4642,9 @@
     "bikeTips": "Ride time is OSRM plus buffer. The road climbs into the ghats via Kalasa, with forest stretches and narrow sections, so start early and be back on the plains before dark.",
     "safety": "Ghat and forest roads with narrow bends and buses. Avoid riding them at night. Watch for wildlife crossing in forest sections.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "horanadu-annapoorneshwari-temple/45953298"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/horanadu-sri-annapoorneshwari-devi",
       "https://www.holidify.com/places/horanadu/annapoorneeshwari-temple-sightseeing-4745.html",
@@ -4555,7 +4705,13 @@
     "bikeTips": "Distance and time are to Mullodi, the trailhead locality with the forest office, routed via Karkala and SH66. The peak coordinates are in lat/lng. Ride up the day before and sleep at a Mullodi homestay. IndiaHikes says homestays there do breakfast and a packed lunch (about ₹200) if you book ahead. Camping on the trek isn't allowed.",
     "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. The final ~3 km from the second Ontimara is a steep, sustained climb. Turn around on time, because getting stuck after dark in a national park is a real risk. Guides are mandatory: one per 10 trekkers, about ₹1,000 per guide (IndiaHikes).",
     "mustDo": true,
-    "images": [],
+    "images": [
+      "kudremukh-peak-trek/7775794",
+      "kudremukh-peak-trek/59840221",
+      "kudremukh-peak-trek/59840222",
+      "kudremukh-peak-trek/1319592",
+      "kudremukh-peak-trek/182737869"
+    ],
     "sources": [
       "https://www.indiahikes.com/documented-trek/kudremukh-trek",
       "https://aranyavihaara.karnataka.gov.in/",
@@ -4619,7 +4775,9 @@
     "bikeTips": "Distance and time are to Samse village, the base about 14 km from Kalasa (2026 blog). The peak coordinates are in lat/lng. Stay overnight near Samse or Kalasa so you're at the start early. Horanadu temple fits on the same trip.",
     "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. Guides are compulsory: one per batch of 10 under the 2026 SOP.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "netravati-peak-trek/137935025"
+    ],
     "sources": [
       "https://aranyavihaara.karnataka.gov.in/",
       "https://www.thenewsminute.com/karnataka/karnataka-introduces-trekking-sop-in-kudremukh-enforces-new-rules-on-four-trails",
@@ -4678,7 +4836,9 @@
     "bikeTips": "Distance and time are to Bhagavathi Nature Camp, the trailhead about 29 km from Kalasa on SH66, routed via Karkala. The peak coordinates are in lat/lng. It works as a long day from Manipal if you leave at dawn. The trail gate is about 500 m along the highway from the forest office.",
     "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. Bags are checked, so leave plastic, packaged food and alcohol behind. Guides are compulsory: one per 10 under the 2026 SOP.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kurinjal-peak-trek/49799116"
+    ],
     "sources": [
       "https://indiahikes.com/documented-trek/kurinjal-peak",
       "https://aranyavihaara.karnataka.gov.in/",
@@ -4739,7 +4899,9 @@
     "bikeTips": "Distance and time are to Kigga village, the trailhead near Sringeri, routed over the Agumbe ghat (NH169A, then SH27). Do the ghat in daylight both ways. Pair it with Sringeri darshan and the Peetham's annadana. The peak coordinates are in lat/lng.",
     "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. Dry leaves make the forest descent slippery, so watch your knees and ankles. On the crossover, the rocks at the top of Barkana Falls on the Seetha River are very slippery. Stay well back from the edge.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "narasimha-parvatha-trek/119738052"
+    ],
     "sources": [
       "https://www.indiahikes.com/documented-trek/narasimha-parvatha-trek",
       "https://aranyavihaara.karnataka.gov.in/",
@@ -4805,7 +4967,9 @@
     "bikeTips": "Take SH1 (Agumbe road) from the Thirthahalli side to Guddekeri, then the left turn-off to the hill (Wikipedia). Karnataka Tourism puts Agumbe 16 km away. The last stretch is steep and narrow with several hairpins. Ride it in first or second gear and don't attempt it on a weak scooter with a pillion.",
     "safety": "Steep, narrow climb with hairpins. Karnataka Tourism advises against it for inexperienced drivers. There are no facilities and no people at the top, so carry water and plan to be back in town before nightfall. Mind the drop-offs at the edge of the summit rocks.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kundadri-hill/21856094"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/kundadri-hills",
       "https://karnatakatourism.org/en/attractions/kundadri-jain-temple",
@@ -4865,7 +5029,9 @@
     "bikeTips": "A long ride: 195 km and about 3h25m by OSRM, crossing the Agumbe ghat. Overnight in Chikkamagaluru or Kemmanagundi. Wikipedia puts Kemmanagundi 53 km from Chikkamagaluru and 17 km from Lingadahalli. Don't take a road bike down the Hebbe jeep track. Park it and take a jeep or walk. Combine with Mullayanagiri and Baba Budangiri.",
     "safety": "Long ghat sections both ways, so avoid night riding. Z-Point is a steep, exposed climb, so watch your footing and the edges in wind or mist. At Hebbe the rocks are slippery, and Karnataka Tourism warns about leeches and slick rock in the rains. Hebbe is inside a coffee estate in the eastern part of Bhadra Wildlife Sanctuary (Wikipedia), so respect estate and forest rules.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kemmanagundi-z-point-hebbe-falls/49218405"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Kemmangundi",
       "https://karnatakatourism.org/en/attractions/hebbe-falls",
@@ -4926,7 +5092,9 @@
     "bikeTips": "OSRM's route is 181 km, about 3h20m, over the Agumbe ghat (NH169A to SH27) then NH173. Sleep in Chikkamagaluru the night before and ride up at dawn for the 6 AM slot. The summit road is narrow and single-lane in places. Carry your pass confirmation.",
     "safety": "Narrow hill road with blind corners and heavy weekend traffic. Use the horn and give way to vehicles coming down. The summit is windy and cold in winter mornings, so layer up. Fog can drop visibility to a few metres. Avoid riding back down the ghats after dark.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "mullayanagiri-peak/146873737"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Mullayanagiri",
       "https://en.wikipedia.org/wiki/Baba_Budangiri",
@@ -4986,7 +5154,9 @@
     "bikeTips": "Ride over the Agumbe ghat towards Thirthahalli. The fort is about 18 km from Thirthahalli (Wikipedia, Karnataka Tourism). Park at the base and pick up a ticket at the checkpost. Pairs well with Kuppalli or Kundadri on the same day.",
     "safety": "Granite steps and boulder sections get slippery when wet. The topmost portion was reported closed to visitors in Aug 2024. No plastic or packed food inside, and drones are banned (bags are checked). Facilities are minimal, a tea shop by the parking at most, so carry water. Don't stay up for sunset if it means riding the ghat in the dark.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kavaledurga-fort/23358742"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Kavaledurga",
       "https://karnatakatourism.org/en/attractions/kavaledurga-fort",
@@ -5046,7 +5216,9 @@
     "bikeTips": "Over the Agumbe ghat and on past Thirthahalli. Karnataka Tourism puts Kuppalli 31 km from Kundadri, so a Kundadri–Kuppalli–Kavaledurga loop works on one bike day.",
     "safety": "Short uphill walk to Kavishaila on rock, which can be slippery when damp. No photography inside the house museum. The ghat ride back should be done before dark.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kuppalli-kavimane-kavishaila/179388986"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Kuppalli",
       "https://karnatakatourism.org/en/attractions/kundadri-jain-temple",
@@ -5105,7 +5277,9 @@
     "bikeTips": "OSRM routes it over the Agumbe ghat via Thirthahalli on NH169A/NH169: 126 km, about 1h50m. The morning window is short (8:30–11:30 AM per karnataka.com), so a dawn start or an overnight stop is the only way to see the bath.",
     "safety": "Elephants are wild animals, trained or not. Keep the distance the mahouts set, don't feed them unless invited, and never stand behind one. The ground at the bathing spot is wet and slippery. A pre-dawn ghat ride means fog and low light, so ride slow with lights on.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "sakrebyle-elephant-camp/59478681"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/sakrebyle-elephant-camp",
       "https://www.karnataka.com/shimoga/sakrebailu-elephant-camp",
@@ -5156,7 +5330,9 @@
     "bikeTips": "161 km, about 2h45m by OSRM, up the NH66 coast and then SH50 inland. Do it as an overnight: sleep in Jog, Sagara or by the Linganamakki backwaters. Parking is ₹30 for two-wheelers. Entry ₹20 (Indians), and visits are capped at 2 hours. Hours are 7:30 AM–9:30 PM (Karnataka Tourism).",
     "safety": "The 1,400-step trek to the base is tough (45–60 minutes each way). Karnataka Tourism says it's often restricted for safety, so check on site and never go past barriers. Stay behind viewpoint railings, because the gorge edge is sheer. The Watkins Platform near the base depends on water levels and safety rules. Patchy phone signal, and the nearest hospital is in Sagara, about 30 km away. Drones need a ₹500 ticket.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "jog-falls/183201937"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/jog-falls",
       "https://en.wikipedia.org/wiki/Jog_Falls",
@@ -5214,7 +5390,9 @@
     "bikeTips": "Same approach as Mullayanagiri: overnight in Chikkamagaluru, then an online vehicle pass for the 6 AM–12 or 1–6 PM slot (₹50 bike, Aug 2025). 189 km and about 3h35m from Manipal (OSRM).",
     "safety": "Narrow hill road with weekend traffic, fog and cold mornings. Follow police and shrine instructions. Manikyadhara's rocks are slippery.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "baba-budangiri-dattapeetha/59851396"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Baba_Budangiri",
       "https://en.wikipedia.org/wiki/Bhadra_Wildlife_Sanctuary",
@@ -5267,7 +5445,9 @@
     "bikeTips": "189 km / about 3h15m from Manipal (OSRM). Treat it as an add-on from Chikkamagaluru town, 18 km away.",
     "safety": "No facilities or lifeguards. Don't swim in the tank, and keep off the slippery bund edges. Carry water.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "ayyanakere-lake/69086174"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Ayyanakere",
       "https://nominatim.openstreetmap.org/search?q=Ayyanakere%2C+Karnataka&format=json&limit=3",
@@ -5324,7 +5504,9 @@
     "bikeTips": "NH66 north all the way through Kundapura, Byndoor and Bhatkal. Straight, fast, flat, but crowded with buses and trucks. Park near the temple approach. Lift fee for the gopura is small (about ₹10–20 per Karnataka Tourism). Bring a dhoti or formal trousers in your tank bag.",
     "safety": "Murudeshwar beach was closed after four schoolgirls drowned on 10 Dec 2024 when a wave hit them; it reopened around 26 Dec 2024 with shoreline safety ropes. Stay inside the roped zone, do not swim beyond waist depth, and obey lifeguards. Use only certified water-sports operators and wear a life jacket. NH66 has heavy truck/bus traffic; avoid night riding.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "murudeshwar-temple-beach/60359164"
+    ],
     "sources": [
       "https://karnatakatourism.org/tour-item/murudeshwara/",
       "https://bhatkallys.com/news/read/murudeshwar-temple-introduces-dress-code",
@@ -5381,7 +5563,9 @@
     "bikeTips": "Distance and time are to Murudeshwar (the departure point); the island itself is about 19 km offshore and roughly 1.5 h by boat. Reach Murudeshwar by 7:30 AM; operators confirm the jetty. Carry photo ID.",
     "safety": "Public landing on Netrani is prohibited: Karnataka Tourism calls it a restricted naval area, and earlier reports say casual visitors need coastal police permission (operators handle paperwork). The Navy historically used it for target practice. Only dive with a certified operator; PADI minimum age for diving is 10. Trips stop completely June–September. Sea-sickness on the 1.5 h crossing is common.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "netrani-island/37775301"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/experiences/scuba-diving-at-netrani-island/",
       "https://karnatakatourism.org/tour-item/murudeshwara/",
@@ -5445,7 +5629,9 @@
     "bikeTips": "NH66 to Honnavar side, then the short turn inland to Idagunji. Easy, flat ride. Combine with Apsarakonda (a few km away) and Murudeshwar on the way back.",
     "safety": "NH66 traffic is heavy and fast; avoid riding after dark. Temple area gets congested on Sankashti and festival days.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "idagunji-maha-ganapathi/158196598"
+    ],
     "sources": [
       "https://temple.yatradham.org/temple/shri-idagunji-maha-ganapati-temple",
       "https://temple.yatradham.org/Temples-in-Melin-Idgunji",
@@ -5509,7 +5695,9 @@
     "bikeTips": "NH66 north past Murudeshwar, Honnavar and Kumta, then the Gokarna turn-off. Vehicles are not allowed near the temple: park and walk about 10 minutes along Car Street. Carry a dhoti.",
     "safety": "Narrow, crowded Car Street; watch your bag. NH66 Honnavar–Kumta stretch has heavy trucks; avoid night riding.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "gokarna-mahabaleshwar-temple/75500421"
+    ],
     "sources": [
       "https://karnatakatourism.org/attractions/mahabaleshwar-temple-gokarna",
       "http://www.srigokarna.org/about-us/",
@@ -5567,7 +5755,13 @@
     "bikeTips": "Lat/lng and distance are for Om Beach parking. Kudle and Om have road access, parking and toilets; Half Moon and the last cove are walk-or-boat only. Leave the bike at Om and don't ride the beach roads after dark.",
     "safety": "Drownings are recurring around Gokarna: two MBBS students were swept away watching sunset near Jatayu Teertha, Kudle, in April 2025. No dated Om-specific drowning report was found online, but Karnataka Tourism says Om's water can be rough. At Half Moon, currents are strong and drownings have happened (Holidify); at Paradise Beach avoid swimming entirely: sharp rocks and strong undercurrents (Karnataka Tourism). Stick to marked trails; cliff edges are slippery; never walk the trail after sunset or in the monsoon. Boat activities are suspended June–Sept; use operators with life jackets. No closure order for Half Moon or Paradise found online; verify locally.",
     "mustDo": true,
-    "images": [],
+    "images": [
+      "gokarna-beach-trail/49245162",
+      "gokarna-beach-trail/182740385",
+      "gokarna-beach-trail/182740396",
+      "gokarna-beach-trail/127697832",
+      "gokarna-beach-trail/127697831"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/blogs/gokarna-beaches",
       "https://www.karnatakatourism.org/tour-item/om-beach-gokarna/",
@@ -5625,7 +5819,9 @@
     "bikeTips": "NH66 north from Gokarna via Ankola. Overnight here if you're heading to Collem for Dudhsagar (87 km, about 1h 45m by OSRM). INS Chapal museum hours and fee vary by source (commonly 10 AM–1 PM and about 4:30–6 PM, about ₹15), verify locally.",
     "safety": "Town beach: swim only where lifeguards are present; none confirmed online, verify locally. Naval areas around Karwar are off-limits; obey signs and don't photograph naval installations.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "karwar-tagore-beach/60505709"
+    ],
     "sources": [
       "https://karnatakatourism.org/tour-item/devbagh-beach-karwar/",
       "https://trawell.in/karnataka/karwar/warship-museum",
@@ -5679,7 +5875,9 @@
     "bikeTips": "Distance/time are to Devbagh jetty near the Kali bridge on NH66. Boat departure point and transfer arrangements vary by source (JLR office in Karwar, Karwar dock, or the jetty near Kali bridge); confirm with Jungle Lodges when booking. Bike stays on the mainland.",
     "safety": "Karnataka Tourism calls the water calm and shallow, but the river mouth has currents; don't swim near it. Use operators with life jackets for water sports. Carry insect repellent in the casuarinas.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "devbagh-beach/15118398"
+    ],
     "sources": [
       "https://karnatakatourism.org/tour-item/devbagh-beach-karwar/",
       "https://www.avathi.com/experience/devbagh-beach-resort/701",
@@ -5729,7 +5927,9 @@
     "bikeTips": "About 0.5 km off NH66 between Kumta and Gokarna. Bring water and snacks; nothing nearby to buy.",
     "safety": "Uneven laterite steps and slippery moss; watch your footing on walls. Avoid heavy rain. Hours listed as 9 AM–5 PM, free entry (Karnataka Tourism); other listings say 8 AM–6 PM, verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "mirjan-fort/51644311"
+    ],
     "sources": [
       "https://karnatakatourism.org/tour-item/mirjan-fort/",
       "https://en.wikipedia.org/api/rest_v1/page/summary/Mirjan_Fort",
@@ -5780,7 +5980,9 @@
     "bikeTips": "Turn off NH66 near Honnavar; last stretch is a village road. Pair with Idagunji and Kasarkod Eco Beach.",
     "safety": "Steps (roughly 100–150 per a blog) are slippery when wet. Swimming rules not confirmed officially; verify locally before getting in. Fee and hours vary by source, verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "apsarakonda-falls/15227926"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/blogs/places-to-visit-in-honnavar",
       "https://en.wikipedia.org/api/rest_v1/page/summary/Apsarakonda",
@@ -5839,7 +6041,9 @@
     "bikeTips": "From Kumta take the Sirsi road via Hiregutti/Mattighatta side; the Mattighatta approach has a short paved walk (500 m–1 km). Final roads are narrow forest roads; ride in daylight. Open 8 AM–6 PM.",
     "safety": "Remove footwear at the base counter before the cave passage (Karnataka Tourism), so carry socks or wipes. Wear grippy shoes on the trail. Steep, uneven cave steps. Plastic deposit system in force. Forest road: watch for wildlife and don't ride after dark.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "yana-rocks/81954290"
+    ],
     "sources": [
       "https://karnatakatourism.org/tour-item/yana/",
       "https://en.wikipedia.org/api/rest_v1/page/summary/Yana,_India",
@@ -5890,7 +6094,9 @@
     "bikeTips": "From Yellapur take the Hubli highway and turn towards Ganeshgudi; the last stretch is poor and better with ground clearance (Trawell). Walk the final 0.5 km from the gate. Coordinates from Wikipedia; OSRM routes to the nearest road point.",
     "safety": "Rough forest road; ride only in daylight and carry fuel. Wet rocks are extremely slippery; don't climb on the falls. The Forest Dept restricted entry in June 2025 when Kali water levels rose. Entry about ₹5 and 6 AM–5 PM per Trawell; current status and fee verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "sathodi-falls/49567674"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/sathodi-falls",
       "https://trawell.in/karnataka/dandeli/sathodi-falls",
@@ -5943,7 +6149,9 @@
     "bikeTips": "About 17 km from Yellapur town. Combine with Sathodi and Sirsi in a two-night Yellapur–Sirsi loop. Open 9 AM–6 PM (Karnataka Tourism).",
     "safety": "Stay behind the handrails; the gorge edge is sheer. Ghat and forest roads around Yellapur carry heavy trucks on the Hubli highway; avoid night riding. Entry fee not stated officially, verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "magod-falls/15227737"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/attractions/magod-falls",
       "https://en.wikipedia.org/api/rest_v1/page/summary/Magod_Falls",
@@ -6047,7 +6255,9 @@
     "bikeTips": "Long day: about 5 hours from Manipal via the coast and the ghat roads. Split it with a night in Sirsi or Yellapur. Ganeshgudi (rafting launch area) is about 308 km from Manipal by OSRM.",
     "safety": "Raft only with operators that provide life jackets, helmets and trained river guides (mandatory per Karnataka Tourism). Age and weight limits vary by operator (commonly 12–14+ for long runs), verify locally. Rafting is inside the Hornbill Conservation Reserve / tiger reserve area: no off-road wandering, and wildlife on roads at dawn and dusk. Ghat roads: hairpins, trucks, fog in early mornings; don't ride after dark. Veg-friendly stays not verified online; ask resorts for pure-veg meals and verify locally.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "dandeli-kali-rafting/129580382"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/experiences/rafting-in-dandeli/",
       "https://greenminute.in/2026/01/13/karnataka-forest-deptt-fails-to-stop-long-rafting-in-kali-river-impacting-dandeli-forests/",
@@ -6111,7 +6321,9 @@
     "bikeTips": "Ride up from Kumta via the Devimane ghat or from Honnavar; ghat sections have hairpins and buses. Stay the night in Sirsi.",
     "safety": "Ghat roads to Sirsi: hairpins, buses, morning fog. Avoid night riding. Dress code not published online; wear traditional clothes to be safe (verify locally).",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "sirsi-marikamba-temple/94103920"
+    ],
     "sources": [
       "https://en.wikipedia.org/wiki/Marikamba_Temple,_Sirsi",
       "https://www.bhaktibharat.com/en/mandir/sirsi-marikamba-temple",
@@ -6177,7 +6389,13 @@
     "bikeTips": "Route breaks overnight. Option 1: Manipal -> Gokarna (179 km, ~3h 05m), sleep, then Gokarna -> Collem (134 km, ~2h 45m). Option 2: push to Karwar (215 km, ~3h 45m), sleep, then Karwar -> Collem (87 km, ~1h 45m) to make the 8 AM gate. Two-wheelers and private vehicles are NOT allowed into the safari circuit: park at Collem and take the jeep. Total Manipal -> Kulem is 302 km by OSRM.",
     "safety": "Walking on the railway tracks or bridge to Dudhsagar is prohibited: South Western Railway bars public access via the railway route, and RPF (Hubballi Division, Castle Rock post) fined 32 tourists ₹500 each under Section 147 of the Railways Act in July 2026; a South Goa Collector's order (2023) bans entry by train or on foot along the track and has RPF stop people de-boarding near Dudhsagar. Inside the circuit: life jackets are mandatory at the falls, no plastic bottles/bags, no alcohol, and trips can be suspended on orange/red weather alerts. Rocks at the pool are slippery. If riding, don't do Anmod/forest roads at night.",
     "mustDo": true,
-    "images": [],
+    "images": [
+      "dudhsagar-falls-overnight/59686467",
+      "dudhsagar-falls-overnight/49175986",
+      "dudhsagar-falls-overnight/49175988",
+      "dudhsagar-falls-overnight/49175774",
+      "dudhsagar-falls-overnight/146763320"
+    ],
     "sources": [
       "https://curlytales.com/goas-dudhsagar-falls-reopens-for-tourists-time-entry-rules-what-to-know-before-visiting/",
       "https://goemkarponn.com/dudhsagar-circuit-reopens-post-monsoon-for-authorized-eco-tourism",
@@ -6243,7 +6461,9 @@
     "bikeTips": "Just off NH66 at Honnavar. Fold into a Murudeshwar–Idagunji–Apsarakonda–Kasarkod loop and be home by dark.",
     "safety": "Blue Flag beaches have designated swim zones; swim only in them and follow lifeguards (specific timings not published, verify locally). Boardwalk can be slick after rain.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "kasarkod-eco-beach/65564061"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/blogs/places-to-visit-in-honnavar",
       "https://nominatim.openstreetmap.org/search?q=Kasarkod&format=json&limit=3&countrycodes=in",
@@ -6296,7 +6516,9 @@
     "bikeTips": "Distance and time are to Honnavar town (the boat side); the island is about 4–7 km offshore. Ask at Honnavar port/riverfront for a boat.",
     "safety": "Access is uncertain: some listings say landing is only allowed at Sankranti with local permission. Never take an unlicensed boat without life jackets. Fort walls are crumbling; watch the edges.",
     "mustDo": false,
-    "images": [],
+    "images": [
+      "basavaraj-durga-island/19739597"
+    ],
     "sources": [
       "https://karnatakatourism.org/en/blogs/places-to-visit-in-honnavar",
       "https://en.wikipedia.org/api/rest_v1/page/summary/Basavaraj_Durga_Island",
