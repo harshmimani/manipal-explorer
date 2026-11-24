@@ -27,3 +27,6 @@ dist-ssr
 test-results
 playwright-report
 lighthouse-*.html
+
+# Image pipeline cache (downloaded masters, API responses)
+.cache

@@ -28,6 +28,9 @@ const MUST_DO = new Set([
 const ROUTE_ALIAS = { 'st-marys-island': 'malpe-beach-sea-walk' };
 
 const routes = read('research/raw/routes.json');
+// Image links come from scripts/fetch-images.mjs (hero first), so a data rebuild keeps them.
+const imageCredits = fs.existsSync('src/data/image-credits.json') ? read('src/data/image-credits.json') : {};
+const imagesFor = (id) => Object.values(imageCredits).filter((c) => c.placeId === id).sort((a, b) => a.order - b.order).map((c) => c.id);
 const food = read('research/raw/food.json');
 
 const fmtTime = (min) => {
@@ -120,7 +123,7 @@ for (const region of REGIONS) {
     }
 
     p.mustDo = MUST_DO.has(p.id);
-    p.images = [];
+    p.images = imagesFor(p.id);
     p.lastChecked = '2026-11';
     places.push(p);
   }

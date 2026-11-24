@@ -1,0 +1,1690 @@
+{
+  "manipal-end-point": {
+    "name": "Manipal End Point",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 42,
+    "passed": 2,
+    "rejects": {
+      "non-veg-subject": 1,
+      "too-small": 15,
+      "not-landscape": 3,
+      "no-name-match": 7,
+      "category": 4,
+      "mime": 10
+    },
+    "status": "ok"
+  },
+  "st-marys-island": {
+    "name": "St. Mary's Island (Thonsepar)",
+    "mustDo": true,
+    "wanted": 5,
+    "got": 5,
+    "candidates": 130,
+    "passed": 85,
+    "rejects": {
+      "too-small": 23,
+      "far-away": 6,
+      "panorama": 1,
+      "mime": 6,
+      "other-region": 1,
+      "not-landscape": 7,
+      "licence": 1
+    },
+    "status": "ok"
+  },
+  "mattu-beach": {
+    "name": "Mattu Beach",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 11,
+    "passed": 5,
+    "rejects": {
+      "panorama": 1,
+      "too-small": 1,
+      "not-landscape": 4
+    },
+    "status": "ok"
+  },
+  "jog-falls": {
+    "name": "Jog Falls",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 96,
+    "passed": 63,
+    "rejects": {
+      "too-small": 5,
+      "not-landscape": 17,
+      "mime": 2,
+      "category": 1,
+      "licence": 1,
+      "other-region": 7
+    },
+    "status": "ok"
+  },
+  "manipal-lake": {
+    "name": "Manipal Lake (Mannapalla)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 74,
+    "passed": 3,
+    "rejects": {
+      "panorama": 1,
+      "too-small": 50,
+      "mime": 10,
+      "not-landscape": 6,
+      "no-name-match": 4
+    },
+    "status": "ok"
+  },
+  "hasta-shilpa-heritage-village": {
+    "name": "Hasta Shilpa Heritage Village Museum",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 58,
+    "passed": 11,
+    "rejects": {
+      "not-landscape": 5,
+      "too-small": 41,
+      "mime": 1
+    },
+    "status": "ok"
+  },
+  "udupi-sri-krishna-matha": {
+    "name": "Udupi Sri Krishna Matha & the Ashta Mathas",
+    "mustDo": true,
+    "wanted": 5,
+    "got": 5,
+    "candidates": 118,
+    "passed": 54,
+    "rejects": {
+      "category": 1,
+      "rejected-by-review": 2,
+      "not-landscape": 30,
+      "mime": 8,
+      "too-small": 14,
+      "nature-closeup": 1,
+      "panorama": 3,
+      "licence": 1,
+      "no-name-match": 3,
+      "non-veg-subject": 1
+    },
+    "status": "ok"
+  },
+  "udupi-car-street-night": {
+    "name": "Car Street (Ratha Beedi), Udupi after dark",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 94,
+    "passed": 39,
+    "rejects": {
+      "not-landscape": 32,
+      "too-small": 11,
+      "category": 2,
+      "panorama": 1,
+      "mime": 5,
+      "no-name-match": 3,
+      "non-veg-subject": 1
+    },
+    "status": "ok"
+  },
+  "udupi-anantheshwara-chandramouleeshwara": {
+    "name": "Anantheshwara & Chandramouleeshwara Temples, Udupi",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 66,
+    "passed": 16,
+    "rejects": {
+      "not-landscape": 23,
+      "too-small": 7,
+      "mime": 6,
+      "rejected-by-review": 1,
+      "excluded-by-hint": 12,
+      "non-veg-subject": 1
+    },
+    "status": "ok"
+  },
+  "pajaka-kshetra": {
+    "name": "Pajaka Kshetra (Madhvacharya's birthplace)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 47,
+    "passed": 5,
+    "rejects": {
+      "nature-closeup": 10,
+      "not-landscape": 11,
+      "too-small": 8,
+      "other-region": 7,
+      "far-away": 1,
+      "mime": 4,
+      "no-name-match": 1
+    },
+    "status": "ok"
+  },
+  "kunjarugiri-durga-temple": {
+    "name": "Kunjarugiri Durga Temple (Durga Betta)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 24,
+    "passed": 12,
+    "rejects": {
+      "not-landscape": 8,
+      "no-name-match": 1,
+      "mime": 3
+    },
+    "status": "ok"
+  },
+  "kemmannu-hanging-bridge-hoode": {
+    "name": "Kemmannu Hanging Bridge & Hoode backwaters",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 1,
+    "passed": 1,
+    "rejects": {},
+    "status": "ok"
+  },
+  "swarna-river-kayaking": {
+    "name": "Swarna River kayaking (Kemmannu & Thonse-Hoode)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 10,
+    "passed": 2,
+    "rejects": {
+      "too-small": 6,
+      "non-veg-subject": 1,
+      "rejected-by-review": 1
+    },
+    "status": "ok"
+  },
+  "malpe-beach-sea-walk": {
+    "name": "Malpe Beach & Sea Walk",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 58,
+    "passed": 27,
+    "rejects": {
+      "non-veg-subject": 2,
+      "panorama": 2,
+      "not-landscape": 8,
+      "category": 5,
+      "too-small": 7,
+      "mime": 4,
+      "other-region": 3
+    },
+    "status": "ok"
+  },
+  "kaup-beach-lighthouse": {
+    "name": "Kaup (Kapu) Beach & Lighthouse",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 63,
+    "passed": 36,
+    "rejects": {
+      "not-landscape": 13,
+      "too-small": 3,
+      "panorama": 2,
+      "title": 1,
+      "category": 1,
+      "mime": 7
+    },
+    "status": "ok"
+  },
+  "delta-beach-kodi-bengre": {
+    "name": "Delta Beach (Kodi Bengre)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 53,
+    "passed": 0,
+    "rejects": {
+      "too-small": 8,
+      "other-region": 10,
+      "not-landscape": 6,
+      "no-name-match": 27,
+      "panorama": 1,
+      "non-veg-subject": 1
+    },
+    "status": "missing"
+  },
+  "padubidri-blue-flag-beach": {
+    "name": "Padubidri Blue Flag Beach",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 8,
+    "passed": 0,
+    "rejects": {
+      "not-landscape": 2,
+      "too-small": 3,
+      "no-name-match": 2,
+      "mime": 1
+    },
+    "status": "missing"
+  },
+  "brahmavar": {
+    "name": "Brahmavar (and why you'd stop)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 37,
+    "passed": 3,
+    "rejects": {
+      "too-small": 9,
+      "no-name-match": 7,
+      "mime": 7,
+      "not-landscape": 3,
+      "licence": 8
+    },
+    "status": "ok"
+  },
+  "barkur": {
+    "name": "Barkur, the old Alupa capital",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 48,
+    "passed": 28,
+    "rejects": {
+      "nature-closeup": 1,
+      "too-small": 2,
+      "panorama": 1,
+      "not-landscape": 11,
+      "mime": 5
+    },
+    "status": "ok"
+  },
+  "saligrama-guru-narasimha": {
+    "name": "Saligrama Guru Narasimha Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 14,
+    "passed": 0,
+    "rejects": {
+      "too-small": 5,
+      "not-landscape": 2,
+      "rejected-by-review": 1,
+      "mime": 6
+    },
+    "status": "missing"
+  },
+  "mandarthi-durgaparameshwari": {
+    "name": "Mandarthi Sri Durgaparameshwari Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 6,
+    "passed": 1,
+    "rejects": {
+      "not-landscape": 4,
+      "too-small": 1
+    },
+    "status": "ok"
+  },
+  "karkala-bahubali-chaturmukha-basadi": {
+    "name": "Karkala: Gommateshwara (Bahubali) & Chaturmukha Basadi",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 126,
+    "passed": 56,
+    "rejects": {
+      "too-small": 14,
+      "not-landscape": 37,
+      "category": 4,
+      "panorama": 4,
+      "mime": 6,
+      "licence": 1,
+      "no-name-match": 4
+    },
+    "status": "ok"
+  },
+  "kodi-beach-kundapura": {
+    "name": "Kodi Beach & Sea Walk (Kundapura)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 19,
+    "passed": 3,
+    "rejects": {
+      "too-small": 3,
+      "category": 2,
+      "no-name-match": 5,
+      "mime": 5,
+      "not-landscape": 1
+    },
+    "status": "ok"
+  },
+  "trasi-beach": {
+    "name": "Trasi Beach",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 51,
+    "passed": 9,
+    "rejects": {
+      "too-small": 9,
+      "not-landscape": 10,
+      "non-veg-subject": 17,
+      "mime": 5,
+      "panorama": 1
+    },
+    "status": "ok"
+  },
+  "maravanthe-beach": {
+    "name": "Maravanthe Beach",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 28,
+    "passed": 17,
+    "rejects": {
+      "panorama": 3,
+      "too-small": 1,
+      "not-landscape": 1,
+      "far-away": 1,
+      "mime": 5
+    },
+    "status": "ok"
+  },
+  "ottinene-kshitija-nesara-dhama": {
+    "name": "Ottinene Viewpoint (Kshitija Nesara Dhama), Byndoor",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 1,
+    "passed": 0,
+    "rejects": {
+      "too-small": 1
+    },
+    "status": "missing"
+  },
+  "kollur-mookambika-temple": {
+    "name": "Kollur Mookambika Temple",
+    "mustDo": true,
+    "wanted": 5,
+    "got": 5,
+    "candidates": 96,
+    "passed": 39,
+    "rejects": {
+      "panorama": 2,
+      "too-small": 13,
+      "not-landscape": 18,
+      "personality-rights": 7,
+      "rejected-by-review": 1,
+      "excluded-by-hint": 4,
+      "nature-closeup": 1,
+      "category": 1,
+      "title": 2,
+      "mime": 7,
+      "no-name-match": 1
+    },
+    "status": "ok"
+  },
+  "anegudde-vinayaka-temple": {
+    "name": "Anegudde Sri Vinayaka Temple (Kumbashi)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 18,
+    "passed": 9,
+    "rejects": {
+      "too-small": 2,
+      "not-landscape": 2,
+      "title": 1,
+      "mime": 4
+    },
+    "status": "ok"
+  },
+  "hattiangadi-siddhi-vinayaka-temple": {
+    "name": "Hattiangadi Siddhi Vinayaka Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 2,
+    "passed": 0,
+    "rejects": {
+      "mime": 2
+    },
+    "status": "missing"
+  },
+  "kamalashile-brahmi-durgaparameshwari": {
+    "name": "Kamalashile Sri Brahmi Durgaparameshwari Temple & Suparshwa Cave",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 6,
+    "passed": 2,
+    "rejects": {
+      "not-landscape": 1,
+      "no-name-match": 1,
+      "mime": 2
+    },
+    "status": "ok"
+  },
+  "arasinagundi-falls": {
+    "name": "Arasinagundi (Arishina Gundi) Falls",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 17,
+    "passed": 7,
+    "rejects": {
+      "not-landscape": 5,
+      "too-small": 3,
+      "category": 1,
+      "nature-closeup": 1
+    },
+    "status": "ok"
+  },
+  "koosalli-falls": {
+    "name": "Koosalli Falls (near Shiroor, Byndoor)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 1,
+    "passed": 0,
+    "rejects": {
+      "mime": 1
+    },
+    "status": "missing"
+  },
+  "belkal-theertha-falls": {
+    "name": "Belkal Theertha (Govinda Theertha) Falls",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 0,
+    "passed": 0,
+    "rejects": {},
+    "status": "missing"
+  },
+  "hidlumane-falls": {
+    "name": "Hidlumane Falls",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 11,
+    "passed": 7,
+    "rejects": {
+      "too-small": 1,
+      "not-landscape": 3
+    },
+    "status": "ok"
+  },
+  "kodachadri": {
+    "name": "Kodachadri (Sarvajna Peetha) — Trek & Jeep Route",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 87,
+    "passed": 54,
+    "rejects": {
+      "too-small": 15,
+      "far-away": 1,
+      "panorama": 1,
+      "not-landscape": 10,
+      "no-name-match": 1,
+      "personality-rights": 1,
+      "mime": 4
+    },
+    "status": "weak"
+  },
+  "someshwara-beach-byndoor": {
+    "name": "Someshwara Beach (Paduvari, Byndoor)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 16,
+    "passed": 0,
+    "rejects": {
+      "mime": 1,
+      "too-small": 4,
+      "no-name-match": 9,
+      "not-landscape": 2
+    },
+    "status": "missing"
+  },
+  "gangolli-panchagangavalli-estuary": {
+    "name": "Gangolli & the Panchagangavalli Estuary",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 14,
+    "passed": 0,
+    "rejects": {
+      "non-veg-subject": 1,
+      "not-landscape": 3,
+      "mime": 8,
+      "too-small": 2
+    },
+    "status": "missing"
+  },
+  "anejhari-butterfly-camp": {
+    "name": "Anejhari Butterfly Camp (Jungle Lodges, near Kollur)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 7,
+    "passed": 1,
+    "rejects": {
+      "no-name-match": 2,
+      "mime": 3,
+      "too-small": 1
+    },
+    "status": "ok"
+  },
+  "sasihithlu-beach": {
+    "name": "Sasihithlu Beach (Mulki)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 5,
+    "passed": 0,
+    "rejects": {
+      "too-small": 1,
+      "no-name-match": 1,
+      "not-landscape": 2,
+      "category": 1
+    },
+    "status": "missing"
+  },
+  "someshwara-beach-ullal": {
+    "name": "Someshwara Beach (Ullal)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 28,
+    "passed": 18,
+    "rejects": {
+      "not-landscape": 3,
+      "too-small": 3,
+      "mime": 3,
+      "far-away": 1
+    },
+    "status": "ok"
+  },
+  "panambur-beach": {
+    "name": "Panambur Beach",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 50,
+    "passed": 18,
+    "rejects": {
+      "too-small": 11,
+      "category": 1,
+      "not-landscape": 17,
+      "mime": 1,
+      "panorama": 1,
+      "no-name-match": 1
+    },
+    "status": "ok"
+  },
+  "tannirbhavi-beach": {
+    "name": "Tannirbhavi Beach & Sultan Battery ferry",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 50,
+    "passed": 26,
+    "rejects": {
+      "too-small": 16,
+      "nature-closeup": 2,
+      "non-veg-subject": 1,
+      "not-landscape": 3,
+      "mime": 1,
+      "no-name-match": 1
+    },
+    "status": "ok"
+  },
+  "kateel-durgaparameshwari-temple": {
+    "name": "Kateel Sri Durgaparameshwari Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 55,
+    "passed": 8,
+    "rejects": {
+      "too-small": 8,
+      "not-landscape": 20,
+      "mime": 19
+    },
+    "status": "ok"
+  },
+  "polali-rajarajeshwari-temple": {
+    "name": "Polali Rajarajeshwari Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 46,
+    "passed": 8,
+    "rejects": {
+      "personality-rights": 1,
+      "too-small": 26,
+      "not-landscape": 7,
+      "rejected-by-review": 1,
+      "mime": 3
+    },
+    "status": "ok"
+  },
+  "kadri-manjunatha-temple": {
+    "name": "Kadri Manjunatha Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 77,
+    "passed": 42,
+    "rejects": {
+      "not-landscape": 13,
+      "too-small": 7,
+      "rejected-by-review": 1,
+      "panorama": 2,
+      "category": 1,
+      "nature-closeup": 9,
+      "other-region": 2
+    },
+    "status": "ok"
+  },
+  "kudroli-gokarnanatha-temple": {
+    "name": "Kudroli Shree Gokarnanatha Kshetra",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 70,
+    "passed": 25,
+    "rejects": {
+      "too-small": 16,
+      "not-landscape": 25,
+      "panorama": 2,
+      "mime": 1,
+      "no-name-match": 1
+    },
+    "status": "ok"
+  },
+  "mangaladevi-temple": {
+    "name": "Mangaladevi Temple (Bolar)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 67,
+    "passed": 35,
+    "rejects": {
+      "far-away": 1,
+      "not-landscape": 20,
+      "personality-rights": 2,
+      "mime": 3,
+      "no-name-match": 2,
+      "category": 2,
+      "too-small": 2
+    },
+    "status": "ok"
+  },
+  "ananthapura-lake-temple": {
+    "name": "Ananthapura Lake Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 44,
+    "passed": 35,
+    "rejects": {
+      "too-small": 5,
+      "nature-closeup": 1,
+      "mime": 1,
+      "not-landscape": 1,
+      "far-away": 1
+    },
+    "status": "ok"
+  },
+  "bekal-fort": {
+    "name": "Bekal Fort",
+    "mustDo": true,
+    "wanted": 5,
+    "got": 5,
+    "candidates": 106,
+    "passed": 85,
+    "rejects": {
+      "nature-closeup": 1,
+      "too-small": 11,
+      "not-landscape": 6,
+      "panorama": 3
+    },
+    "status": "ok"
+  },
+  "moodbidri-saavira-kambada-basadi": {
+    "name": "Saavira Kambada Basadi, Moodbidri",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 178,
+    "passed": 95,
+    "rejects": {
+      "not-landscape": 49,
+      "panorama": 3,
+      "category": 7,
+      "too-small": 8,
+      "mime": 10,
+      "no-name-match": 5,
+      "non-veg-subject": 1
+    },
+    "status": "ok"
+  },
+  "pilikula-nisargadhama": {
+    "name": "Pilikula Nisargadhama",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 68,
+    "passed": 49,
+    "rejects": {
+      "not-landscape": 16,
+      "no-name-match": 1,
+      "rejected-by-review": 1,
+      "title": 1
+    },
+    "status": "ok"
+  },
+  "mangaluru-city-by-train-bike": {
+    "name": "Mangaluru city (by train or bike)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 142,
+    "passed": 47,
+    "rejects": {
+      "panorama": 4,
+      "too-small": 16,
+      "category": 1,
+      "mime": 60,
+      "nature-closeup": 1,
+      "not-landscape": 10,
+      "no-name-match": 2,
+      "title": 1
+    },
+    "status": "ok"
+  },
+  "sultan-battery": {
+    "name": "Sultan Battery (Boloor)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 89,
+    "passed": 22,
+    "rejects": {
+      "too-small": 20,
+      "far-away": 11,
+      "not-landscape": 23,
+      "no-name-match": 9,
+      "panorama": 1,
+      "other-region": 1,
+      "mime": 2
+    },
+    "status": "ok"
+  },
+  "st-aloysius-chapel": {
+    "name": "St Aloysius Chapel paintings",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 94,
+    "passed": 43,
+    "rejects": {
+      "not-landscape": 41,
+      "too-small": 8,
+      "other-region": 1,
+      "mime": 1
+    },
+    "status": "ok"
+  },
+  "chandragiri-fort": {
+    "name": "Chandragiri Fort (Kasaragod)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 98,
+    "passed": 45,
+    "rejects": {
+      "panorama": 2,
+      "too-small": 5,
+      "excluded-by-hint": 17,
+      "title": 2,
+      "not-landscape": 9,
+      "other-region": 7,
+      "rejected-by-review": 1,
+      "mime": 8,
+      "no-name-match": 2
+    },
+    "status": "ok"
+  },
+  "madhur-temple": {
+    "name": "Madhur Madanantheshwara Siddhivinayaka Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 54,
+    "passed": 13,
+    "rejects": {
+      "not-landscape": 7,
+      "too-small": 7,
+      "panorama": 1,
+      "far-away": 1,
+      "other-region": 17,
+      "no-name-match": 1,
+      "mime": 7
+    },
+    "status": "ok"
+  },
+  "dharmasthala-manjunatha-temple": {
+    "name": "Dharmasthala Shri Manjunatha Swamy Temple",
+    "mustDo": true,
+    "wanted": 5,
+    "got": 5,
+    "candidates": 131,
+    "passed": 54,
+    "rejects": {
+      "panorama": 3,
+      "title": 15,
+      "not-landscape": 26,
+      "mime": 1,
+      "personality-rights": 14,
+      "rejected-by-review": 2,
+      "licence": 12,
+      "nature-closeup": 4
+    },
+    "status": "ok"
+  },
+  "dharmasthala-bahubali-manjusha-museums": {
+    "name": "Ratnagiri Bahubali, Manjusha Museum & Vintage Car Museum, Dharmasthala",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 88,
+    "passed": 52,
+    "rejects": {
+      "rejected-by-review": 2,
+      "excluded-by-hint": 2,
+      "not-landscape": 30,
+      "personality-rights": 1,
+      "too-small": 1
+    },
+    "status": "ok"
+  },
+  "sowthadka-mahaganapati": {
+    "name": "Sowthadka Shri Mahaganapati Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 0,
+    "passed": 0,
+    "rejects": {},
+    "status": "missing"
+  },
+  "kukke-subramanya-temple": {
+    "name": "Kukke Shri Subrahmanya Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 109,
+    "passed": 41,
+    "rejects": {
+      "not-landscape": 52,
+      "panorama": 1,
+      "far-away": 1,
+      "too-small": 2,
+      "mime": 4,
+      "nature-closeup": 7,
+      "personality-rights": 1
+    },
+    "status": "ok"
+  },
+  "kumara-parvatha-trek": {
+    "name": "Kumara Parvatha Trek (Kukke Subramanya route)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 121,
+    "passed": 39,
+    "rejects": {
+      "far-away": 25,
+      "mime": 1,
+      "too-small": 12,
+      "not-landscape": 20,
+      "panorama": 2,
+      "title": 4,
+      "no-name-match": 1,
+      "other-region": 9,
+      "nature-closeup": 7,
+      "personality-rights": 1
+    },
+    "status": "ok"
+  },
+  "gadaikallu-jamalabad-fort": {
+    "name": "Gadaikallu (Jamalabad Fort)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 12,
+    "passed": 1,
+    "rejects": {
+      "panorama": 1,
+      "not-landscape": 1,
+      "rejected-by-review": 2,
+      "too-small": 3,
+      "nature-closeup": 1,
+      "mime": 3
+    },
+    "status": "ok"
+  },
+  "bandaje-falls-ballalarayana-durga": {
+    "name": "Bandaje Falls Trek via Ballalarayana Durga",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 16,
+    "passed": 0,
+    "rejects": {
+      "too-small": 3,
+      "not-landscape": 2,
+      "mime": 8,
+      "no-name-match": 3
+    },
+    "status": "missing"
+  },
+  "ermai-falls": {
+    "name": "Ermai (Ermayi) Falls, Malavanthige",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 0,
+    "passed": 0,
+    "rejects": {},
+    "status": "missing"
+  },
+  "charmadi-ghat-ride": {
+    "name": "Charmadi Ghat Ride (Ujire to Kottigehara)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 52,
+    "passed": 29,
+    "rejects": {
+      "not-landscape": 4,
+      "too-small": 8,
+      "panorama": 2,
+      "mime": 9
+    },
+    "status": "ok"
+  },
+  "coorg-long-ride-sullia-madikeri": {
+    "name": "Coorg Long Ride via Sullia: Madikeri, Abbey Falls & Dubare",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 219,
+    "passed": 142,
+    "rejects": {
+      "too-small": 18,
+      "not-landscape": 43,
+      "category": 2,
+      "mime": 9,
+      "no-name-match": 4,
+      "panorama": 1
+    },
+    "status": "ok"
+  },
+  "talacauvery-bhagamandala": {
+    "name": "Talacauvery & Bhagamandala (Triveni Sangama, Bhagandeshwara Temple)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 153,
+    "passed": 98,
+    "rejects": {
+      "too-small": 12,
+      "not-landscape": 29,
+      "panorama": 5,
+      "nature-closeup": 1,
+      "mime": 8
+    },
+    "status": "ok"
+  },
+  "belur-halebidu-hoysala-temples": {
+    "name": "Belur Chennakeshava & Halebidu Hoysaleswara Temples",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 303,
+    "passed": 125,
+    "rejects": {
+      "not-landscape": 93,
+      "category": 19,
+      "too-small": 44,
+      "panorama": 10,
+      "title": 1,
+      "mime": 11
+    },
+    "status": "ok"
+  },
+  "venur-bahubali": {
+    "name": "Venur Bahubali",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 25,
+    "passed": 0,
+    "rejects": {
+      "too-small": 13,
+      "other-region": 1,
+      "no-name-match": 2,
+      "mime": 7,
+      "nature-closeup": 1,
+      "not-landscape": 1
+    },
+    "status": "missing"
+  },
+  "shishila-matsya-shishileshwara": {
+    "name": "Shishila Shishileshwara Temple (Matsya Theertha)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 12,
+    "passed": 5,
+    "rejects": {
+      "too-small": 2,
+      "not-landscape": 2,
+      "mime": 3
+    },
+    "status": "ok"
+  },
+  "agumbe-sunset-point-and-ghat": {
+    "name": "Agumbe Ghat & Sunset Point",
+    "mustDo": true,
+    "wanted": 5,
+    "got": 5,
+    "candidates": 133,
+    "passed": 71,
+    "rejects": {
+      "panorama": 2,
+      "rejected-by-review": 5,
+      "not-landscape": 10,
+      "too-small": 15,
+      "category": 4,
+      "nature-closeup": 18,
+      "excluded-by-hint": 1,
+      "mime": 7,
+      "near-duplicate": 1
+    },
+    "status": "ok"
+  },
+  "kudlu-theertha-falls": {
+    "name": "Kudlu Theertha Falls",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 7,
+    "passed": 0,
+    "rejects": {
+      "not-landscape": 1,
+      "too-small": 2,
+      "mime": 3,
+      "no-name-match": 1
+    },
+    "status": "missing"
+  },
+  "barkana-falls-viewpoint": {
+    "name": "Barkana Falls & Viewpoint",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 17,
+    "passed": 2,
+    "rejects": {
+      "far-away": 2,
+      "not-landscape": 2,
+      "too-small": 2,
+      "panorama": 1,
+      "no-name-match": 2,
+      "other-region": 6
+    },
+    "status": "ok"
+  },
+  "jogigundi-falls": {
+    "name": "Jogi Gundi Falls",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 9,
+    "passed": 6,
+    "rejects": {
+      "nature-closeup": 3
+    },
+    "status": "ok"
+  },
+  "varanga-kere-basadi": {
+    "name": "Varanga Kere Basadi (Lake Temple)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 31,
+    "passed": 10,
+    "rejects": {
+      "not-landscape": 5,
+      "mime": 11,
+      "no-name-match": 2,
+      "too-small": 2,
+      "other-region": 1
+    },
+    "status": "ok"
+  },
+  "sringeri-sharada-peetham": {
+    "name": "Sringeri Sharada Peetham",
+    "mustDo": true,
+    "wanted": 5,
+    "got": 5,
+    "candidates": 194,
+    "passed": 93,
+    "rejects": {
+      "not-landscape": 65,
+      "too-small": 13,
+      "panorama": 2,
+      "category": 1,
+      "non-veg-subject": 4,
+      "mime": 14,
+      "no-name-match": 2
+    },
+    "status": "ok"
+  },
+  "horanadu-annapoorneshwari-temple": {
+    "name": "Horanadu Annapoorneshwari Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 28,
+    "passed": 14,
+    "rejects": {
+      "too-small": 6,
+      "category": 2,
+      "panorama": 1,
+      "not-landscape": 2,
+      "mime": 3
+    },
+    "status": "ok"
+  },
+  "kudremukh-peak-trek": {
+    "name": "Kudremukh Peak Trek",
+    "mustDo": true,
+    "wanted": 5,
+    "got": 5,
+    "candidates": 128,
+    "passed": 68,
+    "rejects": {
+      "too-small": 27,
+      "excluded-by-hint": 2,
+      "panorama": 6,
+      "not-landscape": 4,
+      "rejected-by-review": 2,
+      "nature-closeup": 3,
+      "category": 1,
+      "no-name-match": 6,
+      "mime": 9
+    },
+    "status": "ok"
+  },
+  "netravati-peak-trek": {
+    "name": "Netravati Peak Trek",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 10,
+    "passed": 7,
+    "rejects": {
+      "not-landscape": 3
+    },
+    "status": "ok"
+  },
+  "kurinjal-peak-trek": {
+    "name": "Kurinjal Peak Trek",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 8,
+    "passed": 5,
+    "rejects": {
+      "too-small": 1,
+      "panorama": 1,
+      "not-landscape": 1
+    },
+    "status": "ok"
+  },
+  "narasimha-parvatha-trek": {
+    "name": "Narasimha Parvatha Trek",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 16,
+    "passed": 11,
+    "rejects": {
+      "too-small": 2,
+      "panorama": 1,
+      "not-landscape": 2
+    },
+    "status": "ok"
+  },
+  "kundadri-hill": {
+    "name": "Kundadri Hill & Jain Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 49,
+    "passed": 28,
+    "rejects": {
+      "not-landscape": 11,
+      "too-small": 1,
+      "title": 1,
+      "far-away": 1,
+      "nature-closeup": 1,
+      "panorama": 1,
+      "mime": 5
+    },
+    "status": "ok"
+  },
+  "kemmanagundi-z-point-hebbe-falls": {
+    "name": "Kemmanagundi, Z-Point & Hebbe Falls",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 50,
+    "passed": 18,
+    "rejects": {
+      "too-small": 17,
+      "not-landscape": 6,
+      "mime": 7,
+      "no-name-match": 2
+    },
+    "status": "ok"
+  },
+  "mullayanagiri-peak": {
+    "name": "Mullayanagiri & Seethalayanagiri",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 66,
+    "passed": 37,
+    "rejects": {
+      "too-small": 10,
+      "not-landscape": 1,
+      "panorama": 1,
+      "mime": 11,
+      "no-name-match": 6
+    },
+    "status": "ok"
+  },
+  "kavaledurga-fort": {
+    "name": "Kavaledurga Fort",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 46,
+    "passed": 32,
+    "rejects": {
+      "not-landscape": 9,
+      "too-small": 2,
+      "mime": 3
+    },
+    "status": "ok"
+  },
+  "kuppalli-kavimane-kavishaila": {
+    "name": "Kuppalli: Kuvempu's Kavimane & Kavishaila",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 49,
+    "passed": 17,
+    "rejects": {
+      "too-small": 16,
+      "not-landscape": 4,
+      "mime": 3,
+      "excluded-by-hint": 6,
+      "rejected-by-review": 2,
+      "nature-closeup": 1
+    },
+    "status": "ok"
+  },
+  "sakrebyle-elephant-camp": {
+    "name": "Sakrebyle Elephant Camp",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 8,
+    "passed": 6,
+    "rejects": {
+      "no-name-match": 2
+    },
+    "status": "ok"
+  },
+  "baba-budangiri-dattapeetha": {
+    "name": "Baba Budangiri (Inam Dattatreya Peetha)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 93,
+    "passed": 77,
+    "rejects": {
+      "mime": 8,
+      "too-small": 4,
+      "no-name-match": 4
+    },
+    "status": "ok"
+  },
+  "ayyanakere-lake": {
+    "name": "Ayyanakere Lake",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 9,
+    "passed": 4,
+    "rejects": {
+      "panorama": 1,
+      "mime": 3,
+      "too-small": 1
+    },
+    "status": "ok"
+  },
+  "murudeshwar-temple-beach": {
+    "name": "Murudeshwar Temple & Beach",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 172,
+    "passed": 81,
+    "rejects": {
+      "too-small": 25,
+      "licence": 1,
+      "not-landscape": 58,
+      "title": 1,
+      "category": 4,
+      "other-region": 1,
+      "far-away": 1
+    },
+    "status": "ok"
+  },
+  "netrani-island": {
+    "name": "Netrani Island (snorkelling & scuba from Murudeshwar)",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 42,
+    "passed": 9,
+    "rejects": {
+      "too-small": 6,
+      "other-region": 11,
+      "not-landscape": 4,
+      "no-name-match": 11,
+      "rejected-by-review": 1
+    },
+    "status": "ok"
+  },
+  "idagunji-maha-ganapathi": {
+    "name": "Idagunji Maha Ganapathi Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 23,
+    "passed": 1,
+    "rejects": {
+      "too-small": 18,
+      "not-landscape": 4
+    },
+    "status": "ok"
+  },
+  "gokarna-mahabaleshwar-temple": {
+    "name": "Gokarna Mahabaleshwar Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 83,
+    "passed": 20,
+    "rejects": {
+      "too-small": 30,
+      "not-landscape": 14,
+      "panorama": 5,
+      "title": 1,
+      "mime": 2,
+      "other-region": 9,
+      "category": 1,
+      "nature-closeup": 1
+    },
+    "status": "ok"
+  },
+  "gokarna-beach-trail": {
+    "name": "Gokarna beach trail: Kudle, Om, Half Moon & Paradise",
+    "mustDo": true,
+    "wanted": 5,
+    "got": 5,
+    "candidates": 132,
+    "passed": 66,
+    "rejects": {
+      "not-landscape": 24,
+      "too-small": 2,
+      "excluded-by-hint": 38,
+      "rejected-by-review": 2,
+      "near-duplicate": 1
+    },
+    "status": "weak"
+  },
+  "karwar-tagore-beach": {
+    "name": "Karwar town & Rabindranath Tagore Beach",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 72,
+    "passed": 34,
+    "rejects": {
+      "too-small": 9,
+      "panorama": 16,
+      "category": 1,
+      "nature-closeup": 3,
+      "not-landscape": 5,
+      "mime": 2,
+      "title": 1,
+      "no-name-match": 1
+    },
+    "status": "ok"
+  },
+  "devbagh-beach": {
+    "name": "Devbagh Beach & Kali River Mouth",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 24,
+    "passed": 1,
+    "rejects": {
+      "too-small": 18,
+      "other-region": 4,
+      "panorama": 1
+    },
+    "status": "ok"
+  },
+  "mirjan-fort": {
+    "name": "Mirjan Fort",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 65,
+    "passed": 52,
+    "rejects": {
+      "too-small": 5,
+      "panorama": 1,
+      "not-landscape": 6,
+      "title": 1
+    },
+    "status": "ok"
+  },
+  "apsarakonda-falls": {
+    "name": "Apsarakonda Falls",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 10,
+    "passed": 8,
+    "rejects": {
+      "not-landscape": 2
+    },
+    "status": "ok"
+  },
+  "yana-rocks": {
+    "name": "Yana Rocks",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 126,
+    "passed": 28,
+    "rejects": {
+      "too-small": 22,
+      "not-landscape": 16,
+      "nature-closeup": 47,
+      "mime": 2,
+      "excluded-by-hint": 4,
+      "title": 6,
+      "rejected-by-review": 1
+    },
+    "status": "ok"
+  },
+  "sathodi-falls": {
+    "name": "Sathodi Falls",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 22,
+    "passed": 13,
+    "rejects": {
+      "too-small": 7,
+      "not-landscape": 1,
+      "category": 1
+    },
+    "status": "ok"
+  },
+  "magod-falls": {
+    "name": "Magod Falls",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 10,
+    "passed": 4,
+    "rejects": {
+      "too-small": 4,
+      "category": 1,
+      "not-landscape": 1
+    },
+    "status": "ok"
+  },
+  "vibhuti-falls": {
+    "name": "Vibhuti Falls",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 0,
+    "candidates": 13,
+    "passed": 0,
+    "rejects": {
+      "too-small": 5,
+      "not-landscape": 4,
+      "other-region": 1,
+      "mime": 1,
+      "no-name-match": 2
+    },
+    "status": "missing"
+  },
+  "dandeli-kali-rafting": {
+    "name": "Dandeli & Kali River Rafting",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 69,
+    "passed": 45,
+    "rejects": {
+      "too-small": 10,
+      "not-landscape": 12,
+      "nature-closeup": 1,
+      "no-name-match": 1
+    },
+    "status": "ok"
+  },
+  "sirsi-marikamba-temple": {
+    "name": "Sirsi Marikamba Temple",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 25,
+    "passed": 9,
+    "rejects": {
+      "panorama": 1,
+      "too-small": 3,
+      "not-landscape": 3,
+      "mime": 9
+    },
+    "status": "ok"
+  },
+  "dudhsagar-falls-overnight": {
+    "name": "Dudhsagar Falls (overnight via Konkan Railway + Collem jeep safari)",
+    "mustDo": true,
+    "wanted": 5,
+    "got": 5,
+    "candidates": 112,
+    "passed": 45,
+    "rejects": {
+      "too-small": 19,
+      "not-landscape": 43,
+      "far-away": 1,
+      "other-region": 2,
+      "rejected-by-review": 2
+    },
+    "status": "ok"
+  },
+  "kasarkod-eco-beach": {
+    "name": "Kasarkod Eco Beach & Sharavathi Mangrove Boardwalk",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 22,
+    "passed": 3,
+    "rejects": {
+      "panorama": 1,
+      "personality-rights": 1,
+      "no-name-match": 1,
+      "mime": 3,
+      "not-landscape": 6,
+      "nature-closeup": 7
+    },
+    "status": "ok"
+  },
+  "basavaraj-durga-island": {
+    "name": "Basavaraj Durga Island Fort",
+    "mustDo": false,
+    "wanted": 1,
+    "got": 1,
+    "candidates": 20,
+    "passed": 2,
+    "rejects": {
+      "rejected-by-review": 1,
+      "too-small": 12,
+      "panorama": 1,
+      "licence": 1,
+      "not-landscape": 1,
+      "mime": 2
+    },
+    "status": "ok"
+  }
+}
