@@ -76,3 +76,11 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
   - Round 1 replacements: Arasinagundi, Kukke, Kateel, Mangaladevi, Netrani, Sakrebyle, Dharmasthala museums, Jogi Gundi.
     Kept as weak (no better image found): Mandarthi, Horanadu, Karkala, Gokarna Mahabaleshwar, Kemmannu, Gadaikallu, Car Street.
   - Contact sheet: `npx vite` → http://localhost:5173/manipal-explorer/review/images.html
+- Part 3 (art direction): explorations DONE, awaiting pick (STOP).
+  - review/direction-a.html (Konkan Chronicles: Instrument Serif + Hanken Grotesk, dark, film grain),
+    direction-b.html (Route Card: Big Shoulders Display + IBM Plex Mono, sand, timetable grid),
+    direction-c.html (Monsoon Almanac: Fraunces + Figtree, teal, arches, season-first).
+  - Shared real-data helpers: review/directions/shared.js. Rationale: review/directions.md.
+  - Screenshots: `node scripts/shoot-directions.mjs` (needs `npx vite` running) → review/screenshots/.
+  - Fonts self-hosted via @fontsource packages; drop the unused ones once a direction is picked.
+  - Next: build tokens.css design system from the chosen direction and rewrite the Art direction section.

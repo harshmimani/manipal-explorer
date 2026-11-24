@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>B · Route Card · Manipal Explorer</title>
+<style>
+:root{
+  --ink:#0B0F0E; --deep:#0E3B3A; --teal:#1F6F6B; --saffron:#F29B38; --laterite:#B4532A; --palm:#4F7A3A; --sand:#EDE3D1; --bone:#F7F3EA;
+  --paper:var(--sand);
+  --muted:#4d4a42;
+  --rule:rgb(11 15 14 / .9);
+  --hair:rgb(11 15 14 / .18);
+  --display:'Big Shoulders Display Variable', 'Arial Narrow', sans-serif;
+  --mono:'IBM Plex Mono', ui-monospace, monospace;
+  --ease-snap:cubic-bezier(.65,0,.15,1);
+  --ease-out:cubic-bezier(.2,.9,.1,1);
+  --gutter:clamp(16px, 3.4vw, 48px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 .94rem/1.6 var(--mono);overflow-x:clip}
+img{display:block;max-width:100%;height:auto}
+picture{display:block;background:var(--dominant) center/cover no-repeat}
+picture img{width:100%;height:100%;object-fit:cover}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--laterite);outline-offset:2px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.cap{font:500 .7rem/1.2 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.d{font-family:var(--display);text-transform:uppercase;font-weight:800;letter-spacing:-.01em}
+.wrap{padding:0 var(--gutter)}
+
+/* ───────── HERO ───────── */
+.hero{min-height:100vh;min-height:100dvh;display:grid;grid-template-rows:auto 1fr auto;padding-top:env(safe-area-inset-top)}
+.topbar{display:grid;grid-template-columns:1fr auto;align-items:center;border-bottom:2px solid var(--rule);padding:0 var(--gutter);min-height:56px}
+.topbar .d{font-size:1.5rem;font-weight:900;letter-spacing:.01em}
+.topbar nav{display:flex;gap:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:44px;padding:0 16px;border:2px solid var(--ink);background:transparent;color:var(--ink);font:600 .74rem/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background .25s var(--ease-snap),color .25s var(--ease-snap)}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn--fill{background:var(--ink);color:var(--paper)}
+.btn--fill:hover{background:var(--laterite);border-color:var(--laterite)}
+.hero__grid{display:grid;grid-template-columns:1fr;border-bottom:2px solid var(--rule)}
+.stack{padding:clamp(16px,3vh,32px) var(--gutter) 0;display:flex;flex-direction:column;justify-content:end}
+.stack h1{margin:0}
+.stack .row{display:grid;grid-template-columns:1fr auto;align-items:end;border-bottom:1px solid var(--hair)}
+.stack .row:last-child{border-bottom:0}
+.stack .w{font:900 clamp(5.2rem,1rem + 21vw,15rem)/.8 var(--display);text-transform:uppercase;letter-spacing:-.02em;display:block;padding-top:.06em}
+.stack .row:nth-child(2) .w{color:var(--laterite)}
+.stack .n{font:500 .74rem/1.3 var(--mono);text-align:right;padding-bottom:.9em;text-transform:uppercase}
+.stack .n b{display:block;font:800 clamp(1.6rem,1rem + 2vw,2.6rem)/1 var(--display)}
+.frame{position:relative;min-height:46vh;border-top:2px solid var(--rule);overflow:hidden}
+.frame picture{position:absolute;inset:0}
+.frame .tag{position:absolute;left:var(--gutter);bottom:14px;background:var(--paper);padding:6px 10px;border:2px solid var(--ink)}
+@media (min-width:960px){
+  .hero__grid{grid-template-columns:7fr 5fr}
+  .frame{border-top:0;border-left:2px solid var(--rule);min-height:0}
+}
+.hero__foot{display:grid;grid-template-columns:1fr;gap:0}
+.hero__foot>*{padding:16px var(--gutter);border-bottom:1px solid var(--hair)}
+.hero__foot p{margin:0;font-size:1rem;max-width:52ch}
+.board{display:grid;grid-template-columns:repeat(3,1fr);gap:0;padding:0!important}
+.board div{padding:14px var(--gutter);border-right:1px solid var(--hair)}
+.board div:last-child{border-right:0}
+.board b{display:block;font:800 2.4rem/1 var(--display)}
+@media (min-width:960px){.hero__foot{grid-template-columns:7fr 5fr}.hero__foot>*{border-bottom:0}.hero__foot>p{border-right:2px solid var(--rule)}}
+
+/* ───────── SECTION HEAD ───────── */
+.sh{display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:baseline;padding:56px var(--gutter) 12px;border-bottom:2px solid var(--rule)}
+.sh h2{margin:0;font:900 clamp(2.4rem,1.6rem + 3vw,4.4rem)/.9 var(--display);text-transform:uppercase}
+.sh .ix{font:800 1.2rem/1 var(--display)}
+
+/* ───────── CARD (ticket) ───────── */
+.cards{display:grid;gap:24px;padding:24px var(--gutter) 64px}
+@media (min-width:760px){.cards{grid-template-columns:repeat(12,1fr)}.ticket{grid-column:span 5}.cards .note{grid-column:7 / span 5;align-self:end}}
+.ticket{position:relative;background:var(--bone);border:2px solid var(--ink);display:grid;grid-template-rows:auto auto auto;transition:transform .5s var(--ease-out),box-shadow .5s var(--ease-out)}
+.ticket:hover{transform:translate(-4px,-4px);box-shadow:8px 8px 0 var(--ink)}
+.ticket__img{position:relative;aspect-ratio:3/2;border-bottom:2px solid var(--ink);overflow:hidden}
+.ticket__img picture{position:absolute;inset:0}
+.ticket__img .now{position:absolute;left:0;top:0;background:var(--saffron);color:var(--ink);padding:8px 12px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink)}
+.ticket__img .star{position:absolute;right:0;top:0;border-width:0 0 2px 2px}
+.star{width:48px;height:48px;display:grid;place-items:center;background:var(--bone);border:2px solid var(--ink);cursor:pointer;color:var(--ink)}
+.star svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2}
+.star[aria-pressed="true"]{background:var(--ink);color:var(--saffron)}.star[aria-pressed="true"] svg{fill:currentColor}
+.ticket__main{display:grid;grid-template-columns:auto 1fr}
+.km{padding:14px 16px;border-right:2px dashed var(--ink);position:relative;display:flex;flex-direction:column;justify-content:space-between;min-width:104px}
+.km::before,.km::after{content:"";position:absolute;right:-11px;width:20px;height:20px;border-radius:50%;background:var(--paper);border:2px solid var(--ink)}
+.km::before{top:-11px;clip-path:inset(50% 0 0 0)}.km::after{bottom:-11px;clip-path:inset(0 0 50% 0)}
+.km b{font:900 4.2rem/.85 var(--display)}
+.ticket__txt{padding:14px 16px}
+.ticket__txt h3{margin:4px 0 6px;font:900 2.1rem/.92 var(--display);text-transform:uppercase}
+.ticket__txt p{margin:0;font-size:.86rem;color:var(--muted)}
+.ticket__foot{border-top:2px solid var(--ink);display:grid;grid-template-columns:1fr auto;align-items:stretch}
+.ticket__foot .ride{padding:10px 16px;display:flex;gap:18px;align-items:center}
+.months{display:grid;grid-template-columns:repeat(12,1fr);list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.months li{border-right:1px solid var(--hair);height:30px;display:grid;place-items:center;font:500 .56rem/1 var(--mono);text-transform:uppercase;position:relative}
+.months li:last-child{border-right:0}
+.months li.on{background:var(--teal);color:var(--bone)}
+.months li.now{box-shadow:inset 0 0 0 2px var(--saffron)}
+.months li.now span{font-weight:700}
+.note p{margin:0 0 12px;max-width:44ch}
+.credit{font-size:.7rem;color:var(--muted)}
+
+/* ───────── CHAPTER OPENER ───────── */
+.opener{background:var(--laterite);color:var(--bone);border-top:2px solid var(--rule);border-bottom:2px solid var(--rule);display:grid;grid-template-columns:1fr;overflow:hidden}
+.opener__a{padding:24px var(--gutter) 28px;display:grid;align-content:space-between;gap:24px;min-height:70vh}
+.opener__top{display:flex;justify-content:space-between}
+.opener .opener__num{font:900 clamp(10rem,4rem + 36vw,30rem)/.72 var(--display);letter-spacing:-.04em;margin:0;color:var(--ink);mix-blend-mode:multiply;opacity:.9}
+.opener h2{margin:0;font:900 clamp(4rem,2rem + 9vw,10rem)/.82 var(--display);text-transform:uppercase}
+.opener p{margin:12px 0 0;max-width:42ch;font-size:.98rem}
+.opener__b{display:grid;grid-template-rows:minmax(220px,40vh) auto;border-top:2px solid var(--rule)}
+.opener__b picture{border-bottom:2px solid var(--rule)}
+.tt{width:100%;border-collapse:collapse;font-size:.8rem}
+.tt caption{text-align:left;padding:14px var(--gutter) 8px}
+.tt th,.tt td{text-align:left;padding:9px 8px;border-top:1px solid rgb(247 243 234 / .3);font-weight:400;vertical-align:top}
+.tt th:first-child,.tt td:first-child{padding-left:var(--gutter)}
+.tt td:last-child,.tt th:last-child{text-align:right;padding-right:var(--gutter);white-space:nowrap}
+.tt tbody th{font:800 1.2rem/1.05 var(--display);text-transform:uppercase}
+@media (min-width:960px){
+  .opener{grid-template-columns:7fr 5fr}
+  .opener__a{min-height:100vh}
+  .opener__b{border-top:0;border-left:2px solid var(--rule);grid-template-rows:46vh 1fr}
+}
+
+/* ───────── DETAIL (route sheet) ───────── */
+.stage{position:relative;padding-top:96px;background:var(--ink)}
+.stage__bg{position:absolute;inset:0;opacity:.35}
+.stage__bg picture{position:absolute;inset:0;filter:grayscale(1) contrast(1.1)}
+.sheet{position:relative;background:var(--paper);border-top:2px solid var(--ink)}
+.sheet__bar{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid var(--ink);padding:0 0 0 var(--gutter);min-height:52px}
+.sheet__bar .grab{display:block;width:40px;height:4px;background:var(--ink);margin:0 auto}
+.sheet__hd{display:grid;grid-template-columns:1fr}
+.sheet__img{aspect-ratio:2.165;border-bottom:2px solid var(--ink)}
+.sheet__img picture{height:100%}
+.sheet__title{padding:18px var(--gutter) 20px;border-bottom:2px solid var(--ink)}
+.sheet__title h2{margin:6px 0 8px;font:900 clamp(3rem,2rem + 5vw,6.4rem)/.84 var(--display);text-transform:uppercase}
+.sheet__title p{margin:0 0 16px;font-size:1rem}
+.acts{display:flex;flex-wrap:wrap;gap:8px}
+.toggle[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:var(--bone)}
+.big{display:grid;grid-template-columns:repeat(2,1fr);border-bottom:2px solid var(--ink)}
+.big div{padding:14px var(--gutter);border-right:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.big div:nth-child(2n){border-right:0}
+.big b{display:block;font:900 3rem/.9 var(--display);margin-top:6px}
+.big small{display:block;font-size:.72rem;color:var(--muted);margin-top:4px}
+.rows{margin:0}
+.rows>div{display:grid;grid-template-columns:1fr;gap:6px;padding:16px var(--gutter);border-bottom:1px solid var(--hair)}
+.rows dt{font:800 1.3rem/1 var(--display);text-transform:uppercase}
+.rows dd{margin:0}
+.rows dd p{margin:0 0 8px}
+.rows .warn{background:var(--ink);color:var(--bone)}
+.rows .warn dt{color:var(--saffron)}
+.flag{display:inline-block;background:var(--saffron);color:var(--ink);font:600 .62rem/1 var(--mono);padding:4px 6px;text-transform:uppercase;letter-spacing:.06em;vertical-align:3px;margin-left:6px}
+.src{list-style:none;margin:0;padding:0;columns:2;column-gap:16px;font-size:.78rem}
+.src li{break-inside:avoid;padding:3px 0}
+.src a{text-decoration-thickness:1px}
+@media (min-width:1000px){
+  .stage{padding:64px var(--gutter)}
+  .sheet{border:2px solid var(--ink);max-width:1180px;margin:0 auto;box-shadow:12px 12px 0 var(--laterite)}
+  .sheet__bar .grab{display:none}
+  .sheet__hd{grid-template-columns:7fr 5fr}
+  .sheet__img{aspect-ratio:auto;border-bottom:0;border-right:2px solid var(--ink)}
+  .sheet__title{border-bottom:0}
+  .big{grid-template-columns:repeat(4,1fr);border-top:2px solid var(--ink)}
+  .big div:nth-child(2n){border-right:1px solid var(--hair)}.big div:last-child{border-right:0}
+  .big div{border-bottom:0}
+  .rows>div{grid-template-columns:220px 1fr;gap:24px}
+}
+
+[data-reveal]{clip-path:inset(0 100% 0 0);transition:clip-path .9s var(--ease-snap)}
+[data-reveal].in{clip-path:inset(0 0 0 0)}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script type="module">
+import '@fontsource-variable/big-shoulders-display';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
+import '@fontsource/ibm-plex-mono/600.css';
+import places from '../src/data/places.json';
+import { SPEC, stats, picture, creditLine, monthStrip, isGoodNow, esc, readerSources, host, wireStars, reveals, MONTHS, thisMonth } from './directions/shared.js';
+
+const starSvg = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.6 5.6 6.1.7-4.5 4.2 1.2 6.1L12 16.8 6.6 19.8l1.2-6.1L3.3 9.5l6.1-.7z"/></svg>';
+const c = SPEC.card, d = SPEC.detail, t = d.temple;
+const nearestGods = places.filter((p) => p.chapter === 'gods' && p.distanceKmFromManipal != null)
+  .sort((a, b) => a.distanceKmFromManipal - b.distanceKmFromManipal).slice(0, 6);
+const span = (p) => { const m = p.bestMonths; return m.length === 12 ? 'All year' : `${MONTHS[m[0]-1]}–${MONTHS[m[m.length-1]-1]}`; };
+
+document.getElementById('app').innerHTML = `
+<header class="hero">
+  <div class="topbar"><span class="d">Manipal Explorer</span><nav><a class="btn" href="#">My list</a></nav></div>
+  <div class="hero__grid">
+    <div class="stack">
+      <h1>
+        <span class="row"><span class="w">Sea</span><span class="n"><b>${stats.chapter('coast')}</b>coast</span></span>
+        <span class="row"><span class="w">Gods</span><span class="n"><b>${stats.chapter('gods')}</b>shrines</span></span>
+        <span class="row"><span class="w">Ghats</span><span class="n"><b>${stats.chapter('ghats')}</b>hills &amp; falls</span></span>
+      </h1>
+    </div>
+    <div class="frame">${picture(SPEC.heroImg, { eager: true, sizes: '(min-width:960px) 42vw, 100vw' })}
+      <span class="tag cap">${esc(SPEC.heroPlace.name)} · ${SPEC.heroPlace.distanceKmFromManipal} km</span></div>
+  </div>
+  <div class="hero__foot">
+    <p>Everything within a day's ride of Manipal, by bike or Konkan Railway. Distances, ride times, darshan hours, monsoon notes. Vegetarian food only.</p>
+    <div class="board cap"><div><b>${stats.places}</b>Places</div><div><b>${stats.trips}</b>Trips</div><div><b>${stats.festivals}</b>Festivals</div></div>
+  </div>
+</header>
+
+<section aria-labelledby="sh1">
+  <div class="sh"><span class="ix">A</span><h2 id="sh1">Good now</h2><span class="cap">${MONTHS[thisMonth-1]} · ${new Date().getFullYear()}</span></div>
+  <div class="cards">
+    <article class="ticket" data-reveal>
+      <div class="ticket__img">${picture(SPEC.cardImg, { sizes: '(min-width:760px) 40vw, 100vw' })}
+        ${isGoodNow(c) ? '<span class="now cap">● Good now</span>' : ''}
+        <button class="star" data-star="${c.id}" aria-label="Add ${esc(c.name)} to my list">${starSvg}</button></div>
+      <div class="ticket__main">
+        <div class="km"><span class="cap">From Manipal</span><b>${c.distanceKmFromManipal}</b><span class="cap">km</span></div>
+        <div class="ticket__txt"><span class="cap">03 · Ghats · ${c.tripType}</span><h3><a href="#detail" style="text-decoration:none">${esc(c.name)}</a></h3><p>${esc(c.hook)}</p></div>
+      </div>
+      <div class="ticket__foot cap"><div class="ride"><span>Bike ${c.rideTimeFromManipal}</span><span>Train ${c.transport.train.available ? 'yes' : 'no'}</span></div></div>
+      ${monthStrip(c)}
+    </article>
+    <div class="note"><p class="cap">Specimen · place card</p><p>A ticket stub. Distance is the headline, because that's the question everyone asks first. Teal months are in season; the saffron box is this month.</p><p class="credit">${creditLine(SPEC.cardImg)}</p></div>
+  </div>
+</section>
+
+<section class="opener" aria-labelledby="ch2">
+  <div class="opener__a">
+    <div class="opener__top cap"><span>Chapter</span><span>02 / 05</span></div>
+    <p class="opener__num" aria-hidden="true">02</p>
+    <div><h2 id="ch2"><span class="vh">Chapter 2: </span>The Gods</h2>
+    <p>${stats.chapter('gods')} temples, mathas and peethas. Dress code, darshan hours and the free meal, for every one.</p></div>
+  </div>
+  <div class="opener__b">
+    ${picture(SPEC.openerAlt, { sizes: '(min-width:960px) 42vw, 100vw' })}
+    <table class="tt">
+      <caption class="cap">Nearest first · km from Manipal</caption>
+      <tbody>${nearestGods.map((p) => `<tr><th scope="row">${esc(p.name)}</th><td class="cap">${p.rideTimeFromManipal ?? ''}</td><td>${p.distanceKmFromManipal} km</td></tr>`).join('')}</tbody>
+    </table>
+    <p class="credit" style="color:var(--bone);padding:10px var(--gutter) 16px;margin:0">A ratha outside the Krishna Matha, Udupi. ${creditLine(SPEC.openerAlt)}</p>
+  </div>
+</section>
+
+<section class="stage" id="detail" aria-label="Place detail">
+  <div class="stage__bg" aria-hidden="true">${picture(SPEC.detailImg2, { alt: '' })}</div>
+  <article class="sheet" aria-labelledby="d-h">
+    <div class="sheet__bar"><span class="cap">02 · Gods · ${d.confidence === 'verified' ? 'Verified' : 'Partly verified'} · ${d.lastChecked}</span><button class="star" style="border-width:0 0 0 2px" data-star="${d.id}" aria-label="Add ${esc(d.name)} to my list">${starSvg}</button></div>
+    <div class="sheet__hd">
+      <div class="sheet__img">${picture(SPEC.detailImg, { sizes: '(min-width:1000px) 640px, 100vw' })}</div>
+      <div class="sheet__title"><span class="cap">Kollur · Souparnika river</span><h2 id="d-h">${esc(d.name)}</h2><p>${esc(d.hook)}</p>
+        <div class="acts"><a class="btn btn--fill" href="https://www.openstreetmap.org/?mlat=${d.lat}&mlon=${d.lng}#map=14/${d.lat}/${d.lng}">Open map</a><button class="btn toggle" aria-pressed="false" onclick="this.setAttribute('aria-pressed',this.getAttribute('aria-pressed')!=='true')">Been there</button></div></div>
+    </div>
+    <div class="big cap">
+      <div>Distance<b>${d.distanceKmFromManipal} km</b><small>from Manipal</small></div>
+      <div>Ride<b>${d.rideTimeFromManipal}</b><small>motorcycle</small></div>
+      <div>Rail<b>28–30 km</b><small>${esc(d.transport.train.station)}</small></div>
+      <div>Trip<b>${d.tripType}</b><small>${esc(d.bestTime)}</small></div>
+    </div>
+    ${monthStrip(d)}
+    <dl class="rows">
+      <div><dt>Season</dt><dd>${esc(d.seasonNote)}</dd></div>
+      <div><dt>Why go</dt><dd>${esc(d.why)}</dd></div>
+      <div><dt>Darshan<span class="flag">verify locally</span></dt><dd>${esc(t.darshanTimings)}</dd></div>
+      <div><dt>Dress code</dt><dd>${esc(t.dressCode)}</dd></div>
+      <div><dt>Anna prasada</dt><dd>${esc(t.annadana)}</dd></div>
+      <div><dt>The ride</dt><dd>${esc(d.bikeTips)}</dd></div>
+      <div class="warn"><dt>Safety</dt><dd>${esc(d.safety)}</dd></div>
+      <div><dt>Sources</dt><dd><ul class="src">${readerSources(d).map(u=>`<li><a href="${esc(u)}">${host(u)}</a></li>`).join('')}</ul><p class="credit" style="margin-top:10px">${creditLine(SPEC.detailImg)}</p></dd></div>
+    </dl>
+  </article>
+</section>`;
+wireStars(); reveals();
+</script>
+</body>
+</html>
