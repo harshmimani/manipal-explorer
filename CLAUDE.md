@@ -55,6 +55,10 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
 
 ## Progress
 - Part 0: scaffold done. Repo: https://github.com/harshmimani/manipal-explorer · Live: https://harshmimani.github.io/manipal-explorer/
-- Part 1 (in progress): 107 places, food (14 dishes, 16 eateries, 6 annadana), festivals researched and merged into src/data via scripts/build-data.mjs (raw research in research/raw/). 10 mustDo picked. Direction changed to evergreen (see Direction).
-  - Pending: tripIdeas.json, bestMonths/seasonNote, year-round festivals + worthWatching.json, must-do veg food + temple timings, verification pass, research/report.md.
-  - Known gaps: web-search quota ran out mid-research, so many veg-eatery and temple-timing fields are null / "verify locally".
+- Part 1: DONE (awaiting review). See research/report.md.
+  - Data: places.json (107, bestMonths/seasonNote, 10 mustDo), tripIdeas.json (15), festivals.json (40, year-round), worthWatching.json (15, 5 dontMiss), food.json (14 dishes, 16 eateries, 6 annadana).
+  - Build: `node scripts/recompute-routes.mjs` (OSRM cache) → `node scripts/build-data.mjs` → `node scripts/build-trips.mjs`. Edit research/raw/*.json, seasons.mjs, overrides.mjs, trips.mjs, then rebuild. Don't hand-edit src/data, or a rebuild overwrites it.
+  - Independent verification: 10 places spot-checked, 0 contradictions, 0 non-veg recommendations; all fixes applied.
+  - Known gaps: 72 places have no veg eatery listed; several festival dates are "check locally"; temple timings often conflict.
+  - Open questions: see the end of research/report.md.
+  - Note for Part 2+: Karkala Bahubali Mahamastakabhisheka is 18–28 Feb 2027 (confirmed), and is a Don't-miss.
