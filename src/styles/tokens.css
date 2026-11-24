@@ -1,0 +1,161 @@
+/* ════════════════════════════════════════════════════════════════════
+   Manipal Explorer · design tokens
+   Direction: Konkan Chronicles (A), pushed further.
+   Borrowed: season-first line + month strip (C), arch motif in II. The Gods
+   only (C), bold distance/ride on place cards (B).
+   Use semantic tokens in components; raw palette only inside this file.
+   ════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Colour · raw palette ─────────────────────────────────────────── */
+  --c-ink: #0B0F0E;
+  --c-ink-2: #121917;          /* raised surface on ink */
+  --c-ink-3: #19221F;          /* sheet / panel */
+  --c-deep-sea: #0E3B3A;
+  --c-monsoon-teal: #1F6F6B;
+  --c-saffron: #F29B38;
+  --c-saffron-hi: #F7B565;     /* hover on saffron fills */
+  --c-laterite: #B4532A;       /* fills only: 2.4:1 on ink, never text */
+  --c-laterite-text: #F3A07A;  /* laterite-family text on ink, 9.3:1 */
+  --c-palm: #4F7A3A;
+  --c-sand: #EDE3D1;
+  --c-bone: #F7F3EA;
+
+  /* ── Colour · semantic (contrast on --surface noted) ──────────────── */
+  --surface: var(--c-ink);
+  --surface-raised: var(--c-ink-2);
+  --surface-sheet: var(--c-ink-3);
+  --surface-glass: rgb(11 15 14 / .42);
+  --scrim: rgb(11 15 14 / .62);
+  --text: var(--c-bone);                       /* 17.4:1 on ink */
+  --text-soft: #D4CEC2;                        /* 12.3:1  body copy on photos/sheets */
+  --text-muted: #A7A398;                       /* 7.6:1 on ink, 6.5:1 on sheet · secondary */
+  --text-faint: #96938A;                       /* 6.3:1 on ink, 5.3:1 on sheet · captions, credits */
+  --text-display: var(--c-sand);               /* italic accents in headlines */
+  --accent: var(--c-saffron);                  /* 8.7:1 as text; one accent per view */
+  --accent-hover: var(--c-saffron-hi);
+  --on-accent: var(--c-ink);                   /* text on saffron fills */
+  --in-season: var(--c-monsoon-teal);          /* month cells; bone text on it 5.3:1 */
+  --warn-fill: color-mix(in oklab, var(--c-laterite) 16%, transparent);
+  --warn-line: color-mix(in oklab, var(--c-laterite) 55%, transparent);
+  --warn-text: var(--c-laterite-text);
+  --line: rgb(247 243 234 / .14);
+  --line-strong: rgb(247 243 234 / .32);
+  --focus: var(--c-saffron);
+
+  /* ── Type · families ──────────────────────────────────────────────── */
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Hanken Grotesk Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* ── Type · fluid scale (360px → 1920px) ──────────────────────────── */
+  --step--2: clamp(.69rem, .66rem + .12vw, .78rem);   /* labels, eyebrow caps */
+  --step--1: clamp(.83rem, .8rem + .16vw, .92rem);    /* captions, meta */
+  --step-0:  clamp(1rem, .96rem + .2vw, 1.125rem);    /* body */
+  --step-1:  clamp(1.2rem, 1.1rem + .5vw, 1.5rem);    /* lede */
+  --step-2:  clamp(1.5rem, 1.25rem + 1vw, 2.1rem);    /* card numbers, sub-heads */
+  --step-3:  clamp(2rem, 1.5rem + 2.2vw, 3.4rem);     /* section titles */
+  --step-4:  clamp(2.8rem, 1.8rem + 4.4vw, 5.6rem);   /* place names in detail */
+  --step-5:  clamp(3.8rem, 1.8rem + 9vw, 10.5rem);    /* chapter titles */
+  --step-6:  clamp(4.6rem, 1.2rem + 15.5vw, 17rem);   /* hero headline */
+  --step-7:  clamp(11rem, 3rem + 40vw, 44rem);        /* chapter numerals */
+
+  --lh-display: .84;
+  --lh-tight: 1.08;
+  --lh-snug: 1.35;
+  --lh-body: 1.58;
+  --track-display: -.035em;
+  --track-tight: -.01em;
+  --track-caps: .18em;
+  --weight-body: 400;
+  --weight-medium: 520;
+  --weight-strong: 680;
+  --weight-black: 800;          /* B-style numerals on cards */
+  --measure: 62ch;
+  --measure-narrow: 40ch;
+
+  /* ── Space · fluid ────────────────────────────────────────────────── */
+  --space-3xs: clamp(.25rem, .23rem + .1vw, .31rem);
+  --space-2xs: clamp(.5rem, .47rem + .15vw, .62rem);
+  --space-xs:  clamp(.75rem, .7rem + .25vw, .94rem);
+  --space-s:   clamp(1rem, .94rem + .3vw, 1.25rem);
+  --space-m:   clamp(1.5rem, 1.4rem + .5vw, 1.88rem);
+  --space-l:   clamp(2rem, 1.8rem + 1vw, 2.75rem);
+  --space-xl:  clamp(3rem, 2.6rem + 2vw, 4.5rem);
+  --space-2xl: clamp(4.5rem, 3.6rem + 4vw, 7.5rem);
+  --space-3xl: clamp(6rem, 4.4rem + 7vw, 11rem);
+  --gutter: clamp(1rem, .5rem + 4vw, 4.5rem);   /* 16px at 360px, ≥ 16px always */
+  --section: var(--space-3xl);
+  --max-w: 1680px;
+  --tap: 44px;                                  /* minimum target */
+  --letterbox: clamp(10px, 2.4vh, 26px);
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+
+  /* ── Radii ────────────────────────────────────────────────────────── */
+  --radius-xs: 3px;
+  --radius-s: 6px;
+  --radius-m: 10px;
+  --radius-l: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+  --radius-arch: 999px 999px var(--radius-s) var(--radius-s);  /* II. The Gods only */
+
+  /* ── Depth ────────────────────────────────────────────────────────── */
+  --shadow-1: 0 1px 0 rgb(247 243 234 / .05) inset, 0 8px 24px rgb(0 0 0 / .28);
+  --shadow-2: 0 1px 0 rgb(247 243 234 / .06) inset, 0 24px 60px rgb(0 0 0 / .45);
+  --shadow-3: 0 40px 120px rgb(0 0 0 / .6);
+  --glow-saffron: radial-gradient(closest-side, rgb(242 155 56 / .28), transparent);
+  --glow-teal: radial-gradient(closest-side, rgb(31 111 107 / .45), transparent);
+  --blur-glass: blur(14px) saturate(1.2);
+  --grain-opacity: .085;
+
+  /* ── Motion · easing (GSAP equivalents in comments) ───────────────── */
+  --ease-out: cubic-bezier(.16, 1, .3, 1);          /* expo.out · reveals, entrances */
+  --ease-in: cubic-bezier(.7, 0, .84, 0);           /* expo.in · exits */
+  --ease-film: cubic-bezier(.77, 0, .18, 1);        /* quart-ish in-out · clip-path wipes, letterbox */
+  --ease-drift: cubic-bezier(.25, .1, .1, 1);       /* slow image drift, parallax settle */
+  --ease-spring: cubic-bezier(.34, 1.36, .64, 1);   /* back.out(1.4) · magnetic buttons, stars */
+
+  /* ── Motion · durations ───────────────────────────────────────────── */
+  --dur-instant: 90ms;     /* press feedback */
+  --dur-fast: 180ms;       /* colour, hover */
+  --dur-base: 380ms;       /* small UI moves */
+  --dur-slow: 720ms;       /* card hovers, sheet open */
+  --dur-reveal: 1100ms;    /* text and image reveals */
+  --dur-cinematic: 1600ms; /* hero intro, letterbox */
+  --dur-ambient: 24s;      /* hero drift */
+  --stagger: 90ms;         /* between split-text lines */
+
+  /* ── Z-index scale ────────────────────────────────────────────────── */
+  --z-below: -1;
+  --z-base: 0;
+  --z-raised: 10;      /* card badges, image overlays */
+  --z-sticky: 100;     /* pinned chapter elements, filters */
+  --z-header: 200;
+  --z-overlay: 300;    /* scrims */
+  --z-sheet: 400;      /* bottom sheet / detail panel */
+  --z-modal: 500;
+  --z-toast: 600;
+  --z-grain: 900;      /* film grain, pointer-events: none */
+  --z-cursor: 1000;    /* custom cursor sits above grain */
+
+  /* ── Layout helpers ───────────────────────────────────────────────── */
+  --ratio-card: 4 / 5;
+  --ratio-wide: 16 / 9;
+  --ratio-cinema: 2.39 / 1;
+  /* Breakpoints (for reference; CSS vars can't drive media queries):
+     sm 560px · md 760px · lg 1000px · xl 1440px · 2xl 1920px */
+}
+
+/* Reduced motion: collapse durations; JS reads the same media query to
+   skip WebGL, Lenis and scroll-driven animation. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-instant: 1ms; --dur-fast: 1ms; --dur-base: 1ms; --dur-slow: 1ms;
+    --dur-reveal: 1ms; --dur-cinematic: 1ms; --dur-ambient: 0s; --stagger: 0ms;
+    --grain-opacity: 0;
+  }
+}

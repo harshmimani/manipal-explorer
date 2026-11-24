@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0B0F0E">
+<title>Final · Konkan Chronicles · Manipal Explorer</title>
+<style>
+/* Everything below uses src/styles/tokens.css; no raw values except one-off geometry. */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;background:var(--surface)}
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+body{margin:0;background:var(--surface);color:var(--text);font:var(--weight-body) var(--step-0)/var(--lh-body) var(--font-body);overflow-x:clip;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+picture{display:block;background:var(--dominant) center/cover no-repeat}
+picture img{width:100%;height:100%;object-fit:cover}
+a{color:inherit}
+button{font:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:var(--radius-xs)}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.cap{font:var(--weight-strong) var(--step--2)/1 var(--font-body);letter-spacing:var(--track-caps);text-transform:uppercase}
+.num{font-variant-numeric:tabular-nums lining-nums}
+.credit{font-size:var(--step--1);color:var(--text-faint)}
+.credit a{color:inherit}
+
+/* ── Global layers ─────────────────────────────────────── */
+.grain{position:fixed;inset:-50%;z-index:var(--z-grain);pointer-events:none;opacity:var(--grain-opacity);mix-blend-mode:overlay;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation:grain 1.1s steps(6) infinite}
+@keyframes grain{0%{transform:translate(0,0)}20%{transform:translate(-3%,2%)}40%{transform:translate(2%,-4%)}60%{transform:translate(-4%,-1%)}80%{transform:translate(3%,3%)}}
+.cursor{position:fixed;left:0;top:0;z-index:var(--z-cursor);pointer-events:none;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:var(--c-bone);mix-blend-mode:difference;display:none;
+  transition:width var(--dur-slow) var(--ease-out),height var(--dur-slow) var(--ease-out),margin var(--dur-slow) var(--ease-out),background var(--dur-base)}
+.cursor span{position:absolute;inset:0;display:grid;place-items:center;font:var(--weight-strong) .62rem/1 var(--font-body);letter-spacing:var(--track-caps);text-transform:uppercase;color:var(--c-ink);opacity:0;transition:opacity var(--dur-base)}
+.cursor.is-media{width:88px;height:88px;margin:-44px 0 0 -44px;mix-blend-mode:normal;background:var(--accent)}
+.cursor.is-media span{opacity:1}
+@media (pointer:fine){.has-cursor .cursor{display:block}}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:var(--tap);padding:0 var(--space-s);border-radius:var(--radius-pill);border:1px solid var(--line-strong);
+  background:var(--surface-glass);backdrop-filter:var(--blur-glass);-webkit-backdrop-filter:var(--blur-glass);color:var(--text);text-decoration:none;cursor:pointer;
+  font:var(--weight-strong) var(--step--2)/1 var(--font-body);letter-spacing:.1em;text-transform:uppercase;transition:background var(--dur-fast),color var(--dur-fast),border-color var(--dur-fast)}
+.btn:hover{background:var(--c-bone);color:var(--c-ink)}
+.btn--accent{background:var(--accent);color:var(--on-accent);border-color:transparent;backdrop-filter:none}
+.btn--accent:hover{background:var(--accent-hover);color:var(--on-accent)}
+.btn[aria-pressed="true"]{background:var(--c-bone);color:var(--c-ink)}
+.star{width:var(--tap);height:var(--tap);border-radius:50%;border:1px solid var(--line-strong);background:var(--surface-glass);backdrop-filter:var(--blur-glass);-webkit-backdrop-filter:var(--blur-glass);color:var(--text);display:grid;place-items:center;cursor:pointer;transition:transform var(--dur-slow) var(--ease-spring)}
+.star:active{transform:scale(.86)}
+.star svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6}
+.star[aria-pressed="true"]{color:var(--accent)}.star[aria-pressed="true"] svg{fill:currentColor}
+
+/* Month strip (from C) */
+.months{display:grid;grid-template-columns:repeat(12,1fr);gap:3px;list-style:none;margin:0;padding:0}
+.months li{height:30px;border-radius:var(--radius-xs);background:rgb(247 243 234 / .07);display:grid;place-items:end center;padding-bottom:5px;font:var(--weight-medium) .6rem/1 var(--font-body);color:var(--text-muted);position:relative}
+.months li.on{background:var(--in-season);color:var(--text)}
+.months li.now{box-shadow:0 0 0 1.5px var(--accent)}
+.months li.now::after{content:"";position:absolute;top:5px;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+
+/* ── HERO ──────────────────────────────────────────────── */
+.hero{position:relative;min-height:100vh;min-height:100dvh;display:grid;grid-template-rows:auto 1fr auto;isolation:isolate;overflow:hidden;
+  padding:calc(var(--letterbox) + max(var(--space-xs), var(--safe-top))) var(--gutter) calc(var(--letterbox) + max(var(--space-m), var(--safe-bottom)))}
+.hero__media{position:absolute;inset:0;z-index:var(--z-below);overflow:hidden}
+.hero__media picture{position:absolute;inset:-8% 0 -8%;transform:scale(1.06);animation:drift var(--dur-ambient) var(--ease-drift) both}
+@keyframes drift{from{transform:scale(1.2)}to{transform:scale(1.06)}}
+.hero__media::after{content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(130% 75% at 20% 115%, rgb(11 15 14 / .96) 25%, transparent 72%),
+    linear-gradient(180deg, rgb(11 15 14 / .75), transparent 22%, rgb(11 15 14 / .35) 45%, rgb(11 15 14 / .94)),
+    linear-gradient(90deg, rgb(11 15 14 / .55), transparent 60%)}
+.leak{position:absolute;z-index:var(--z-below);pointer-events:none;border-radius:50%;mix-blend-mode:screen}
+.leak--sun{width:70vmax;height:70vmax;right:-28vmax;top:-34vmax;background:var(--glow-saffron);opacity:.9}
+.leak--sea{width:60vmax;height:60vmax;left:-30vmax;bottom:-30vmax;background:var(--glow-teal)}
+.bars i{position:absolute;left:0;right:0;height:var(--letterbox);background:var(--surface);z-index:var(--z-raised)}
+.bars i:first-child{top:0}.bars i:last-child{bottom:0}
+.top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);position:relative;z-index:var(--z-header)}
+.brand{font:400 var(--step-1)/1 var(--font-display);text-decoration:none}
+.brand i{color:var(--accent)}
+.hero__body{align-self:end;position:relative;padding-bottom:var(--space-l)}
+.kicker{display:flex;gap:var(--space-xs);align-items:center;color:var(--accent);margin:0 0 var(--space-m)}
+.kicker::before{content:"";width:42px;height:1px;background:currentColor}
+.hero h1{font:400 var(--step-6)/var(--lh-display) var(--font-display);letter-spacing:var(--track-display);margin:0;text-shadow:0 20px 80px rgb(0 0 0 / .5)}
+.hero h1 .ln{display:block;overflow:hidden;padding:0 .04em .07em 0;margin-bottom:-.07em}
+.hero h1 .ln>span{display:block}
+.hero h1 em{font-style:italic;color:var(--text-display)}
+.hero h1 .amp{color:var(--accent);font-style:italic}
+.hero__row{display:grid;gap:var(--space-m);border-top:1px solid var(--line);padding-top:var(--space-m)}
+.hero__sub{margin:0;max-width:var(--measure-narrow);color:var(--text-soft);font-size:var(--step-1);line-height:var(--lh-snug)}
+.season{display:grid;gap:var(--space-xs);max-width:440px}
+.season p{margin:0;font:400 var(--step-2)/1.15 var(--font-display)}
+.season p b{font:var(--weight-black) 1em/1 var(--font-body);color:var(--accent);letter-spacing:-.02em;font-size:.86em}
+.season .months li{height:26px}
+.hero__aside{display:flex;justify-content:space-between;align-items:end;gap:var(--space-s);color:var(--text-muted)}
+.scroll{display:inline-flex;align-items:center;gap:10px}
+.scroll i{width:1px;height:42px;background:linear-gradient(var(--accent),transparent);display:block;animation:cue 2.2s var(--ease-film) infinite;transform-origin:top}
+@keyframes cue{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+.rail{display:none}
+@media (min-width:1000px){
+  .hero__row{grid-template-columns:1.1fr 1fr auto;align-items:end}
+  .rail{display:flex;position:absolute;right:var(--gutter);top:50%;transform:translateY(-50%);flex-direction:column;gap:var(--space-2xs);list-style:none;margin:0;padding:0;z-index:var(--z-raised)}
+  .rail a{display:flex;align-items:center;justify-content:flex-end;gap:12px;min-height:var(--tap);text-decoration:none;color:var(--text-muted);font:400 var(--step-1)/1 var(--font-display);transition:color var(--dur-fast)}
+  .rail a b{font:var(--weight-strong) .62rem/1 var(--font-body);letter-spacing:var(--track-caps);color:var(--accent);width:2.2em;text-align:right}
+  .rail a::after{content:"";width:18px;height:1px;background:currentColor;transition:width var(--dur-slow) var(--ease-out)}
+  .rail a:hover{color:var(--text)}.rail a:hover::after{width:42px}
+}
+.chips{display:flex;gap:6px 16px;flex-wrap:wrap;list-style:none;margin:var(--space-s) 0 0;padding:0}
+.chips a{display:inline-flex;align-items:center;gap:.45em;min-height:var(--tap);text-decoration:none;color:var(--text-muted);font:400 1.1rem/1 var(--font-display)}
+.chips b{font:var(--weight-strong) .62rem/1 var(--font-body);letter-spacing:var(--track-caps);color:var(--accent)}
+@media (min-width:1000px){.chips{display:none}}
+
+/* ── SECTION HEAD ──────────────────────────────────────── */
+.sec{padding:var(--section) 0}
+.head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:var(--space-s);padding:0 var(--gutter);margin-bottom:var(--space-xl)}
+.head h2{font:400 var(--step-4)/.9 var(--font-display);letter-spacing:var(--track-display);margin:0}
+.head h2 em{color:var(--accent)}
+.head p{margin:0;color:var(--text-muted);max-width:34ch}
+
+/* ── PLACE CARDS ───────────────────────────────────────── */
+.track{display:grid;grid-auto-flow:column;grid-auto-columns:min(82vw,380px);gap:var(--space-s);overflow-x:auto;scroll-snap-type:x mandatory;padding:0 var(--gutter) var(--space-s);scroll-padding-inline:var(--gutter);scrollbar-width:none;overscroll-behavior-x:contain}
+.track::-webkit-scrollbar{display:none}
+@media (min-width:1000px){.track{grid-auto-flow:row;grid-template-columns:repeat(3,1fr);overflow:visible;gap:var(--space-l)}.track>.card:nth-child(2){margin-top:var(--space-2xl)}}
+.card{scroll-snap-align:start;position:relative;perspective:1000px}
+.card__in{transform-style:preserve-3d;transition:transform var(--dur-slow) var(--ease-out)}
+.card__media{position:relative;aspect-ratio:var(--ratio-card);overflow:hidden;border-radius:var(--radius-s);box-shadow:var(--shadow-2);isolation:isolate}
+.card__media picture{position:absolute;inset:-4%;transition:transform var(--dur-cinematic) var(--ease-out)}
+.card:hover .card__media picture{transform:scale(1.06)}
+.card__media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgb(11 15 14 / .35),transparent 25%,transparent 45%,rgb(11 15 14 / .92))}
+.card__top{position:absolute;inset:var(--space-xs) var(--space-xs) auto;display:flex;justify-content:space-between;align-items:start;z-index:var(--z-raised)}
+.chip{display:inline-flex;align-items:center;gap:.5em;height:28px;padding:0 12px;border-radius:var(--radius-pill);background:var(--accent);color:var(--on-accent);font:var(--weight-strong) .66rem/1 var(--font-body);letter-spacing:.14em;text-transform:uppercase}
+.chip::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.card__body{position:absolute;inset:auto var(--space-s) var(--space-s);z-index:var(--z-raised)}
+.card__ch{color:var(--accent);margin-bottom:10px}
+.card h3{font:400 var(--step-3)/.92 var(--font-display);letter-spacing:var(--track-tight);margin:0 0 8px}
+.card h3 a{text-decoration:none}
+.card h3 a::after{content:"";position:absolute;inset:0;z-index:var(--z-base)}
+.card p{margin:0;color:var(--text-soft);font-size:var(--step--1);max-width:32ch}
+/* B: distance + ride, bold and scannable */
+.stat{display:grid;grid-template-columns:1fr 1fr auto;align-items:end;margin-top:var(--space-xs);border-top:1px solid var(--line-strong);padding-top:var(--space-xs)}
+.stat div+div{border-left:1px solid var(--line);padding-left:var(--space-xs)}
+.stat b{display:block;font:var(--weight-black) var(--step-2)/1 var(--font-body);letter-spacing:-.035em;color:var(--text)}
+.stat b small{font-size:.5em;font-weight:var(--weight-strong);letter-spacing:0;margin-left:.15em;color:var(--text-muted)}
+.stat span{display:block;margin-top:6px;color:var(--text-muted)}
+.stat .when{text-align:right;color:var(--text-muted);padding-left:var(--space-xs)}
+.cards-note{padding:0 var(--gutter);margin-top:var(--space-l)}
+
+/* ── CHAPTER OPENER · II. THE GODS (arch motif lives only here) ── */
+.opener{position:relative;min-height:100vh;min-height:100dvh;display:grid;align-items:end;isolation:isolate;overflow:hidden;padding:var(--space-2xl) var(--gutter) var(--space-xl);
+  background:radial-gradient(80% 60% at 75% 40%, rgb(180 83 42 / .22), transparent 70%), var(--surface)}
+.opener__num{position:absolute;left:calc(var(--gutter) - .05em);top:var(--space-xl);margin:0;font:400 var(--step-7)/.72 var(--font-display);letter-spacing:-.06em;
+  background:var(--numfill) center 40%/cover;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-stroke:1px rgb(242 155 56 / .55);opacity:.95;z-index:var(--z-below)}
+.opener .opener__num{font-size:max(var(--step-7), 58vh);-webkit-mask-image:linear-gradient(180deg,#000 50%,transparent 82%);mask-image:linear-gradient(180deg,#000 50%,transparent 82%)}
+@media (min-width:1000px){.opener .opener__num{font-size:max(var(--step-7), 104vh);top:4vh;-webkit-mask-image:linear-gradient(180deg,#000 40%,transparent 66%);mask-image:linear-gradient(180deg,#000 40%,transparent 66%)}}
+.arch{position:relative;width:min(62vw,360px);aspect-ratio:3/4.4;margin:0 0 var(--space-l) auto;z-index:var(--z-base)}
+.arch__img{position:absolute;inset:0;border-radius:var(--radius-arch);overflow:hidden;box-shadow:var(--shadow-3)}
+.arch__img picture{position:absolute;inset:0}
+.arch::before{content:"";position:absolute;inset:-14px;border-radius:var(--radius-arch);border:1px solid rgb(242 155 56 / .45)}
+.arch::after{content:"";position:absolute;inset:-30px;border-radius:var(--radius-arch);border:1px solid rgb(242 155 56 / .16)}
+.opener h2{font:400 var(--step-5)/var(--lh-display) var(--font-display);letter-spacing:var(--track-display);margin:0;position:relative}
+.opener h2 em{color:var(--accent)}
+.opener__row{display:grid;gap:var(--space-m);margin-top:var(--space-m);border-top:1px solid var(--line);padding-top:var(--space-m)}
+.opener__row p{margin:0;max-width:var(--measure-narrow);color:var(--text-soft);font-size:var(--step-1);line-height:var(--lh-snug)}
+.opener__row dl{display:flex;gap:var(--space-l);margin:0}
+.opener__row dt{color:var(--text-muted)}
+.opener__row dd{margin:6px 0 0;font:400 var(--step-4)/1 var(--font-display)}
+@media (min-width:1000px){
+  .opener{grid-template-columns:1fr auto;column-gap:var(--space-2xl)}
+  .opener__text{grid-column:1}
+  .arch{grid-column:2;grid-row:1;width:min(28vw,420px);margin:0;align-self:center}
+  .opener__row{grid-template-columns:1fr auto;align-items:end}
+}
+
+/* ── DETAIL (bottom sheet on phone, side panel on laptop) ── */
+.stage{position:relative;isolation:isolate;padding:var(--space-2xl) 0 0;overflow:hidden}
+.stage__bg{position:absolute;inset:0;z-index:var(--z-below)}
+.stage__bg picture{position:absolute;inset:0;filter:saturate(.6)}
+.stage__bg::after{content:"";position:absolute;inset:0;background:var(--scrim)}
+.sheet{position:relative;z-index:var(--z-sheet);background:var(--surface-sheet);border-radius:var(--radius-xl) var(--radius-xl) 0 0;padding:10px var(--gutter) calc(var(--space-xl) + var(--safe-bottom));box-shadow:var(--shadow-3)}
+.grab{width:44px;height:5px;border-radius:3px;background:var(--line-strong);margin:4px auto var(--space-s)}
+@media (min-width:1000px){
+  .stage{padding:var(--space-xl) var(--gutter);min-height:100vh;display:flex;justify-content:flex-end}
+  .sheet{width:min(640px,46vw);border-radius:var(--radius-l);padding:var(--space-l)}
+  .grab{display:none}
+}
+.sheet__hero{aspect-ratio:2.165;border-radius:var(--radius-m);overflow:hidden;margin-bottom:var(--space-m)}
+.sheet__hero picture{height:100%}
+.sheet__top{display:flex;justify-content:space-between;gap:var(--space-s);align-items:start}
+.sheet h2{font:400 var(--step-4)/.9 var(--font-display);letter-spacing:var(--track-display);margin:10px 0 12px}
+.lede{font:italic 400 var(--step-1)/1.3 var(--font-display);color:var(--text-display);margin:0 0 var(--space-m)}
+.acts{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 var(--space-m)}
+.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;margin:0 0 var(--space-m)}
+.facts div{background:var(--surface-sheet);padding:var(--space-xs) var(--space-s)}
+.facts dt{color:var(--text-muted)}
+.facts dd{margin:8px 0 0;font:var(--weight-black) var(--step-2)/1 var(--font-body);letter-spacing:-.03em}
+.facts dd.sm{font-size:var(--step-0);font-weight:var(--weight-strong);letter-spacing:0;line-height:1.25}
+.facts dd small{display:block;font:var(--weight-medium) var(--step--1)/1.3 var(--font-body);letter-spacing:0;color:var(--text-muted);margin-top:6px}
+.block{border-top:1px solid var(--line);padding:var(--space-m) 0}
+.block h3{margin:0 0 var(--space-xs);color:var(--accent)}
+.block p{margin:0 0 10px;color:var(--text-soft)}
+.block dl{margin:0;display:grid;gap:var(--space-s)}
+.block dt{font-weight:var(--weight-strong)}
+.block dd{margin:4px 0 0;color:var(--text-soft);font-size:var(--step--1)}
+.note{color:var(--text-muted);font-size:var(--step--1);margin:var(--space-xs) 0 0}
+.warn{background:var(--warn-fill);border:1px solid var(--warn-line);border-radius:var(--radius-m);padding:var(--space-s);margin:var(--space-2xs) 0 var(--space-m)}
+.warn h3{color:var(--warn-text);margin:0 0 var(--space-2xs)}
+.warn p{margin:0;color:var(--text-soft)}
+.verify{display:inline-block;font:var(--weight-strong) .6rem/1 var(--font-body);letter-spacing:.14em;text-transform:uppercase;padding:4px 7px;border-radius:var(--radius-xs);border:1px solid rgb(242 155 56 / .6);color:var(--accent);vertical-align:2px;margin-left:6px}
+.src{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.src a{display:inline-flex;align-items:center;min-height:var(--tap);padding:0 12px;border:1px solid var(--line);border-radius:var(--radius-pill);font-size:var(--step--1);color:var(--text-muted);text-decoration:none}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .grain{display:none}
+}
+</style>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"><span>View</span></div>
+<main id="app"></main>
+<script type="module">
+import '../src/styles/fonts.css';
+import '../src/styles/tokens.css';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { SplitText } from 'gsap/SplitText';
+import Lenis from 'lenis';
+import places from '../src/data/places.json';
+import { SPEC, stats, picture, creditLine, monthStrip, isGoodNow, esc, readerSources, host, wireStars, MONTHS, thisMonth, credit } from './directions/shared.js';
+
+const star = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.6 5.6 6.1.7-4.5 4.2 1.2 6.1L12 16.8 6.6 19.8l1.2-6.1L3.3 9.5l6.1-.7z"/></svg>';
+const CH = { coast: 'I · The Coast', gods: 'II · The Gods', ghats: 'III · The Ghats', heritage: 'Heritage' };
+const byId = (id) => places.find((p) => p.id === id);
+const cards = [
+  [byId('agumbe-sunset-point-and-ghat'), SPEC.cardImg],
+  [byId('kudremukh-peak-trek'), byId('kudremukh-peak-trek').images[0]],
+  [byId('gokarna-beach-trail'), byId('gokarna-beach-trail').images[0]],
+];
+// Season line (from C): only places with a real season, so the number moves with the calendar.
+const inSeason = places.filter((p) => p.bestMonths?.length < 12 && isGoodNow(p)).length;
+const monthName = new Date().toLocaleString('en-GB', { month: 'long' });
+const range = (m) => m.length === 12 ? 'All year' : `${MONTHS[m[0] - 1]}–${MONTHS[m[m.length - 1] - 1]}`;
+const nearestGod = Math.min(...places.filter((p) => p.chapter === 'gods' && p.distanceKmFromManipal != null).map((p) => p.distanceKmFromManipal));
+const ride = (s) => s.replace(/(\d+)h\s*(\d+)m/, '$1<small>h</small> $2<small>m</small>').replace(/^(\d+)m$/, '$1<small>m</small>');
+const d = SPEC.detail, t = d.temple;
+const numFill = `../${credit(SPEC.openerAlt).file}-960.webp`;
+
+document.getElementById('app').innerHTML = `
+<header class="hero">
+  <div class="hero__media" aria-hidden="true">${picture(SPEC.heroImg, { eager: true, alt: '' })}</div>
+  <div class="leak leak--sun" aria-hidden="true"></div><div class="leak leak--sea" aria-hidden="true"></div>
+  <div class="bars" aria-hidden="true"><i></i><i></i></div>
+  <div class="top">
+    <a class="brand" href="#">Manipal <i>Explorer</i></a>
+    <a class="btn" href="#" data-magnetic>My list</a>
+  </div>
+  <ol class="rail" aria-label="Chapters">
+    ${[['I','The Coast'],['II','The Gods'],['III','The Ghats'],['IV','The Table'],['V','The Plan']].map(([n,l])=>`<li><a href="#"><b>${n}</b>${l}</a></li>`).join('')}
+  </ol>
+  <div class="hero__body">
+    <p class="kicker cap">The Konkan Chronicles</p>
+    <h1><span class="ln"><span>Sea, gods</span></span><span class="ln"><span><span class="amp">&amp;</span> ghats,</span></span><span class="ln"><span><em>one ride</em> away.</span></span></h1>
+    <ol class="chips">${[['I','Coast'],['II','Gods'],['III','Ghats'],['IV','Table'],['V','Plan']].map(([n,l])=>`<li><a href="#"><b>${n}</b>${l}</a></li>`).join('')}</ol>
+  </div>
+  <div class="hero__row">
+    <p class="hero__sub">${stats.places} places within reach of Manipal, ${stats.trips} ready-made trips and ${stats.festivals} festivals through the year. Every plate vegetarian.</p>
+    <div class="season">
+      <p>In ${monthName}, <b class="num">${inSeason} places</b> are in their best season.</p>
+      <ol class="months" aria-label="Months of the year">${MONTHS.map((m,i)=>`<li class="${i+1===thisMonth?'now on':''}" ${i+1===thisMonth?'aria-current="date"':''}><span>${m[0]}</span></li>`).join('')}</ol>
+    </div>
+    <div class="hero__aside cap"><span class="scroll"><i></i>Scroll</span><span class="num">${SPEC.heroPlace.lat.toFixed(3)}°N ${SPEC.heroPlace.lng.toFixed(3)}°E</span></div>
+  </div>
+</header>
+
+<section class="sec" aria-labelledby="now-h">
+  <div class="head"><h2 id="now-h" data-split>Good <em>right now</em></h2><p>Three in season this ${monthName}, from an evening ride to a long weekend.</p></div>
+  <div class="track">
+    ${cards.map(([p, img]) => `
+    <article class="card" data-reveal>
+      <div class="card__in" data-tilt>
+        <div class="card__media" data-cursor="media">${picture(img, { sizes: '(min-width:1000px) 30vw, 82vw' })}</div>
+        <div class="card__top">${isGoodNow(p) ? '<span class="chip">Good now</span>' : '<span></span>'}<button class="star" data-star="${p.id}" aria-label="Add ${esc(p.name)} to my list" style="position:relative;z-index:1">${star}</button></div>
+        <div class="card__body">
+          <div class="card__ch cap">${CH[p.chapter]}</div>
+          <h3><a href="#detail">${esc(p.name)}</a></h3>
+          <p>${esc(p.hook)}</p>
+          <div class="stat num">
+            <div><b>${p.distanceKmFromManipal}<small>km</small></b><span class="cap">From Manipal</span></div>
+            <div><b>${ride(p.rideTimeFromManipal)}</b><span class="cap">By bike</span></div>
+            <div class="when cap">${range(p.bestMonths)}</div>
+          </div>
+        </div>
+      </div>
+    </article>`).join('')}
+  </div>
+  <p class="cards-note credit">Photos: ${cards.map(([, img]) => creditLine(img).replace('Photo: ', '')).join(' · ')}</p>
+</section>
+
+<section class="opener" aria-labelledby="ch2" style="--numfill:url('${numFill}')">
+  <p class="opener__num" aria-hidden="true">II</p>
+  <div class="arch" aria-hidden="true"><div class="arch__img" data-arch>${picture(SPEC.openerImg, { sizes: '(min-width:1000px) 28vw, 62vw', alt: '' })}</div></div>
+  <div class="opener__text">
+    <h2 id="ch2" data-split><span class="vh">Chapter II: </span>The <em>Gods</em></h2>
+    <div class="opener__row">
+      <p>From Krishna's matha in Udupi to Sharada's peetha in Sringeri. Each shrine comes with its dress code, darshan hours and where the free meal is served.</p>
+      <dl class="num"><div><dt class="cap">Shrines</dt><dd>${stats.chapter('gods')}</dd></div><div><dt class="cap">Chapter</dt><dd>II<small style="font-size:.4em;color:var(--text-muted)"> / V</small></dd></div><div><dt class="cap">Nearest</dt><dd>${nearestGod} km</dd></div></dl>
+    </div>
+    <p class="credit" style="margin-top:var(--space-s)">Arch: Udupi Sri Krishna Matha, ${creditLine(SPEC.openerImg).replace('Photo: ','')}. Numeral: a ratha outside the Krishna Matha, ${creditLine(SPEC.openerAlt).replace('Photo: ','')}.</p>
+  </div>
+</section>
+
+<section class="stage" id="detail" aria-label="Place detail">
+  <div class="stage__bg" aria-hidden="true">${picture(SPEC.detailImg2, { alt: '' })}</div>
+  <article class="sheet" role="dialog" aria-modal="false" aria-labelledby="d-h">
+    <div class="grab" aria-hidden="true"></div>
+    <div class="sheet__hero" data-cursor="media">${picture(SPEC.detailImg, { sizes: '(min-width:1000px) 560px, 100vw' })}</div>
+    <div class="sheet__top">
+      <div><span class="cap" style="color:var(--accent)">II · The Gods · ${d.confidence === 'verified' ? 'Verified' : 'Partly verified'}</span>
+      <h2 id="d-h">${esc(d.name)}</h2></div>
+      <button class="star" data-star="${d.id}" aria-label="Add ${esc(d.name)} to my list">${star}</button>
+    </div>
+    <p class="lede">${esc(d.hook)}</p>
+    <div class="acts"><a class="btn btn--accent" data-magnetic href="https://www.openstreetmap.org/?mlat=${d.lat}&mlon=${d.lng}#map=14/${d.lat}/${d.lng}">Open map</a><button class="btn" data-magnetic aria-pressed="false" onclick="this.setAttribute('aria-pressed',this.getAttribute('aria-pressed')!=='true')">Been there</button></div>
+    <dl class="facts num">
+      <div><dt class="cap">Distance</dt><dd>${d.distanceKmFromManipal} km<small>from Manipal</small></dd></div>
+      <div><dt class="cap">Ride</dt><dd>${d.rideTimeFromManipal}<small>by motorcycle</small></dd></div>
+      <div><dt class="cap">Train</dt><dd class="sm">${esc(d.transport.train.station)}<small>28–30 km to Kollur</small></dd></div>
+      <div><dt class="cap">Go</dt><dd class="sm">${d.tripType[0].toUpperCase() + d.tripType.slice(1)} trip<small>${esc(d.bestTime)}</small></dd></div>
+    </dl>
+    <div class="block"><h3 class="cap">When to go</h3>${monthStrip(d)}<p class="note">${esc(d.seasonNote)}</p></div>
+    <div class="block"><h3 class="cap">Why go</h3><p>${esc(d.why)}</p></div>
+    <div class="block"><h3 class="cap">At the temple</h3><dl>
+      <div><dt>Darshan <span class="verify">Verify locally</span></dt><dd>${esc(t.darshanTimings)}</dd></div>
+      <div><dt>Dress code</dt><dd>${esc(t.dressCode)}</dd></div>
+      <div><dt>Anna prasada</dt><dd>${esc(t.annadana)}</dd></div>
+    </dl></div>
+    <div class="block"><h3 class="cap">The ride</h3><p>${esc(d.bikeTips)}</p></div>
+    <div class="warn"><h3 class="cap">Safety</h3><p>${esc(d.safety)}</p></div>
+    <div class="block"><h3 class="cap">Sources</h3><ul class="src">${readerSources(d).map(u=>`<li><a href="${esc(u)}">${host(u)}</a></li>`).join('')}</ul>
+      <p class="credit">${creditLine(SPEC.detailImg)} · Background: ${creditLine(SPEC.detailImg2).replace('Photo: ','')} · Checked ${d.lastChecked}</p></div>
+  </article>
+</section>`;
+wireStars();
+
+// ── Motion. Nothing here runs under reduced motion; the page is complete without it. ──
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const fine = matchMedia('(pointer: fine)').matches;
+const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+if (!reduce) {
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+  const lenis = new Lenis({ lerp: 0.1 });
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add((t) => lenis.raf(t * 1000));
+  gsap.ticker.lagSmoothing(0);
+
+  const EXPO = 'expo.out';
+  // Intro: letterbox opens from the centre, then the title rises line by line.
+  const intro = gsap.timeline({ defaults: { ease: EXPO } });
+  intro.fromTo('.bars i', { height: '50.5%' }, { height: css('--letterbox'), duration: 1.6, ease: 'power4.inOut' })
+       .from('.hero h1 .ln > span', { yPercent: 110, duration: 1.4, stagger: 0.09 }, '-=.7')
+       .from('.kicker, .hero__row > *, .chips, .rail li', { y: 24, autoAlpha: 0, duration: 1.1, stagger: 0.06 }, '-=1');
+
+  // Depth: image sinks, headline lifts, light leak drifts.
+  gsap.to('.hero__media picture', { yPercent: 14, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+  gsap.to('.hero__body', { yPercent: -18, autoAlpha: .2, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+  gsap.to('.leak--sun', { xPercent: -20, yPercent: 30, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+
+  // Split-text section titles.
+  document.querySelectorAll('[data-split]').forEach((el) => {
+    const s = SplitText.create(el, { type: 'words', mask: 'words' });
+    gsap.from(s.words, { yPercent: 110, duration: 1.2, ease: EXPO, stagger: 0.07, scrollTrigger: { trigger: el, start: 'top 85%' } });
+  });
+
+  // Cards: clip-path wipe up, staggered.
+  ScrollTrigger.batch('[data-reveal]', { start: 'top 88%', once: true, onEnter: (els) => gsap.fromTo(els,
+    { clipPath: 'inset(100% 0% 0% 0%)', y: 60 }, { clipPath: 'inset(0% 0% 0% 0%)', y: 0, duration: 1.3, ease: 'power4.out', stagger: 0.12 }) });
+
+  // II. The Gods: the arch opens like a doorway, the numeral scales up behind it.
+  const mm = gsap.matchMedia();
+  mm.add('(min-width: 1000px)', () => {
+    const tl = gsap.timeline({ scrollTrigger: { trigger: '.opener', start: 'top top', end: '+=90%', scrub: 1, pin: true } });
+    tl.fromTo('[data-arch]', { clipPath: 'inset(100% 0% 0% 0% round 999px 999px 6px 6px)' }, { clipPath: 'inset(0% 0% 0% 0% round 999px 999px 6px 6px)', ease: 'none' })
+      .fromTo('.opener__num', { scale: .82, yPercent: 8 }, { scale: 1, yPercent: 0, ease: 'none' }, 0);
+  });
+  mm.add('(max-width: 999px)', () => {
+    gsap.fromTo('[data-arch]', { clipPath: 'inset(100% 0% 0% 0% round 999px 999px 6px 6px)' }, { clipPath: 'inset(0% 0% 0% 0% round 999px 999px 6px 6px)', duration: 1.4, ease: 'power4.inOut', scrollTrigger: { trigger: '.opener', start: 'top 70%' } });
+  });
+  gsap.from('.sheet', { yPercent: 12, autoAlpha: 0, duration: 1.2, ease: EXPO, scrollTrigger: { trigger: '.stage', start: 'top 70%' } });
+
+  if (fine) {
+    document.documentElement.classList.add('has-cursor');
+    // Cursor: lags slightly, grows into a saffron "View" disc over media.
+    const cur = document.querySelector('.cursor');
+    const xTo = gsap.quickTo(cur, 'x', { duration: .45, ease: 'power3' }), yTo = gsap.quickTo(cur, 'y', { duration: .45, ease: 'power3' });
+    addEventListener('pointermove', (e) => { xTo(e.clientX); yTo(e.clientY); });
+    document.querySelectorAll('[data-cursor="media"]').forEach((m) => {
+      m.addEventListener('pointerenter', () => cur.classList.add('is-media'));
+      m.addEventListener('pointerleave', () => cur.classList.remove('is-media'));
+    });
+    // Magnetic buttons.
+    document.querySelectorAll('[data-magnetic]').forEach((b) => {
+      b.addEventListener('pointermove', (e) => { const r = b.getBoundingClientRect();
+        gsap.to(b, { x: (e.clientX - r.left - r.width / 2) * .3, y: (e.clientY - r.top - r.height / 2) * .35, duration: .5, ease: 'power3.out' }); });
+      b.addEventListener('pointerleave', () => gsap.to(b, { x: 0, y: 0, duration: .9, ease: 'elastic.out(1, .4)' }));
+    });
+    // Subtle card tilt.
+    document.querySelectorAll('[data-tilt]').forEach((c) => {
+      c.addEventListener('pointermove', (e) => { const r = c.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+        c.style.transform = `rotateY(${x * 6}deg) rotateX(${-y * 5}deg)`; });
+      c.addEventListener('pointerleave', () => { c.style.transform = ''; });
+    });
+  }
+}
+</script>
+</body>
+</html>

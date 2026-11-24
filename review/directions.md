@@ -23,3 +23,8 @@ Practical and loud, the most "useful at a glance" on a bike stop; the least cine
 Fraunces (soft, optical-size serif with italics) + Figtree. Deep monsoon teal with saffron glow, a light bone sheet for details.
 Centred, symmetrical layout built on arches (temple doorways) and concentric rings; the month dial leads the hero, so season comes first.
 Warm and devotional, the calmest to read; risks feeling soft next to the "Awwwards" bar unless the motion is strong.
+
+## Chosen: A, pushed further (review/direction-final.html)
+Built only on `src/styles/tokens.css`. Bigger, tighter Instrument Serif; light leaks, deeper shadows and a letterbox intro.
+From C: the season line in the hero and the month strip. The arch appears only in II. The Gods.
+From B: bold distance and ride time on the cards. B and C no longer have their own fonts (removed).

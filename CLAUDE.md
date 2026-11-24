@@ -26,17 +26,28 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
 5. Images: only downloaded, licence-checked images stored in the repo with credits. Never hotlink, never invent URLs.
 6. Safety first: clearly flag ghat-road risks, night riding, slippery waterfall rocks, rip currents on beaches, and anything prohibited (e.g. walking railway tracks to Dudhsagar).
 
-## Art direction (default; may be refined in Part 3)
-- Concept: "Konkan Chronicles". The site reads like a cinematic travel film told in chapters:
-  I. The Coast · II. The Gods · III. The Ghats · IV. The Table · V. The Plan
-- Palette:
-  ink #0B0F0E, deep sea #0E3B3A, monsoon teal #1F6F6B, saffron #F29B38, laterite #B4532A, palm #4F7A3A, sand #EDE3D1, bone #F7F3EA
-- Type: one dramatic display face (high-contrast serif or condensed grotesk, self-hosted) + one clean sans for body. Fluid type scale with clamp(). Huge headlines, generous whitespace, editorial grids.
-- Motion: purposeful, physical and smooth. Custom easing (no default ease-in-out). Split-text reveals, clip-path image reveals, parallax depth, pinned chapters, GSAP Flip for filtering. Nothing moves without a reason.
-- Texture: subtle film grain, soft glows. Glassmorphism only where it earns its place.
-- Desktop extras: custom cursor that morphs over media, magnetic buttons, subtle card tilt.
-- Mobile: no custom cursor, swipe carousels, bottom-sheet details, thumb-reachable controls.
-- Quality bar: Active Theory, Locomotive, Resn, Awwwards Site of the Day. Designed by someone with 20+ years of experience.
+## Art direction (locked in Part 3: Direction A "Konkan Chronicles", pushed further)
+- Source of truth: src/styles/tokens.css (colour, type scale, spacing, radii, depth, easing, durations, z-index). Components use semantic tokens only; never raw hex.
+  Reference build: review/direction-final.html (screenshots in review/screenshots/direction-final-*.png).
+- Concept: a cinematic travel film told in chapters: I. The Coast · II. The Gods · III. The Ghats · IV. The Table · V. The Plan. Dark ink stage, letterbox bars, film grain, light leaks. Aim: Active Theory / Awwwards Site of the Day. Bold type, real depth, drama with a reason.
+- Palette: ink #0B0F0E, deep sea #0E3B3A, monsoon teal #1F6F6B, saffron #F29B38, laterite #B4532A, palm #4F7A3A, sand #EDE3D1, bone #F7F3EA.
+  Saffron is the single accent: one saffron mark per view. Teal means "in season". Laterite is a fill only (never text on ink; use --warn-text). All text tokens pass WCAG AA on ink and on the sheet surface.
+- Type: Instrument Serif (display; italic for one accent word per headline) + Hanken Grotesk Variable (body, labels, numerals). Self-hosted via @fontsource, imported in src/styles/fonts.css. No other families.
+  Fluid scale --step--2 … --step-7 (360 → 1920px). Hero headline --step-6, chapter titles --step-5, chapter numerals --step-7 or larger, sized to the viewport.
+  Numbers that matter (distance, ride time, counts) are Hanken at --weight-black, tabular, so they scan in a glance.
+- Hero: full-bleed photo with slow drift, scroll parallax, saffron and teal light leaks, letterbox intro (bars open from the centre), line-by-line title rise. Chapter rail on desktop, chapter chips on mobile.
+  Season line under the title, computed from today's date: "In <Month>, N places are in their best season." (N counts places with a real season, not all-year ones), plus a 12-month strip with the current month marked.
+- Place cards: 4:5 portrait, name in Instrument Serif over a dark gradient, "Good now" saffron chip only when in season, star (My List) top right.
+  Stat bar (borrowed from B): distance in km and ride time in bold Hanken numerals with tiny caps labels, plus the best-months range. Swipe carousel with scroll-snap on mobile; staggered 3-up grid on desktop.
+- Month strip (borrowed from C): 12 cells, teal = in season, saffron ring + dot = this month. Used in the hero and in place detail.
+- Arch / temple-doorway motif (borrowed from C): only in II. The Gods (chapter opener and Gods-only modules). --radius-arch, thin saffron outlines; the arch opens like a doorway on scroll. Never elsewhere.
+- Chapter openers: viewport-high numeral filled with a photo (background-clip: text), faded out behind the text, chapter title in --step-5, a short line, and big counts. Pinned with a scrubbed reveal on desktop.
+- Place detail: bottom sheet on phone (grab handle, rounded top), right-hand panel on laptop over a dimmed photo. Bold fact grid, month strip, temple block (darshan, dress code, anna prasada), ride notes, a laterite-tinted safety box, "Verify locally" tags, sources and photo credits.
+- Motion: GSAP + ScrollTrigger + SplitText, Lenis smooth scroll. Easing from tokens (--ease-out ≈ expo.out for reveals, --ease-film for wipes, --ease-spring for magnetic/star). Clip-path wipes for images, word-masked split text for titles, parallax depth, pinned chapters, GSAP Flip for filtering. Nothing moves without a reason.
+- Desktop extras (pointer: fine only): cursor that becomes a saffron "View" disc over media, magnetic buttons, subtle card tilt (≤ 6°).
+- Mobile: no custom cursor, swipe carousels, bottom-sheet details, thumb-reachable controls, 44px targets.
+- Glass (--surface-glass + --blur-glass) only for controls floating over photos.
+- Reduced motion: tokens collapse durations and grain; JS skips Lenis, ScrollTrigger, intro and cursor. Content is complete with no JS motion.
 
 ## Technical requirements
 - Vite + vanilla JS modules. gsap + ScrollTrigger, lenis, three (hero shader only), leaflet.
@@ -76,11 +87,10 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
   - Round 1 replacements: Arasinagundi, Kukke, Kateel, Mangaladevi, Netrani, Sakrebyle, Dharmasthala museums, Jogi Gundi.
     Kept as weak (no better image found): Mandarthi, Horanadu, Karkala, Gokarna Mahabaleshwar, Kemmannu, Gadaikallu, Car Street.
   - Contact sheet: `npx vite` → http://localhost:5173/manipal-explorer/review/images.html
-- Part 3 (art direction): explorations DONE, awaiting pick (STOP).
-  - review/direction-a.html (Konkan Chronicles: Instrument Serif + Hanken Grotesk, dark, film grain),
-    direction-b.html (Route Card: Big Shoulders Display + IBM Plex Mono, sand, timetable grid),
-    direction-c.html (Monsoon Almanac: Fraunces + Figtree, teal, arches, season-first).
-  - Shared real-data helpers: review/directions/shared.js. Rationale: review/directions.md.
-  - Screenshots: `node scripts/shoot-directions.mjs` (needs `npx vite` running) → review/screenshots/.
-  - Fonts self-hosted via @fontsource packages; drop the unused ones once a direction is picked.
-  - Next: build tokens.css design system from the chosen direction and rewrite the Art direction section.
+- Part 3 (art direction): DONE (awaiting review).
+  - Explorations: review/direction-a.html (Konkan Chronicles), -b.html (Route Card), -c.html (Monsoon Almanac). Rationale: review/directions.md.
+    B and C lost their fonts when A was chosen; their screenshots show how they looked.
+  - Chosen: A, pushed further, plus C's season line, month strip and Gods-only arch, and B's bold distance/ride on cards.
+  - Design system: src/styles/tokens.css + src/styles/fonts.css. Reference page: review/direction-final.html.
+  - Screenshots: `node scripts/shoot-directions.mjs [a b c final]` (needs `npx vite` running) → review/screenshots/. It also flags horizontal overflow.
+  - Not yet built: the three.js hero shader (the reference uses a photo with CSS/GSAP depth), GSAP Flip filtering, the real site in index.html.

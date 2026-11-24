@@ -30,7 +30,7 @@ for (const vp of viewports) {
       scrollTo(0, 0);
       await Promise.all([...document.images].map((i) => i.complete && i.naturalWidth ? 0 : new Promise((r) => { i.onload = i.onerror = r; })));
     });
-    const overflow = await page.evaluate(() => Math.max(...[...document.querySelectorAll("body *")].filter((e) => !e.closest("[aria-hidden=true]")).map((e) => e.getBoundingClientRect().right)) - window.innerWidth);
+    const overflow = await page.evaluate(() => Math.max(...[...document.querySelectorAll("body *")].filter((e) => !e.closest("[aria-hidden=true]") && !(() => { for (let a = e.parentElement; a && a !== document.body; a = a.parentElement) { if (/auto|scroll|hidden|clip/.test(getComputedStyle(a).overflowX)) return true; } return false; })()).map((e) => e.getBoundingClientRect().right)) - window.innerWidth);
     const file = `review/screenshots/direction-${id}-${vp.name}.png`;
     await page.screenshot({ path: file, fullPage: true });
     console.log(file, overflow > 0 ? `HORIZONTAL OVERFLOW ${overflow}px` : 'no overflow', errors.length ? errors : '');
