@@ -26,8 +26,15 @@
     },
     "tripType": "quick",
     "bestTime": "Late afternoon to sunset. Park hours not confirmed online (verify locally).",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry, clear Dec-Jan evenings make this the easiest sunset you'll get. Weekend evenings fill with students, so go on a weekday for quiet.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Clear, dry evenings from October to March give the cleanest sunsets over the Swarna valley. In the monsoon it's green and moody, but the laterite paths get slick.",
     "vegFoodNearby": [
       "Mitra Samaj (pure veg, ~5 km): Goli baje straight from the oil and a plate of buns. Skip the dosa if you're short on stomach space, the regulars do.",
       "Woodlands (pure veg, ~5 km): Neer dosa with veg stew, then a mini gadbad. Go early because the queue outside is real.",
@@ -79,8 +86,21 @@
     },
     "tripType": "quick",
     "bestTime": "Early morning or evening. Boating hours and fees not confirmed online (verify locally).",
-    "decJanVerdict": "good",
-    "decJanNote": "Cool Dec-Jan mornings are the best time for a lap. Hasta Shilpa is minutes away, so pair them.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Works all year. Cool winter mornings are best for a lap; in the monsoon it's full and the path is wet. Boating hours: verify locally.",
     "vegFoodNearby": [
       "Mitra Samaj (pure veg, ~4 km): Goli baje straight from the oil and a plate of buns. Skip the dosa if you're short on stomach space, the regulars do.",
       "Woodlands (pure veg, ~4 km): Neer dosa with veg stew, then a mini gadbad. Go early because the queue outside is real.",
@@ -132,8 +152,15 @@
     },
     "tripType": "quick",
     "bestTime": "Weekday mornings. 10 am-5 pm, last ticket 3 pm per Karnataka Tourism or 3:45 pm per Outlook Traveller. Both say closed Mondays and holidays, but a Dec 2025 blog says Tuesdays, so verify locally.",
-    "decJanVerdict": "great",
-    "decJanNote": "Mostly outdoors, so the dry winter is ideal. Karnataka Tourism lists adults Rs 300, students and children over 10 Rs 150, camera Rs 250. Tickets online or at the counter.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Mostly an outdoor walk between houses, so the dry season is easiest. It works in the rain too, but carry an umbrella. Closed Mondays per Karnataka Tourism (one blog says Tuesday), so verify locally.",
     "vegFoodNearby": [
       "Mitra Samaj (pure veg, ~3 km): Goli baje straight from the oil and a plate of buns. Skip the dosa if you're short on stomach space, the regulars do.",
       "Woodlands (pure veg, ~3 km): Neer dosa with veg stew, then a mini gadbad. Go early because the queue outside is real.",
@@ -187,8 +214,21 @@
     },
     "tripType": "quick",
     "bestTime": "Weekday mornings, roughly 5-7 am, for a quieter darshan (Karnataka Tourism). Around noon for prasada bhojana.",
-    "decJanVerdict": "great",
-    "decJanNote": "Peak season, so expect longer queues. Karnataka Tourism lists Makara Sankranti (mid-January) and Rathotsava among the festivals; expect crowds and processions. The next Paryaya handover is in January 2028.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. Festival peaks bring crowds: Makara Sankranti and Saptotsava in January, Krishna Janmashtami in August–September, and Paryaya (every two years, January of even years). Go at dawn on a weekday for a quieter darshan.",
     "vegFoodNearby": [
       "Krishna Matha prasada bhojana (free pure-veg temple meal, ~5 km): served at noon per Wikipedia; dinner timing not confirmed online, verify locally",
       "Mitra Samaj (pure veg, ~<1 km): Goli baje straight from the oil and a plate of buns. Skip the dosa if you're short on stomach space, the regulars do.",
@@ -250,8 +290,21 @@
     },
     "tripType": "quick",
     "bestTime": "Roughly 7-9 pm, between Ratri Puja and Ekanta Seva (Wikipedia; times approximate).",
-    "decJanVerdict": "great",
-    "decJanNote": "Cool nights, festival season, and the square peaks around Makara Sankranti in mid-January. Which nights the chariots come out isn't published online, so ask at the Matha office.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Every night of the year, but the dry season is most comfortable for wandering. Festival nights around Sankranti and Janmashtami are the liveliest and most crowded.",
     "vegFoodNearby": [
       "Krishna Matha prasada bhojana (free pure-veg temple meal, ~5 km): served at noon per Wikipedia; dinner timing not confirmed online, verify locally",
       "Mitra Samaj (pure veg, ~<1 km): Goli baje straight from the oil and a plate of buns. Skip the dosa if you're short on stomach space, the regulars do.",
@@ -307,8 +360,21 @@
     },
     "tripType": "quick",
     "bestTime": "Morning, before Krishna darshan. Mondays are busy (Inditales).",
-    "decJanVerdict": "great",
-    "decJanNote": "A ten-minute add-on to the Krishna Matha. Mahashivaratri, with its nightly rathotsavas, falls outside Dec-Jan.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round, right beside the Krishna Matha. Maha Shivaratri (February–March) brings special pujas and crowds.",
     "vegFoodNearby": [
       "Krishna Matha prasada bhojana (free pure-veg temple meal, ~5 km): served at noon per Wikipedia; dinner timing not confirmed online, verify locally",
       "Mitra Samaj (pure veg, ~<1 km): Goli baje straight from the oil and a plate of buns. Skip the dosa if you're short on stomach space, the regulars do.",
@@ -367,8 +433,16 @@
     },
     "tripType": "quick",
     "bestTime": "Morning, combined with Kunjarugiri. Shrine timings not confirmed online (verify locally).",
-    "decJanVerdict": "good",
-    "decJanNote": "A pleasant dry-season ride through paddy. No Dec-Jan festival confirmed online.",
+    "bestMonths": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "Prettiest just after the monsoon, when the paddy around it is green; pleasant through winter. Hot by April. Shrine timings: verify locally.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Not confirmed online, verify locally.",
@@ -417,8 +491,15 @@
     },
     "tripType": "quick",
     "bestTime": "Early morning or late afternoon. Temple hours not confirmed online (verify locally).",
-    "decJanVerdict": "great",
-    "decJanNote": "Clear dry-season views and an easy climb of about 15 minutes. Step counts vary by source, from 100+ to 250-300. Parashurama Betta is next door.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Clear post-monsoon and winter days give the long views from the hill. The steps get slippery in the monsoon. Temple hours: verify locally.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Not confirmed online, verify locally.",
@@ -466,8 +547,17 @@
     },
     "tripType": "quick",
     "bestTime": "Morning, or the hour before sunset.",
-    "decJanVerdict": "great",
-    "decJanNote": "Post-monsoon you can just walk in, with kayaks on the water all day (eNidhi). Calm, clear and cool.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seasonNote": "Kayaking runs outside the monsoon, from October to May; calmest and coolest from October to February. In June–September the backwater swells and rentals are mostly shut (verify locally).",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -512,8 +602,17 @@
     },
     "tripType": "quick",
     "bestTime": "Early morning or evening (Karnataka Tourism).",
-    "decJanVerdict": "great",
-    "decJanNote": "Walk-in season. The only prices found come from a 2020 blog updated in 2022: Rs 100 per half hour or Rs 200 per hour, some operators down to Rs 50 per 30 min (eNidhi). Treat them as dated and verify locally. Named operators: Watersports/Water Adventures Kemmannu (eNidhi); Kemmannu Riverside Adventures, plus a Thonse-Hoode mangrove kayaking outfit (Karnataka Tourism).",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seasonNote": "Paddle season is October to May, best in the cool early mornings of winter. The Swarna runs high and fast in the monsoon, so don't paddle then.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -556,8 +655,15 @@
     },
     "tripType": "quick",
     "bestTime": "Sunset. Main beach 6 am-7 pm; Sea Walk and floating bridge 8 am-6 pm; water sports 9 am-6 pm (Karnataka Tourism; subject to change).",
-    "decJanVerdict": "great",
-    "decJanNote": "Karnataka Tourism rates Oct-Jan best: calm seas, everything running. Water sports and island boats restarted on 18 Sept 2026 (News Karnataka). Sea Walk entry is about Rs 20.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Karnataka Tourism rates October–January best. Water sports restart after the monsoon ban (in 2026 that was 18 September). Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -602,8 +708,17 @@
     },
     "tripType": "day",
     "bestTime": "The first boats of the morning, before the heat and the crowds.",
-    "decJanVerdict": "great",
-    "decJanNote": "Ferries run Oct-May (Karnataka Tourism) and restarted on 18 Sept 2026 (News Karnataka). Boats leave about every 20 min, 9 am-5:30 pm (Wikipedia), and take about 30 min. Karnataka Tourism lists the fare at about Rs 400-600 return; verify locally.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seasonNote": "Ferries from Malpe run roughly October to May (Karnataka Tourism). Morning boats beat the heat, especially from March. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -647,8 +762,15 @@
     },
     "tripType": "quick",
     "bestTime": "4-6 pm, when the lighthouse climb is reportedly open (eNidhi, 2022); verify locally.",
-    "decJanVerdict": "great",
-    "decJanNote": "Clear skies, proper sunsets. Weekend evenings are crowded and you may park a walk away. A small fee is charged to go to the top; the amount isn't confirmed, so verify locally.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Clear-sky sunsets from October to March. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop. Lighthouse climb hours: verify locally.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -693,8 +815,15 @@
     },
     "tripType": "quick",
     "bestTime": "Sunrise or sunset; October-April is the season (Karnataka Tourism).",
-    "decJanVerdict": "great",
-    "decJanNote": "Peak conditions. Do it on the same road as Kemmannu and Hoode. Amenities are thin, so bring water.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "October–April is the season (Karnataka Tourism). Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop. The sand spit is exposed and the river mouth is dangerous in the rains.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -738,8 +867,15 @@
     },
     "tripType": "quick",
     "bestTime": "Sunset (Karnataka Tourism). No posted timings.",
-    "decJanVerdict": "good",
-    "decJanNote": "Calm and quiet. Mattu Gulla's harvest season isn't confirmed online; ask locally if you want to see it growing.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Calm and quiet from October to March. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -781,8 +917,15 @@
     },
     "tripType": "quick",
     "bestTime": "Reported open 9 am-6 pm (eNidhi, 2021); verify locally.",
-    "decJanVerdict": "good",
-    "decJanNote": "Clean and calm, but ticketed: Rs 30 entry and Rs 20-50 parking in 2021, likely changed since. No source opened confirms this season's Blue Flag status, so verify locally. No source used the name 'End Point beach'.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Best from October to March. Blue Flag beaches close swimming in the monsoon. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop. This season's Blue Flag status and fees: verify locally.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -826,8 +969,15 @@
     },
     "tripType": "quick",
     "bestTime": "As a pass-through on a Barkur-Mandarthi-Saligrama loop.",
-    "decJanVerdict": "ok",
-    "decJanNote": "Nothing in Brahmavar itself is worth a dedicated trip. Do the loop instead: Barkur ruins, Mandarthi temple, Saligrama.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Only worth it as a pass-through on the Barkur–Mandarthi–Saligrama loop, which is easiest in the dry months.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -872,8 +1022,14 @@
     },
     "tripType": "quick",
     "bestTime": "Morning, before the heat. Site timings not confirmed online (verify locally).",
-    "decJanVerdict": "good",
-    "decJanNote": "Dry and walkable. Pair it with Mandarthi temple, a short ride up the same road.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "Dry, walkable mornings from October to February. The ruins are overgrown and muddy in the monsoon. Site timings: verify locally.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -915,8 +1071,21 @@
     },
     "tripType": "quick",
     "bestTime": "Morning darshan.",
-    "decJanVerdict": "great",
-    "decJanNote": "Wikipedia puts the Ratharohana (chariot festival) on 16 January, Uttarayana Sankranti, which is inside your window. Verify the 2027 date locally.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. The Ratharohana (chariot festival) is on Uttarayana Sankranti in mid-January (Wikipedia); check the exact date locally.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Not confirmed online, verify locally.",
@@ -965,8 +1134,21 @@
     },
     "tripType": "quick",
     "bestTime": "Morning darshan, then stay for the free afternoon prasadam.",
-    "decJanVerdict": "good",
-    "decJanNote": "The annual festival (February) and Kumbha Sankramana both fall outside the window. Mela schedules aren't online; call the temple on 0820-2568433 to find a show.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. The annual festival is in February. Its Yakshagana mela tours from about November to May.",
     "vegFoodNearby": [
       "Temple prasadam (free, at the temple): afternoon 12:30-3 pm per the official site; dinner reportedly 8 pm (Mangalore Heritage), verify locally"
     ],
@@ -1018,8 +1200,14 @@
     },
     "tripType": "day",
     "bestTime": "Early morning (Karnataka Tourism). Timings not confirmed online (verify locally).",
-    "decJanVerdict": "great",
-    "decJanNote": "Winter is right for the barefoot climb. The Attur (St. Lawrence) church feast nearby in January draws big crowds of every faith (Wikipedia), so expect Karkala traffic around then.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "Cool months make the barefoot granite climb bearable; by April the rock burns underfoot by mid-morning. The steps are slick in the monsoon.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Dress modestly; footwear off before entering (Karnataka Tourism, Chaturmukha Basadi).",
@@ -1067,8 +1255,15 @@
     },
     "tripType": "quick",
     "bestTime": "Late afternoon to sunset, October to March",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry, clear evenings and calm-ish post-monsoon seas. This is sea-walk weather. Boating off the beach was suspended during monsoons in past years, so ask on the spot whether it is running.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Late-afternoon sunsets from October to March. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -1112,8 +1307,15 @@
     },
     "tripType": "quick",
     "bestTime": "Sunset, October to March",
-    "decJanVerdict": "great",
-    "decJanNote": "Prime season. Dry skies and the sun drops right into the sea. Combine with Maravanthe a few minutes north and Anegudde on the way up.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "The sun drops straight into the sea from October to March. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop. NH-66 runs right beside it, so the sea spray and traffic both get worse in the rain.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -1158,8 +1360,15 @@
     },
     "tripType": "quick",
     "bestTime": "Sunset, October to March",
-    "decJanVerdict": "great",
-    "decJanNote": "The money shot of the whole coast, and Dec–Jan gives clean skies for it. Weekends get busy with highway stoppers; weekday evenings are calmer.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Clean skies for the sea-and-river view from October to March. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop. The highway-side stretch is especially rough in monsoon storms.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -1204,8 +1413,15 @@
     },
     "tripType": "day",
     "bestTime": "Sunset, October to March",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry-season clarity is exactly what this view needs. Pair it with Someshwara beach below and a Kollur temple visit for a full day.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Dry-season clarity is what this view needs. In the monsoon the sea goes grey and the viewpoint is often clouded in.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -1251,8 +1467,21 @@
     },
     "tripType": "day",
     "bestTime": "Early morning darshan; weekdays are quieter",
-    "decJanVerdict": "great",
-    "decJanNote": "Cool mornings and a dry ride through the Ghats foothills. Expect bigger crowds around holidays and New Year, and confirm timings before festival days, when they change.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. Navaratri (September–October) and the annual Rathotsava (around March–April; check locally) are the big crowd times. Monsoon brings fog, leeches and landslide closures on the ghat roads. That matters if you continue to Kodachadri.",
     "vegFoodNearby": [
       "Temple anna prasada (free temple prasada meal): lunch from about 12 noon, dinner from about 8 pm, per the temple facilities listing — verify locally"
     ],
@@ -1307,8 +1536,21 @@
     },
     "tripType": "quick",
     "bestTime": "Morning, or around the lunch-time anna prasada",
-    "decJanVerdict": "great",
-    "decJanNote": "Weather doesn't matter much here. Morning start, darshan, then carry on to Kundapura, Trasi and Maravanthe.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round, and the weather barely matters. Ganesha Chaturthi (August–September) and Sankashti days bring big crowds.",
     "vegFoodNearby": [
       "Temple anna prasada (free lunch reported daily; one listing gives 1:00–2:30 pm) — verify locally"
     ],
@@ -1362,8 +1604,21 @@
     },
     "tripType": "quick",
     "bestTime": "Morning or noon puja",
-    "decJanVerdict": "great",
-    "decJanNote": "An easy stop on the way to Kollur. Dry roads, pleasant mornings.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. An easy stop on the Kollur road in any season.",
     "vegFoodNearby": [
       "Temple meals for devotees in the on-site dining hall (Deccan Herald; itslife.in says free food is served) — timings verify locally"
     ],
@@ -1415,8 +1670,17 @@
     },
     "tripType": "day",
     "bestTime": "Morning, to catch the salaam pooja and do the cave in daylight",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry season means a drier cave floor and a calmer Kubja; the temple was submerged by a 1968 flood. Pair with Kollur on the same day.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seasonNote": "Dry months mean a drier cave floor and a calmer Kubja river. In the monsoon the river rises fast; the temple was submerged in a 1968 flood.",
     "vegFoodNearby": [
       "Temple annadana in the temple dining hall (listings describe continuous annadana) — timings verify locally"
     ],
@@ -1466,8 +1730,8 @@
     },
     "tripType": "day",
     "bestTime": "September to January, if open",
-    "decJanVerdict": "skip",
-    "decJanNote": "Udayavani reported entry restrictions after an incident here, and a July 2024 forest order barred entry to Arasinagundi among other spots. One 2026 guide says the falls are permanently closed since a 2023 death while filming; other guides still describe permits from the Kollur forest office. Treat it as closed unless the Kollur RFO office confirms otherwise. Verify locally.",
+    "bestMonths": [],
+    "seasonNote": "Treat as closed in every season: a July 2024 forest order barred entry after a death, and a 2026 guide says it's permanently shut. Verify locally; don't trespass.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -1475,8 +1739,7 @@
       "duration": "1–2 km forest walk each way; 2–3 hours round trip (guides)",
       "permitRequired": true,
       "howToBook": "Historically, a permit from the forest-department office (RFO) opposite the Kollur bus stand. Current status may be a full closure — verify locally before going.",
-      "guideMandatory": null,
-      "openDecJan": null
+      "guideMandatory": null
     },
     "bikeTips": "Distance and ride time are to Kollur town, the permit office and approach. Coordinates of the falls weren't on OpenStreetMap. Jungle Lodges' Anejhari camp has offered visits here, a sign that it may only be reachable through official channels.",
     "safety": "A visitor died here in 2023 while filming near the falls (triphippies). The rocks around the plunge pool are slick and the drop is real. Do not enter without a valid permit: sanctuary rules apply and closures are enforced. Wildlife present; go in daylight only.",
@@ -1518,8 +1781,12 @@
     },
     "tripType": "day",
     "bestTime": "October to December, while there is still flow and trails are dry",
-    "decJanVerdict": "good",
-    "decJanNote": "December still has decent flow and a much safer trail than monsoon. By late January the volume drops; expect a thinner fall. Current flow — verify locally.",
+    "bestMonths": [
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "October to December, while there's still flow and the trail is dry. By late January it thins; in the monsoon the trail is dangerous and deaths have been reported.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -1527,8 +1794,7 @@
       "duration": "About 3 hours from the parking spot (90 min up, 30 min at the falls, 1 hour down — eNidhi). Boards disagree: 2 km (govt) vs 4 km (Jaycees) one way.",
       "permitRequired": null,
       "howToBook": "No online booking found. eNidhi saw a forest-department board at the entrance. Access rules and any fee — verify locally.",
-      "guideMandatory": null,
-      "openDecJan": null
+      "guideMandatory": null
     },
     "bikeTips": "North on NH-66 past Byndoor to Shiroor, then east on the Todalli road. eNidhi advises navigating to 'Kallanikki Kosalli' on Google Maps, not the falls pin, and parking there. Ride time is to the nearest routable road and is approximate.",
     "safety": "eNidhi reports four deaths on this trek so far. The path is narrow and rocky, and the rocks near the falls are slippery even in dry season. Don't climb the tiers or swim in the pools. Go with someone who knows the trail, start before noon, and be out well before dark.",
@@ -1569,8 +1835,13 @@
     },
     "tripType": "day",
     "bestTime": "October to December",
-    "decJanVerdict": "good",
-    "decJanNote": "Karnataka Tourism rates October to January as peak season: full falls, drier trails, no leeches. Flow drops noticeably by late January and much more by March.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1
+    ],
+    "seasonNote": "Karnataka Tourism rates October to January as peak: full falls, drier trails, no leeches. Flow drops by late January and much more by March. Monsoon trails are slippery.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -1578,8 +1849,7 @@
       "duration": "4–5 km one way from the Mudoor trailhead; 3–4 hours round trip (Karnataka Tourism). eNidhi: about 10 km up and down in total, with very slippery rocks.",
       "permitRequired": true,
       "howToBook": "Forest/sanctuary entry fee collected locally (eNidhi saw Rs 100 per person in 2021). No online booking found. Current fee and process — verify locally.",
-      "guideMandatory": null,
-      "openDecJan": null
+      "guideMandatory": null
     },
     "bikeTips": "Distance and time are to Mudoor village (the trailhead, per Karnataka Tourism); the falls themselves weren't on OpenStreetMap. Route: Kundapura, Kollur road, Jadkal, Mudoor. Download offline maps because the signal is weak. Carry cash.",
     "safety": "eNidhi rates it extreme and not for families: sharp, slippery rock and stream crossings. Don't trek during or right after heavy rain (Karnataka Tourism warns of flash floods). Ask before entering the pool. Hire a local guide from Mudoor, start by 8 AM, and be out by daylight's end. Sanctuary rules apply: no plastic, no fires, no loud music.",
@@ -1621,8 +1891,14 @@
     },
     "tripType": "day",
     "bestTime": "October to February",
-    "decJanVerdict": "good",
-    "decJanNote": "Winter is the comfortable trekking window and the lower falls still flow in December. Flow thins through January. The bigger issue: Kodachadri–Hidlumane was among trails reported temporarily closed in 2026 pending new safety SOPs. Confirm it's open before riding.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "Comfortable trekking from October to February; the falls thin through January. It's on the Kodachadri–Hidlumane route, which was closed in 2026, so access: verify locally.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -1630,8 +1906,7 @@
       "duration": "About 3 km to the first fall from the jeep drop-off; steeper scrambling to the sixth (Muddie Trails). Plan half a day.",
       "permitRequired": true,
       "howToBook": "Forest checkpost entry on the Nittur side (Muddie Trails: Rs 100, 'keeps changing'). The Kodachadri–Hidlumane trekking route is booked by route on the Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Current status — verify locally.",
-      "guideMandatory": null,
-      "openDecJan": null
+      "guideMandatory": null
     },
     "bikeTips": "Coordinates are the OSM 'Hidlumane Falls trail', so the route figure is to the nearest road (about 2 km off). The road approach is via Nittur (Hosanagara taluk) on the Kollur–Nagara side, over Ghat sections with hairpins. Start early from Manipal.",
     "safety": "Upper tiers involve climbing wet rock; stop at the lower falls if you're unsure. The ghat road to Nittur has blind hairpins, buses and morning fog: no night riding. It's a reserve forest with wildlife, so stay on the trail and keep to daylight.",
@@ -1675,8 +1950,14 @@
     },
     "tripType": "overnight",
     "bestTime": "October to February, early morning",
-    "decJanVerdict": "good",
-    "decJanNote": "Winter gives the clearest views and the driest track. The catch is access: in 2026 Kodachadri–Valur and Kodachadri–Hidlumane trekking routes were reported temporarily closed while new forest SOPs were checked, and no confirmed reopening date was found. Check Aranya Vihaara for slots before you commit. Verify locally.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "October to February gives the clearest views and the driest track. Both trekking routes were reported closed in May 2026 with no reopening found, so verify locally. Monsoon brings fog, leeches and landslide closures on the ghat roads.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -1684,8 +1965,7 @@
       "duration": "Nittur route about 9–10 km one way, 8–9 hours round trip (Explurger). Jeep track from Kollur/Nittur reaches near the top, then a short walk to Sarvajna Peetha.",
       "permitRequired": true,
       "howToBook": "Trekking permits are booked by route (Hidlumane or Valur) on the Karnataka Forest Department's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in), with ID details and online payment; daily caps apply. Jeeps are hired privately in Kollur or Nittur, with a separate forest entry fee at the checkpost. Fees reported by blogs vary widely and change often — verify locally.",
-      "guideMandatory": true,
-      "openDecJan": null
+      "guideMandatory": true
     },
     "bikeTips": "Distance and time are to Kollur, the usual jeep base; you can't ride a private bike to the top (eNidhi, 2021, reported bikes banned on the summit track). Explurger says Nittur jeeps leave around 6 AM and return by late morning, so it's not an on-demand all-day service. Park the bike in Kollur and stay overnight there.",
     "safety": "Overnight stays or camping at the peak: not confirmed as allowed. One operator says camping inside Kodachadri forest has been banned since 2015, and blogs describe no facilities (water, first aid, camping) at the top. Plan to stay in Kollur or Nittur. The jeep track is rough and steep; hold on. Fog and wind on the ridges: stay on marked paths away from drop-offs. Don't trek without a valid permit and guide, and don't use unofficial routes when trails are closed.",
@@ -1733,8 +2013,15 @@
     },
     "tripType": "day",
     "bestTime": "Late afternoon to sunset, October to March",
-    "decJanVerdict": "great",
-    "decJanNote": "Calm water and dry evenings. Upgrade works (retaining walls, pathways) were in progress per The Hindu, so some areas may be fenced off. Verify locally.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Calm water and dry evenings from October to March. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -1779,8 +2066,15 @@
     },
     "tripType": "quick",
     "bestTime": "Late afternoon",
-    "decJanVerdict": "good",
-    "decJanNote": "Clear skies over the river mouth. Fishing activity peaks in the season, so expect a working harbour atmosphere.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Clear skies over the five-river mouth in the dry months. The estuary floods and boats stop in the monsoon.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -1825,8 +2119,14 @@
     },
     "tripType": "overnight",
     "bestTime": "October to February",
-    "decJanVerdict": "good",
-    "decJanNote": "Post-monsoon is butterfly time and the nights are cool. Book ahead for December weekends; tariffs are dynamic. Meals are part of the package, but the menu's veg status wasn't confirmed, so request veg meals when booking.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "Post-monsoon is butterfly season and the nights are cool. Jungle Lodges camps usually shut for the monsoon; verify locally.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -1869,8 +2169,15 @@
     },
     "tripType": "quick",
     "bestTime": "Nov–Apr for surf (Karnataka Tourism); early morning for lessons, late afternoon for light.",
-    "decJanVerdict": "great",
-    "decJanNote": "Peak surf season and dry weather. Book a beginner session with a surf school, stay inside the instructor's zone, and keep clear of the river mouth where the current pulls hardest.",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "seasonNote": "Surf season is November to April (Karnataka Tourism). Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop. Keep clear of the river mouth all year.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -1917,8 +2224,15 @@
     },
     "tripType": "day",
     "bestTime": "Early morning or late afternoon (Karnataka Tourism); low tide shows more of the rocks.",
-    "decJanVerdict": "good",
-    "decJanNote": "Clear winter sunsets and dry rocks make this a lovely end to a Mangaluru day. It is a looking beach, not a swimming one. Pair it with Mangaladevi temple on the way back.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Clear winter sunsets and dry rocks. A looking beach, not a swimming one, in every season. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -1964,8 +2278,15 @@
     },
     "tripType": "quick",
     "bestTime": "Day visitors 8 AM–7 PM (Karnataka Tourism); go for the last two hours before sunset.",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry, clear evenings and the water sports operating outside the monsoon. Weekends and the Christmas–New Year week get crowded. Karavali Utsav and kite-festival dates change each year, so check local news before you plan around them.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Water sports run outside the monsoon. Weekends and holiday weeks get crowded. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -2010,8 +2331,14 @@
     },
     "tripType": "day",
     "bestTime": "Oct–Feb (Karnataka Tourism); weekday afternoons are quietest.",
-    "decJanVerdict": "great",
-    "decJanNote": "Calm, clear and pleasant. Do the ferry one way at golden hour. Ferry timings and fares aren't published officially, so ask at the Sultan Battery jetty and don't miss the last boat back.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "October–February per Karnataka Tourism. The Sultan Battery ferry may not run in rough monsoon weather (verify locally). Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [
       "Ideal Cafe (Ideal Ice Cream) (pure veg, ~5 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
       "Woodlands Hotel (pure veg, ~6 km): Lunch on a banana leaf with red rice, then goli baje for the road."
@@ -2063,8 +2390,21 @@
     },
     "tripType": "quick",
     "bestTime": "Nov–Mar (Karnataka Tourism). Evenings in Yakshagana season (Nov–May).",
-    "decJanVerdict": "great",
-    "decJanNote": "Dec–Jan is the heart of Yakshagana season. The mela opens with all troupes performing together at the temple after Tulasi Pooja in November; after that they tour villages nightly, and shows now end by midnight. Ask at the temple office which troupe plays where that night.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. From about November to May it's Yakshagana season, when Kateel's melas perform nightly across the region.",
     "vegFoodNearby": [
       "Temple annadana (free prasada meal, twice daily after the midday and night Mahapooja; templesinindiainfo.com, verify locally)"
     ],
@@ -2117,8 +2457,21 @@
     },
     "tripType": "day",
     "bestTime": "Morning darshan. The annual festival with Polali Chendu falls around Feb–Apr (dates vary by source); verify locally.",
-    "decJanVerdict": "good",
-    "decJanNote": "Pleasant, dry rides through the Gurupura valley. The big festival is outside the window, so expect a calm darshan. Combine with Kateel or Pilikula the same day.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. The annual festival with Polali Chendu falls around February–April (dates vary; verify locally).",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": null,
@@ -2167,8 +2520,21 @@
     },
     "tripType": "day",
     "bestTime": "Early morning; Car Festival around Makar Sankranti (mid-January) (Karnataka Tourism).",
-    "decJanVerdict": "great",
-    "decJanNote": "The Car Festival at Makar Sankranti falls inside your window. Note that daily puja times reportedly shift from mid-December to mid-January, so check before you go.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. The Car Festival is around Makara Sankranti in mid-January (Karnataka Tourism). Daily puja times reportedly shift from mid-December to mid-January.",
     "vegFoodNearby": [
       "Ideal Cafe (Ideal Ice Cream) (pure veg, ~2 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
       "Woodlands Hotel (pure veg, ~1 km): Lunch on a banana leaf with red rice, then goli baje for the road."
@@ -2221,9 +2587,22 @@
       }
     },
     "tripType": "day",
-    "bestTime": "Morning or evening puja. Navaratri (Mangaluru Dasara) is outside the Dec–Jan window.",
-    "decJanVerdict": "good",
-    "decJanNote": "No Dasara crowds in winter, so you get the colourful gopuram and evening puja in peace. Easy add-on to Sultan Battery, which is a couple of kilometres north.",
+    "bestTime": "Morning or evening puja. Navaratri (Mangaluru Dasara, September–October) is the spectacle; any other time is calm.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. Mangaluru Dasara at Navaratri (September–October) is the spectacle and the crush. Come any other time for a calm evening puja.",
     "vegFoodNearby": [
       "Ideal Cafe (Ideal Ice Cream) (pure veg, ~1 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
       "Woodlands Hotel (pure veg, ~2 km): Lunch on a banana leaf with red rice, then goli baje for the road."
@@ -2276,9 +2655,22 @@
       }
     },
     "tripType": "day",
-    "bestTime": "Morning or evening darshan. Navaratri and the Rathotsava fall outside the Dec–Jan window.",
-    "decJanVerdict": "good",
-    "decJanNote": "A calm, quick darshan in winter. Do it on the way to Someshwara beach for sunset.",
+    "bestTime": "Morning or evening darshan. Navaratri and the annual Rathotsava are the crowded times.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. Navaratri (September–October) and the annual Rathotsava draw big crowds.",
     "vegFoodNearby": [
       "Ideal Cafe (Ideal Ice Cream) (pure veg, ~2 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
       "Woodlands Hotel (pure veg, ~3 km): Lunch on a banana leaf with red rice, then goli baje for the road."
@@ -2331,8 +2723,15 @@
     },
     "tripType": "day",
     "bestTime": "Oct–Mar (Incredible India). Morning session for the light on the lake.",
-    "decJanVerdict": "great",
-    "decJanNote": "Cool, dry weather and full tanks. Make a Kasaragod loop: Ananthapura in the morning, Madhur, then Bekal for late afternoon. The crocodile shows up when it pleases; don't plan around it.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "October–March (Incredible India) for cool mornings and a full tank. Open all year; the monsoon is lush but wet.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Traditional wear advised; sources disagree on whether men must remove shirts. Not confirmed officially; verify locally.",
@@ -2384,8 +2783,15 @@
     },
     "tripType": "day",
     "bestTime": "Oct–Mar (Kerala Tourism). Open 8:00 AM–5:30 PM daily (Incredible India); go after 3 PM for the light.",
-    "decJanVerdict": "great",
-    "decJanNote": "Peak season and the best weather. Counter tickets are ₹25 for Indians, free for under-15s, ₹300 for foreigners; you can also buy online on the ASI site (Onmanorama, Oct 2026). It closes at 5:30 PM, so watch the sunset from the beach outside.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "October–March (Kerala Tourism). The laterite ramparts are exposed and slippery in the monsoon, and summer afternoons are fierce.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -2429,8 +2835,21 @@
     },
     "tripType": "quick",
     "bestTime": "Morning or late afternoon. Listed hours vary: 7:30 AM–6 PM (mangaloretourism.in) vs 9 AM–8 PM elsewhere; verify locally.",
-    "decJanVerdict": "great",
-    "decJanNote": "Cool mornings make the town walk between basadis a pleasure. Pair it with Karkala's Gommata on the same loop from Manipal.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. Cool mornings from October to February make the walk between basadis a pleasure. The Moodbidri Kambala is held in the Kambala season (November–March).",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Modest clothing; footwear off before entering (india-guide.in). Verify locally.",
@@ -2481,8 +2900,15 @@
     },
     "tripType": "day",
     "bestTime": "Tue–Sun mornings. Closed Mondays (Karnataka Tourism; Central Zoo Authority).",
-    "decJanVerdict": "good",
-    "decJanNote": "Cool mornings are when the animals are active. Don't come on a Monday. Online booking is 'coming soon' and the battery buggies are temporarily unavailable (official site), so expect to walk between sections.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Cool mornings, when the animals are active. Closed Mondays all year. Monsoon visits work but the grounds are wet.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -2534,9 +2960,22 @@
       }
     },
     "tripType": "day",
-    "bestTime": "Dec–Jan weekdays; start early, temples break at midday.",
-    "decJanVerdict": "great",
-    "decJanNote": "Train down, autos around, train back. It saves you the NH66 traffic in town and lets you stay for sunset without riding home in the dark. Kadri's Car Festival at Makar Sankranti (mid-Jan) is a good day to pick.",
+    "bestTime": "Weekdays, any season; start early, because temples break at midday.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Works year-round; the train dodges NH-66 traffic in any weather. Navaratri (Dasara), Christmas and Kadri's January Car Festival are the busiest times.",
     "vegFoodNearby": [
       "Ideal Cafe (Ideal Ice Cream) (pure veg, ~<1 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
       "Woodlands Hotel (pure veg, ~1 km): Lunch on a banana leaf with red rice, then goli baje for the road."
@@ -2588,8 +3027,15 @@
     },
     "tripType": "day",
     "bestTime": "Late afternoon, then the ferry across for sunset at Tannirbhavi.",
-    "decJanVerdict": "good",
-    "decJanNote": "A 20-minute stop, but it pairs perfectly with the Tannirbhavi ferry and Kudroli temple. Opening hours aren't published consistently, so go in daylight.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Daylight visits in the dry months. The Tannirbhavi ferry from here may pause in rough monsoon weather.",
     "vegFoodNearby": [
       "Ideal Cafe (Ideal Ice Cream) (pure veg, ~3 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
       "Woodlands Hotel (pure veg, ~3 km): Lunch on a banana leaf with red rice, then goli baje for the road."
@@ -2639,8 +3085,21 @@
     },
     "tripType": "day",
     "bestTime": "Weekday daytime; visiting hours not published online, verify locally.",
-    "decJanVerdict": "good",
-    "decJanNote": "Works in any weather and is a good midday stop while temples are shut. Around Christmas the chapel may have services; go when there's no Mass on.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "An indoor stop that works in any weather. Around Christmas there are services, so go when no Mass is on. Hours: verify locally.",
     "vegFoodNearby": [
       "Ideal Cafe (Ideal Ice Cream) (pure veg, ~<1 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
       "Woodlands Hotel (pure veg, ~<1 km): Lunch on a banana leaf with red rice, then goli baje for the road."
@@ -2688,8 +3147,15 @@
     },
     "tripType": "day",
     "bestTime": "Late afternoon to sunset. Holidify lists 8 AM–5:30 PM; verify locally.",
-    "decJanVerdict": "good",
-    "decJanNote": "Good stop on a Kasaragod day: Ananthapura and Madhur in the morning, Chandragiri on the way to Bekal. Clear skies make the river-mouth view worth the climb.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Clear skies make the river-mouth view worth the climb. The laterite is slippery in the monsoon.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -2733,8 +3199,21 @@
     },
     "tripType": "day",
     "bestTime": "Morning darshan; combine with Ananthapura, which is nearby.",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry, bright mornings for the roofline and the river. Pair with Ananthapura: both are a short hop inland from Kasaragod.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. Dry, bright mornings show off the roofline. Pair it with Ananthapura.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": null,
@@ -2780,8 +3259,21 @@
     },
     "tripType": "day",
     "bestTime": "Weekday mornings, right at 6:30 am darshan, or the 5 pm evening session. Avoid weekends and festival days if you hate queues.",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry roads and cool mornings make this an easy day ride. Weekend queues can run long, so go midweek. The temple says darshan, meals and rooms may vary on crowded days. Check the official site for festival dates in this window before you go.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. Laksha Deepotsava (around Karthika Amavasya, November–December) is the biggest event and the biggest crowd; weekends are always busy. Monsoon brings fog, leeches and landslide closures on the ghat roads. That applies if you continue up Charmadi.",
     "vegFoodNearby": [
       "Annapoorna dining hall (temple annadana, free veg meal, inside the temple complex): lunch 11 am–2:30 pm, dinner 7–10 pm"
     ],
@@ -2833,8 +3325,15 @@
     },
     "tripType": "day",
     "bestTime": "Bahubali hill in the morning (the temple itself recommends mornings to dodge heat and humidity); museums before or after the noon darshan break.",
-    "decJanVerdict": "great",
-    "decJanNote": "Clear winter air means the best views from Ratnagiri all year. Pair it with Manjunatha darshan and lunch at Annapoorna.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Ratnagiri hill is best in the clear, cooler months, in the morning. The museums are indoors and fine any time.",
     "vegFoodNearby": [
       "Annapoorna dining hall (temple annadana, free veg meal, about 1 km away): lunch 11 am–2:30 pm, dinner 7–10 pm"
     ],
@@ -2879,8 +3378,21 @@
     },
     "tripType": "day",
     "bestTime": "Morning, pairing it with Dharmasthala (about 16 km away).",
-    "decJanVerdict": "great",
-    "decJanNote": "An easy add-on to a Dharmasthala day. The official Dharmasthala site lists it among nearby places. Sources say the temple's annual Mahapuja is in January, so expect bigger crowds then.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "An open-air Ganapati, so it works year-round. The annual Mahapuja is reportedly in January (verify locally).",
     "vegFoodNearby": [
       "Temple prasada meal (served to devotees, per the Dharmasthala official site; timing not confirmed, verify locally)",
       "Appa and laddu prasada sold at temple counters"
@@ -2934,8 +3446,21 @@
     },
     "tripType": "overnight",
     "bestTime": "Weekday mornings. Saturdays, Sundays and November–December festival days are very crowded.",
-    "decJanVerdict": "good",
-    "decJanNote": "Cool and dry, but this is festival season at Kukke, and sources flag heavy crowds on November–December festival days. Go midweek, stay the night, and check seva schedules before booking Ashlesha Bali or Sarpa Samskara.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. Champa Shashti (November–December) is the peak festival with huge crowds; weekends are always busy. Monsoon brings fog, leeches and landslide closures on the ghat roads.",
     "vegFoodNearby": [
       "Temple annadana (free veg meals, inside the temple complex): lunch from 11:30 am to 2 pm, dinner 7:30–9:30 pm"
     ],
@@ -2989,8 +3514,12 @@
     },
     "tripType": "overnight",
     "bestTime": "October–November post-monsoon; the trek is closed in the monsoon and in summer fire season.",
-    "decJanVerdict": "ok",
-    "decJanNote": "The trek reopened on 18 Oct 2026, but only on the Beedahalli–Kumara Parvatha–Beedahalli route. Daijiworld (17 Oct) and Elneeru (updated 31 Oct) both say the Kukke route had no reopening date. Check Aranya Vihaara before planning. If Kukke is still unlisted, book Beedahalli instead (about 208 km from Manipal, 7 km each way).",
+    "bestMonths": [
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "October to December is the realistic window: closed in the monsoon and in fire season. In 2026 only the Beedahalli route reopened (18 Oct); the Kukke route was still shut, so verify locally. Book on Aranya Vihaara.",
     "vegFoodNearby": [
       "Kukke temple annadana (free veg meals): lunch 11:30 am–2 pm, dinner 7:30–9:30 pm"
     ],
@@ -3000,8 +3529,7 @@
       "duration": "Kukke round trip about 20–22 km, roughly 11–12 hours, in a single day. Beedahalli round trip about 14 km, 7–8 hours. Kukke side: 5:30 am start and 6 pm exit were reported for last season; this season's times are not confirmed.",
       "permitRequired": true,
       "howToBook": "Online only via the Karnataka Forest Dept Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Book 1–30 days ahead. Carry the original ID used to book. Cancellations 8+ days out get a 50% refund, within 7 days nothing (rules effective 15 Jul 2026). Daily cap: 150/day for Kukke (minister, Mar 2026). Portal showed 300 slots/day for Beedahalli in Nov 2026. Fee about ₹350 reported in Dec 2025; confirm on portal. No overnight stay or camping, including at Bhattara Mane/Girigadde. Plastic and paper banned.",
-      "guideMandatory": null,
-      "openDecJan": null
+      "guideMandatory": null
     },
     "bikeTips": "Distance is to Kukke Subramanya (trailhead side). The Beedahalli checkpost (Kodagu side) is about 208 km, 3h 40m from Manipal. Sleep in Kukke the night before; you need to be at the gate before dawn. Don't plan to ride back the same evening after a 12-hour trek.",
     "safety": "Overnight stays and camping inside the sanctuary are banned; plan to be out by the exit time. Long, steep, exposed sections, so carry 3+ litres of water and food in steel containers. Plastic and paper are banned. Bhattara Mane meal service is not confirmed for 2026, so don't count on it. Leeches in the lower forest early in the season. Don't trek alone, and don't attempt it without a valid permit.",
@@ -3054,8 +3582,17 @@
     },
     "tripType": "day",
     "bestTime": "Start right at opening (gate around 6–7:30 am) to climb before the rock heats up.",
-    "decJanVerdict": "great",
-    "decJanNote": "This is the season for it. Karnataka Tourism says entry is allowed only October to May, because the rock is lethal in the rain. Winter mornings are cooler, and the steps should have dried out by December.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seasonNote": "Entry is allowed only from October to May (Karnataka Tourism), because the rock is lethal in the rain. Winter mornings are coolest; by April start at opening.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -3063,8 +3600,7 @@
       "duration": "1,876 steps. Allow 1.5–2 hours up and about the same down. Entry window 6 am–4 pm (Wikipedia, karnataka.com); one 2021 visitor found the gate opening around 7–7:30 am.",
       "permitRequired": true,
       "howToBook": "Entry ticket at the forest check post at the base. Fee reported as ₹40 (karnataka.com) to ₹50 (2021 blog); confirm at the gate. Whether it now needs Aranya Vihaara online booking is unconfirmed; verify locally before riding out.",
-      "guideMandatory": false,
-      "openDecJan": true
+      "guideMandatory": false
     },
     "bikeTips": "About 88 km via Karkala–Belthangady; the fort is around 8 km north of Belthangady off the road toward Ujire/Charmadi. Combine with Dharmasthala (about 15 km away) or Venur on the same day.",
     "safety": "Steep, exposed rock-cut steps with sheer drops near the summit; they're slippery when wet, which is why entry is closed in the monsoon. Overnight stays are prohibited, so come down before closing. No drinking water at the top; carry plenty.",
@@ -3109,8 +3645,12 @@
     },
     "tripType": "day",
     "bestTime": "October to early December for water in the falls; start 6–6:30 am.",
-    "decJanVerdict": "good",
-    "decJanNote": "The grass ridges and fort views are great in December. The falls are another story: Explurger says they shrink to a trickle by December–February. Go early in the window if the waterfall matters. Both treks were open and bookable as of Nov 2026.",
+    "bestMonths": [
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "October to early December for water in the falls; the grass ridges stay lovely into winter but the falls shrink to a trickle by December–February. The forest department closes these trails in the monsoon, and in 2026 it also shut them from 14 January for fire season, so treat late January onward as uncertain and check Aranya Vihaara before you plan.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -3118,8 +3658,7 @@
       "duration": "From Durgadahalli: 3 km (about 1.5 h) to Ballalarayana Durga, then 3.5 km (about 2.5 h) to the falls. Around 13–15 km and 7–8 hours round trip.",
       "permitRequired": true,
       "howToBook": "Aranya Vihaara portal (aranyavihaara.karnataka.gov.in), Chikkamagaluru district. 'Bandaje Falls' and 'Ballalarayana Durga' are listed as separate treks, each with 300 slots/day (Elneeru snapshot, 4 Nov 2026). Fee reported as ₹500 (Bengaluru Trekkers, Nov 2026); older sources say ₹250, so confirm on the portal. 'Bandaje Trek via Volambra' from the Belthangady side was listed closed. Carry the ID used to book.",
-      "guideMandatory": null,
-      "openDecJan": true
+      "guideMandatory": null
     },
     "bikeTips": "Routed to Sunkasale, the village nearest the Durgadahalli trailhead (Kalabhyraveshwara temple), about 128 km via Charmadi Ghat, so you climb the ghat before dawn. Sources say jeeps can go about 1 km past the temple and other vehicles should park at it. Leave Manipal very early, or stay at a Sunkasale/Durgadahalli homestay the night before.",
     "safety": "Easy to lose the trail in the grasslands, so Karnataka Tourism advises an authorised guide. Loose gravel on the descent and a long climb back past the fort. No shops or water on the trail: carry 2+ litres and food. Single-use plastic is fined at checkposts. Take care at the Rani Jhari cliff edge. The Belthangady/Volambra approach was listed closed, so don't try it without a permit. Ride Charmadi Ghat in daylight only.",
@@ -3164,8 +3703,8 @@
     },
     "tripType": "day",
     "bestTime": "Just after the monsoon (Oct–Nov), if access is open.",
-    "decJanVerdict": "skip",
-    "decJanNote": "Two strikes. Access to the main falls was blocked by the private landowner (2021 report), and Trip.com still lists it as closed. In a December visit the water was not even knee-deep. Pick Bandaje or Gadaikallu instead unless locals confirm it's open.",
+    "bestMonths": [],
+    "seasonNote": "Skip in every season: access to the main falls was blocked by the landowner (2021) and it is still listed as closed. Verify locally.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -3210,8 +3749,17 @@
     },
     "tripType": "day",
     "bestTime": "Early morning on a weekday, in daylight only.",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry winter tarmac is the best of the year; the closures in the sources are all monsoon landslides. Mornings can be misty near the top, so wait for it to lift. No current ban was found in the sources checked, but check local news before you go.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seasonNote": "Dry tarmac from October to May. In the monsoon there are landslides, fog and traffic diverted from Shiradi; past orders have banned night travel and heavy vehicles. Ride in daylight only in every season.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -3262,8 +3810,15 @@
     },
     "tripType": "long-ride",
     "bestTime": "Two days minimum. Leave Manipal at first light, reach Madikeri by lunch, Abbey Falls in the afternoon, Dubare next morning.",
-    "decJanVerdict": "great",
-    "decJanNote": "Cool, dry Kodagu winter: crisp mornings and clear roads. Abbey Falls has less water than in the monsoon, but the road is the point. Add Talacauvery–Bhagamandala, about 48 km from Madikeri, for a temple morning.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Cool, dry Kodagu winter with crisp mornings. Abbey Falls is fullest just after the monsoon. Monsoon brings fog, leeches and landslide closures on the ghat roads.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -3312,9 +3867,16 @@
       }
     },
     "tripType": "long-ride",
-    "bestTime": "Early morning, as part of a Coorg overnight. Tula Sankramana (mid-October) is the big festival day, outside this travel window.",
-    "decJanVerdict": "good",
-    "decJanNote": "Clear winter skies give the best Brahmagiri views, and there's no October festival crush. It's a long day on its own, so fold it into the Coorg long ride with a night in Madikeri.",
+    "bestTime": "Early morning, as part of a Coorg overnight. Tula Sankramana (mid-October) is the big festival day.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Clear skies for the Brahmagiri view in the dry months. Tula Sankramana (mid-October) is the big festival day and the big crowd.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Not confirmed online; dress traditionally and expect to remove footwear. Verify locally.",
@@ -3364,8 +3926,21 @@
     },
     "tripType": "long-ride",
     "bestTime": "Belur at opening (7:30 am) for soft light on the carvings; Halebidu late morning.",
-    "decJanVerdict": "great",
-    "decJanNote": "Ideal winter ride: up Charmadi Ghat at dawn, through Mudigere coffee country, Belur by mid-morning. Stay overnight in Belur or Hassan rather than riding the ghat back in the dark.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "The temples are open year-round. October to March is best for the ride over the ghats. Monsoon brings fog, leeches and landslide closures on the ghat roads.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Not confirmed online. Belur is an active temple, so dress modestly. Verify locally.",
@@ -3416,8 +3991,15 @@
     },
     "tripType": "day",
     "bestTime": "Morning, on the way to Gadaikallu or Dharmasthala.",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry, bright winter light on the granite, and it slots neatly into a Gadaikallu or Dharmasthala ride.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Bright, dry light on the granite. The Venur Kambala falls in Kambala season (November–March).",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -3459,8 +4041,15 @@
     },
     "tripType": "day",
     "bestTime": "Morning, after Dharmasthala or Sowthadka; Kokkada is the turn-off.",
-    "decJanVerdict": "good",
-    "decJanNote": "Lower winter water makes the fish easier to see in the clear pools. Combine with Sowthadka (via Kokkada) and Dharmasthala.",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "seasonNote": "Lower dry-season water makes the sacred fish easier to see in the clear pools. In the monsoon the Kapila river runs high.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Not confirmed online; verify locally.",
@@ -3506,8 +4095,13 @@
     },
     "tripType": "quick",
     "bestTime": "Clear winter evenings, November to February; get there before sunset because it fills up in season.",
-    "decJanVerdict": "great",
-    "decJanNote": "Peak season. Dry, clear skies make Dec–Jan the best shot at a proper sea sunset. The heavy-vehicle bans are a monsoon thing (2026's ran from 15 June to the end of the monsoon) and light vehicles were allowed even then. No ban was reported for Dec–Jan, but check locally.",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "November to February for a proper sea sunset. Agumbe is one of the wettest places in India: in the monsoon the view is mostly cloud, the ghat is foggy, and heavy vehicles are banned (2026: from 15 June).",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -3556,8 +4150,12 @@
     },
     "tripType": "day",
     "bestTime": "Post-monsoon mornings. A 2021–24 visitor blog rates December–January best, when the falls are open.",
-    "decJanVerdict": "good",
-    "decJanNote": "Water stays decent into December. The catch is access. In January 2026 the Kudremukh Wildlife Division shut trekking routes in Someshwara sanctuary from 14 January for the fire season, so go in December and confirm the gate is open before riding out.",
+    "bestMonths": [
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Post-monsoon to December, while there's water and the trail is open. It's in Someshwara sanctuary, so the forest department closes these trails in the monsoon, and in 2026 it also shut them from 14 January for fire season, so treat late January onward as uncertain and check Aranya Vihaara before you plan.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -3565,8 +4163,7 @@
       "duration": "About 2–2.5 km each way from the entry gate (roughly 30 minutes), with 150–200 steps and two stream crossings",
       "permitRequired": true,
       "howToBook": "A visitor blog (Nov 2024 update) says online registration is now required and you still fill in details and pay cash at the counter. The portal isn't named. Verify locally.",
-      "guideMandatory": null,
-      "openDecJan": null
+      "guideMandatory": null
     },
     "bikeTips": "Coordinates and distance are for Kudlu Falls Road, the OSM-mapped access road off the Hebri–Agumbe side, not the falls. A blog notes the last ~3 km to the gate was rough in 2022, with loose gravel and steep bits. Go slow on a loaded bike. Reported fees (2024): ₹100 per person, ₹15 bike parking, ₹300 for a camera. Verify locally.",
     "safety": "Two stream crossings on the walk; skip them if the water is high. Wet rocks around the pool are slippery. Leeches were reported as late as November. Gates reportedly open around 9–9:30 AM and you must be out by 4 PM, so start walking by about 2 PM. The forest department closes the falls when elephants or other wild animals are spotted, and trekking in this sanctuary was banned from 14 Jan 2026 for fire risk. Verify the current status locally.",
@@ -3609,8 +4206,14 @@
     },
     "tripType": "day",
     "bestTime": "October to February per Karnataka Tourism; early mornings can be fogged in.",
-    "decJanVerdict": "ok",
-    "decJanNote": "Honest take: the view is the draw, not the volume. Karnataka Tourism says flow holds into February, but Wikipedia says the falls fill mainly in the rains, so expect a thin ribbon by January. Clear winter air does help the valley view.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "October to February per Karnataka Tourism; the falls are biggest right after the rains. Mornings can be fogged in.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -3618,8 +4221,7 @@
       "duration": "Viewpoint: about 2 km easy walk from the forest gate. The falls trek is separate and longer.",
       "permitRequired": null,
       "howToBook": "Viewpoint: pay at the forest check post near the Jogi Gundi turn (a 2022 blog says about ₹100 per person plus camera and parking). The trek to the falls needs prior Forest Department permission and a guided trek is strongly advised. Booking route not confirmed online, so verify locally.",
-      "guideMandatory": null,
-      "openDecJan": null
+      "guideMandatory": null
     },
     "bikeTips": "We couldn't get reliable coordinates for the viewpoint, so lat/lng and distance are left null. For planning, Jogi Gundi is 51 km / about 45 min from Manipal (OSRM). From Agumbe take the Sringeri road, turn off for Jogi Gundi after about 1 km, carry on a few km past houses, turn right at the sign and ride about 2 km to the forest gate (2022 directions). The road was under repair but car-friendly then.",
     "safety": "Fog can hide the falls completely, especially early morning. If you do the falls trek, the rocks at the top of Barkana on the Seetha River are very slippery. Stay well back from the edge. Leeches after rain. Don't trek to the falls without permission. It's sensitive forest.",
@@ -3661,8 +4263,13 @@
     },
     "tripType": "quick",
     "bestTime": "July to October (visitor blog). Entry is restricted in heavy monsoon rain.",
-    "decJanVerdict": "skip",
-    "decJanNote": "A visitor who went back in November 2022 found it nearly dry except the left-most stream and advised against going after October. In Dec–Jan, only stop if you're already heading to the Barkana viewpoint.",
+    "bestMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "seasonNote": "A monsoon fall, best from July to October; nearly dry by November. Entry is restricted in heavy rain.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -3706,8 +4313,21 @@
     },
     "tripType": "quick",
     "bestTime": "Early morning or late afternoon, inside the boat hours.",
-    "decJanVerdict": "great",
-    "decJanNote": "Not seasonal. Cool mornings, lilies on the water and an easy ride make it a perfect half-day in Dec–Jan. Time it to the boat's morning session.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Not seasonal: the boat runs year-round. Cool mornings and water lilies make winter the prettiest. Boat hours: verify locally.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": null,
@@ -3758,8 +4378,21 @@
     },
     "tripType": "day",
     "bestTime": "October to March (Karnataka Tourism). Arrive for the morning darshan and stay for lunch.",
-    "decJanVerdict": "great",
-    "decJanNote": "Cool, dry and easy. Sringeri pairs well with Agumbe on the same day: Wikipedia puts the two about 24 km apart. Guru darshan and the Jagadguru's evening puja depend on his camps, and the Peetham's 2026 Vijayayatra tour is running, so check sringeri.net before you plan around it.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round; October to March per Karnataka Tourism for weather. Navaratri (Sharada Sharannavaratri) is the big festival. Monsoon brings fog, leeches and landslide closures on the ghat roads. That applies to the Agumbe approach.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Modest, traditional dress (Karnataka Tourism: 'modest dressing is advised'; Yatradham: traditional and formal clothing). The Peetham's own detailed dress-code notice isn't readable online. Verify locally.",
@@ -3811,8 +4444,21 @@
     },
     "tripType": "day",
     "bestTime": "Any season. Reach for the morning darshan and stay through lunch.",
-    "decJanVerdict": "great",
-    "decJanNote": "Clear roads and cool forest air in Dec–Jan. Combine with Kalasa or Sringeri. Karnataka Tourism says Kalasa is about 10 km away.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Any season. Clear roads and cool forest air in winter; heavy rain and the odd landslide on the Kalasa roads in the monsoon.",
     "vegFoodNearby": [
       "Temple annadana hall (on site): free vegetarian meals for all pilgrims, served afternoon and evening (templesinindiainfo; Karnataka Tourism says three times a day)."
     ],
@@ -3865,8 +4511,12 @@
     },
     "tripType": "overnight",
     "bestTime": "Post-monsoon to early winter, when the grass is green and the skies are clear.",
-    "decJanVerdict": "good",
-    "decJanNote": "Trails reopened in June–July 2026 under a new SOP, and the Aranya Vihaara portal lists Kudremukh as its highest-demand trek. December is the sweet spot. January is a gamble: last season the whole division shut on 14 January for fire risk. We couldn't confirm this winter's status online, so book for December and check the portal.",
+    "bestMonths": [
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Post-monsoon to December, when the grass is green and skies are clear. The forest department closes these trails in the monsoon, and in 2026 it also shut them from 14 January for fire season, so treat late January onward as uncertain and check Aranya Vihaara before you plan.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -3874,8 +4524,7 @@
       "duration": "Full day, about 16 km return. Start from the Mullodi forest office by 7:30 AM to summit around noon. Turn back by 2 PM at the latest and you'll be down around 4:30 PM (IndiaHikes).",
       "permitRequired": true,
       "howToBook": "Book on the Karnataka Forest Dept's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Portal rules effective 15 Jul 2026: slots open up to 30 days ahead and must be booked at least 1 day ahead; cancel 8+ days out for a 50% refund, nothing back within 7 days; carry the original ID you booked with and report 10 minutes before your slot. Helpline 1926. Listed under Chikkamagaluru district treks. One blog reports a 2026 cap of 50 trekkers a day, but other reports conflict, so check the portal.",
-      "guideMandatory": true,
-      "openDecJan": null
+      "guideMandatory": true
     },
     "bikeTips": "Distance and time are to Mullodi, the trailhead locality with the forest office, routed via Karkala and SH66. The peak coordinates are in lat/lng. Ride up the day before and sleep at a Mullodi homestay. IndiaHikes says homestays there do breakfast and a packed lunch (about ₹200) if you book ahead. Camping on the trek isn't allowed.",
     "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. The final ~3 km from the second Ontimara is a steep, sustained climb. Turn around on time, because getting stuck after dark in a national park is a real risk. Guides are mandatory: one per 10 trekkers, about ₹1,000 per guide (IndiaHikes).",
@@ -3925,8 +4574,12 @@
     },
     "tripType": "overnight",
     "bestTime": "Post-monsoon to early winter.",
-    "decJanVerdict": "good",
-    "decJanNote": "Netravathi was among the trails reopened in mid-2026 and shows as highest demand on Aranya Vihaara. Aim for December. Last season it was named in the fire-season ban from 14 January. This winter's status isn't confirmed online.",
+    "bestMonths": [
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Post-monsoon to December. The forest department closes these trails in the monsoon, and in 2026 it also shut them from 14 January for fire season, so treat late January onward as uncertain and check Aranya Vihaara before you plan.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -3934,8 +4587,7 @@
       "duration": "Full day, about 12–14 km round trip (2026 blog estimate). Verify locally.",
       "permitRequired": true,
       "howToBook": "Book on the Karnataka Forest Dept's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Portal rules effective 15 Jul 2026: slots open up to 30 days ahead and must be booked at least 1 day ahead; cancel 8+ days out for a 50% refund, nothing back within 7 days; carry the original ID you booked with and report 10 minutes before your slot. Helpline 1926. No offline permits. One 2026 blog reports a 50-a-day cap with slots opening at midnight and selling out within a minute. That's unconfirmed, so check the portal.",
-      "guideMandatory": true,
-      "openDecJan": null
+      "guideMandatory": true
     },
     "bikeTips": "Distance and time are to Samse village, the base about 14 km from Kalasa (2026 blog). The peak coordinates are in lat/lng. Stay overnight near Samse or Kalasa so you're at the start early. Horanadu temple fits on the same trip.",
     "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. Guides are compulsory: one per batch of 10 under the 2026 SOP.",
@@ -3981,8 +4633,12 @@
     },
     "tripType": "day",
     "bestTime": "Post-monsoon to winter. IndiaHikes advises against peak summer because the upper section is exposed.",
-    "decJanVerdict": "good",
-    "decJanNote": "Kurinjal was among the first four trails reopened in 2026, with Aranya Vihaara booking mandatory. December is ideal. January carries the same fire-season closure risk as the rest of Kudremukh NP (from 14 Jan last year).",
+    "bestMonths": [
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Post-monsoon to December; IndiaHikes advises against peak summer because the top is exposed. The forest department closes these trails in the monsoon, and in 2026 it also shut them from 14 January for fire season, so treat late January onward as uncertain and check Aranya Vihaara before you plan.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -3990,8 +4646,7 @@
       "duration": "About 12–16 km round trip depending on source. Plan a full day.",
       "permitRequired": true,
       "howToBook": "Book on the Karnataka Forest Dept's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Portal rules effective 15 Jul 2026: slots open up to 30 days ahead and must be booked at least 1 day ahead; cancel 8+ days out for a 50% refund, nothing back within 7 days; carry the original ID you booked with and report 10 minutes before your slot. Helpline 1926. Older IndiaHikes notes mention a forest office at the Bhagavathi Nature Camp entrance, where bags are checked for plastic and packaged food.",
-      "guideMandatory": true,
-      "openDecJan": null
+      "guideMandatory": true
     },
     "bikeTips": "Distance and time are to Bhagavathi Nature Camp, the trailhead about 29 km from Kalasa on SH66, routed via Karkala. The peak coordinates are in lat/lng. It works as a long day from Manipal if you leave at dawn. The trail gate is about 500 m along the highway from the forest office.",
     "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. Bags are checked, so leave plastic, packaged food and alcohol behind. Guides are compulsory: one per 10 under the 2026 SOP.",
@@ -4039,8 +4694,12 @@
     },
     "tripType": "day",
     "bestTime": "Post-monsoon to winter.",
-    "decJanVerdict": "good",
-    "decJanNote": "Both routes reopened in mid-2026, but the trek was named in the January 2026 fire-season ban from 14 January. Book a December date if you can, and verify the January 2027 status.",
+    "bestMonths": [
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Post-monsoon to December. The forest department closes these trails in the monsoon, and in 2026 it also shut them from 14 January for fire season, so treat late January onward as uncertain and check Aranya Vihaara before you plan.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -4048,8 +4707,7 @@
       "duration": "Kigga–Kigga: about 9 km, easy to moderate. Mallanduru–Kigga crossover: about 15 km, moderate and a long day. Start by 7–7:30 AM (IndiaHikes).",
       "permitRequired": true,
       "howToBook": "Book on the Karnataka Forest Dept's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Portal rules effective 15 Jul 2026: slots open up to 30 days ahead and must be booked at least 1 day ahead; cancel 8+ days out for a 50% refund, nothing back within 7 days; carry the original ID you booked with and report 10 minutes before your slot. Helpline 1926. The Kigga route is under Chikkamagaluru district treks, and the Mallanduru route under Shivamogga district treks (IndiaHikes).",
-      "guideMandatory": null,
-      "openDecJan": null
+      "guideMandatory": null
     },
     "bikeTips": "Distance and time are to Kigga village, the trailhead near Sringeri, routed over the Agumbe ghat (NH169A, then SH27). Do the ghat in daylight both ways. Pair it with Sringeri darshan and the Peetham's annadana. The peak coordinates are in lat/lng.",
     "safety": "Forest sections are slippery, and mossy rocks at stream crossings are worse. Wear real trekking shoes. Stay on the marked trail. Flash photography and single-use plastic are banned in the trekking zones under the 2026 SOP. Last season the Kudremukh Wildlife Division shut every trekking route in Kudremukh NP, Someshwara and Mookambika sanctuaries from 14 January 2026 for forest-fire risk, 'until further notice'. Dry leaves make the forest descent slippery, so watch your knees and ankles. On the crossover, the rocks at the top of Barkana Falls on the Seetha River are very slippery. Stay well back from the edge.",
@@ -4095,8 +4753,15 @@
     },
     "tripType": "day",
     "bestTime": "Clear winter mornings or late afternoons. Be down before dark.",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry, clear winter days bring the long views. Easy to combine with Agumbe, Kuppalli or Kavaledurga, and the road is far less sketchy without monsoon slime.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Clear dry-season days bring the long views. The narrow hill road is slimy and dangerous in the monsoon.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": null,
@@ -4108,8 +4773,7 @@
       "duration": "Optional hike of about 7 km / 3 hours to the peak (Karnataka Tourism), or ride all the way up.",
       "permitRequired": null,
       "howToBook": "No booking found online. The road is open to private vehicles. Verify locally.",
-      "guideMandatory": null,
-      "openDecJan": null
+      "guideMandatory": null
     },
     "bikeTips": "Take SH1 (Agumbe road) from the Thirthahalli side to Guddekeri, then the left turn-off to the hill (Wikipedia). Karnataka Tourism puts Agumbe 16 km away. The last stretch is steep and narrow with several hairpins. Ride it in first or second gear and don't attempt it on a weak scooter with a pillion.",
     "safety": "Steep, narrow climb with hairpins. Karnataka Tourism advises against it for inexperienced drivers. There are no facilities and no people at the top, so carry water and plan to be back in town before nightfall. Mind the drop-offs at the edge of the summit rocks.",
@@ -4153,8 +4817,15 @@
     },
     "tripType": "overnight",
     "bestTime": "Post-monsoon, August to January, for Hebbe Falls (Karnataka Tourism).",
-    "decJanVerdict": "good",
-    "decJanNote": "Clear views from Z-Point and Hebbe still flowing in December, still inside Karnataka Tourism's August–January window. By late January expect a thinner fall. Hebbe's current access status isn't stated anywhere official we could find, so verify locally.",
+    "bestMonths": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      1
+    ],
+    "seasonNote": "August to January for Hebbe Falls (Karnataka Tourism); clearest views at Z-Point from November. By late January Hebbe thins.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -4162,8 +4833,7 @@
       "duration": "Z-Point: about 45 minutes steep uphill from Raj Bhavan (Wikipedia). Hebbe Falls: about 7 km each way on foot or by local 4x4 jeep, plus a short hike (Karnataka Tourism).",
       "permitRequired": null,
       "howToBook": "No booking info found online. Local 4x4 jeeps run to Hebbe (Karnataka Tourism). Fares and current operating status: verify locally.",
-      "guideMandatory": null,
-      "openDecJan": null
+      "guideMandatory": null
     },
     "bikeTips": "A long ride: 195 km and about 3h25m by OSRM, crossing the Agumbe ghat. Overnight in Chikkamagaluru or Kemmanagundi. Wikipedia puts Kemmanagundi 53 km from Chikkamagaluru and 17 km from Lingadahalli. Don't take a road bike down the Hebbe jeep track. Park it and take a jeep or walk. Combine with Mullayanagiri and Baba Budangiri.",
     "safety": "Long ghat sections both ways, so avoid night riding. Z-Point is a steep, exposed climb, so watch your footing and the edges in wind or mist. At Hebbe the rocks are slippery, and Karnataka Tourism warns about leeches and slick rock in the rains. Hebbe is inside a coffee estate in the eastern part of Bhadra Wildlife Sanctuary (Wikipedia), so respect estate and forest rules.",
@@ -4209,8 +4879,14 @@
     },
     "tripType": "overnight",
     "bestTime": "Clear winter mornings. Take the 6 AM slot for visibility and thinner crowds.",
-    "decJanVerdict": "great",
-    "decJanNote": "Dec–Jan is prime: cold, crisp and clear. It also means weekend crowds, so pre-book the morning slot. The online slot system began on 1 Sept 2025, and we couldn't confirm 2026 changes online, so verify on the district site.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "Cold, clear mornings from October to February. Vehicle passes are booked online by slot (from September 2025). In the monsoon it's fogged in and the road is risky.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -4218,8 +4894,7 @@
       "duration": "464 steps from the road-end to the summit (Wikipedia). The Sarpadhari trail is the older walking route (no current details found).",
       "permitRequired": null,
       "howToBook": "Every vehicle needs an online entry pass from the Chikkamagaluru district tourism site (chikkamagaluru.nic.in/en/tourism; a 2025 local guide points to pgbiz.omniware.in/chikkamagalurutourism). Two slots: 6 AM–12 noon and 1–6 PM, 600 vehicles per slot, pre-booked vehicles first. Fees (Aug 2025): ₹50 bike, ₹100 car. This covers the Chandradrona range: Mullayanagiri, Seethalayyanagiri, Baba Budan dargah and Manikyadhara. Verify current rules.",
-      "guideMandatory": null,
-      "openDecJan": null
+      "guideMandatory": null
     },
     "bikeTips": "OSRM's route is 181 km, about 3h20m, over the Agumbe ghat (NH169A to SH27) then NH173. Sleep in Chikkamagaluru the night before and ride up at dawn for the 6 AM slot. The summit road is narrow and single-lane in places. Carry your pass confirmation.",
     "safety": "Narrow hill road with blind corners and heavy weekend traffic. Use the horn and give way to vehicles coming down. The summit is windy and cold in winter mornings, so layer up. Fog can drop visibility to a few metres. Avoid riding back down the ghats after dark.",
@@ -4263,8 +4938,15 @@
     },
     "tripType": "day",
     "bestTime": "Winter mornings. Start early: entry hours are reported as early as 6 AM–2 PM, and Karnataka Tourism says entry closes by 5 PM.",
-    "decJanVerdict": "great",
-    "decJanNote": "Cool air for the climb and clear views from the ramparts in Dec–Jan. Get there by mid-morning, because ticket hours conflict between sources.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Cool air for the climb and clear views from October to March. Green and dramatic in the monsoon, but the rock steps are slippery.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -4272,8 +4954,7 @@
       "duration": "About 5 km round trip, half a day. Allow 2–3 hours to explore (IndiaHikes, Karnataka Tourism).",
       "permitRequired": false,
       "howToBook": "No permit. Buy a ticket at the checkpost (₹50 per IndiaHikes; ₹25 in a 2022 blog; parking around ₹20). Verify locally.",
-      "guideMandatory": false,
-      "openDecJan": null
+      "guideMandatory": false
     },
     "bikeTips": "Ride over the Agumbe ghat towards Thirthahalli. The fort is about 18 km from Thirthahalli (Wikipedia, Karnataka Tourism). Park at the base and pick up a ticket at the checkpost. Pairs well with Kuppalli or Kundadri on the same day.",
     "safety": "Granite steps and boulder sections get slippery when wet. The topmost portion was reported closed to visitors in Aug 2024. No plastic or packed food inside, and drones are banned (bags are checked). Facilities are minimal, a tea shop by the parking at most, so carry water. Don't stay up for sunset if it means riding the ghat in the dark.",
@@ -4317,8 +4998,21 @@
     },
     "tripType": "day",
     "bestTime": "Any season. Mornings are quieter.",
-    "decJanVerdict": "great",
-    "decJanNote": "Not weather-dependent, and Dec–Jan is pleasant for the walk up to Kavishaila. Combine with Kavaledurga or Kundadri.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Any season; the museum is indoors. Winter is pleasant for the walk up to Kavishaila, and the monsoon is lush.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -4363,8 +5057,21 @@
     },
     "tripType": "day",
     "bestTime": "Early morning, by 8:30 AM.",
-    "decJanVerdict": "good",
-    "decJanNote": "Cool mornings make the dawn ride over the Agumbe ghat bearable. Leave Manipal by about 6:15 AM or stay over in Thirthahalli or Shivamogga.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Elephant bathing is in the early morning (by about 8:30 AM) year-round. In the monsoon the river is high, so verify that the camp is open.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -4408,8 +5115,14 @@
     },
     "tripType": "overnight",
     "bestTime": "August to December. Karnataka Tourism rates October–December best overall.",
-    "decJanVerdict": "good",
-    "decJanNote": "Honestly: December still has a decent show, but flow depends on releases from the upstream Linganamakki dam. By January Karnataka Tourism calls it 'moderate'. Fine for photos, but not the monsoon thunder. In 2025 the main entrance was shut 1 Jan–30 Apr for development works. We found no closure notice for this winter, so verify locally.",
+    "bestMonths": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "August to December, with October–December rated best by Karnataka Tourism. Flow depends on releases from the Linganamakki dam; by January it's \"moderate\". In peak monsoon it can be completely clouded.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -4456,8 +5169,14 @@
     },
     "tripType": "overnight",
     "bestTime": "Clear winter mornings. Book the 6 AM slot.",
-    "decJanVerdict": "good",
-    "decJanNote": "Same slot booking as Mullayanagiri, so do both on one pass and one morning. The shrine's status is politically sensitive (Wikipedia), so be respectful and follow on-site instructions.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "Clear winter mornings; book the same online vehicle slot as Mullayanagiri. Datta Jayanti (December) brings large crowds and tight security.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": null,
@@ -4507,8 +5226,14 @@
     },
     "tripType": "overnight",
     "bestTime": "Post-monsoon, when the tank is fuller. Mornings for soft light.",
-    "decJanVerdict": "ok",
-    "decJanNote": "Worth a dawn stop if you're already overnighting in Chikkamagaluru for Mullayanagiri. It's 18 km from town (Wikipedia). Not worth the ride from Manipal on its own.",
+    "bestMonths": [
+      9,
+      10,
+      11,
+      12,
+      1
+    ],
+    "seasonNote": "Fullest after the monsoon; soft morning light in winter. Only worth it if you're already in Chikkamagaluru.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -4551,8 +5276,15 @@
     },
     "tripType": "day",
     "bestTime": "Oct–Mar; weekday early mornings are least crowded (Karnataka Tourism). Avoid Maha Shivaratri unless you want the crowds.",
-    "decJanVerdict": "great",
-    "decJanNote": "Clear post-monsoon skies and calm-ish seas. Go on a weekday morning, do the gopura lift before the tour buses arrive, and stay for sunset. Christmas–New Year weekends get packed.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "October–March for the beach (Karnataka Tourism); the temple is open year-round. Maha Shivaratri is the big crush. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop. The beach was closed after drownings in December 2024 and reopened with ropes.",
     "vegFoodNearby": [
       "Temple Anna Prasada (free, served in the afternoon, subject to availability; Karnataka Tourism)"
     ],
@@ -4604,8 +5336,16 @@
     },
     "tripType": "day",
     "bestTime": "Nov–May, strictly outside the monsoon (Karnataka Tourism); operators have been allowed to dive Oct–Apr per district rules (reported).",
-    "decJanVerdict": "good",
-    "decJanNote": "Diving season is open in Dec–Jan, but visibility depends on the day's sea. Book the morning boat, keep a buffer day, and don't expect Andaman-clear water every time.",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seasonNote": "Diving season is about November to May, strictly outside the monsoon (Karnataka Tourism); visibility varies day to day.",
     "vegFoodNearby": [
       "Murudeshwar temple anna prasada on your way back (free, afternoon, subject to availability; Karnataka Tourism)"
     ],
@@ -4653,8 +5393,21 @@
     },
     "tripType": "day",
     "bestTime": "Oct–Feb mornings; festival days are crowded.",
-    "decJanVerdict": "great",
-    "decJanNote": "Cool mornings, short queues on weekdays. Easy add-on to a Murudeshwar run.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round; October to February mornings are most comfortable. Festival days are crowded.",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Traditional, formal clothing expected (Yatradham); men are advised dhoti or trousers, no shorts. No photography.",
@@ -4702,8 +5455,21 @@
     },
     "tripType": "overnight",
     "bestTime": "Oct–Mar. Maha Shivaratri is the big festival; book early if you go then.",
-    "decJanVerdict": "great",
-    "decJanNote": "Perfect weather for the 10-minute bazaar walk to the temple. Stay the night in Gokarna and fold it into the beach trail next morning.",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. Maha Shivaratri (February–March) is the biggest festival, with chariot processions and huge crowds; book stays early.",
     "vegFoodNearby": [
       "Amrutanna Prasad Bhojana at the temple (free, 12:00–2:00 PM and 7:30–8:30 PM; temple trust site)"
     ],
@@ -4755,8 +5521,15 @@
     },
     "tripType": "overnight",
     "bestTime": "Oct–Mar; mornings have calmer seas. Bioluminescence at the far cove is best on new-moon nights (Karnataka Tourism).",
-    "decJanVerdict": "great",
-    "decJanNote": "Prime season. Start walking by 6:30 AM, carry 2 litres of water each, and be back on the road side before dark.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Prime season is October to March; mornings have calmer seas. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop. The cliff paths turn dangerous in the rain.",
     "vegFoodNearby": [
       "Mahabaleshwar temple Amrutanna Prasad Bhojana in town (free, 12–2 PM & 7:30–8:30 PM; temple trust site)"
     ],
@@ -4807,8 +5580,15 @@
     },
     "tripType": "overnight",
     "bestTime": "Oct–Mar; evenings for the promenade.",
-    "decJanVerdict": "good",
-    "decJanNote": "Pleasant evenings on the promenade and an easy halt between Gokarna and Goa. Not a destination on its own; use it as a base.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Pleasant evenings on the promenade from October to March. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -4854,8 +5634,15 @@
     },
     "tripType": "overnight",
     "bestTime": "Oct–Mar.",
-    "decJanVerdict": "good",
-    "decJanNote": "Calm, shallow water and cool nights. Book the JLR resort well ahead for December weekends.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "Calm, shallow water from October to March. Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -4898,8 +5685,14 @@
     },
     "tripType": "day",
     "bestTime": "Oct–Feb; mornings.",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry paths, soft light and still-green moss. Combine with Gokarna (about 22 km) or Yana.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "Dry paths and soft light from October to February. It's lushest (and mossiest) just after the monsoon.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -4943,8 +5736,14 @@
     },
     "tripType": "day",
     "bestTime": "Monsoon and just after for flow; winter for comfort.",
-    "decJanVerdict": "ok",
-    "decJanNote": "Expect a thin trickle by Dec–Jan; blog reports doubt the flow lasts into January. Go for the caves and the sea view, not the water.",
+    "bestMonths": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "seasonNote": "Water from the monsoon until about November; by winter it's a trickle. Go for the caves and the sea view in the dry months.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -4989,8 +5788,15 @@
     },
     "tripType": "overnight",
     "bestTime": "Oct–Mar; Nov–Feb peak; early mornings (Karnataka Tourism).",
-    "decJanVerdict": "great",
-    "decJanNote": "Dry trails, no leeches, cool forest. Arrive at 8 AM opening and do it before the heat.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "seasonNote": "October to March, with November–February peak (Karnataka Tourism). The monsoon brings leeches and slippery trails.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -4998,8 +5804,7 @@
       "duration": "2–3 hours for the full circuit (about 260 steps to the monoliths plus cave steps)",
       "permitRequired": false,
       "howToBook": "No booking; pay the Forest Department eco-development fee (about ₹20–50 per person per Karnataka Tourism) and parking (₹20 two-wheeler) at the gate. Cash only.",
-      "guideMandatory": false,
-      "openDecJan": true
+      "guideMandatory": false
     },
     "bikeTips": "From Kumta take the Sirsi road via Hiregutti/Mattighatta side; the Mattighatta approach has a short paved walk (500 m–1 km). Final roads are narrow forest roads; ride in daylight. Open 8 AM–6 PM.",
     "safety": "Remove footwear at the base counter before the cave passage (Karnataka Tourism), so carry socks or wipes. Wear grippy shoes on the trail. Steep, uneven cave steps. Plastic deposit system in force. Forest road: watch for wildlife and don't ride after dark.",
@@ -5040,8 +5845,15 @@
     },
     "tripType": "long-ride",
     "bestTime": "Nov–Apr per Trawell; avoid monsoon (slippery, and entry has been restricted when the Kali swells).",
-    "decJanVerdict": "good",
-    "decJanNote": "Dec–Jan is inside the recommended window and roads are dry. Flow is reduced from monsoon levels; exact volume not documented online, verify locally. Pair with Magod and stay in Yellapur.",
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "seasonNote": "November to April per Trawell. Entry has been restricted when the Kali river swells in the monsoon (closed June 2025).",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -5086,8 +5898,15 @@
     },
     "tripType": "long-ride",
     "bestTime": "Jul–Dec (Karnataka Tourism); minimal water in summer.",
-    "decJanVerdict": "good",
-    "decJanNote": "December is the tail end of Karnataka Tourism's recommended window; by late January expect a thinner falls. Go early in the trip if this is on your list.",
+    "bestMonths": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "July to December (Karnataka Tourism); minimal water in summer.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -5129,8 +5948,15 @@
     },
     "tripType": "overnight",
     "bestTime": "Monsoon and Oct–Jan for flow; winter for comfort.",
-    "decJanVerdict": "ok",
-    "decJanNote": "Still flowing in early winter per most guides, thinner by January. Worth it only as a Yana add-on.",
+    "bestMonths": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      1
+    ],
+    "seasonNote": "Flows through the monsoon and into early winter, thinner by January. Best as a Yana add-on.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -5174,8 +6000,17 @@
     },
     "tripType": "long-ride",
     "bestTime": "Rafting runs roughly Oct–Jun depending on Supa Dam releases and forest clearance (Karnataka Tourism); suspended in the rains.",
-    "decJanVerdict": "good",
-    "decJanNote": "In season, but check status before riding: long rafting's licence was under Forest Dept challenge as of Jan 2026, so the long run may not be available. Book ahead.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seasonNote": "Rafting runs roughly October to June, depending on Supa Dam releases and forest clearance, and stops in the rains. As of January 2026 the long-run licence was under challenge, so verify locally.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -5220,9 +6055,22 @@
       }
     },
     "tripType": "overnight",
-    "bestTime": "Oct–Feb. The biennial Marikamba Jatre last ran 24 Feb–4 Mar 2026; the next is due in 2028 (Wikipedia), so there is no jatre in your Dec 2026–Jan 2027 window.",
-    "decJanVerdict": "good",
-    "decJanNote": "No jatre this season, so expect a calmer visit. Good base for Yana, Magod and Sathodi.",
+    "bestTime": "October to February. The Marikamba Jatre is held every two years: it last ran 24 Feb–4 Mar 2026, and the next is due in 2028 (Wikipedia).",
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "seasonNote": "Open year-round. The Marikamba Jatre is held every two years (last 24 Feb–4 Mar 2026; next due 2028).",
     "vegFoodNearby": [],
     "temple": {
       "dressCode": null,
@@ -5271,8 +6119,17 @@
     },
     "tripType": "overnight",
     "bestTime": "Jeep safari season opens after the monsoon (early October; 2026–27 season opened early Oct 2026 per a forest department order reported by Curly Tales) and runs until the monsoon closure.",
-    "decJanVerdict": "good",
-    "decJanNote": "The 2026–27 safari season is running (reopened early Oct 2026). Peak Dec–Jan demand means book online early and expect queues at Collem. Flow is lower than monsoon photos; size of the falls in Jan not documented, verify locally.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seasonNote": "The official jeep safari runs after the monsoon, from about October (the 2026–27 season opened in early October). The falls are fullest right after the rains. Closed in the monsoon. Walking the railway tracks is prohibited in every season.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": {
@@ -5280,8 +6137,7 @@
       "duration": "Half day from Collem (jeep ride plus a short walk to the pool); exact durations verify locally",
       "permitRequired": true,
       "howToBook": "Book an authorised Forest Department-registered jeep through the GTDC (Goa Tourism Development Corporation) online portal; the exact portal URL was not confirmable from an official page, so get it from goa-tourism / GTDC channels and don't pay unverified sites. Collem gate runs 8 AM–3 PM, batches of 30–40 hourly, max 240 trips/day, 7 adults per jeep. Fee: Outlook Traveller cited about ₹500 per passenger in 2023; current 2026–27 fee not confirmed, verify locally.",
-      "guideMandatory": null,
-      "openDecJan": true
+      "guideMandatory": null
     },
     "bikeTips": "Route breaks overnight. Option 1: Manipal -> Gokarna (179 km, ~3h 05m), sleep, then Gokarna -> Collem (134 km, ~2h 45m). Option 2: push to Karwar (215 km, ~3h 45m), sleep, then Karwar -> Collem (87 km, ~1h 45m) to make the 8 AM gate. Two-wheelers and private vehicles are NOT allowed into the safari circuit: park at Collem and take the jeep. Total Manipal -> Kulem is 302 km by OSRM.",
     "safety": "Walking on the railway tracks or bridge to Dudhsagar is prohibited: South Western Railway bars public access via the railway route, and RPF (Hubballi Division, Castle Rock post) fined 32 tourists ₹500 each under Section 147 of the Railways Act in July 2026; a South Goa Collector's order (2023) bans entry by train or on foot along the track and has RPF stop people de-boarding near Dudhsagar. Inside the circuit: life jackets are mandatory at the falls, no plastic bottles/bags, no alcohol, and trips can be suspended on orange/red weather alerts. Rocks at the pool are slippery. If riding, don't do Anmod/forest roads at night.",
@@ -5336,8 +6192,14 @@
     },
     "tripType": "day",
     "bestTime": "Oct–Feb (Karnataka Tourism, Honnavar guide).",
-    "decJanVerdict": "great",
-    "decJanNote": "Cool breeze, clean sand, sunset straight ahead. Easy combo with Idagunji and Apsarakonda the same day.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "seasonNote": "October–February (Karnataka Tourism). Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,
@@ -5380,8 +6242,17 @@
     },
     "tripType": "day",
     "bestTime": "Oct–May; not in the monsoon.",
-    "decJanVerdict": "ok",
-    "decJanNote": "Sea is calm enough in winter, but whether you can land depends on local permission and boats. Ask at Honnavar before riding up just for this.",
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seasonNote": "October to May only, never in the monsoon. Whether you can land depends on local permission; one report says only at Sankranti. Verify locally in Honnavar.",
     "vegFoodNearby": [],
     "temple": null,
     "trek": null,

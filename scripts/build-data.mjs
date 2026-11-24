@@ -1,14 +1,16 @@
 // Merges the raw research in research/raw/ into the site data in src/data/.
 // Run: node scripts/build-data.mjs   (after scripts/recompute-routes.mjs)
 import fs from 'node:fs';
+import seasons from '../research/raw/seasons.mjs';
+import overrides from '../research/raw/overrides.mjs';
 
 const read = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 const write = (p, d) => fs.writeFileSync(p, JSON.stringify(d, null, 2) + '\n');
 
 const REGIONS = ['udupi-manipal', 'kundapura-byndoor', 'mangaluru-kasaragod', 'dharmasthala-kukke', 'malnad', 'uttara-kannada-goa'];
-const KEYS = ['id', 'name', 'chapter', 'tags', 'hook', 'why', 'lat', 'lng', 'distanceKmFromManipal', 'rideTimeFromManipal', 'transport', 'tripType', 'bestTime', 'decJanVerdict', 'decJanNote', 'vegFoodNearby', 'temple', 'trek', 'bikeTips', 'safety', 'mustDo', 'images', 'sources', 'confidence', 'lastChecked'];
+const KEYS = ['id', 'name', 'chapter', 'tags', 'hook', 'why', 'lat', 'lng', 'distanceKmFromManipal', 'rideTimeFromManipal', 'transport', 'tripType', 'bestTime', 'bestMonths', 'seasonNote', 'vegFoodNearby', 'temple', 'trek', 'bikeTips', 'safety', 'mustDo', 'images', 'sources', 'confidence', 'lastChecked'];
 
-// The 10 must-dos for 28 Nov 2026 – 31 Jan 2027 (rationale in research/report.md).
+// The 10 must-dos for a first-timer (rationale in research/report.md).
 const MUST_DO = new Set([
   'udupi-sri-krishna-matha',
   'st-marys-island',
@@ -55,7 +57,7 @@ for (const region of REGIONS) {
   for (const raw of read(`research/raw/${region}.json`)) {
     const p = {};
     for (const k of KEYS) p[k] = raw[k] ?? (Array.isArray(raw[k]) ? [] : raw[k] ?? null);
-    const missing = KEYS.filter((k) => !(k in raw));
+    const missing = KEYS.filter((k) => !(k in raw) && !['bestMonths', 'seasonNote'].includes(k));
     if (missing.length) report.missingKeys.push(`${raw.id}: ${missing.join(', ')}`);
 
     // Uniform ride time: OSRM car duration x 1.2 motorcycle buffer, rounded to 5 min.
@@ -84,6 +86,17 @@ for (const region of REGIONS) {
         if (e.sources?.[0] && !p.sources.includes(e.sources[0])) p.sources.push(e.sources[0]);
         report.foodAdded++;
       }
+    }
+
+    const season = seasons[p.id];
+    if (!season) throw new Error(`no season data for ${p.id}`);
+    [p.bestMonths, p.seasonNote] = season;
+    if (p.trek) delete p.trek.openDecJan; // superseded by bestMonths (evergreen guide)
+
+    // Hand-checked patches (gap fills, evergreen rewording); objects merge one level deep.
+    for (const [k, v] of Object.entries(overrides[p.id] ?? {})) {
+      if (k === 'addSources') { for (const u of v) if (!p.sources.includes(u)) p.sources.push(u); continue; }
+      p[k] = v && typeof v === 'object' && !Array.isArray(v) && p[k] ? { ...p[k], ...v } : v;
     }
 
     p.mustDo = MUST_DO.has(p.id);
