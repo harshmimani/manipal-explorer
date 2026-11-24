@@ -1,7 +1,16 @@
 # Manipal Explorer: Project Brief
 
 ## What this is
-A cinematic, award-level travel and food guide to everything around Manipal / Udupi, Karnataka, for exploring between 28 Nov 2026 and 31 Jan 2027. It must work perfectly on iPhone and laptop.
+A cinematic, award-level travel and food guide to everything around Manipal / Udupi, Karnataka. It is an EVERGREEN guide that anyone can use at any time of year and share with friends, not a personal schedule. It must work perfectly on iPhone and laptop.
+
+## Direction (overrides anything earlier or later that conflicts)
+- Evergreen: no fixed travel window. Nothing is framed around specific dates of one season.
+- Trip Ideas, not a weekend planner: 12–15 ready-made, undated trips in src/data/tripIdeas.json. Each has duration, route, bike/train, stops in order, veg meal stops, best season, and a "pack this" line.
+- Seasons: every place has `bestMonths` (array of month numbers 1–12) and `seasonNote` (incl. monsoon notes) instead of decJanVerdict/decJanNote. The site has a "Good right now" filter driven by today's date.
+- Festivals: a year-round calendar by month (src/data/festivals.json). The site highlights upcoming ones based on today's date. Never guess dates; recurring events carry their usual month(s) and lunar-calendar basis, and confirmed dates only where sourced.
+- My List: visitors can star places to build their own list (localStorage, try/catch), next to "Been there".
+- Worth Watching: a section (src/data/worthWatching.json) on the region's most spectacular festivals and cultural experiences: what it is, why it's special, month(s), where, how often (yearly / every 2 years / every 12 years), how to watch respectfully, best spot. "Don't miss" on the top 5.
+- Present the food proudly as a vegetarian guide. Everything else in this brief still stands (veg-only, distances from Manipal, temple details, safety notes, design brief).
 
 ## About me (personalise everything)
 - I live in Manipal. I ride a motorcycle and can take trains (Udupi station is on the Konkan Railway).
@@ -45,4 +54,7 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
 - Before finishing any part, check your own output against this brief.
 
 ## Progress
-- Part 0: scaffold done
+- Part 0: scaffold done. Repo: https://github.com/harshmimani/manipal-explorer · Live: https://harshmimani.github.io/manipal-explorer/
+- Part 1 (in progress): 107 places, food (14 dishes, 16 eateries, 6 annadana), festivals researched and merged into src/data via scripts/build-data.mjs (raw research in research/raw/). 10 mustDo picked. Direction changed to evergreen (see Direction).
+  - Pending: tripIdeas.json, bestMonths/seasonNote, year-round festivals + worthWatching.json, must-do veg food + temple timings, verification pass, research/report.md.
+  - Known gaps: web-search quota ran out mid-research, so many veg-eatery and temple-timing fields are null / "verify locally".
