@@ -121,15 +121,16 @@
     "mustDo": false,
     "wanted": 1,
     "got": 1,
-    "candidates": 94,
+    "candidates": 99,
     "passed": 39,
     "rejects": {
-      "not-landscape": 32,
-      "too-small": 11,
+      "not-landscape": 38,
+      "too-small": 8,
       "category": 2,
+      "rejected-by-review": 1,
       "panorama": 1,
+      "no-name-match": 4,
       "mime": 5,
-      "no-name-match": 3,
       "non-veg-subject": 1
     },
     "status": "ok"
@@ -197,15 +198,15 @@
     "name": "Swarna River kayaking (Kemmannu & Thonse-Hoode)",
     "mustDo": false,
     "wanted": 1,
-    "got": 1,
-    "candidates": 10,
-    "passed": 2,
+    "got": 0,
+    "candidates": 14,
+    "passed": 0,
     "rejects": {
-      "too-small": 6,
+      "rejected-by-review": 3,
       "non-veg-subject": 1,
-      "rejected-by-review": 1
+      "no-name-match": 4
     },
-    "status": "ok"
+    "status": "gradient-by-review"
   },
   "malpe-beach-sea-walk": {
     "name": "Malpe Beach & Sea Walk",
@@ -250,10 +251,10 @@
     "candidates": 53,
     "passed": 0,
     "rejects": {
-      "too-small": 8,
+      "too-small": 7,
       "other-region": 10,
       "not-landscape": 6,
-      "no-name-match": 27,
+      "no-name-match": 28,
       "panorama": 1,
       "non-veg-subject": 1
     },
@@ -314,9 +315,9 @@
     "candidates": 14,
     "passed": 0,
     "rejects": {
-      "too-small": 5,
+      "too-small": 4,
       "not-landscape": 2,
-      "rejected-by-review": 1,
+      "rejected-by-review": 2,
       "mime": 6
     },
     "status": "missing"
@@ -340,15 +341,16 @@
     "wanted": 1,
     "got": 1,
     "candidates": 126,
-    "passed": 56,
+    "passed": 55,
     "rejects": {
-      "too-small": 14,
-      "not-landscape": 37,
+      "too-small": 12,
+      "not-landscape": 39,
       "category": 4,
       "panorama": 4,
       "mime": 6,
       "licence": 1,
-      "no-name-match": 4
+      "no-name-match": 4,
+      "rejected-by-review": 1
     },
     "status": "ok"
   },
@@ -356,17 +358,18 @@
     "name": "Kodi Beach & Sea Walk (Kundapura)",
     "mustDo": false,
     "wanted": 1,
-    "got": 1,
-    "candidates": 19,
-    "passed": 3,
+    "got": 0,
+    "candidates": 20,
+    "passed": 0,
     "rejects": {
       "too-small": 3,
+      "rejected-by-review": 2,
       "category": 2,
       "no-name-match": 5,
-      "mime": 5,
-      "not-landscape": 1
+      "not-landscape": 2,
+      "mime": 5
     },
-    "status": "ok"
+    "status": "gradient-by-review"
   },
   "trasi-beach": {
     "name": "Trasi Beach",
@@ -481,11 +484,12 @@
     "wanted": 1,
     "got": 1,
     "candidates": 17,
-    "passed": 7,
+    "passed": 6,
     "rejects": {
-      "not-landscape": 5,
-      "too-small": 3,
+      "not-landscape": 7,
       "category": 1,
+      "too-small": 1,
+      "rejected-by-review": 1,
       "nature-closeup": 1
     },
     "status": "ok"
@@ -567,9 +571,9 @@
     "passed": 0,
     "rejects": {
       "non-veg-subject": 1,
-      "not-landscape": 3,
+      "not-landscape": 4,
       "mime": 8,
-      "too-small": 2
+      "too-small": 1
     },
     "status": "missing"
   },
@@ -577,15 +581,16 @@
     "name": "Anejhari Butterfly Camp (Jungle Lodges, near Kollur)",
     "mustDo": false,
     "wanted": 1,
-    "got": 1,
+    "got": 0,
     "candidates": 7,
-    "passed": 1,
+    "passed": 0,
     "rejects": {
       "no-name-match": 2,
+      "rejected-by-review": 1,
       "mime": 3,
-      "too-small": 1
+      "not-landscape": 1
     },
-    "status": "ok"
+    "status": "gradient-by-review"
   },
   "sasihithlu-beach": {
     "name": "Sasihithlu Beach (Mulki)",
@@ -656,12 +661,13 @@
     "mustDo": false,
     "wanted": 1,
     "got": 1,
-    "candidates": 55,
-    "passed": 8,
+    "candidates": 80,
+    "passed": 10,
     "rejects": {
-      "too-small": 8,
+      "rejected-by-review": 1,
+      "too-small": 5,
       "not-landscape": 20,
-      "mime": 19
+      "mime": 44
     },
     "status": "ok"
   },
@@ -721,15 +727,16 @@
     "wanted": 1,
     "got": 1,
     "candidates": 67,
-    "passed": 35,
+    "passed": 34,
     "rejects": {
       "far-away": 1,
-      "not-landscape": 20,
+      "not-landscape": 21,
+      "rejected-by-review": 1,
       "personality-rights": 2,
       "mime": 3,
       "no-name-match": 2,
       "category": 2,
-      "too-small": 2
+      "too-small": 1
     },
     "status": "ok"
   },
@@ -911,12 +918,12 @@
     "mustDo": false,
     "wanted": 1,
     "got": 1,
-    "candidates": 88,
-    "passed": 52,
+    "candidates": 143,
+    "passed": 85,
     "rejects": {
-      "rejected-by-review": 2,
+      "rejected-by-review": 3,
       "excluded-by-hint": 2,
-      "not-landscape": 30,
+      "not-landscape": 51,
       "personality-rights": 1,
       "too-small": 1
     },
@@ -937,15 +944,15 @@
     "mustDo": false,
     "wanted": 1,
     "got": 1,
-    "candidates": 109,
+    "candidates": 111,
     "passed": 41,
     "rejects": {
-      "not-landscape": 52,
+      "not-landscape": 55,
+      "rejected-by-review": 1,
       "panorama": 1,
       "far-away": 1,
-      "too-small": 2,
-      "mime": 4,
       "nature-closeup": 7,
+      "mime": 4,
       "personality-rights": 1
     },
     "status": "ok"
@@ -976,14 +983,17 @@
     "mustDo": false,
     "wanted": 1,
     "got": 1,
-    "candidates": 12,
-    "passed": 1,
+    "candidates": 32,
+    "passed": 3,
     "rejects": {
       "panorama": 1,
       "not-landscape": 1,
-      "rejected-by-review": 2,
-      "too-small": 3,
+      "rejected-by-review": 3,
+      "too-small": 9,
       "nature-closeup": 1,
+      "category": 8,
+      "no-name-match": 2,
+      "far-away": 1,
       "mime": 3
     },
     "status": "ok"
@@ -996,8 +1006,8 @@
     "candidates": 16,
     "passed": 0,
     "rejects": {
-      "too-small": 3,
-      "not-landscape": 2,
+      "too-small": 2,
+      "not-landscape": 3,
       "mime": 8,
       "no-name-match": 3
     },
@@ -1086,12 +1096,13 @@
     "candidates": 25,
     "passed": 0,
     "rejects": {
-      "too-small": 13,
+      "not-landscape": 2,
+      "too-small": 11,
+      "rejected-by-review": 1,
       "other-region": 1,
       "no-name-match": 2,
       "mime": 7,
-      "nature-closeup": 1,
-      "not-landscape": 1
+      "nature-closeup": 1
     },
     "status": "missing"
   },
@@ -1137,8 +1148,8 @@
     "candidates": 7,
     "passed": 0,
     "rejects": {
-      "not-landscape": 1,
-      "too-small": 2,
+      "not-landscape": 2,
+      "too-small": 1,
       "mime": 3,
       "no-name-match": 1
     },
@@ -1167,9 +1178,10 @@
     "wanted": 1,
     "got": 1,
     "candidates": 9,
-    "passed": 6,
+    "passed": 5,
     "rejects": {
-      "nature-closeup": 3
+      "nature-closeup": 3,
+      "rejected-by-review": 1
     },
     "status": "ok"
   },
@@ -1212,13 +1224,15 @@
     "mustDo": false,
     "wanted": 1,
     "got": 1,
-    "candidates": 28,
-    "passed": 14,
+    "candidates": 29,
+    "passed": 13,
     "rejects": {
-      "too-small": 6,
+      "rejected-by-review": 1,
+      "too-small": 5,
+      "not-landscape": 3,
       "category": 2,
       "panorama": 1,
-      "not-landscape": 2,
+      "no-name-match": 1,
       "mime": 3
     },
     "status": "ok"
@@ -1368,9 +1382,11 @@
     "mustDo": false,
     "wanted": 1,
     "got": 1,
-    "candidates": 8,
-    "passed": 6,
+    "candidates": 41,
+    "passed": 36,
     "rejects": {
+      "rejected-by-review": 1,
+      "not-landscape": 2,
       "no-name-match": 2
     },
     "status": "ok"
@@ -1426,14 +1442,15 @@
     "mustDo": false,
     "wanted": 1,
     "got": 1,
-    "candidates": 42,
-    "passed": 9,
+    "candidates": 44,
+    "passed": 8,
     "rejects": {
       "too-small": 6,
       "other-region": 11,
+      "rejected-by-review": 2,
       "not-landscape": 4,
       "no-name-match": 11,
-      "rejected-by-review": 1
+      "licence": 2
     },
     "status": "ok"
   },
@@ -1455,16 +1472,17 @@
     "mustDo": false,
     "wanted": 1,
     "got": 1,
-    "candidates": 83,
-    "passed": 20,
+    "candidates": 84,
+    "passed": 19,
     "rejects": {
+      "not-landscape": 15,
       "too-small": 30,
-      "not-landscape": 14,
       "panorama": 5,
       "title": 1,
       "mime": 2,
       "other-region": 9,
       "category": 1,
+      "rejected-by-review": 1,
       "nature-closeup": 1
     },
     "status": "ok"

@@ -3,7 +3,7 @@
 //
 // Sources per place: Commons full-text search (queries from research/raw/image-queries.mjs), the images
 // on the place's Wikipedia article (if one is in its sources), and a Commons coordinate search.
-// Hard filters: allowed licence (CC0, public domain, CC BY, CC BY-SA), JPEG, width >= 1600,
+// Hard filters: allowed licence (CC0, public domain, CC BY, CC BY-SA), JPEG, width >= 1600 (mustDo) or >= 1200 (others),
 // landscape (1.25 <= w/h <= 2.6), name match, no watermark / portrait / map / logo categories,
 // no personality-rights restriction. Survivors are scored (Quality/Featured image, Wikipedia use,
 // distance, resolution, aspect), downloaded, then checked for sharpness and near-duplicates.
@@ -25,7 +25,9 @@ const ROOT = path.resolve(import.meta.dirname, '..');
 const CACHE = path.join(ROOT, '.cache');
 const API = 'https://commons.wikimedia.org/w/api.php';
 const UA = 'ImageFetcher/1.0 (personal non-commercial script; nodejs)';
-const MIN_W = 1600;
+const MIN_W = 1600; // mustDo places
+const MIN_W_OTHER = 1200; // other places (relaxed after review, Part 2)
+const minWidth = (place) => (place.mustDo ? MIN_W : MIN_W_OTHER);
 const DL_W = 1920; // standard Commons thumbnail bucket; >= our largest 1600w output
 const SHARP_MIN = 60; // Laplacian variance at 1000px; below = rejected as soft
 const SHARP_WEAK = 120; // below = kept but flagged weak
@@ -136,7 +138,7 @@ function evaluate(page, place, ctx) {
   const licence = String(v('License')).toLowerCase();
   if (!LICENCE_OK.test(licence)) return { reject: `licence:${licence || v('LicenseShortName') || 'unknown'}` };
   if (ii.mime !== 'image/jpeg') return { reject: `mime:${ii.mime}` };
-  if (ii.width < MIN_W) return { reject: 'too-small' };
+  if (ii.width < minWidth(place)) return { reject: 'too-small' };
   const ratio = ii.width / ii.height;
   if (ratio < 1.25) return { reject: 'not-landscape' };
   if (ratio > 2.6) return { reject: 'panorama' };
@@ -181,7 +183,7 @@ function evaluate(page, place, ctx) {
   else if (/quality images/.test(cats)) score += 30;
   else if (/valued images/.test(cats)) score += 20;
   if (/wiki loves monuments.*(winner|national)/.test(cats)) score += 10;
-  score += Math.min(10, (ii.width - MIN_W) / 400);
+  score += Math.min(10, (ii.width - minWidth(place)) / 400);
   score += ratio >= 1.4 && ratio <= 1.9 ? 10 : 3;
   if (CROWD.test(text)) { score -= 15; flags.push('may show crowds'); }
   if (/\bnight\b/.test(text)) score -= 5;
@@ -274,6 +276,9 @@ for (const place of places) {
   const pickIdx = (t) => { const i = (hint.pick ?? []).indexOf(t); return i < 0 ? Infinity : i; };
   ok.sort((a, b) => pickIdx(a.title) - pickIdx(b.title) || b.score - a.score);
 
+  // `gradient: true` in the hints = reviewed, nothing good enough: no images, the site shows the gradient card
+  if (hint.gradient) ok.length = 0;
+
   // download in score order until we have enough sharp, distinct images
   const chosen = [];
   const authors = {};
@@ -286,7 +291,7 @@ for (const place of places) {
     let buf;
     try { buf = await get(c.downloadUrl, { binary: true }); } catch (err) { rejects['download-failed'] = (rejects['download-failed'] ?? 0) + 1; continue; }
     const meta = await sharp(buf).metadata();
-    if (!forced && meta.width < MIN_W) { rejects['too-small'] = (rejects['too-small'] ?? 0) + 1; continue; }
+    if (!forced && meta.width < minWidth(place)) { rejects['too-small'] = (rejects['too-small'] ?? 0) + 1; continue; }
     c.sharpness = await sharpness(buf);
     if (!forced && c.sharpness < SHARP_MIN) { rejects['soft'] = (rejects['soft'] ?? 0) + 1; continue; }
     c.dhash = await dhash(buf);
@@ -337,7 +342,7 @@ for (const place of places) {
     candidates: pages.size,
     passed: ok.length,
     rejects,
-    status: chosen.length === 0 ? 'missing' : chosen.length < want || chosen.some((c) => c.flags.length) ? 'weak' : 'ok',
+    status: hint.gradient ? 'gradient-by-review' : chosen.length === 0 ? 'missing' : chosen.length < want || chosen.some((c) => c.flags.length) ? 'weak' : 'ok',
   };
   console.log(`${place.id.padEnd(44)} ${String(chosen.length).padStart(1)}/${want}  cand ${String(pages.size).padStart(3)} pass ${String(ok.length).padStart(3)}  ${report[place.id].status}`);
   // save as we go so an interrupted run keeps its progress

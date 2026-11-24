@@ -62,13 +62,17 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
   - Known gaps: 72 places have no veg eatery listed; several festival dates are "check locally"; temple timings often conflict.
   - Open questions: see the end of research/report.md.
   - Note for Part 2+: Karkala Bahubali Mahamastakabhisheka is 18–28 Feb 2027 (confirmed), and is a Don't-miss.
-- Part 2 (images): DONE (awaiting review of weak/missing list).
-  - 131 Wikimedia Commons images (CC0 / PD / CC BY / CC BY-SA only) for 91 of 107 places; all 10 mustDo have 5.
+- Part 2 (images): DONE, review round 1 applied (awaiting review).
+  - 128 Wikimedia Commons images (CC0 / PD / CC BY / CC BY-SA only) for 88 of 107 places; all 10 mustDo have 5.
+  - Min width: 1600px for mustDo, 1200px for other places (relaxed in review round 1).
   - Pipeline: `node scripts/fetch-images.mjs [ids]` → `node scripts/optimise-images.mjs` → `node scripts/build-image-review.mjs`.
     Masters cache in `.cache/` (gitignored). Outputs: public/images/places/<id>/<pageid>-{480,960,1600}.{avif,webp}, EXIF stripped.
   - src/data/image-credits.json: author, licence, licence URL, source page, alt, aspect, dominant colour, blur placeholder.
     Each place's `images` = ordered credit ids (hero first); build-data.mjs now keeps them on rebuild.
   - Swap an image: edit research/raw/image-queries.mjs (`reject` / `pick` / `exclude` / `review` notes), rerun the pipeline.
   - Every pick was checked by eye; filters reject fish/seafood subjects, foreign namesakes, signboards, 3D pairs, flora/fauna close-ups.
-  - 16 places have no acceptable image (site uses the typographic gradient card): see review/images.html (red).
+  - 19 places use the typographic gradient card: 16 with no acceptable Commons image, plus Kodi beach,
+    Swarna kayaking and Anejhari by review (`gradient: true` in image-queries.mjs). See review/images.html (red).
+  - Round 1 replacements: Arasinagundi, Kukke, Kateel, Mangaladevi, Netrani, Sakrebyle, Dharmasthala museums, Jogi Gundi.
+    Kept as weak (no better image found): Mandarthi, Horanadu, Karkala, Gokarna Mahabaleshwar, Kemmannu, Gadaikallu, Car Street.
   - Contact sheet: `npx vite` → http://localhost:5173/manipal-explorer/review/images.html

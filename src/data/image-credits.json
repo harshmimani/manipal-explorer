@@ -272,45 +272,6 @@
     "dominant": "#383838",
     "placeholder": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQBQCdASoYABIAPu1iq1AppSOisBgIATAdiWUAyrQKpihOinxfyrMXJYfsqsYvYqYAAPiZ6nPECIlo2UntSs0aPy+cuypw7JmbPXa0IeYOAf8fTfdl7aMoEHvV0XW0GVgAAA=="
   },
-  "anejhari-butterfly-camp/93740635": {
-    "id": "anejhari-butterfly-camp/93740635",
-    "placeId": "anejhari-butterfly-camp",
-    "role": "hero",
-    "order": 0,
-    "file": "images/places/anejhari-butterfly-camp/93740635",
-    "alt": "Anejhari Butterfly Camp (Jungle Lodges, near Kollur)",
-    "title": "File:Mookambika Wildlife Sanctuary.jpg",
-    "author": "Shreyas Kollur",
-    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Shreyas_Kollur&amp;action=edit&amp;redlink=1",
-    "licence": "CC BY-SA 4.0",
-    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mookambika_Wildlife_Sanctuary.jpg",
-    "original": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Mookambika_Wildlife_Sanctuary.jpg",
-      "width": 4624,
-      "height": 3468
-    },
-    "width": 1920,
-    "height": 1440,
-    "flags": [],
-    "sharpness": 3159,
-    "score": 85.6,
-    "distanceKm": null,
-    "restrictions": null,
-    "retrieved": "2026-11-24",
-    "widths": [
-      480,
-      960,
-      1600
-    ],
-    "formats": [
-      "avif",
-      "webp"
-    ],
-    "aspect": 1.333,
-    "dominant": "#c8c8d8",
-    "placeholder": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwBACdASoYABIAPu1kqU2ppaOiMAgBMB2JZQC/7B6D44M0g6P4jXBW5io6Co6dLAAA+WDTE3POvLEkAp7fFUPbE8hf6Evoor4OS5orN2ayqXmH8cXEpbkieU4KQ4uWcAA="
-  },
   "apsarakonda-falls/15227926": {
     "id": "apsarakonda-falls/15227926",
     "placeId": "apsarakonda-falls",
@@ -350,29 +311,29 @@
     "dominant": "#181818",
     "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoYABAAPu1iqU2ppaQiMAgBMB2JYwBV0AUcpMrn+5CWQAAA+07B6VG6qXGwomD9w/cXr5mIXHzSoYS76iZC9lzWmSMj/iAA"
   },
-  "arasinagundi-falls/119736533": {
-    "id": "arasinagundi-falls/119736533",
+  "arasinagundi-falls/119735928": {
+    "id": "arasinagundi-falls/119735928",
     "placeId": "arasinagundi-falls",
     "role": "hero",
     "order": 0,
-    "file": "images/places/arasinagundi-falls/119736533",
-    "alt": "At the Arasinagundi falls",
-    "title": "File:Valley side (49005433243).jpg",
+    "file": "images/places/arasinagundi-falls/119735928",
+    "alt": "Arasinagundi falls, Kollur",
+    "title": "File:Double rainbow ) (49005932316).jpg",
     "author": "solarisgirl",
     "authorUrl": "https://www.flickr.com/people/7252160@N04",
     "licence": "CC BY-SA 2.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Valley_side_(49005433243).jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Double_rainbow_)_(49005932316).jpg",
     "original": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Valley_side_%2849005433243%29.jpg",
-      "width": 3840,
-      "height": 2160
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Double_rainbow_%29_%2849005932316%29.jpg",
+      "width": 2942,
+      "height": 1944
     },
     "width": 1920,
-    "height": 1080,
+    "height": 1269,
     "flags": [],
-    "sharpness": 2349,
-    "score": 65.6,
+    "sharpness": 522,
+    "score": 64.4,
     "distanceKm": null,
     "restrictions": null,
     "retrieved": "2026-11-24",
@@ -385,9 +346,9 @@
       "avif",
       "webp"
     ],
-    "aspect": 1.778,
-    "dominant": "#282818",
-    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwAwCdASoYAA4APu1kq04ppaQiMAgBMB2JQAAJT7ZG504xWgAA/tkhchH57+wZLSe4YSp26fnA6OBHqgyTSc86gmni6KHvfxUAAAAA"
+    "aspect": 1.513,
+    "dominant": "#181818",
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoYABAAPu1orU2ppqSiMAgBMB2JZQAAWlaNAxk8xjqweygAAP7r7J9zCu+4mjN4e1bkzGQOyET89gp4PfLTeogwriNrAKx+5QGpEAAA"
   },
   "ayyanakere-lake/69086174": {
     "id": "ayyanakere-lake/69086174",
@@ -1052,29 +1013,29 @@
     "dominant": "#383848",
     "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwBACdASoYABIAPu1kqU2ppaQiMAgBMB2JZwDNwCHcVkWh/4TMSsBJTOgA/c5llzyhbUSGrMWhfIAcjbwQRI4Vg2g04amPcOCivEAA"
   },
-  "dharmasthala-bahubali-manjusha-museums/179345516": {
-    "id": "dharmasthala-bahubali-manjusha-museums/179345516",
+  "dharmasthala-bahubali-manjusha-museums/179345379": {
+    "id": "dharmasthala-bahubali-manjusha-museums/179345379",
     "placeId": "dharmasthala-bahubali-manjusha-museums",
     "role": "hero",
     "order": 0,
-    "file": "images/places/dharmasthala-bahubali-manjusha-museums/179345516",
+    "file": "images/places/dharmasthala-bahubali-manjusha-museums/179345379",
     "alt": "Manjusha Museum, Dharmasthala, Karnataka, India (2025)",
-    "title": "File:Manjusha Museum, Dharmasthala (2025) 125.jpg",
+    "title": "File:Manjusha Museum, Dharmasthala (2025) 75.jpg",
     "author": "Gpkp",
     "authorUrl": "https://commons.wikimedia.org/wiki/User:Gpkp",
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Manjusha_Museum,_Dharmasthala_(2025)_125.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Manjusha_Museum,_Dharmasthala_(2025)_75.jpg",
     "original": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Manjusha_Museum%2C_Dharmasthala_%282025%29_125.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Manjusha_Museum%2C_Dharmasthala_%282025%29_75.jpg",
       "width": 4080,
       "height": 3072
     },
     "width": 1920,
     "height": 1446,
     "flags": [],
-    "sharpness": 513,
-    "score": 72.2,
+    "sharpness": 885,
+    "score": 73.2,
     "distanceKm": 0.4,
     "restrictions": null,
     "retrieved": "2026-11-24",
@@ -1088,8 +1049,8 @@
       "webp"
     ],
     "aspect": 1.328,
-    "dominant": "#181818",
-    "placeholder": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAQBQCdASoYABIAPu1qsFCppaSiqAqpMB2JZwDKABESReuXHj/t2y0CFa7eXhDCB7IAAP7l5+2jcAU814tz8TEXjCCPtK26OUPhzOcJx4sM1S7Dg0cfa5AHknigMMrdiW3uuzGxdjxvdGAA"
+    "dominant": "#080808",
+    "placeholder": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABwBACdASoYABIAPuFcqU2opSQiMAwBEBwJQBWAA9Iyh/0A57vLtSX56jkBAAD+7p8ObyV47sDleo0GtJHVM5akdn+bu5I5DXzEReCJPjC5Bn/dMbnJ1ixbnGrfraM0PzJAAA=="
   },
   "dharmasthala-manjunatha-temple/145917077": {
     "id": "dharmasthala-manjunatha-temple/145917077",
@@ -1503,7 +1464,7 @@
     "height": 1440,
     "flags": [],
     "sharpness": 669,
-    "score": 49.7,
+    "score": 50.7,
     "distanceKm": 0.3,
     "restrictions": null,
     "retrieved": "2026-11-24",
@@ -1856,7 +1817,7 @@
     "height": 1440,
     "flags": [],
     "sharpness": 901,
-    "score": 67.1,
+    "score": 68.1,
     "distanceKm": 0.3,
     "restrictions": null,
     "retrieved": "2026-11-24",
@@ -1951,29 +1912,29 @@
     "dominant": "#d8d8d8",
     "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JQBYdhDuMKscQb/wA/eNELi2X1AX2aQpnhyJUHDFVvUsuVxNnN02URldqbti04AA="
   },
-  "jogigundi-falls/145735582": {
-    "id": "jogigundi-falls/145735582",
+  "jogigundi-falls/145735584": {
+    "id": "jogigundi-falls/145735584",
     "placeId": "jogigundi-falls",
     "role": "hero",
     "order": 0,
-    "file": "images/places/jogigundi-falls/145735582",
-    "alt": "source of Jogi Gundi waterfall",
-    "title": "File:Source of Jogi Gundi waterfall (53540685486).jpg",
+    "file": "images/places/jogigundi-falls/145735584",
+    "alt": "Jogi Gundi waterfall",
+    "title": "File:Jogi Gundi waterfall (53540663036).jpg",
     "author": "Dinesh Valke from Thane, India",
     "authorUrl": "https://www.flickr.com/people/91314344@N00",
     "licence": "CC BY-SA 2.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Source_of_Jogi_Gundi_waterfall_(53540685486).jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Jogi_Gundi_waterfall_(53540663036).jpg",
     "original": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Source_of_Jogi_Gundi_waterfall_%2853540685486%29.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Jogi_Gundi_waterfall_%2853540663036%29.jpg",
       "width": 5472,
       "height": 3648
     },
     "width": 1920,
     "height": 1280,
     "flags": [],
-    "sharpness": 4588,
-    "score": 69.7,
+    "sharpness": 4769,
+    "score": 70,
     "distanceKm": null,
     "restrictions": null,
     "retrieved": "2026-11-24",
@@ -1988,7 +1949,7 @@
     ],
     "aspect": 1.5,
     "dominant": "#080808",
-    "placeholder": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoYABAAPu1kqk2ppaQiMAgBMB2JYwC06B4ZSBepFQLbJ1wAAP7r/nzBsDAjPsRLeLh3Pyf/Zx/5Z+WIx/8XcqORBK84UUBrLyX1Nl3JQ4MguaDsiJ1mLmiGZAA="
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoYABAAPu1mq04ppaQiMAgBMB2JZQAAUNk9/nrJMYFe4YwA/u6fO4sDFKgqZIPQ1DTEdLHNRF6OyAFZM5Ptu4js406RBt8mV77ckAAA"
   },
   "kadri-manjunatha-temple/16417424": {
     "id": "kadri-manjunatha-temple/16417424",
@@ -2090,7 +2051,7 @@
     "height": 1094,
     "flags": [],
     "sharpness": 1918,
-    "score": 93.3,
+    "score": 94.3,
     "distanceKm": 0.6,
     "restrictions": null,
     "retrieved": "2026-11-24",
@@ -2185,30 +2146,30 @@
     "dominant": "#d8e8f8",
     "placeholder": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoYAA8APu1iqk2ppaQiMAgBMB2JaACw7CHPUPHnJNHV0YAA8pHT21PQt6fG7RRGL1+fJMRAPg3HMiDN5Uyxlmadd2WPD+wrxKfQTvJwBumj6gAA"
   },
-  "kateel-durgaparameshwari-temple/2793952": {
-    "id": "kateel-durgaparameshwari-temple/2793952",
+  "kateel-durgaparameshwari-temple/142843550": {
+    "id": "kateel-durgaparameshwari-temple/142843550",
     "placeId": "kateel-durgaparameshwari-temple",
     "role": "hero",
     "order": 0,
-    "file": "images/places/kateel-durgaparameshwari-temple/2793952",
-    "alt": "Durga Parameshwari Temple, Kateel_",
-    "title": "File:Kateel Durga Parameshwari 0145.JPG",
-    "author": "Premnath Kudva",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Premkudva",
-    "licence": "CC BY-SA 3.0",
-    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kateel_Durga_Parameshwari_0145.JPG",
+    "file": "images/places/kateel-durgaparameshwari-temple/142843550",
+    "alt": "Sri Durgaaparameshwari Temple, Kateel",
+    "title": "File:Sri Durgaaparameshwari Temple ,Kateel.jpg",
+    "author": "Swathivishwakarma",
+    "authorUrl": "https://commons.wikimedia.org/wiki/User:Swathivishwakarma",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Sri_Durgaaparameshwari_Temple_,Kateel.jpg",
     "original": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kateel_Durga_Parameshwari_0145.JPG",
-      "width": 1936,
-      "height": 1296
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Sri_Durgaaparameshwari_Temple_%2CKateel.jpg",
+      "width": 4096,
+      "height": 2304
     },
     "width": 1920,
-    "height": 1285,
+    "height": 1080,
     "flags": [],
-    "sharpness": 124,
-    "score": 85.8,
-    "distanceKm": null,
+    "sharpness": 2683,
+    "score": 62.2,
+    "distanceKm": 0,
     "restrictions": null,
     "retrieved": "2026-11-24",
     "widths": [
@@ -2220,9 +2181,9 @@
       "avif",
       "webp"
     ],
-    "aspect": 1.494,
-    "dominant": "#181818",
-    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoYABAALrV2u12jqampiYC0SygABbVdwaEtIU/NujAAAP71eZvjCuPeLEX71C18gYEVDMF8aO6nrvVrAsElC881PJqU2TjgAAA="
+    "aspect": 1.778,
+    "dominant": "#c8f8f8",
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASoYAA4APu1mqk2ppaQiMAgBMB2JQBOgDW+e7lesA0PjkOr4AP5rV3cC93dFR40WEGEBPL964LdXzM0htQ3scJxKceMrbyaXSJCCFg+NtULuKqrW4T27cAAA"
   },
   "kaup-beach-lighthouse/81703072": {
     "id": "kaup-beach-lighthouse/81703072",
@@ -2363,7 +2324,7 @@
     "height": 1080,
     "flags": [],
     "sharpness": 2967,
-    "score": 52.4,
+    "score": 53.4,
     "distanceKm": null,
     "restrictions": null,
     "retrieved": "2026-11-24",
@@ -2420,45 +2381,6 @@
     "aspect": 1.333,
     "dominant": "#080808",
     "placeholder": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoYABIAPuVipU2pJiOiMAwBIByJZwC+SB6OHhz9d+g+MKD79HHwAP7D/wHRPLe0MrY9jtmIgegsi+W6zoP+RtTNfA3BG+ndqR0diT/51ZwHml1wUMyAAA=="
-  },
-  "kodi-beach-kundapura/59740348": {
-    "id": "kodi-beach-kundapura/59740348",
-    "placeId": "kodi-beach-kundapura",
-    "role": "hero",
-    "order": 0,
-    "file": "images/places/kodi-beach-kundapura/59740348",
-    "alt": "This image was captured at kundapura udupi district, Karnataka. Place is kodi beach. Captured with Oneplus 2 phone.",
-    "title": "File:Kundapura.jpg",
-    "author": "Akshay S A",
-    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Akshay_S_A&amp;action=edit&amp;redlink=1",
-    "licence": "CC BY-SA 4.0",
-    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kundapura.jpg",
-    "original": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Kundapura.jpg",
-      "width": 4208,
-      "height": 3104
-    },
-    "width": 1920,
-    "height": 1416,
-    "flags": [],
-    "sharpness": 285,
-    "score": 49.5,
-    "distanceKm": null,
-    "restrictions": null,
-    "retrieved": "2026-11-24",
-    "widths": [
-      480,
-      960,
-      1600
-    ],
-    "formats": [
-      "avif",
-      "webp"
-    ],
-    "aspect": 1.356,
-    "dominant": "#989898",
-    "placeholder": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoYABIAPu1krU+ppSQiMBgIATAdiWMAnS9rgLQUK18KrDP4Rqj1EKAA/mQBi4+v4yAX4ijZiMwdshWKuBt67Yq+OWEqnUYI/iNvmxiVaNyVmbx0fvAKinbVgAA="
   },
   "kollur-mookambika-temple/187366341": {
     "id": "kollur-mookambika-temple/187366341",
@@ -2889,44 +2811,43 @@
     "dominant": "#080808",
     "placeholder": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABwBACdASoYAA4APu1oqk6ppiQiMAgBMB2JbACdMoRwN0AAJEVxoV4qOn4P+ADh+n03rAeJWDzrtlp+/wjvpdFA0/H1R/YsKabx5fs1yw2YvkaBc+DExgAevFGA+MjNbkIHnLzex4AAAA=="
   },
-  "kukke-subramanya-temple/179385332": {
-    "id": "kukke-subramanya-temple/179385332",
+  "kukke-subramanya-temple/179588052": {
+    "id": "kukke-subramanya-temple/179588052",
     "placeId": "kukke-subramanya-temple",
     "role": "hero",
     "order": 0,
-    "file": "images/places/kukke-subramanya-temple/179385332",
-    "alt": "Adi Subramanya, Kukke Subramanya Temple (2025)",
-    "title": "File:Adi Subramanya, Kukke Subramanya Temple (2025) 03.jpg",
-    "author": "Gpkp",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Gpkp",
-    "licence": "CC BY-SA 4.0",
-    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Adi_Subramanya,_Kukke_Subramanya_Temple_(2025)_03.jpg",
+    "file": "images/places/kukke-subramanya-temple/179588052",
+    "alt": "Photo of Kukke Subhramanya Swamy temple, Karnataka",
+    "title": "File:Kukke Subramanya Swami.jpg",
+    "author": "C 21 K talk",
+    "authorUrl": "https://en.wikipedia.org/wiki/User:C21K",
+    "licence": "Public domain",
+    "licenceUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kukke_Subramanya_Swami.jpg",
     "original": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Adi_Subramanya%2C_Kukke_Subramanya_Temple_%282025%29_03.jpg",
-      "width": 4080,
-      "height": 3072
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Kukke_Subramanya_Swami.jpg",
+      "width": 1280,
+      "height": 960
     },
-    "width": 1920,
-    "height": 1446,
+    "width": 1280,
+    "height": 960,
     "flags": [],
-    "sharpness": 4065,
-    "score": 72.2,
-    "distanceKm": 0.2,
+    "sharpness": 420,
+    "score": 88.2,
+    "distanceKm": null,
     "restrictions": null,
     "retrieved": "2026-11-24",
     "widths": [
       480,
-      960,
-      1600
+      960
     ],
     "formats": [
       "avif",
       "webp"
     ],
-    "aspect": 1.328,
-    "dominant": "#484848",
-    "placeholder": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAACwBACdASoYABIAPuFUpU2opCOiN/qoARAcCWMAxNgU25LIXBNpLFlpy7a01dIgAPnmzr6YEGL9WMMIGHU1FP7bs5ZnjMo15H2zgCjja3Dd5OAI6t0PoYSP8TFQxr54k4yz4vx1PpOXvA5saiuaAAAA"
+    "aspect": 1.333,
+    "dominant": "#b8c8d8",
+    "placeholder": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQBACdASoYABIAPuVgpE2pJaOiMAwBIByJZQCvDCFJMND6VSidPdA1y1cMUEAiUAD+3pk8tB5NXsJz/+k8g1X94dsVT+Dp6dLFOcINdRUrgR3NCtBHRoOA3rz4pwbU51UVYwOAAAAAAA=="
   },
   "kumara-parvatha-trek/49722168": {
     "id": "kumara-parvatha-trek/49722168",
@@ -3262,7 +3183,7 @@
     "height": 1440,
     "flags": [],
     "sharpness": 3191,
-    "score": 49.4,
+    "score": 50.4,
     "distanceKm": null,
     "restrictions": null,
     "retrieved": "2026-11-24",
@@ -3279,30 +3200,30 @@
     "dominant": "#080808",
     "placeholder": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABwBACdASoYABIAPt1cpE2opaOiN/qoARAbiWUAxzAhiMb+9Yhvv16582CI4AD+6XjfGpP3Zd47LRsNeUrzpAidDad+9sqm6xkSzSqIG5AUS8g0k3aMc5SAAAA="
   },
-  "mangaladevi-temple/50861834": {
-    "id": "mangaladevi-temple/50861834",
+  "mangaladevi-temple/87006370": {
+    "id": "mangaladevi-temple/87006370",
     "placeId": "mangaladevi-temple",
     "role": "hero",
     "order": 0,
-    "file": "images/places/mangaladevi-temple/50861834",
-    "alt": "Mangaladevi Temple Mangalore",
-    "title": "File:Mangaladevi Temple Mangalore 6.jpg",
-    "author": "Vinay bhat",
-    "authorUrl": "https://commons.wikimedia.org/wiki/User:Vinay_bhat",
+    "file": "images/places/mangaladevi-temple/87006370",
+    "alt": "Mangaladevi Temple entrance, Mangaladevi, Mangalore",
+    "title": "File:Mangaladevi Temple entrance, Mangaladevi, Mangalore.jpg",
+    "author": "Nyk9z",
+    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Nyk9z&amp;action=edit&amp;redlink=1",
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mangaladevi_Temple_Mangalore_6.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mangaladevi_Temple_entrance,_Mangaladevi,_Mangalore.jpg",
     "original": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Mangaladevi_Temple_Mangalore_6.jpg",
-      "width": 6000,
-      "height": 4000
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Mangaladevi_Temple_entrance%2C_Mangaladevi%2C_Mangalore.jpg",
+      "width": 3976,
+      "height": 2496
     },
     "width": 1920,
-    "height": 1280,
+    "height": 1205,
     "flags": [],
-    "sharpness": 441,
-    "score": 95,
-    "distanceKm": null,
+    "sharpness": 2178,
+    "score": 94.9,
+    "distanceKm": 0.1,
     "restrictions": null,
     "retrieved": "2026-11-24",
     "widths": [
@@ -3314,9 +3235,9 @@
       "avif",
       "webp"
     ],
-    "aspect": 1.5,
-    "dominant": "#181818",
-    "placeholder": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoYABAAPu1mq04ppaQiMAgBMB2JYwCw7CG7fvxYKkaUgR84AP7RSysD6zKOFoVUAVFSDYiJYpHltTfIH67u2+6dlXWMOygbxCl21AxMjxToNfAA"
+    "aspect": 1.593,
+    "dominant": "#f8f8f8",
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoYAA8ALrV2u12jqampiYC0SygGRMIafyZQZGXXz3EH2AD+9hGZo2QyoWGbo8KQ9EUdnJpPUs4t1y/eCWc0qLcLJiEJgaZtJJO6757F/gAAAA=="
   },
   "mangaluru-city-by-train-bike/27314300": {
     "id": "mangaluru-city-by-train-bike/27314300",
@@ -3708,29 +3629,29 @@
     "dominant": "#7898d8",
     "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoYAA4APu1orU2ppqSiMAgBMB2JbACdACEpJHKPoVDpZScAAPpfjE11gAcOuHWHj5ggNL429UER89+qh7Ltr7NssM3+NkUeuyTPBuZ2t7fiQQD2wGYTml29+Br3GAAA"
   },
-  "netrani-island/37775301": {
-    "id": "netrani-island/37775301",
+  "netrani-island/37775302": {
+    "id": "netrani-island/37775302",
     "placeId": "netrani-island",
     "role": "hero",
     "order": 0,
-    "file": "images/places/netrani-island/37775301",
-    "alt": "fishing boats atNetrani island",
-    "title": "File:NETRANI ISLAND-1.jpg",
+    "file": "images/places/netrani-island/37775302",
+    "alt": "Magnificiant view of netrani island",
+    "title": "File:NETRANI ISLAND 04-01-2015.jpg",
     "author": "Subhas nayak",
     "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Subha_nayak&amp;action=edit&amp;redlink=1",
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:NETRANI_ISLAND-1.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:NETRANI_ISLAND_04-01-2015.jpg",
     "original": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/NETRANI_ISLAND-1.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/NETRANI_ISLAND_04-01-2015.jpg",
       "width": 4928,
       "height": 3264
     },
     "width": 1920,
     "height": 1272,
     "flags": [],
-    "sharpness": 2116,
-    "score": 68.3,
+    "sharpness": 1621,
+    "score": 69.3,
     "distanceKm": null,
     "restrictions": null,
     "retrieved": "2026-11-24",
@@ -3744,8 +3665,8 @@
       "webp"
     ],
     "aspect": 1.509,
-    "dominant": "#a8c8f8",
-    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoYABAAPu1kqU2ppaQiMAgBMB2JQBOgA2VnBugC46ufUAAA9ybJUxqBXwGwJei2jLv3IUIitG+5FwMYpR1uOp5mvNbdtWsSy6Pti3X0+MgAAA=="
+    "dominant": "#080808",
+    "placeholder": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoYABAAPu1kqU4ppaOiMAgBMB2JZgCdABbyRf8tDiF7iAAA/u+Cz8ZB8F/bsw987l3xjmzML6Cirhc+kH1/QPUbPwz348JpFb6Wrf5364hMDWQA"
   },
   "netravati-peak-trek/137935025": {
     "id": "netravati-peak-trek/137935025",
@@ -3942,28 +3863,28 @@
     "dominant": "#a8a8a8",
     "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoYAAsAPu1kqk2ppaQiMAgBMB2JQBbZA85ssMfI+3OuAP3SS8TL2vfbZf9dBw9McfmyrZuLj7Tl/i3Sr3UNuvgHTEqPwwAA"
   },
-  "sakrebyle-elephant-camp/59478681": {
-    "id": "sakrebyle-elephant-camp/59478681",
+  "sakrebyle-elephant-camp/59478682": {
+    "id": "sakrebyle-elephant-camp/59478682",
     "placeId": "sakrebyle-elephant-camp",
     "role": "hero",
     "order": 0,
-    "file": "images/places/sakrebyle-elephant-camp/59478681",
+    "file": "images/places/sakrebyle-elephant-camp/59478682",
     "alt": "Sakrebyle Elephant Camp",
-    "title": "File:Scenic 2.jpg",
+    "title": "File:Elephant Sanctuary.jpg",
     "author": "KathyayiniPrabhu",
     "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:KathyayiniPrabhu&amp;action=edit&amp;redlink=1",
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Scenic_2.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_Sanctuary.jpg",
     "original": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Scenic_2.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Elephant_Sanctuary.jpg",
       "width": 6000,
       "height": 4000
     },
     "width": 1920,
     "height": 1280,
     "flags": [],
-    "sharpness": 246,
+    "sharpness": 530,
     "score": 73,
     "distanceKm": 0.5,
     "restrictions": null,
@@ -3978,8 +3899,8 @@
       "webp"
     ],
     "aspect": 1.5,
-    "dominant": "#a8a8a8",
-    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoYABAAPu1qrU8ppiQiMAgBMB2JZQAAUj6ru3bPRcggAOETAZ6PxLz3Q4FKsyN9d4r+LusI35PZr+wkRoOuJAAA"
+    "dominant": "#f8f8f8",
+    "placeholder": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoYABAAPu1mqk2ppaQiMAgBMB2JZwAAW+jxGx1/gvb9HAAA/u1bxqOGItGXOtqQlv7PeH/agsOzxfGMyPsAAA=="
   },
   "sathodi-falls/49567674": {
     "id": "sathodi-falls/49567674",
@@ -4605,45 +4526,6 @@
     "dominant": "#f8f8f8",
     "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoYABAAPu1iqk2ppaQiMAgBMB2JQBdgBDqynY84jxAaKzAA/ucpo10Dx9r9G2hNfixpq+d3H5i7jX0kd1O/B0p5NCtpTmfzoGPW7QNd9AAAAA=="
   },
-  "swarna-river-kayaking/202959528": {
-    "id": "swarna-river-kayaking/202959528",
-    "placeId": "swarna-river-kayaking",
-    "role": "hero",
-    "order": 0,
-    "file": "images/places/swarna-river-kayaking/202959528",
-    "alt": "Suvarna River, Manipal End Point view",
-    "title": "File:Suvarna river udupi.jpg",
-    "author": "Microrao",
-    "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Microrao&amp;action=edit&amp;redlink=1",
-    "licence": "CC BY-SA 4.0",
-    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Suvarna_river_udupi.jpg",
-    "original": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Suvarna_river_udupi.jpg",
-      "width": 2016,
-      "height": 1134
-    },
-    "width": 1920,
-    "height": 1080,
-    "flags": [],
-    "sharpness": 518,
-    "score": 51,
-    "distanceKm": null,
-    "restrictions": null,
-    "retrieved": "2026-11-24",
-    "widths": [
-      480,
-      960,
-      1600
-    ],
-    "formats": [
-      "avif",
-      "webp"
-    ],
-    "aspect": 1.778,
-    "dominant": "#b8b8b8",
-    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoYAA4APu1krU2ppaSiMAgBMB2JQBkTBDn5OlP07owERQAA/sYCrPtk3hq6w3bkX3Wo0gjnz4JVTlVmeh+RaIFIMU15vFBTV4AAAA=="
-  },
   "talacauvery-bhagamandala/145162857": {
     "id": "talacauvery-bhagamandala/145162857",
     "placeId": "talacauvery-bhagamandala",
@@ -4822,7 +4704,7 @@
     "height": 1440,
     "flags": [],
     "sharpness": 2273,
-    "score": 83.1,
+    "score": 84.1,
     "distanceKm": null,
     "restrictions": null,
     "retrieved": "2026-11-24",
