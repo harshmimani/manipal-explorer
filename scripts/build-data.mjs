@@ -2,7 +2,7 @@
 // Run: node scripts/build-data.mjs   (after scripts/recompute-routes.mjs)
 import fs from 'node:fs';
 import seasons from '../research/raw/seasons.mjs';
-import overrides from '../research/raw/overrides.mjs';
+import overrides, { foodPatches } from '../research/raw/overrides.mjs';
 
 const read = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 const write = (p, d) => fs.writeFileSync(p, JSON.stringify(d, null, 2) + '\n');
@@ -49,6 +49,15 @@ const km = (a, b) => {
   return 2 * R * Math.asin(Math.sqrt(h));
 };
 
+// Hand-checked patches to food.json entries (verification fixes).
+for (const [section, byId] of Object.entries(foodPatches)) {
+  for (const [id, patch] of Object.entries(byId)) {
+    const e = food[section].find((x) => x.id === id);
+    if (!e) throw new Error(`foodPatches: no ${section}/${id}`);
+    Object.assign(e, patch);
+  }
+}
+
 const eateries = food.places.filter((e) => e.pureVeg === true && e.lat != null && e.lng != null && e.operatingStatus !== 'closed');
 
 const places = [];
@@ -82,7 +91,7 @@ for (const region of REGIONS) {
         const d = km(p, e);
         if (d > 6) continue;
         if (p.vegFoodNearby.some((s) => s.toLowerCase().includes(e.name.toLowerCase()))) continue;
-        p.vegFoodNearby.push(`${e.name} (pure veg, ~${d < 1 ? '<1' : Math.round(d)} km): ${e.order}${e.operatingStatus === 'verify locally' ? ' Opening status: verify locally.' : ''}`);
+        p.vegFoodNearby.push(`${e.name} (pure veg, ~${d < 1 ? '<1' : Math.round(d)} km): ${e.order}${e.operatingStatus !== 'open' ? ` Opening status: ${e.operatingStatus}.` : ''}`);
         if (e.sources?.[0] && !p.sources.includes(e.sources[0])) p.sources.push(e.sources[0]);
         report.foodAdded++;
       }
@@ -95,6 +104,17 @@ for (const region of REGIONS) {
 
     // Hand-checked patches (gap fills, evergreen rewording); objects merge one level deep.
     for (const [k, v] of Object.entries(overrides[p.id] ?? {})) {
+      if (k === 'textFix') {
+        // [['field.sub.0', 'old text', 'new text']]: exact substring replacement, must match.
+        for (const [path, from, to] of v) {
+          const keys = path.split('.');
+          const obj = keys.slice(0, -1).reduce((o, key) => o[key], p);
+          const last = keys.at(-1);
+          if (typeof obj[last] !== 'string' || !obj[last].includes(from)) throw new Error(`textFix miss: ${p.id} ${path}`);
+          obj[last] = obj[last].replace(from, to).replace(/s{2,}/g, ' ').trim();
+        }
+        continue;
+      }
       if (k === 'addSources') { for (const u of v) if (!p.sources.includes(u)) p.sources.push(u); continue; }
       p[k] = v && typeof v === 'object' && !Array.isArray(v) && p[k] ? { ...p[k], ...v } : v;
     }
@@ -109,14 +129,19 @@ for (const region of REGIONS) {
 const ids = new Set(places.map((p) => p.id));
 for (const id of MUST_DO) if (!ids.has(id)) throw new Error(`mustDo id not found: ${id}`);
 
-// Festivals: point placeId at a real place, else null (venue stays in `place`).
-const FEST_ALIAS = { 'saligrama-guru-narasimha-temple': 'saligrama-guru-narasimha', 'venur-kambala': 'venur-bahubali', 'moodbidri-kambala': 'moodbidri-saavira-kambada-basadi' };
-const festivals = read('research/raw/festivals.json').map((f) => {
-  const id = FEST_ALIAS[f.placeId] ?? f.placeId;
-  return { ...f, placeId: ids.has(id) ? id : null };
-});
+// Festivals (year-round) + Worth Watching: keep only placeIds that exist.
+const fixId = (id) => (id && ids.has(id) ? id : null);
+const festivals = read('research/raw/festivals-year.json').map((f) => ({ ...f, placeId: fixId(f.placeId) }));
+const festIds = new Set(festivals.map((f) => f.id));
+const worthWatching = read('research/raw/worthWatching.json').map((w) => ({
+  ...w,
+  placeIds: (w.placeIds ?? []).filter((id) => ids.has(id)),
+  festivalIds: (w.festivalIds ?? []).filter((id) => festIds.has(id)),
+}));
+if (worthWatching.filter((w) => w.dontMiss).length !== 5) throw new Error('worthWatching needs exactly 5 dontMiss');
 
 write('src/data/places.json', places);
 write('src/data/food.json', food);
 write('src/data/festivals.json', festivals);
-console.log(JSON.stringify({ places: places.length, mustDo: places.filter((p) => p.mustDo).length, ...report, festivals: festivals.length }, null, 2));
+write('src/data/worthWatching.json', worthWatching);
+console.log(JSON.stringify({ places: places.length, mustDo: places.filter((p) => p.mustDo).length, ...report, festivals: festivals.length, worthWatching: worthWatching.length }, null, 2));

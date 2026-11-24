@@ -1,5 +1,17 @@
 // Hand-checked patches applied on top of the regional research by scripts/build-data.mjs.
 // `addSources` appends URLs; object fields (temple, trek, transport) merge one level deep.
+// Patches to research/raw/food.json entries, by section and id (from the verification pass).
+export const foodPatches = {
+  places: {
+    'ideal-cafe': { operatingStatus: 'temporarily closed per Wanderlog; verify locally' },
+    pabbas: { order: "Gadbad first, then come back another day for the Dilkhush. Pure-veg status isn't confirmed, so stick to the ice cream and clearly veg items. Weekday afternoons skip the token queue." },
+    'diana-udupi': { order: "Come for the gadbad and the Horlicks ice cream. Pure-veg status isn't confirmed, so order only clearly veg items such as the veg cutlet." },
+  },
+  dishes: {
+    'veg-ghee-roast': { whatItIs: 'VEG VERSION of a famous non-veg dish. The original ghee roast is chicken, from Kundapura. Veg kitchens toss paneer (or mushroom) in the same ghee-rich roast masala. Ideal Cafe in Mangaluru serves a green paneer ghee roast with neer dosa (temporarily closed per Wanderlog; verify locally).' },
+  },
+};
+
 export default {
   // Evergreen rewording of bestTime lines that referred to the old Dec–Jan window.
   'kudroli-gokarnanatha-temple': { bestTime: 'Morning or evening puja. Navaratri (Mangaluru Dasara, September–October) is the spectacle; any other time is calm.' },
@@ -41,10 +53,34 @@ export default {
   },
   'kudremukh-peak-trek': {
     vegFoodNearby: [
-      'Mullodi homestays at the trailhead, e.g. Bella Homestay (reviews describe vegetarian home meals and packed trek lunches). Some kitchens also cook non-veg, so confirm a veg-only meal when you book.',
+      'Mullodi homestays at the trailhead, e.g. Bella Homestay (its listing mentions packed lunches for treks). Kitchens may also cook non-veg, so confirm a veg-only meal when you book.',
       'Carry your own snacks: there is no food on the trail.',
     ],
     addSources: ['https://wanderlog.com/place/details/4882233/bella-homestay-kudremukh', 'https://www.indiahikes.com/documented-trek/kudremukh-trek'],
+    // Verification fix: the 50/day cap in the cited blog is for Netravati.
+    textFix: [['trek.howToBook', 'One blog reports a 2026 cap of 50 trekkers a day, but other reports conflict, so check the portal.', 'A 2026 blog about Netravati reports a 50-a-day cap there and a separate cap for Kudremukh; check the portal for current numbers.']],
+  },
+
+  // ---- Fixes from the independent verification pass (Part 1) ----
+  'kadri-manjunatha-temple': {
+    temple: { darshanTimings: 'Not officially published; listings give about 6:30 AM–2 PM and 4–8:30 PM (hindu-blog.com) or 6:30 AM–8:30 PM (Holidify). Puja times reportedly change mid-Dec to mid-Jan. Verify locally.' },
+  },
+  'udupi-anantheshwara-chandramouleeshwara': {
+    temple: { darshanTimings: 'Not confirmed online; verify locally. Both temples sit across the square from the Krishna Matha, so visit them on the same morning.' },
+  },
+  'idagunji-maha-ganapathi': {
+    temple: { darshanTimings: '6:00 AM–1:00 PM and 3:00 PM–8:30 PM (Yatradham); verify locally.' },
+  },
+  'bandaje-falls-ballalarayana-durga': {
+    textFix: [['bikeTips', 'Sources say jeeps can go about 1 km past the temple and other vehicles should park at it. ', '']],
+    addSources: ['https://trekentrip.com/karnataka-treks-closed-2026/'],
+  },
+  'hidlumane-falls': {
+    trek: { guideMandatory: true },
+    textFix: [['trek.howToBook', 'Current status — verify locally.', 'Explurger reports a certified nature guide is mandatory, one per 10 trekkers. Current status — verify locally.']],
+  },
+  'gokarna-mahabaleshwar-temple': {
+    bestTime: 'October–February (Karnataka Tourism). Maha Shivaratri is the big festival; book early if you go then.',
   },
   'dudhsagar-falls-overnight': {
     vegFoodNearby: [

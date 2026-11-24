@@ -249,7 +249,7 @@
       "id": "veg-ghee-roast",
       "name": "Paneer / mushroom ghee roast (veg version)",
       "kannadaOrTuluName": null,
-      "whatItIs": "VEG VERSION of a famous non-veg dish. The original ghee roast is chicken, and Shetty Lunch Home in Kundapura claims it. Veg kitchens toss paneer (or mushroom) in the same ghee-rich roast masala. Ideal Cafe in Mangaluru serves a green paneer ghee roast with neer dosa.",
+      "whatItIs": "VEG VERSION of a famous non-veg dish. The original ghee roast is chicken, from Kundapura. Veg kitchens toss paneer (or mushroom) in the same ghee-rich roast masala. Ideal Cafe in Mangaluru serves a green paneer ghee roast with neer dosa (temporarily closed per Wanderlog; verify locally).",
       "whenToEat": "Lunch or dinner",
       "whereToTry": [
         "ideal-cafe"
@@ -309,7 +309,7 @@
         "banana bonda",
         "puri korma"
       ],
-      "order": "Come for the gadbad and the Horlicks ice cream, plus a veg cutlet if you're hungry. Order only the clearly veg items.",
+      "order": "Come for the gadbad and the Horlicks ice cream. Pure-veg status isn't confirmed, so order only clearly veg items such as the veg cutlet.",
       "hours": null,
       "priceBand": null,
       "sources": [
@@ -368,7 +368,7 @@
         "veg cutlet",
         "paneer sandwich"
       ],
-      "order": "Gadbad first, then come back another day for the Dilkhush. Weekday afternoons skip the token queue.",
+      "order": "Gadbad first, then come back another day for the Dilkhush. Pure-veg status isn't confirmed, so stick to the ice cream and clearly veg items. Weekday afternoons skip the token queue.",
       "hours": "Daily 10am–9pm (Wanderlog listing)",
       "priceBand": null,
       "sources": [
@@ -388,7 +388,7 @@
       "lat": 12.8698639,
       "lng": 74.8406577,
       "pureVeg": true,
-      "operatingStatus": "verify locally",
+      "operatingStatus": "temporarily closed per Wanderlog; verify locally",
       "knownFor": [
         "gadbad",
         "neer dosa with green paneer ghee roast",

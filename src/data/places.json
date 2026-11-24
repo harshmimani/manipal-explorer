@@ -384,7 +384,7 @@
     ],
     "temple": {
       "dressCode": "Not confirmed online for these two shrines, verify locally. Next door, the Krishna Matha requires men to stay shirtless all day (since Jan 2026).",
-      "darshanTimings": "Not confirmed. Third-party listings conflict: Anantheshwara 4:30 am-9 pm, or 4:30-11:30 am and 6-9 pm; Chandramouleeshwara opening 5 or 6 am, closing 7, 8 or 9 pm. Verify locally.",
+      "darshanTimings": "Not confirmed online; verify locally. Both temples sit across the square from the Krishna Matha, so visit them on the same morning.",
       "annadana": "No separate annadana found. Use the Krishna Matha's prasada bhojana next door."
     },
     "trek": null,
@@ -1911,8 +1911,8 @@
       "difficulty": "moderate",
       "duration": "About 3 km to the first fall from the jeep drop-off; steeper scrambling to the sixth (Muddie Trails). Plan half a day.",
       "permitRequired": true,
-      "howToBook": "Forest checkpost entry on the Nittur side (Muddie Trails: Rs 100, 'keeps changing'). The Kodachadri–Hidlumane trekking route is booked by route on the Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Current status — verify locally.",
-      "guideMandatory": null
+      "howToBook": "Forest checkpost entry on the Nittur side (Muddie Trails: Rs 100, 'keeps changing'). The Kodachadri–Hidlumane trekking route is booked by route on the Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Explurger reports a certified nature guide is mandatory, one per 10 trekkers. Current status — verify locally.",
+      "guideMandatory": true
     },
     "bikeTips": "Coordinates are the OSM 'Hidlumane Falls trail', so the route figure is to the nearest road (about 2 km off). The road approach is via Nittur (Hosanagara taluk) on the Kollur–Nagara side, over Ghat sections with hairpins. Start early from Manipal.",
     "safety": "Upper tiers involve climbing wet rock; stop at the lower falls if you're unsure. The ghat road to Nittur has blind hairpins, buses and morning fog: no night riding. It's a reserve forest with wildlife, so stay on the trail and keep to daylight.",
@@ -2346,7 +2346,7 @@
     ],
     "seasonNote": "October–February per Karnataka Tourism. The Sultan Battery ferry may not run in rough monsoon weather (verify locally). Monsoon (June–September): rough sea, red flags, no swimming, and boats and water sports stop.",
     "vegFoodNearby": [
-      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~5 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
+      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~5 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: temporarily closed per Wanderlog; verify locally.",
       "Woodlands Hotel (pure veg, ~6 km): Lunch on a banana leaf with red rice, then goli baje for the road."
     ],
     "temple": null,
@@ -2542,12 +2542,12 @@
     ],
     "seasonNote": "Open year-round. The Car Festival is around Makara Sankranti in mid-January (Karnataka Tourism). Daily puja times reportedly shift from mid-December to mid-January.",
     "vegFoodNearby": [
-      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~2 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
+      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~2 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: temporarily closed per Wanderlog; verify locally.",
       "Woodlands Hotel (pure veg, ~1 km): Lunch on a banana leaf with red rice, then goli baje for the road."
     ],
     "temple": {
       "dressCode": "Modest and respectful dress (Karnataka Tourism). Men in full-length trousers or dhoti are safest; no shorts or beachwear.",
-      "darshanTimings": "Not officially published; listings vary (about 5:30/6:30 AM–1/2 PM and 4–8/8:30 PM). Puja times reportedly change mid-Dec to mid-Jan. Verify locally.",
+      "darshanTimings": "Not officially published; listings give about 6:30 AM–2 PM and 4–8:30 PM (hindu-blog.com) or 6:30 AM–8:30 PM (Holidify). Puja times reportedly change mid-Dec to mid-Jan. Verify locally.",
       "annadana": null
     },
     "trek": null,
@@ -2610,7 +2610,7 @@
     ],
     "seasonNote": "Open year-round. Mangaluru Dasara at Navaratri (September–October) is the spectacle and the crush. Come any other time for a calm evening puja.",
     "vegFoodNearby": [
-      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~1 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
+      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~1 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: temporarily closed per Wanderlog; verify locally.",
       "Woodlands Hotel (pure veg, ~2 km): Lunch on a banana leaf with red rice, then goli baje for the road."
     ],
     "temple": {
@@ -2678,7 +2678,7 @@
     ],
     "seasonNote": "Open year-round. Navaratri (September–October) and the annual Rathotsava draw big crowds.",
     "vegFoodNearby": [
-      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~2 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
+      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~2 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: temporarily closed per Wanderlog; verify locally.",
       "Woodlands Hotel (pure veg, ~3 km): Lunch on a banana leaf with red rice, then goli baje for the road."
     ],
     "temple": {
@@ -2988,7 +2988,7 @@
     ],
     "seasonNote": "Works year-round; the train dodges NH-66 traffic in any weather. Navaratri (Dasara), Christmas and Kadri's January Car Festival are the busiest times.",
     "vegFoodNearby": [
-      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~<1 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
+      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~<1 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: temporarily closed per Wanderlog; verify locally.",
       "Woodlands Hotel (pure veg, ~1 km): Lunch on a banana leaf with red rice, then goli baje for the road."
     ],
     "temple": null,
@@ -3048,7 +3048,7 @@
     ],
     "seasonNote": "Daylight visits in the dry months. The Tannirbhavi ferry from here may pause in rough monsoon weather.",
     "vegFoodNearby": [
-      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~3 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
+      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~3 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: temporarily closed per Wanderlog; verify locally.",
       "Woodlands Hotel (pure veg, ~3 km): Lunch on a banana leaf with red rice, then goli baje for the road."
     ],
     "temple": null,
@@ -3112,7 +3112,7 @@
     ],
     "seasonNote": "An indoor stop that works in any weather. Around Christmas there are services, so go when no Mass is on. Hours: verify locally.",
     "vegFoodNearby": [
-      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~<1 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: verify locally.",
+      "Ideal Cafe (Ideal Ice Cream) (pure veg, ~<1 km): Neer dosa with the paneer ghee roast, then a gadbad. That's the coast's two big hits, done veg. Opening status: temporarily closed per Wanderlog; verify locally.",
       "Woodlands Hotel (pure veg, ~<1 km): Lunch on a banana leaf with red rice, then goli baje for the road."
     ],
     "temple": null,
@@ -3671,7 +3671,7 @@
       "howToBook": "Aranya Vihaara portal (aranyavihaara.karnataka.gov.in), Chikkamagaluru district. 'Bandaje Falls' and 'Ballalarayana Durga' are listed as separate treks, each with 300 slots/day (Elneeru snapshot, 4 Nov 2026). Fee reported as ₹500 (Bengaluru Trekkers, Nov 2026); older sources say ₹250, so confirm on the portal. 'Bandaje Trek via Volambra' from the Belthangady side was listed closed. Carry the ID used to book.",
       "guideMandatory": null
     },
-    "bikeTips": "Routed to Sunkasale, the village nearest the Durgadahalli trailhead (Kalabhyraveshwara temple), about 128 km via Charmadi Ghat, so you climb the ghat before dawn. Sources say jeeps can go about 1 km past the temple and other vehicles should park at it. Leave Manipal very early, or stay at a Sunkasale/Durgadahalli homestay the night before.",
+    "bikeTips": "Routed to Sunkasale, the village nearest the Durgadahalli trailhead (Kalabhyraveshwara temple), about 128 km via Charmadi Ghat, so you climb the ghat before dawn. Leave Manipal very early, or stay at a Sunkasale/Durgadahalli homestay the night before.",
     "safety": "Easy to lose the trail in the grasslands, so Karnataka Tourism advises an authorised guide. Loose gravel on the descent and a long climb back past the fort. No shops or water on the trail: carry 2+ litres and food. Single-use plastic is fined at checkposts. Take care at the Rani Jhari cliff edge. The Belthangady/Volambra approach was listed closed, so don't try it without a permit. Ride Charmadi Ghat in daylight only.",
     "mustDo": false,
     "images": [],
@@ -3684,7 +3684,8 @@
       "https://banbanjara.com/stories/bandaje-trek-guide",
       "https://en.wikipedia.org/wiki/Charmadi_Ghat",
       "https://nominatim.openstreetmap.org/search?q=Sunkasale&format=json&limit=3",
-      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.4464008,13.1584097?overview=false"
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.4464008,13.1584097?overview=false",
+      "https://trekentrip.com/karnataka-treks-closed-2026/"
     ],
     "confidence": "partial",
     "lastChecked": "2026-11"
@@ -4540,7 +4541,7 @@
     ],
     "seasonNote": "Post-monsoon to December, when the grass is green and skies are clear. The forest department closes these trails in the monsoon, and in 2026 it also shut them from 14 January for fire season, so treat late January onward as uncertain and check Aranya Vihaara before you plan.",
     "vegFoodNearby": [
-      "Mullodi homestays at the trailhead, e.g. Bella Homestay (reviews describe vegetarian home meals and packed trek lunches). Some kitchens also cook non-veg, so confirm a veg-only meal when you book.",
+      "Mullodi homestays at the trailhead, e.g. Bella Homestay (its listing mentions packed lunches for treks). Kitchens may also cook non-veg, so confirm a veg-only meal when you book.",
       "Carry your own snacks: there is no food on the trail."
     ],
     "temple": null,
@@ -4548,7 +4549,7 @@
       "difficulty": "hard",
       "duration": "Full day, about 16 km return. Start from the Mullodi forest office by 7:30 AM to summit around noon. Turn back by 2 PM at the latest and you'll be down around 4:30 PM (IndiaHikes).",
       "permitRequired": true,
-      "howToBook": "Book on the Karnataka Forest Dept's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Portal rules effective 15 Jul 2026: slots open up to 30 days ahead and must be booked at least 1 day ahead; cancel 8+ days out for a 50% refund, nothing back within 7 days; carry the original ID you booked with and report 10 minutes before your slot. Helpline 1926. Listed under Chikkamagaluru district treks. One blog reports a 2026 cap of 50 trekkers a day, but other reports conflict, so check the portal.",
+      "howToBook": "Book on the Karnataka Forest Dept's Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Portal rules effective 15 Jul 2026: slots open up to 30 days ahead and must be booked at least 1 day ahead; cancel 8+ days out for a 50% refund, nothing back within 7 days; carry the original ID you booked with and report 10 minutes before your slot. Helpline 1926. Listed under Chikkamagaluru district treks. A 2026 blog about Netravati reports a 50-a-day cap there and a separate cap for Kudremukh; check the portal for current numbers.",
       "guideMandatory": true
     },
     "bikeTips": "Distance and time are to Mullodi, the trailhead locality with the forest office, routed via Karkala and SH66. The peak coordinates are in lat/lng. Ride up the day before and sleep at a Mullodi homestay. IndiaHikes says homestays there do breakfast and a packed lunch (about ₹200) if you book ahead. Camping on the trek isn't allowed.",
@@ -5437,7 +5438,7 @@
     "vegFoodNearby": [],
     "temple": {
       "dressCode": "Traditional, formal clothing expected (Yatradham); men are advised dhoti or trousers, no shorts. No photography.",
-      "darshanTimings": "6:00 AM–1:00 PM and 3:00 PM–8:30 PM (Yatradham). One listing gives a 4 PM evening start, verify locally.",
+      "darshanTimings": "6:00 AM–1:00 PM and 3:00 PM–8:30 PM (Yatradham); verify locally.",
       "annadana": "Not confirmed as a daily free meal online. Prasada is available, and a donor-sponsored Shashwatha Annadana seva exists. Verify locally (temple office 08387 247227)."
     },
     "trek": null,
@@ -5480,7 +5481,7 @@
       }
     },
     "tripType": "overnight",
-    "bestTime": "Oct–Mar. Maha Shivaratri is the big festival; book early if you go then.",
+    "bestTime": "October–February (Karnataka Tourism). Maha Shivaratri is the big festival; book early if you go then.",
     "bestMonths": [
       1,
       2,

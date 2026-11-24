@@ -1,0 +1,579 @@
+[
+  {
+    "id": "ww-kambala",
+    "name": "Kambala",
+    "what": "Buffalo pairs race down two parallel flooded paddy tracks, driven by a barefoot jockey with a whip and a lot of nerve. Villages host one race weekend each through the dry season.",
+    "whySpecial": "Mud sprays head-high as the pairs hit the finish, and the crowd roar starts before you can see them. Races run through the night under floodlights, so the best pairs often come at 3 am.",
+    "months": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "where": [
+      "Kakkepadavu",
+      "Hokkadigoli",
+      "Baradi Beedu",
+      "Venur",
+      "Mulki",
+      "Ballamanja",
+      "Mangaluru",
+      "Miyar",
+      "Naringana",
+      "Moodbidri",
+      "Puttur",
+      "Kadandale"
+    ],
+    "placeIds": [],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": "2026-11-28",
+      "endDate": null,
+      "status": "confirmed",
+      "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+    },
+    "watchRespectfully": "Stay behind the ropes and well back from the finishing end, where the buffaloes come in fast. Do not touch or feed the animals or go into the handlers' area. No alcohol near the track. Flash at buffaloes is a bad idea; ask handlers before close-up photos.",
+    "bestSpot": "Along the bund near the finishing stretch, a safe distance back, gives the splash and the speed. Arrive in daylight to pick your spot. (Spot advice from general race layout; ask locals at each venue.)",
+    "dontMiss": true,
+    "festivalIds": [
+      "kambala-season"
+    ],
+    "sources": [
+      "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/",
+      "https://www.deccanherald.com/india/karnataka/karnataka-kambala-season-to-have-28-kambala-events-check-dates-guidelines-and-more-4082465"
+    ],
+    "confidence": "verified"
+  },
+  {
+    "id": "ww-yakshagana-season",
+    "name": "Yakshagana season",
+    "what": "Coastal Karnataka's all-night dance-drama: epic stories told through song, drumming, improvised dialogue and towering headdresses. Around 45 touring melas set up stages in temple yards and fields from November to late May.",
+    "whySpecial": "The chande drum, the jingling ankle bells and a demon king making his entrance from behind a held curtain at 2 am. It is free, nightly, and the audience is the whole village in plastic chairs and on mats.",
+    "months": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "where": [
+      "Kateel",
+      "Dharmasthala",
+      "Mandarthi",
+      "Saligrama",
+      "Perduru",
+      "Kamalashile",
+      "Maranakatte",
+      "Kukke",
+      "temple yards across the coast"
+    ],
+    "placeIds": [
+      "kateel-durgaparameshwari-temple",
+      "dharmasthala-manjunatha-temple",
+      "mandarthi-durgaparameshwari",
+      "saligrama-guru-narasimha"
+    ],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": "2026-11-29",
+      "endDate": null,
+      "status": "confirmed",
+      "source": "https://hosakannada.com/latest/the-sound-of-drums-will-echo-along-the-coast-heres-the-complete-picture-of-the-2026-27-yakshagana-tour/"
+    },
+    "watchRespectfully": "Most shows are seva offered by devotees, so sit where locals sit and keep phones on silent. Ask before photographing artists in the green room (chowki). Do not walk across the stage area or the drummers' platform. Remove footwear if you sit near the temple side.",
+    "bestSpot": "Shows at the home kshetra (Kateel, Dharmasthala, Mandarthi) are easiest to find. Sit near the front-side of the stage to see the bhagavata and drummers as well as the dancers.",
+    "dontMiss": true,
+    "festivalIds": [
+      "yakshagana-season"
+    ],
+    "sources": [
+      "https://hosakannada.com/latest/the-sound-of-drums-will-echo-along-the-coast-heres-the-complete-picture-of-the-2026-27-yakshagana-tour/",
+      "https://www.deccanchronicle.com/southern-states/karnataka/karnataka-kateel-mela-expands-with-seventh-yakshagana-troupe-1914113"
+    ],
+    "confidence": "verified"
+  },
+  {
+    "id": "ww-janmashtami-vittal-pindi",
+    "name": "Krishna Janmashtami, Vittal Pindi and Pili Vesha, Udupi",
+    "what": "Udupi celebrates Krishna's birthday, then holds Vittal Pindi the next afternoon: the clay Krishna rides the golden chariot round Car Street while men on wooden frames smash hanging pots of curd. Tiger-painted Pili Vesha troupes dance through the streets all day.",
+    "whySpecial": "Dozens of painted tigers, growling and flipping to the drums, while curd rains down on Car Street. It is the one day the whole of Udupi seems to be in one street.",
+    "months": [
+      8,
+      9
+    ],
+    "where": [
+      "Car Street, Udupi",
+      "streets of Udupi and Manipal"
+    ],
+    "placeIds": [
+      "udupi-sri-krishna-matha"
+    ],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": null,
+      "endDate": null,
+      "status": "check locally",
+      "source": null
+    },
+    "watchRespectfully": "Give the tiger dancers room; they move fast and need a circle. Troupes take voluntary donations, so keep small notes ready if you watch a full set. Ask before close-up photos of performers resting. Inside the Matha, follow the dress code posted at the gate and leave footwear outside.",
+    "bestSpot": "Car Street, around the stage where tiger troupes perform, and near the pot-breaking frames on the chariot route. Get there before 3 pm (the 2025 start time) to stand near the front.",
+    "dontMiss": true,
+    "festivalIds": [
+      "udupi-janmashtami-vittal-pindi"
+    ],
+    "sources": [
+      "https://www.deccanchronicle.com/southern-states/karnataka/udupi-comes-alive-as-krishna-janmashtami-vittlapindi-draw-thousands-1985142",
+      "https://www.udayavani.com/english-news/udupi-grand-celebrations-of-sri-krishna-janmashtami-vittalpindi-festivities-conclude",
+      "https://udupitourism.com/event/huli-vesha-tiger-dance",
+      "https://en.wikipedia.org/wiki/Pili_Yesa",
+      "https://www.deccanherald.com/spectrum/it-s-roaring-dance-and-colour-697780.html"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "ww-mangaluru-dasara",
+    "name": "Mangaluru Dasara at Kudroli",
+    "what": "Kudroli Gokarnanatha Temple installs the nine Navadurgas, Sharada and Ganapati for Navaratri, and on Vijayadashami they go round the city in a night-long procession. They are immersed in the temple tank before dawn.",
+    "whySpecial": "Called the common man's Dasara, with no royal or government backing, yet it has drawn over 100 tableaux in a year. Tiger dancers, brass bands and lit-up floats roll past until the small hours.",
+    "months": [
+      9,
+      10
+    ],
+    "where": [
+      "Kudroli Gokarnanatha Temple",
+      "Mangaluru city procession route via Lalbagh"
+    ],
+    "placeIds": [
+      "kudroli-gokarnanatha-temple",
+      "mangaladevi-temple"
+    ],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": "2027-10-09",
+      "endDate": null,
+      "status": "panchang-derived",
+      "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+    },
+    "watchRespectfully": "Leave footwear outside the temple halls where the idols sit. Do not climb on floats or barricades. Ask before photographing devotees at puja. It is a religious procession, so no alcohol on the route.",
+    "bestSpot": "Pick a spot on the procession route early in the evening, then walk to Kudroli for the immersion late at night.",
+    "dontMiss": true,
+    "festivalIds": [
+      "mangaluru-dasara-kudroli",
+      "mangaladevi-navaratri-rathotsava"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mangaluru_Dasara",
+      "https://udayavani.com/english-news/with-no-govt-funding-or-royal-patronage-mangalurus-dasara-is-called-a-common-mans-dasara",
+      "https://www.deccanherald.com/india/karnataka/shobhayatre-draws-sea-of-devotees-to-kudroli-767073.html",
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "ww-bahubali-mahamastakabhisheka",
+    "name": "Bahubali Mahamastakabhisheka",
+    "what": "The great head-anointing of a monolithic Bahubali: from a scaffold above the statue, priests and devotees pour water, milk, turmeric, sandal paste and more over its head. Each site holds it roughly once every 12 years.",
+    "whySpecial": "You watch a granite figure taller than a house turn white, then gold, then saffron as each offering runs down. Karkala's is in February 2027, under an hour from Manipal, and the next chance there is about 12 years away.",
+    "months": [
+      1,
+      2,
+      3
+    ],
+    "where": [
+      "Karkala (next: 18-28 Feb 2027)",
+      "Venur (last: 22 Feb-1 Mar 2024; next not announced)",
+      "Dharmasthala, Ratnagiri (last: 9-18 Feb 2019; next not announced)",
+      "Shravanabelagola (last: Feb 2018; next: 2030, dates not announced)"
+    ],
+    "placeIds": [
+      "karkala-bahubali-chaturmukha-basadi",
+      "venur-bahubali",
+      "dharmasthala-bahubali-manjusha-museums"
+    ],
+    "frequency": "every 12 years",
+    "nextDate": {
+      "startDate": "2027-02-18",
+      "endDate": null,
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/Gommateshwara_statue,_Karkala"
+    },
+    "watchRespectfully": "This is a Jain ritual: no leather, no food or drink near the statue, and footwear off on the hill. Follow volunteers' directions on viewing areas. Ask before photographing devotees and monks.",
+    "bestSpot": "At Karkala, a viewing platform is being built for 2027; check the committee for passes to the scaffold or gallery.",
+    "dontMiss": true,
+    "festivalIds": [
+      "karkala-mahamastakabhisheka-2027",
+      "dharmasthala-bahubali-padabhisheka"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gommateshwara_statue,_Karkala",
+      "https://www.thehansindia.com/karnataka/funds-sanctioned-for-karkala-bahubali-festival-infrastructure-1060125",
+      "https://en.wikipedia.org/wiki/Mahamastakabhisheka",
+      "https://www.deccanherald.com/india/karnataka/preparations-in-full-swing-for-mahamastakabhisheka-at-venur-2900918",
+      "https://www.thehansindia.com/karnataka/jain-temple-town-wakes-up-for-mahamastakabhisheka-857880",
+      "https://udayavani.com/english-news/feb-9-18-mahamastakabhisheka-at-dharmasthala",
+      "https://karnatakatourism.org/destinations/shravanabelagola-mahamastakabhisheka/",
+      "https://www.deccanherald.com/content/661529/curtains-down-mahamastakabhisheka-next-mega.html"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "ww-udupi-paryaya",
+    "name": "Udupi Paryaya",
+    "what": "Every two years the Krishna Matha's worship passes from one Ashta Matha seer to the next. The incoming seer arrives in a pre-dawn procession and takes the Sarvajna Peetha.",
+    "whySpecial": "A handover ritual over 500 years old, done by torchlight with tableaux, drums and the whole town awake at 3 am. Nowhere else in India runs a temple like this.",
+    "months": [
+      1
+    ],
+    "where": [
+      "Udupi Sri Krishna Matha",
+      "Car Street, Udupi"
+    ],
+    "placeIds": [
+      "udupi-sri-krishna-matha"
+    ],
+    "frequency": "every 2 years",
+    "nextDate": {
+      "startDate": "2028-01-18",
+      "endDate": null,
+      "status": "confirmed",
+      "source": "https://en.wikipedia.org/wiki/Paryaya"
+    },
+    "watchRespectfully": "Keep the procession path clear and do not touch the seers or palanquins. Follow the Matha's dress code if you go inside, and leave footwear outside. Ask before photographing seers up close.",
+    "bestSpot": "Along Car Street near the Matha, claimed well before the pre-dawn procession arrives.",
+    "dontMiss": false,
+    "festivalIds": [
+      "udupi-paryaya"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paryaya",
+      "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fshiroor-mutt-seer-vedavardhana-theertha-swamiji-ascends-paryaya-peetha-at-udupi-sri-krishna-temple-3866248"
+    ],
+    "confidence": "verified"
+  },
+  {
+    "id": "ww-bhoota-kola-nagaradhane",
+    "name": "Bhoota Kola and Nagaradhane",
+    "what": "Night-long rituals in which a performer becomes a guardian spirit (daiva), dancing in a palm-frond costume and painted face to drums and torchlight, then speaking judgement to the village. Nagaradhane and Nagamandala honour the serpent, with priests dancing round a snake drawn on the ground.",
+    "whySpecial": "This is living worship, not a show: the trance, the bells, the flames and a whole village going quiet when the daiva speaks. Seeing one by invitation is the closest you get to the heart of Tulu Nadu.",
+    "months": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "where": [
+      "Village daivasthanas and family houses across Udupi and Dakshina Kannada"
+    ],
+    "placeIds": [],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": null,
+      "endDate": null,
+      "status": "check locally",
+      "source": null
+    },
+    "watchRespectfully": "Go with a local or ask the organisers first. Ask before photographing anything; organisers may limit how close cameras get, so use a long lens and no flash. Never touch or follow the performer. Dress modestly, sit where you are told, no alcohol, and stay till you are offered prasada if invited.",
+    "bestSpot": "Wherever the organisers seat guests, usually at the edge of the shrine yard. Do not move closer once it starts.",
+    "dontMiss": false,
+    "festivalIds": [
+      "bhoota-kola-nagaradhane-season"
+    ],
+    "sources": [
+      "https://www.thenewsminute.com/article/dancing-bhoothas-spectacle-coastal-karnataka-s-ritual-arts-163209",
+      "https://www.deccanherald.com/content/468787/invoking-guardian-spirits.html",
+      "https://en.wikipedia.org/wiki/Pattanaje"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "ww-laksha-deepotsava",
+    "name": "Laksha Deepotsava (Dharmasthala and Udupi)",
+    "what": "Lamp festivals at the end of Karthika: Dharmasthala runs five nights of lamp-lit processions to different kattes, while Udupi lines Car Street with clay lamps and floats the deity on the Madhva Sarovara.",
+    "whySpecial": "A hundred thousand small flames by dusk, the smell of oil and camphor, and the chariot gliding past them. Dharmasthala adds a big exhibition and nightly cultural shows.",
+    "months": [
+      10,
+      11,
+      12
+    ],
+    "where": [
+      "Dharmasthala",
+      "Car Street and Madhva Sarovara, Udupi"
+    ],
+    "placeIds": [
+      "dharmasthala-manjunatha-temple",
+      "udupi-sri-krishna-matha"
+    ],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": "2026-12-04",
+      "endDate": null,
+      "status": "confirmed",
+      "source": "https://v4news.com/dharmasthala-laksha-deepotsava-a-5-day-cultural-festival/"
+    },
+    "watchRespectfully": "Do not step over or move the lamps. Leave footwear outside temple precincts. Keep loose clothing away from the flames.",
+    "bestSpot": "At Dharmasthala, the route of that night's procession; the last night is busiest. At Udupi, Car Street at dusk.",
+    "dontMiss": false,
+    "festivalIds": [
+      "dharmasthala-laksha-deepotsava",
+      "udupi-laksha-deepotsava"
+    ],
+    "sources": [
+      "https://v4news.com/dharmasthala-laksha-deepotsava-a-5-day-cultural-festival/",
+      "https://udayavani.com/english-news/udupi-festive-lakshadeepotsava-begins-at-sri-krishna-matha",
+      "https://www.deccanchronicle.com/southern-states/karnataka/udupi-glows-with-devotion-as-sri-krishna-math-celebrates-utthana-dwadashi-1914616"
+    ],
+    "confidence": "verified"
+  },
+  {
+    "id": "ww-kukke-champa-shashti",
+    "name": "Kukke Champa Shashti",
+    "what": "Kukke Subramanya's biggest festival, a fortnight of processions ending in the Panchami chariot by night and the great Brahmaratha at dawn on Shashti. Kiru Shashti follows a month later.",
+    "whySpecial": "Thousands haul the giant chariot through the town at first light, in a forested valley below Kumara Parvatha. The night before, the Panchami ratha moves through lamp-lit streets.",
+    "months": [
+      11,
+      12
+    ],
+    "where": [
+      "Kukke Subramanya"
+    ],
+    "placeIds": [
+      "kukke-subramanya-temple"
+    ],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": "2026-12-15",
+      "endDate": null,
+      "status": "confirmed",
+      "source": "https://v4news.com/champa-shashthi-mahotsava-begins-at-kukke-sri-subrahmanya-from-december-5/"
+    },
+    "watchRespectfully": "Leave footwear at the stands. Follow the temple dress code (verify locally). Do not push toward the chariot ropes unless invited to pull. Ask before photographing devotees doing seva.",
+    "bestSpot": "Be on the chariot street before first light on Shashti morning; stay the night after the Panchami ratha.",
+    "dontMiss": false,
+    "festivalIds": [
+      "kukke-champa-shashti"
+    ],
+    "sources": [
+      "https://v4news.com/champa-shashthi-mahotsava-begins-at-kukke-sri-subrahmanya-from-december-5/"
+    ],
+    "confidence": "verified"
+  },
+  {
+    "id": "ww-kollur-rathotsava-navaratri",
+    "name": "Kollur Rathotsava and Navaratri",
+    "what": "Kollur Mookambika has two big moments: the spring Maharathotsava, and Navaratri ending in Vidyarambha, when children write their first letters before the goddess. Both draw huge crowds, many from Kerala.",
+    "whySpecial": "Watching a priest write \"Om\" on a toddler's tongue with a turmeric twig at 4 am, parents beaming, is unexpectedly moving. The spring chariot, at the foot of the Kodachadri hills, is the year's grandest procession here.",
+    "months": [
+      3,
+      4,
+      9,
+      10
+    ],
+    "where": [
+      "Kollur Mookambika Temple"
+    ],
+    "placeIds": [
+      "kollur-mookambika-temple"
+    ],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": "2027-10-09",
+      "endDate": null,
+      "status": "panchang-derived",
+      "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+    },
+    "watchRespectfully": "Footwear off, follow the temple dress code (verify locally). Do not photograph families during Vidyarambha without asking. Keep out of the queue lanes unless you are in line.",
+    "bestSpot": "For Vidyarambha, near the mandapa early on Vijayadashami. For the rathotsava, the car street on Ratharohana day.",
+    "dontMiss": false,
+    "festivalIds": [
+      "kollur-rathotsava",
+      "kollur-navaratri"
+    ],
+    "sources": [
+      "https://templesofkerala.org/kollurfest/kollurrathotsavafestival.html",
+      "https://mangalorean.com/vijayadasami-celebrated-at-kollur-temple-with-traditional-pomp-and-gaiety",
+      "https://www.deccanherald.com/india/karnataka/tiny-tots-initiated-into-world-of-learning-767071.html",
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "ww-maha-shivaratri-gokarna-murudeshwar",
+    "name": "Maha Shivaratri at Gokarna and Murudeshwar",
+    "what": "Gokarna's Atmalinga temple holds its peak festival, ending with the big Dodda Ratha pulled down Car Street. Down the coast, thousands walk 18 km barefoot from Bhatkal to the seaside Murudeshwar temple.",
+    "whySpecial": "Gokarna's great chariot comes out only for Shivaratri. At Murudeshwar the giant Shiva statue looks down on a night of chanting by the sea.",
+    "months": [
+      2,
+      3
+    ],
+    "where": [
+      "Mahabaleshwar Temple, Gokarna",
+      "Murudeshwar Temple"
+    ],
+    "placeIds": [
+      "gokarna-mahabaleshwar-temple",
+      "murudeshwar-temple-beach"
+    ],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": "2027-03-06",
+      "endDate": null,
+      "status": "panchang-derived",
+      "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+    },
+    "watchRespectfully": "Footwear off, modest dress; check each temple's dress code at the gate. Do not cut into queues or the chariot's path. Ask before photographing pilgrims.",
+    "bestSpot": "Gokarna Car Street on the last day for the Dodda Ratha. Book rooms early; the town fills up.",
+    "dontMiss": false,
+    "festivalIds": [
+      "maha-shivaratri-gokarna",
+      "maha-shivaratri-murudeshwar"
+    ],
+    "sources": [
+      "https://karnatakatourism.org/attractions/mahabaleshwar-temple-gokarna",
+      "https://www.incredibleindia.gov.in/en/karnataka/gokarna",
+      "https://mail.sahilonline.org/thousands-of-devotees-participate-in-shivratri-padayatra-from-bhatkal-to-murdeshwar",
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "ww-udupi-saptotsava",
+    "name": "Udupi Saptotsava and Makara Sankranti",
+    "what": "Seven nights of chariot processions round Udupi's Car Street, with Krishna on the big Brahma Ratha on Sankranti night. Choornotsava closes it on the seventh day.",
+    "whySpecial": "Chariots, lamps and drums on the old square at night. Sankranti's Brahmaratha is the first big chariot of the year.",
+    "months": [
+      1
+    ],
+    "where": [
+      "Car Street, Udupi"
+    ],
+    "placeIds": [
+      "udupi-sri-krishna-matha"
+    ],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": "2027-01-15",
+      "endDate": null,
+      "status": "panchang-derived",
+      "source": "https://www.drikpanchang.com/hindu-festivals/makar-sankranti/makar-sankranti.html?year=2027&geoname-id=1263780"
+    },
+    "watchRespectfully": "Keep the chariot path clear and do not grab the ropes unless invited. Matha dress code applies inside; footwear off. Ask before photographing seers.",
+    "bestSpot": "The corners of Car Street, where the chariots turn.",
+    "dontMiss": false,
+    "festivalIds": [
+      "udupi-saptotsava-makara-sankranti"
+    ],
+    "sources": [
+      "https://thecanarapost.com/?p=76793",
+      "https://udayavani.com/english-news/udupi-sri-krishna-math-annual-saptotsava-begins"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "ww-aati-month",
+    "name": "Aati month traditions",
+    "what": "In the wettest month, Tulu Nadu slows down: Aati kalenja dancers go house to house to drive off sickness, and on Aati amavasya families drink bitter pale-tree bark kashaya before dawn. Aati food days revive old monsoon recipes.",
+    "whySpecial": "It is the coast's quiet season made into ritual, all bark, rain and rice gruel. Catching an Aati kalenja at a village doorstep is now rare.",
+    "months": [
+      7,
+      8
+    ],
+    "where": [
+      "Villages and homes across Tulu Nadu"
+    ],
+    "placeIds": [],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": null,
+      "endDate": null,
+      "status": "check locally",
+      "source": null
+    },
+    "watchRespectfully": "Aati kalenja visits homes; watch from outside unless the family asks you in, and ask before photographing. Kashaya is a family rite, so go only if invited.",
+    "bestSpot": "Village lanes outside Udupi and Mangaluru towns; ask locals which houses expect the kalenja.",
+    "dontMiss": false,
+    "festivalIds": [
+      "aati-month"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aati_kalenja",
+      "https://udayavani.com/english-news/aati-amavasya-its-time-for-paleda-kashaya-and-metteda-ganji",
+      "https://www.deccanherald.com/content/493155/healing-beats-aati-kalenja.html"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "ww-polali-chendu",
+    "name": "Polali Chendu (the temple football match)",
+    "what": "During Polali Rajarajeshwari's month-long jatre, two villages play a five-day ritual football match, each side trying to get the ball to the other. The leather ball is made by the same cobbler family every year.",
+    "whySpecial": "A football derby that is also a prayer, played in front of a temple. Nothing else on the coast looks like it.",
+    "months": [
+      3,
+      4
+    ],
+    "where": [
+      "Polali Rajarajeshwari Temple"
+    ],
+    "placeIds": [
+      "polali-rajarajeshwari-temple"
+    ],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": null,
+      "endDate": null,
+      "status": "check locally",
+      "source": null
+    },
+    "watchRespectfully": "Watch from the edge; do not join or touch the ball. Footwear off in the temple precinct.",
+    "bestSpot": "The field edges near the temple; ask locals for the day's play time.",
+    "dontMiss": false,
+    "festivalIds": [
+      "polali-chendu"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Polali_Rajarajeshwari_Temple",
+      "https://newskarnataka.com/karnataka/mangaluru/polali-chendu-utsava-highlights-temple-festival-in-mangaluru-watch/08042026/"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "ww-kateel-thootedhara",
+    "name": "Kateel Thootedhara (fire ritual)",
+    "what": "On the last day of Kateel's eight-day jatre, two groups of devotees hurl burning palm-frond torches at each other. The name comes from \"thoote\", Tulu for torch.",
+    "whySpecial": "Sparks arc across the night as the torches fly, a test of faith played out at full volume. It closes the jatre at one of the coast's best-loved Durga temples.",
+    "months": [
+      4
+    ],
+    "where": [
+      "Kateel Sri Durgaparameshwari Temple"
+    ],
+    "placeIds": [
+      "kateel-durgaparameshwari-temple"
+    ],
+    "frequency": "yearly",
+    "nextDate": {
+      "startDate": null,
+      "endDate": null,
+      "status": "check locally",
+      "source": null
+    },
+    "watchRespectfully": "Stay well outside the throwing zone and follow volunteers. No synthetic loose clothing. Do not pick up torches. Keep children back.",
+    "bestSpot": "Behind the barricades set by temple volunteers.",
+    "dontMiss": false,
+    "festivalIds": [
+      "kateel-jatre-thootedhara"
+    ],
+    "sources": [
+      "https://www.latestly.com/agency-news/india-news-thootedhara-marks-conclusion-of-the-sri-durga-parameshwari-temple-festival-in-dakshina-kannada-6796870.html",
+      "https://hindupad.com/annual-utsavam-at-kateel-durgaparameshwari-temple/"
+    ],
+    "confidence": "partial"
+  }
+]

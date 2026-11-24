@@ -1,0 +1,1165 @@
+[
+  {
+    "id": "udupi-saptotsava-makara-sankranti",
+    "name": "Makara Sankranti and Udupi Saptotsava",
+    "category": "temple-festival",
+    "place": "Car Street, Udupi Sri Krishna Matha",
+    "placeId": "udupi-sri-krishna-matha",
+    "months": [
+      1
+    ],
+    "basis": "Solar: Makara Sankranti (14/15 Jan); Saptotsava runs seven days around it",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-01-15",
+        "endDate": null,
+        "dateStatus": "panchang-derived",
+        "note": "Makara Sankranti per Drik Panchang (Mangaluru). Saptotsava dates for 2027 not announced; if Sankranti is the sixth day, it runs roughly 10-16 Jan. Confirm with the Matha.",
+        "source": "https://www.drikpanchang.com/hindu-festivals/makar-sankranti/makar-sankranti.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "Seven nights of chariot processions round Car Street, with two chariots on the first five nights. On Sankranti, Krishna rides the big Brahma Ratha, and Choornotsava closes it by day on the seventh.",
+    "tips": "Come after dark, when the lamps and drums are going. Park at the edge of town and walk in. Dress code inside the Matha: check the current rule at the gate. Matha prasada meals during Saptotsava: verify locally. 2027 is the first Saptotsava of the Shiroor Matha Paryaya.",
+    "sources": [
+      "https://thecanarapost.com/?p=76793",
+      "https://udayavani.com/english-news/udupi-sri-krishna-math-annual-saptotsava-begins",
+      "https://www.drikpanchang.com/hindu-festivals/makar-sankranti/makar-sankranti.html?year=2027&geoname-id=1263780",
+      "https://deccanchronicle.com/southern-states/karnataka/saptotsava-enchants-devotees-at-udupi-1853245"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "udupi-paryaya",
+    "name": "Udupi Paryaya Mahotsava",
+    "category": "temple-festival",
+    "place": "Udupi Sri Krishna Matha and Car Street",
+    "placeId": "udupi-sri-krishna-matha",
+    "months": [
+      1
+    ],
+    "basis": "Fixed: early hours of 18 Jan, even-numbered years",
+    "frequency": "every 2 years",
+    "upcoming": [
+      {
+        "startDate": "2028-01-18",
+        "endDate": "2028-01-18",
+        "dateStatus": "confirmed",
+        "note": "Shiroor Matha's two-year term (from 18 Jan 2026) ends; Wikipedia lists Sodhe Matha for the 2028 slot. Outside the 12-month window but fixed by tradition.",
+        "source": "https://en.wikipedia.org/wiki/Paryaya"
+      }
+    ],
+    "what": "The handover of the Krishna Matha's worship from one of the eight Ashta Mathas to the next, a rotation over 500 years old. The incoming seer arrives in procession before dawn and takes the Sarvajna Peetha.",
+    "tips": "The procession runs through the night into the early morning, so plan to stay up or sleep in Udupi. Udupi fills up; book rooms early. Akki Muhurtha, about ten months before, starts the preparations, so expect 2028 build-up through 2027. Dress code and prasada arrangements on the day: verify locally.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paryaya",
+      "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fshiroor-mutt-seer-vedavardhana-theertha-swamiji-ascends-paryaya-peetha-at-udupi-sri-krishna-temple-3866248",
+      "https://newskarnataka.com/udupi/udupi-to-host-paryaya-mahotsava-as-shiroor-matha-assumes-charge/17012026/"
+    ],
+    "confidence": "verified"
+  },
+  {
+    "id": "kadri-jatre",
+    "name": "Kadri Manjunatha jatre and rathotsava",
+    "category": "jatre-rathotsava",
+    "place": "Kadri, Mangaluru",
+    "placeId": "kadri-manjunatha-temple",
+    "months": [
+      1
+    ],
+    "basis": "Solar: opens on Makara Sankranti, runs about ten days",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "A ten-day festival that opens on Makara Sankranti and ends with the chariot pulled round the temple streets. In 2026 it ran 14 to 24 Jan, with the rathotsava on 21 Jan.",
+    "tips": "2027 dates not yet published: check locally, expect mid to late January. The rathotsava evening is the busiest. Easy to pair with a Mangaluru Kambala or Karavali Utsav evening.",
+    "sources": [
+      "https://udayavani.com/english-news/kadri-sri-manjunatha-temple-festival-from-jan-15-to-25",
+      "https://www.hindu-blog.com/2025/07/kadri-sri-manjunatha-temple-annual.html",
+      "https://en.wikipedia.org/wiki/Kadri_Manjunath_Temple"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "saligrama-rathotsava",
+    "name": "Guru Narasimha car festival (Ratharohana)",
+    "category": "jatre-rathotsava",
+    "place": "Saligrama",
+    "placeId": "saligrama-guru-narasimha",
+    "months": [
+      1
+    ],
+    "basis": "Solar: Makara masa, around Uttarayana Sankranti (Wikipedia cites 16 Jan)",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "Saligrama's Guru Narasimha temple pulls its chariot in Makara masa, just after Sankranti. It is a short ride up the highway from Udupi.",
+    "tips": "No 2027 date published: ask at the temple. The Saligrama Yakshagana mela is touring this season too, so you may catch a show nearby.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Guru_Narasimha_Temple,_Saligrama"
+    ],
+    "confidence": "verify-locally"
+  },
+  {
+    "id": "mandarthi-annual-festival",
+    "name": "Mandarthi Durgaparameshwari annual festival",
+    "category": "jatre-rathotsava",
+    "place": "Mandarthi, Brahmavar taluk",
+    "placeId": "mandarthi-durgaparameshwari",
+    "months": [
+      2,
+      3
+    ],
+    "basis": "Solar: Kumbha masa (around Kumbha Sankramana); one blog places it in February",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "A three-day festival: Kenda Seva (fire-walking) and Ranga Pooja on day one, the Maha Rathotsava on day two, and Tulabhara and Palaki Utsava on day three. Mandarthi is also home to five Yakshagana melas.",
+    "tips": "Only one blog source describes the schedule, and it gives no exact dates: confirm with the temple. Mandarthi is close to Manipal, so it works as an evening ride.",
+    "sources": [
+      "https://www.hindu-blog.com/2024/01/mandarthi-durgaparameshwari-temple-history-story-festivals.html"
+    ],
+    "confidence": "verify-locally"
+  },
+  {
+    "id": "karkala-mahamastakabhisheka-2027",
+    "name": "Karkala Bahubali Mahamastakabhisheka",
+    "category": "temple-festival",
+    "place": "Gommateshwara statue, Karkala",
+    "placeId": "karkala-bahubali-chaturmukha-basadi",
+    "months": [
+      2
+    ],
+    "basis": "Fixed by the organising committee; roughly every 12 years (last 21-31 Jan 2015)",
+    "frequency": "every 12 years",
+    "upcoming": [
+      {
+        "startDate": "2027-02-18",
+        "endDate": "2027-02-28",
+        "dateStatus": "confirmed",
+        "note": "Dates per The Hindu (21 Aug 2026), cited on Wikipedia; Hans India also reports a ten-day ceremony from 18 Feb 2027.",
+        "source": "https://en.wikipedia.org/wiki/Gommateshwara_statue,_Karkala"
+      }
+    ],
+    "what": "The monolithic Bahubali on Karkala's hill is anointed from a scaffold above its head with water, milk, turmeric, sandal paste and more. It happens about once every 12 years; the last was in January 2015.",
+    "tips": "Karkala is under an hour from Manipal, so you can day-trip. Expect big crowds on the main abhisheka days; the state has sanctioned funds for facilities and a viewing platform. Programme and access rules: check the committee notices nearer the date.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gommateshwara_statue,_Karkala",
+      "https://www.thehansindia.com/karnataka/funds-sanctioned-for-karkala-bahubali-festival-infrastructure-1060125",
+      "https://thefederal.com/category/states/south/karnataka/karnataka-govt-sanctions-funds-for-karkala-mahamastakabhisheka-infrastructure-236344",
+      "https://en.wikipedia.org/wiki/Mahamastakabhisheka"
+    ],
+    "confidence": "verified"
+  },
+  {
+    "id": "dharmasthala-bahubali-padabhisheka",
+    "name": "Bahubali Padabhisheka (Vardhantyutsava), Ratnagiri",
+    "category": "temple-festival",
+    "place": "Ratnagiri hill, Dharmasthala",
+    "placeId": "dharmasthala-bahubali-manjusha-museums",
+    "months": [
+      2
+    ],
+    "basis": "Anniversary of the first Mahamastakabhisheka; held around early February (2 Feb in 2024)",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "Every year Dharmasthala anoints the feet of its 39-foot Bahubali to mark the statue's anniversary. The full head anointing is far rarer; the last was 9 to 18 Feb 2019.",
+    "tips": "2027 date not found: check with the temple. A smaller, calmer way to see a Bahubali abhisheka.",
+    "sources": [
+      "https://udayavani.com/english-news/dharmasthala-lord-baahubalis-42nd-vardhantyutsava-padabhisheka-celebrated",
+      "https://en.wikipedia.org/wiki/Mahamastakabhisheka"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "maha-shivaratri-gokarna",
+    "name": "Maha Shivaratri and rathotsava, Gokarna",
+    "category": "temple-festival",
+    "place": "Mahabaleshwar Temple and Car Street, Gokarna",
+    "placeId": "gokarna-mahabaleshwar-temple",
+    "months": [
+      2,
+      3
+    ],
+    "basis": "Lunar: Magha Krishna Chaturdashi",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-03-06",
+        "endDate": null,
+        "dateStatus": "panchang-derived",
+        "note": "Maha Shivaratri per Drik Panchang (Mangaluru). Gokarna's festival runs several days; the big chariot comes out on the last day. Exact rathotsava date: check locally.",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "Gokarna's peak festival: pilgrims pour in to see the Atmalinga, and the temple keeps extended hours. The big chariot, the Dodda Ratha, is brought out only for Shivaratri and pulled down Car Street on the festival's last day.",
+    "tips": "The town fills up, so book rooms well ahead and arrive early to beat the queues. Gokarna is a long ride; the Konkan Railway from Udupi is the saner option. Dress code: verify locally.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780",
+      "https://karnatakatourism.org/attractions/mahabaleshwar-temple-gokarna",
+      "https://www.incredibleindia.gov.in/en/karnataka/gokarna",
+      "https://hindutone.com/temples/india/karnataka/mahabaleshwar-temple-gokarna/"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "maha-shivaratri-murudeshwar",
+    "name": "Maha Shivaratri, Murudeshwar",
+    "category": "temple-festival",
+    "place": "Murudeshwar Temple, Bhatkal taluk",
+    "placeId": "murudeshwar-temple-beach",
+    "months": [
+      2,
+      3
+    ],
+    "basis": "Lunar: Magha Krishna Chaturdashi",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-03-06",
+        "endDate": null,
+        "dateStatus": "panchang-derived",
+        "note": "Maha Shivaratri per Drik Panchang (Mangaluru).",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "Thousands from across Bhatkal taluk walk barefoot to the seaside temple on Shivaratri, an 18 km padayatra. Volunteers hand out water, fruit and juice along the route.",
+    "tips": "If you are not walking, avoid the highway stretch from Bhatkal during the padayatra. Expect long queues at the temple. Dress code: verify locally.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780",
+      "https://mail.sahilonline.org/thousands-of-devotees-participate-in-shivratri-padayatra-from-bhatkal-to-murdeshwar"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "maha-shivaratri-dharmasthala",
+    "name": "Maha Shivaratri, Dharmasthala",
+    "category": "temple-festival",
+    "place": "Sri Manjunatha Temple, Dharmasthala",
+    "placeId": "dharmasthala-manjunatha-temple",
+    "months": [
+      2,
+      3
+    ],
+    "basis": "Lunar: Magha Krishna Chaturdashi",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-03-06",
+        "endDate": null,
+        "dateStatus": "panchang-derived",
+        "note": "Maha Shivaratri per Drik Panchang (Mangaluru).",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "Thousands walk to Dharmasthala for Shivaratri, many from Bengaluru, in saffron with a mala, covering 20 to 40 km a day. The temple has prepared for over a lakh devotees in past years.",
+    "tips": "Charmadi Ghat fills with walkers; road safety is a recurring worry, so ride slowly and never at night. Dharmasthala's free annadana is well known, but festival-day timings: verify locally.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780",
+      "https://www.deccanherald.com/india/karnataka/shivaratri-thousands-from-bengaluru-take-padayatra-to-dharmasthala-957735.html",
+      "https://www.deccanherald.com/india/karnataka/padayatra-to-dharmasthala-is-on-but-road-safety-risks-still-a-concern-3418366",
+      "https://thecanarapost.com/?p=64621"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "kollur-rathotsava",
+    "name": "Kollur Mookambika Maharathotsava",
+    "category": "jatre-rathotsava",
+    "place": "Kollur",
+    "placeId": "kollur-mookambika-temple",
+    "months": [
+      3,
+      4
+    ],
+    "basis": "Lunar/nakshatra: Phalguna, on Moola nakshatra (per temple-info sites)",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "Kollur's nine-day annual festival, ending in the Brahmarathotsava when the goddess is pulled through town. In 2026 it ran 5 to 14 March, with the Ratharohana on 12 March.",
+    "tips": "2027 dates not found: check with the temple. Kollur sits at the foot of the ghats, so ride in daylight. Annadana and dress code on festival days: verify locally.",
+    "sources": [
+      "https://templesofkerala.org/kollurfest/kollurrathotsavafestival.html",
+      "https://udupitourism.com/event/mookambika-temple-annual-car-festival",
+      "https://templesinindiainfo.com/mookambika-temple-kollur-varshika-uthsavam-annual-festival"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "polali-chendu",
+    "name": "Polali Chendu and annual jatre",
+    "category": "jatre-rathotsava",
+    "place": "Polali Rajarajeshwari Temple, Bantwal taluk",
+    "placeId": "polali-rajarajeshwari-temple",
+    "months": [
+      3,
+      4
+    ],
+    "basis": "Solar: month-long jatre from mid-March to mid-April; Chendu starts about seven days before avabhritha",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "A month-long temple fair with a five-day football match between the two villages either side of the temple. The leather ball is stitched by one cobbler family, and the chariot festival closes it (11 April in 2026).",
+    "tips": "2027 dates not published: check locally. The Chendu days draw the biggest local crowds. Stand back from the play; this is a ritual, not a friendly kickabout.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Polali_Rajarajeshwari_Temple",
+      "https://newskarnataka.com/karnataka/mangaluru/polali-chendu-utsava-highlights-temple-festival-in-mangaluru-watch/08042026/",
+      "https://www.hindu-blog.com/2025/07/polali-rajarajeshwari-temple-annual.html",
+      "https://swarajyamag.com/amp/story/culture/the-kick-of-bhakti-a-goddess-football-league-where-devotees-play-to-pray"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "sirsi-marikamba-jatre",
+    "name": "Sirsi Marikamba Jatre",
+    "category": "jatre-rathotsava",
+    "place": "Sirsi, Uttara Kannada",
+    "placeId": "sirsi-marikamba-temple",
+    "months": [
+      2,
+      3
+    ],
+    "basis": "Lunar, biennial; 2026 edition ran 24 Feb to 4 Mar",
+    "frequency": "every 2 years",
+    "upcoming": [],
+    "what": "One of the biggest fairs in the state, held once every two years for the goddess Marikamba. The last one ran 24 Feb to 4 Mar 2026, with 2024 before it.",
+    "tips": "Next edition should be 2028 by the two-year cycle, but no dates are announced: check locally. Not to be confused with the separate Kote Marikamba jatre in Shivamogga.",
+    "sources": [
+      "https://en.bharatpedia.org/wiki/Sirsi_Marikamba_Temple",
+      "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Marikamba",
+      "https://www.udayavani.com/english-news/ocean-of-devotees-celebrate-sirsi-marikamba-fest"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "ugadi",
+    "name": "Ugadi (Chandramana new year)",
+    "category": "harvest-seasonal",
+    "place": "Homes and temples across Karnataka",
+    "placeId": null,
+    "months": [
+      3,
+      4
+    ],
+    "basis": "Lunar: Chaitra Shukla Pratipada",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-04-07",
+        "endDate": null,
+        "dateStatus": "panchang-derived",
+        "note": "Ugadi per Drik Panchang (Mangaluru).",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "The lunar new year for much of Karnataka. On the coast, many Tulu families mark the solar new year (Bisu) a week or so later instead.",
+    "tips": "A home festival more than a public spectacle. Temples are busy in the morning.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "bisu-parba",
+    "name": "Bisu Parba (Tulu new year)",
+    "category": "harvest-seasonal",
+    "place": "Homes across Udupi and Dakshina Kannada",
+    "placeId": null,
+    "months": [
+      4
+    ],
+    "basis": "Solar: Mesha Sankramana (14/15 Apr)",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "The first day of Paggu, the first Tulu month, on Mesha Sankramana. Farming households lay out the Bisu Kani, a display of the harvest, and offer it to God.",
+    "tips": "Mostly a home festival; you will see it if a local friend invites you. 2027 date: confirm on a solar panchang.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bisu_Parba",
+      "https://www.deccanherald.com/archives/a-saga-glorious-tulu-calender-2334791"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "kateel-jatre-thootedhara",
+    "name": "Kateel annual jatre and Thootedhara",
+    "category": "jatre-rathotsava",
+    "place": "Kateel Sri Durgaparameshwari Temple",
+    "placeId": "kateel-durgaparameshwari-temple",
+    "months": [
+      4
+    ],
+    "basis": "Solar: starts on the eve of Mesha Sankramana (mid-April), about eight days",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "An eight-day jatre on the river island temple. It ends with Thootedhara, where two groups of devotees hurl burning palm-frond torches at each other.",
+    "tips": "2027 dates not found: check locally. Watch Thootedhara from well back; the torches fly. Not for small children.",
+    "sources": [
+      "https://www.latestly.com/agency-news/india-news-thootedhara-marks-conclusion-of-the-sri-durga-parameshwari-temple-festival-in-dakshina-kannada-6796870.html",
+      "https://hindupad.com/annual-utsavam-at-kateel-durgaparameshwari-temple/"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "pattanaje",
+    "name": "Pattanaje (end of the festival season)",
+    "category": "harvest-seasonal",
+    "place": "Across Tulu Nadu",
+    "placeId": null,
+    "months": [
+      5
+    ],
+    "basis": "Solar: 10th day of Vrishabha masa (around 24-25 May)",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "The day that closes the coastal festival season. Chariot festivals, nemotsava, kambala and Yakshagana all wind up by Pattanaje and restart after the monsoon.",
+    "tips": "If you want Yakshagana or a bhoota kola, go before late May. After this, the coast goes quiet for the rains.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pattanaje"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "monsoon-lull",
+    "name": "Monsoon lull: festival season off",
+    "category": "harvest-seasonal",
+    "place": "Across coastal Karnataka",
+    "placeId": null,
+    "months": [
+      6
+    ],
+    "basis": "Seasonal: from Pattanaje (late May) until Aati ends and the Shravana festivals begin",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "After Pattanaje, chariot festivals, kambala, Yakshagana tours and kolas stop for the rains. Even Udupi's nightly chariot processions pause once the monsoon sets in.",
+    "tips": "June is for waterfalls and green paddy, not festivals. Temples keep daily worship as usual, so darshan trips still work. Ghat roads get slippery; ride with care.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pattanaje",
+      "https://www.mangalorean.com/laksha-deepotsava-marks-the-beginning-of-daily-utsavs-at-udupi-sri-krishna-temple/?amp=1"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "aati-month",
+    "name": "Aati month (Aati kalenja, Aati amavasya kashaya)",
+    "category": "ritual-art",
+    "place": "Villages and homes across Tulu Nadu",
+    "placeId": null,
+    "months": [
+      7,
+      8
+    ],
+    "basis": "Solar: Tulu month Aati (Karkataka), roughly mid-July to mid-August; Aati amavasya is its new moon",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "The hardest month of the monsoon, when weddings and temple festivals pause and the daiva shrines close. Aati kalenja, a Nalke-community dancer, goes house to house to ward off illness, and on Aati amavasya families drink bitter pale-tree bark kashaya, then eat methi ganji.",
+    "tips": "Aati kalenja is fading; you may catch it in villages, not towns. Many restaurants and community groups run Aati food days; the classic Aati dishes are veg, but check each dish. 2027 Aati amavasya date: check a Tulu panchang.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aati_kalenja",
+      "https://en.wikipedia.org/wiki/Aatida_Amaase",
+      "https://udayavani.com/english-news/aati-amavasya-its-time-for-paleda-kashaya-and-metteda-ganji",
+      "https://mangaloreheritage.com/bunt-traditions/aati-thingol/",
+      "https://www.deccanherald.com/india/karnataka/aatidonji-dina-rekindles-spirit-tulunadu-2348560"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "nagara-panchami",
+    "name": "Nagara Panchami",
+    "category": "ritual-art",
+    "place": "Naga banas and temples across Udupi and Dakshina Kannada (Kudupu, Kukke, Muchlakodu)",
+    "placeId": "kukke-subramanya-temple",
+    "months": [
+      7,
+      8
+    ],
+    "basis": "Lunar: Shravana Shukla Panchami",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-08-06",
+        "endDate": null,
+        "dateStatus": "panchang-derived",
+        "note": "Nag Panchami per Drik Panchang (Mangaluru).",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "The coast's serpent festival: families visit naga banas (sacred groves) and temples to pour milk and tender coconut water over the stone nagas. Kudupu Anantha Padmanabha temple near Mangaluru draws thousands.",
+    "tips": "Morning is the main time. Tender coconut prices jump the day before. Take your shells and plastic home; litter at the groves has been a problem.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780",
+      "https://www.deccanherald.com/india/karnataka/pomp-gaiety-mark-nagara-panchami-in-coastal-dists-752305.html",
+      "https://www.mangalorean.com/nagara-panchami-observed-with-fervor-throughout-udupi-district",
+      "https://udayavani.com/english-news/naga-panchami-swachha-panchami-udayavani-udupi-municipality-campaign"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "udupi-janmashtami-vittal-pindi",
+    "name": "Krishna Janmashtami and Vittal Pindi, Udupi",
+    "category": "temple-festival",
+    "place": "Car Street, Udupi Sri Krishna Matha",
+    "placeId": "udupi-sri-krishna-matha",
+    "months": [
+      8,
+      9
+    ],
+    "basis": "Solar-lunar: Ashtami in Simha masa (Udupi follows the solar month, so it can differ from the pan-India date)",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "Janmashtami night at the Matha, then Vittal Pindi (Leelotsava) the next afternoon: the clay Krishna goes round Car Street in the golden chariot while costumed men climb wooden frames to smash pots of curd and milk. Pili vesha (tiger dance) troupes drum and leap through the crowd all day.",
+    "tips": "Udupi's date can differ from the rest of India; confirm with the Matha. In 2025 Vittal Pindi started at 3 pm. Car Street gets packed; keep valuables close and give the tigers room. The Matha's Janmashtami prasada is vegetarian; distribution details: verify locally.",
+    "sources": [
+      "https://www.deccanchronicle.com/southern-states/karnataka/udupi-comes-alive-as-krishna-janmashtami-vittlapindi-draw-thousands-1985142",
+      "https://www.udayavani.com/english-news/udupi-grand-celebrations-of-sri-krishna-janmashtami-vittalpindi-festivities-conclude",
+      "https://www.deccanherald.com/vitla-pindi-fete-udupi-690934.html",
+      "https://udupitourism.com/event/huli-vesha-tiger-dance",
+      "https://en.wikipedia.org/wiki/Pili_Yesa"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "anegudde-ganesha-chaturthi",
+    "name": "Ganesha Chaturthi at Anegudde",
+    "category": "temple-festival",
+    "place": "Anegudde Vinayaka Temple, Kumbashi",
+    "placeId": "anegudde-vinayaka-temple",
+    "months": [
+      8,
+      9
+    ],
+    "basis": "Lunar: Bhadrapada Shukla Chaturthi",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-09-04",
+        "endDate": null,
+        "dateStatus": "panchang-derived",
+        "note": "Ganesh Chaturthi per Drik Panchang (Mangaluru).",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "The hilltop Ganesha temple near Kundapura has its biggest day of the year, with special abhishekas and long darshan hours. Prasada lunch is served to devotees.",
+    "tips": "Climb the steps from Kumbashi bus stand early to beat the queue. Darshan hours differ between listings; check anegudde.in. The prasada lunch is vegetarian temple food.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780",
+      "https://udupitourism.com/explore/spirituality/aanegudde-vinayaka-temple-kumbashi",
+      "https://hindupad.com/anegudde-ganesh-chaturthi/",
+      "https://anegudde.in"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "mangaluru-dasara-kudroli",
+    "name": "Mangaluru Dasara at Kudroli",
+    "category": "temple-festival",
+    "place": "Kudroli Gokarnanatha Temple and city streets, Mangaluru",
+    "placeId": "kudroli-gokarnanatha-temple",
+    "months": [
+      9,
+      10
+    ],
+    "basis": "Lunar: Sharad Navaratri, Ashvija Shukla Pratipada to Vijayadashami",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-09-30",
+        "endDate": "2027-10-09",
+        "dateStatus": "panchang-derived",
+        "note": "Navaratri start and Vijayadashami per Drik Panchang (Mangaluru). The procession runs on Vijayadashami evening and the immersion is in the early hours after.",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "Kudroli installs the nine Navadurgas, Sharada and Ganapati for Navaratri, then takes them out on Vijayadashami in a procession of tableaux, bands and decorated umbrellas through the city. The idols are immersed in the temple tank before dawn the next day.",
+    "tips": "The procession is long (it has been capped at 12 hours) and the crowds dense. Pick a spot on the route early, then walk to Kudroli later in the night. Navaratri lighting across the city is worth an evening on its own.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780",
+      "https://en.wikipedia.org/wiki/Mangaluru_Dasara",
+      "https://newskarnataka.com/mangaluru/mangaluru-dasara-2026-dates-temples-and-events-as-celebrations-begin-october-11/11102026/",
+      "https://www.udayavani.com/english-news/kudroli-dasara-procession-to-be-restricted-to-12-hours",
+      "https://udayavani.com/english-news/mangaluru-dasara-2023-concludes-with-immersion-procession"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "mangaladevi-navaratri-rathotsava",
+    "name": "Mangaladevi Navaratri and Maharathotsava",
+    "category": "jatre-rathotsava",
+    "place": "Sri Mangaladevi Temple, Bolar, Mangaluru",
+    "placeId": "mangaladevi-temple",
+    "months": [
+      9,
+      10
+    ],
+    "basis": "Lunar: Sharad Navaratri; chariot on Vijayadashami (2026 schedule)",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-09-30",
+        "endDate": "2027-10-09",
+        "dateStatus": "panchang-derived",
+        "note": "Navaratri per Drik Panchang (Mangaluru). In 2026 the Maharathotsava was on Vijayadashami, with Avabhritha the next day.",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "The goddess the city is named after takes a different form each night of Navaratri. The festival peaks with the Maharathotsava, when she is pulled on the big chariot with thick ropes.",
+    "tips": "Combine with Kudroli on the same Vijayadashami evening. Check the temple notice for the chariot time.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780",
+      "https://newskarnataka.com/mangaluru/mangaluru-dasara-2026-dates-temples-and-events-as-celebrations-begin-october-11/11102026/",
+      "https://udayavani.com/english-news/mangaluru-grand-mangaladevi-rathotsava",
+      "https://udayavani.com/english-news/mangaluru-navratri-splendor-mangaladevi-temples-divine-daily-avatars"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "kollur-navaratri",
+    "name": "Navaratri and Vidyarambha at Kollur",
+    "category": "temple-festival",
+    "place": "Kollur Mookambika Temple",
+    "placeId": "kollur-mookambika-temple",
+    "months": [
+      9,
+      10
+    ],
+    "basis": "Lunar: Sharad Navaratri to Vijayadashami",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-09-30",
+        "endDate": "2027-10-09",
+        "dateStatus": "panchang-derived",
+        "note": "Navaratri per Drik Panchang (Mangaluru); Vidyarambha crowds peak on Vijayadashami.",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "Navaratri at Kollur ends with a chariot procession and, on Vijayadashami, Vidyarambha: families bring small children to write their first letters before the goddess of learning. Many come from Kerala.",
+    "tips": "Vidyarambha starts very early (around 4 am in 2025) and runs till about noon; queues are long. Bring water and snacks for kids. Ride in by daylight the day before.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780",
+      "https://mangalorean.com/vijayadasami-celebrated-at-kollur-temple-with-traditional-pomp-and-gaiety",
+      "https://www.deccanherald.com/india/karnataka/tiny-tots-initiated-into-world-of-learning-767071.html",
+      "https://hindupad.com/maha-navaratri-at-kollur-mookambika-temple-in-karnataka/"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "sringeri-sharannavaratri",
+    "name": "Sharannavaratri Mahotsava, Sringeri",
+    "category": "temple-festival",
+    "place": "Sringeri Sharada Peetham",
+    "placeId": "sringeri-sharada-peetham",
+    "months": [
+      9,
+      10
+    ],
+    "basis": "Lunar: Sharad Navaratri; Sharadamba Rathotsava the day after Vijayadashami, closing on Purnima",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-09-30",
+        "endDate": "2027-10-09",
+        "dateStatus": "panchang-derived",
+        "note": "Navaratri per Drik Panchang (Mangaluru). Rathotsava usually the next day; check the Peetham's published schedule.",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "Sharada is dressed in a different alankara each night, and the Jagadguru holds a durbar, a tradition the Peetham dates to Vijayanagara times. The day after Vijayadashami brings the Sharadamba Rathotsava and the Adda Pallaki Utsava.",
+    "tips": "Sringeri is a ghat ride via Agumbe; avoid the hairpins after dark. The Peetham posts the year's schedule on sringeri.net. The Matha's annadana is vegetarian; festival-day timings: verify locally.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780",
+      "https://www.sringeri.net/events/sharada-sharan-navaratri-celebrations-2015",
+      "https://sringeri.net/announcement/sri-sharada-sarannavaratri-mahotsava-2025"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "tula-sankramana-talacauvery",
+    "name": "Tula Sankramana (Theerthodbhava) at Talacauvery",
+    "category": "harvest-seasonal",
+    "place": "Talacauvery and Bhagamandala, Kodagu",
+    "placeId": "talacauvery-bhagamandala",
+    "months": [
+      10
+    ],
+    "basis": "Solar: Tula Sankramana (17/18 Oct); exact Theerthodbhava moment set by the temple",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-10-18",
+        "endDate": null,
+        "dateStatus": "panchang-derived",
+        "note": "Tula Sankranti per Drik Panchang (Mangaluru). The Theerthodbhava time is announced by the temple shortly before.",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "At the source of the Kaveri, water wells up in the Brahmakundike at a moment the priests announce in advance. Devotees crowd the tank for a dip and carry the water home.",
+    "tips": "The moment can be at dawn or midday, so check the temple's announcement before you leave. Kodagu roads are hilly; start early and ride back in daylight.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780",
+      "https://www.deccanherald.com/india/karnataka/mangaluru/devotees-throng-talacauvery-as-holy-water-springs-from-brahmakundike-during-tula-sankramana-3768258",
+      "https://utsav.gov.in/view-event/tula-sankramana-kaveri-sankramana"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "deepavali-tulunadu",
+    "name": "Deepavali (Tudar Parba) and Bali Padyami",
+    "category": "harvest-seasonal",
+    "place": "Homes, fields and temples across the coast",
+    "placeId": null,
+    "months": [
+      10,
+      11
+    ],
+    "basis": "Lunar: Ashvija Krishna Chaturdashi to Kartika Shukla Pratipada",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2027-10-28",
+        "endDate": "2027-10-30",
+        "dateStatus": "panchang-derived",
+        "note": "Naraka Chaturdashi 28 Oct, Diwali 29 Oct, Govardhan Puja (Bali Padyami day) 30 Oct per Drik Panchang (Mangaluru).",
+        "source": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+      }
+    ],
+    "what": "On the coast, Deepavali is about welcoming King Bali home: families raise a bamboo pole with lamps (the Baliyendra mara) and light lamps out in the fields. Cows and farm tools get a puja too.",
+    "tips": "The Bali rituals happen at home and in fields at dusk; a local invite is the way in. Deepavali also opens the bhoota kola and Yakshagana season.",
+    "sources": [
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780",
+      "https://udayavani.com/english-news/tulunadus-unique-diwali-tradition-bali-padya-celebrations-to-honor-king-bali",
+      "https://deccanherald.com/india/karnataka/an-invitation-impossible-to-accept-in-tulunadu-2781595",
+      "https://www.thenewsminute.com/article/coastal-karnataka-deepavali-return-beloved-king-baliyendra-banished-vamana-52220"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "udupi-laksha-deepotsava",
+    "name": "Laksha Deepotsava, Udupi Krishna Matha",
+    "category": "temple-festival",
+    "place": "Car Street and Madhva Sarovara, Udupi",
+    "placeId": "udupi-sri-krishna-matha",
+    "months": [
+      10,
+      11
+    ],
+    "basis": "Lunar: Karthika, from Utthana Dwadashi to Karthika Purnima",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "Utthana Dwadashi, when Vishnu wakes from his four-month rest, opens a run of lamp-lit evenings: Car Street lined with clay lamps and a boat procession (teppotsava) on the Madhva Sarovara. It also restarts the nightly chariot processions that run until the monsoon.",
+    "tips": "The 2026 edition started before this calendar begins; 2027 dates: check with the Matha (Karthika Purnima 2027 is 14 Nov per Drik Panchang). Go at dusk when the lamps are lit.",
+    "sources": [
+      "https://www.deccanchronicle.com/southern-states/karnataka/udupi-glows-with-devotion-as-sri-krishna-math-celebrates-utthana-dwadashi-1914616",
+      "https://udayavani.com/english-news/udupi-festive-lakshadeepotsava-begins-at-sri-krishna-matha",
+      "https://www.mangalorean.com/laksha-deepotsava-marks-the-beginning-of-daily-utsavs-at-udupi-sri-krishna-temple/?amp=1",
+      "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2027&geoname-id=1263780"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "koteshwara-kodi-habba",
+    "name": "Kodi Habba, Koteshwara",
+    "category": "jatre-rathotsava",
+    "place": "Kotilingeshwara Temple, Koteshwara, Kundapura",
+    "placeId": null,
+    "months": [
+      11,
+      12
+    ],
+    "basis": "Solar-lunar: full moon of Vrischika masa",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "Kundapura's biggest fair: a bamboo chariot is pulled and newly married couples carry home sugarcane. Past dates were 27 Nov 2023, 15 Dec 2024 and 4-5 Dec 2025.",
+    "tips": "No 2026 date was found; it may fall around late November. Phone the temple (08254262230, listed on utsav.gov.in) before going.",
+    "sources": [
+      "https://utsav.gov.in/view-event/kodi-habbasri-mahtobhara-kotilingeshwara-temple-koteshwar",
+      "https://www.varthabharati.in/udupi/udupi-kodi-habba-at-koteshwar-on-december-4th-and-5th-parking-space-allocated-for-vehicles-2102341",
+      "https://udupitourism.com/event/kodi-habba-festival-udupi-2024"
+    ],
+    "confidence": "verify-locally"
+  },
+  {
+    "id": "dharmasthala-laksha-deepotsava",
+    "name": "Laksha Deepotsava, Dharmasthala",
+    "category": "temple-festival",
+    "place": "Dharmasthala",
+    "placeId": "dharmasthala-manjunatha-temple",
+    "months": [
+      11,
+      12
+    ],
+    "basis": "Lunar: end of Karthika, five nights",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2026-12-04",
+        "endDate": "2026-12-08",
+        "dateStatus": "confirmed",
+        "note": "Exhibition from 4 Dec; utsavas 5-8 Dec; Sarva Dharma Sammelana 7 Dec, Sahitya Sammelana 8 Dec (5 pm); Samavasarana puja 9 Dec.",
+        "source": "https://v4news.com/dharmasthala-laksha-deepotsava-a-5-day-cultural-festival/"
+      }
+    ],
+    "what": "Five nights of lamps at the end of Karthika, each with its own procession to a different katte. A big exhibition and evening cultural programmes run alongside.",
+    "tips": "The processions are after dark, so stay the night rather than ride back. Cultural programmes run roughly 5.30 to 11.30 pm. The last night is the busiest. Annadana timings during the festival: verify locally.",
+    "sources": [
+      "https://v4news.com/dharmasthala-laksha-deepotsava-a-5-day-cultural-festival/",
+      "https://utsav.gov.in/view-event/laksha-deepotsava"
+    ],
+    "confidence": "verified"
+  },
+  {
+    "id": "kukke-champa-shashti",
+    "name": "Champa Shashti and Kiru Shashti, Kukke Subramanya",
+    "category": "jatre-rathotsava",
+    "place": "Kukke Subramanya",
+    "placeId": "kukke-subramanya-temple",
+    "months": [
+      11,
+      12,
+      1
+    ],
+    "basis": "Lunar: Margashira Shukla Shashti (Champa Shashti); Kiru Shashti about a month later",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2026-12-05",
+        "endDate": "2026-12-21",
+        "dateStatus": "confirmed",
+        "note": "Full jatre: Laksha Deepotsava 8 Dec, flower chariot 13 Dec, Panchami ratha night of 14 Dec, avabhritha and boat procession 16 Dec, koppari lowered 21 Dec.",
+        "source": "https://v4news.com/champa-shashthi-mahotsava-begins-at-kukke-sri-subrahmanya-from-december-5/"
+      },
+      {
+        "startDate": "2026-12-15",
+        "endDate": "2026-12-15",
+        "dateStatus": "confirmed",
+        "note": "Champa Shashti Maharathotsava, early morning.",
+        "source": "https://v4news.com/champa-shashthi-mahotsava-begins-at-kukke-sri-subrahmanya-from-december-5/"
+      },
+      {
+        "startDate": "2027-01-14",
+        "endDate": "2027-01-14",
+        "dateStatus": "confirmed",
+        "note": "Kiru Shashti Mahotsava (smaller, quieter).",
+        "source": "https://v4news.com/champa-shashthi-mahotsava-begins-at-kukke-sri-subrahmanya-from-december-5/"
+      }
+    ],
+    "what": "Kukke's biggest fortnight: nightly processions, then the Panchami chariot by night and the great Brahmaratha at dawn on Shashti. Kiru Shashti, a month later, is the small follow-up.",
+    "tips": "Go for the night of the Panchami ratha and stay for the dawn chariot. Book rooms early or plan to stay up. Leave the bike at the edge of town. Avoid riding the ghat roads back at night. Dress code and annadana timings: verify locally.",
+    "sources": [
+      "https://v4news.com/champa-shashthi-mahotsava-begins-at-kukke-sri-subrahmanya-from-december-5/",
+      "https://www.drikpanchang.com/festivals/subrahmanya-sashti/subrahmanya-sashti-date-time.html?year=2026&geoname-id=1263780"
+    ],
+    "confidence": "verified"
+  },
+  {
+    "id": "vaikuntha-ekadashi",
+    "name": "Vaikuntha Ekadashi (with Gita Jayanti)",
+    "category": "temple-festival",
+    "place": "Vishnu and Krishna temples, incl. Udupi Sri Krishna Matha",
+    "placeId": "udupi-sri-krishna-matha",
+    "months": [
+      12,
+      1
+    ],
+    "basis": "Lunar: Margashira Shukla Ekadashi",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2026-12-20",
+        "endDate": null,
+        "dateStatus": "panchang-derived",
+        "note": "Drik Panchang (Mangaluru); same day as Gita Jayanti. Some calendars differ by a day.",
+        "source": "https://www.drikpanchang.com/ekadashis/vaikuntha/vaikuntha-ekadashi-date-time.html?year=2026&geoname-id=1263780"
+      }
+    ],
+    "what": "The Ekadashi when Vishnu temples hold special darshan and many devotees fast. It falls on the same day as Gita Jayanti this year.",
+    "tips": "Udupi-specific programmes were not found: verify locally. Observers skip grains; temple prasada that day may be fasting food.",
+    "sources": [
+      "https://www.drikpanchang.com/ekadashis/vaikuntha/vaikuntha-ekadashi-date-time.html?year=2026&geoname-id=1263780"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "hanuman-jayanti-karnataka",
+    "name": "Hanuman Jayanti (Hanumad Vrata)",
+    "category": "temple-festival",
+    "place": "Hanuman and Mukhyaprana shrines across the region",
+    "placeId": "udupi-sri-krishna-matha",
+    "months": [
+      12
+    ],
+    "basis": "Lunar: Margashira Shukla Trayodashi (Karnataka custom)",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2026-12-22",
+        "endDate": null,
+        "dateStatus": "panchang-derived",
+        "note": "Drik Panchang Kannada calendar (Mangaluru).",
+        "source": "https://www.drikpanchang.com/kannada/festivals/hanuman-jayanti/hanuman-jayanti-date-time.html?year=2026&geoname-id=1263780"
+      }
+    ],
+    "what": "Karnataka marks Hanuman Jayanti in December, not in spring as up north. Mukhyaprana shrines, including the one at the Krishna Matha, hold special pujas.",
+    "tips": "No coastal programme was found; ask at the shrine for timings.",
+    "sources": [
+      "https://www.drikpanchang.com/kannada/festivals/hanuman-jayanti/hanuman-jayanti-date-time.html?year=2026&geoname-id=1263780"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "datta-jayanti-baba-budangiri",
+    "name": "Datta Jayanti at Baba Budangiri",
+    "category": "temple-festival",
+    "place": "Baba Budangiri (Dattapeetha), Chikkamagaluru",
+    "placeId": "baba-budangiri-dattapeetha",
+    "months": [
+      12
+    ],
+    "basis": "Lunar: Margashira Purnima",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2026-12-23",
+        "endDate": null,
+        "dateStatus": "panchang-derived",
+        "note": "Datta Jayanti per Drik Panchang (Mangaluru). The multi-day Baba Budangiri programme (Dattamala, Anasuya Jayanti, Shobha Yatra, Datta Paduka darshan) dates for 2026 not found.",
+        "source": "https://www.drikpanchang.com/festivals/dattatreya/dattatreya-jayanti-date-time.html?year=2026&geoname-id=1263780"
+      }
+    ],
+    "what": "A multi-day programme ending with Datta Paduka darshan at the cave shrine on Baba Budangiri. The shrine is also revered as the dargah of the Sufi saint Baba Budan.",
+    "tips": "The site is disputed and the festival comes with heavy policing and restrictions; check district notices before going. Hill roads above Chikkamagaluru are narrow; ride in daylight.",
+    "sources": [
+      "https://www.drikpanchang.com/festivals/dattatreya/dattatreya-jayanti-date-time.html?year=2026&geoname-id=1263780",
+      "https://udayavani.com/?p=1575793",
+      "https://www.thenewsminute.com/amp/story/karnataka/k-taka-police-high-alert-datta-jayanti-celebrations-bababudangiri-93751"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "christmas-mangaluru",
+    "name": "Christmas in Mangaluru",
+    "category": "civic",
+    "place": "Rosario Cathedral, Milagres and parishes across Mangaluru",
+    "placeId": "mangaluru-city-by-train-bike",
+    "months": [
+      12
+    ],
+    "basis": "Fixed: 25 Dec (midnight mass on 24 Dec)",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2026-12-24",
+        "endDate": "2026-12-25",
+        "dateStatus": "confirmed",
+        "note": "Fixed date; 2026 mass timings not yet published.",
+        "source": "https://udayavani.com/english-news/mangaluru-christmas-celebrations-spread-joy-across-coastal-karnataka"
+      }
+    ],
+    "what": "Mangaluru's large Catholic community makes Christmas a citywide event, with carols, midnight masses and crowds at Rosario, Milagres, Urwa, Bejai and Bondel. Parish cribs go up for weeks, and crib-hopping draws people of every faith.",
+    "tips": "Check parish notices for mass times. Be quiet and respectful during services. Kuswar sweets are a local tradition; some recipes use egg, so ask before you eat.",
+    "sources": [
+      "https://udayavani.com/english-news/mangaluru-christmas-celebrations-spread-joy-across-coastal-karnataka",
+      "https://www.thehansindia.com/karnataka/christmas-in-the-air-rome-of-the-east-at-its-festive-best-932439"
+    ],
+    "confidence": "partial"
+  },
+  {
+    "id": "karavali-utsav",
+    "name": "Karavali Utsav (Mangaluru and Karwar)",
+    "category": "civic",
+    "place": "Mangaluru (Pilikula, Tannirbhavi and city venues); Rabindranath Tagore Beach, Karwar",
+    "placeId": "mangaluru-city-by-train-bike",
+    "months": [
+      12,
+      1
+    ],
+    "basis": "District administration fixture, announced each winter",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "Each district's winter festival of beach events, cultural nights and food stalls; Mangaluru's has included an international kite festival at Tannirbhavi. The 2025-26 Mangaluru edition opened 20 Dec and was extended into February.",
+    "tips": "No 2026-27 dates yet: on 2 Nov 2026 officials were asked to plan Mangaluru's for December. Food zones include a seafood festival; stick to the veg counters.",
+    "sources": [
+      "https://newskarnataka.com/mangaluru/u-t-khader-directs-officials-to-plan-karavali-utsav/02112026/",
+      "https://www.mangaloretoday.com/main/Karavali-Utsav-2025-26-to-be-held-from-Dec-20-to-Jan-4.html",
+      "https://newskarnataka.com/mangaluru/international-kite-festival-returns-to-tannirbavi-during-karavali-utsava/17012026/",
+      "https://mail.sahilonline.org/karavali-utsava-2025-to-be-held-in-karwar-from-december-22-to-28-preparations-in-full-swing"
+    ],
+    "confidence": "verify-locally"
+  },
+  {
+    "id": "kambala-season",
+    "name": "Kambala season (buffalo races)",
+    "category": "kambala",
+    "place": "Paddy-field tracks across Udupi and Dakshina Kannada",
+    "placeId": null,
+    "months": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "basis": "Association fixture list, published each autumn (State Kambala Association)",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2026-11-28",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Kakkepadavu",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      },
+      {
+        "startDate": "2026-12-05",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Hokkadigoli",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      },
+      {
+        "startDate": "2026-12-12",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Baradi Beedu",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      },
+      {
+        "startDate": "2026-12-19",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Venur (date from the November 2026 revised list; differs from the July calendar)",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      },
+      {
+        "startDate": "2026-12-26",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Mulki",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      },
+      {
+        "startDate": "2026-12-27",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Ballamanja",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      },
+      {
+        "startDate": "2027-01-02",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Mangaluru (date from the November 2026 revised list; differs from the July calendar)",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      },
+      {
+        "startDate": "2027-01-09",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Miyyaru (date from the November 2026 revised list; differs from the July calendar)",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      },
+      {
+        "startDate": "2027-01-16",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Naringana (date from the November 2026 revised list; differs from the July calendar)",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      },
+      {
+        "startDate": "2027-01-23",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Moodbidri",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      },
+      {
+        "startDate": "2027-01-30",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Puttur (date from the November 2026 revised list; differs from the July calendar)",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      },
+      {
+        "startDate": "2027-05-01",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Kadandale: last kambala of the 2026-27 season, per the revised list",
+        "source": "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/"
+      }
+    ],
+    "what": "Pairs of buffaloes thunder down a flooded paddy track with a barefoot jockey hanging on behind, and the whole village turns out to shout them home. The 2026-27 season runs from late November to Kadandale on 1 May.",
+    "tips": "Races must finish within 24 hours (up to 150 pairs) or 30 hours (more), so the best runs often come late at night or next morning. Wear shoes you can get muddy, stand well back from the track end, and leave in daylight. Veg options at the stalls vary; eat before you go. Organisers sometimes shift dates, so check the week before.",
+    "sources": [
+      "https://v4news.com/revised-schedule-for-the-2026-27-kambala-season-announced-final-kambala-to-be-held-at-kadandale-on-may-1st/",
+      "https://www.deccanherald.com/india/karnataka/karnataka-kambala-season-to-have-28-kambala-events-check-dates-guidelines-and-more-4082465"
+    ],
+    "confidence": "verified"
+  },
+  {
+    "id": "yakshagana-season",
+    "name": "Yakshagana touring (tirugata) season",
+    "category": "yakshagana",
+    "place": "Temple yards and paddy fields across Udupi and Dakshina Kannada",
+    "placeId": null,
+    "months": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "basis": "Seasonal: melas start touring in November (after Deepavali) and stop at Pattanaje (late May)",
+    "frequency": "yearly",
+    "upcoming": [
+      {
+        "startDate": "2026-11-29",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "Dharmasthala mela starts its tour.",
+        "source": "https://hosakannada.com/latest/the-sound-of-drums-will-echo-along-the-coast-heres-the-complete-picture-of-the-2026-27-yakshagana-tour/"
+      },
+      {
+        "startDate": "2026-12-03",
+        "endDate": null,
+        "dateStatus": "confirmed",
+        "note": "All seven Kateel melas and the Kukke mela start touring.",
+        "source": "https://hosakannada.com/latest/the-sound-of-drums-will-echo-along-the-coast-heres-the-complete-picture-of-the-2026-27-yakshagana-tour/"
+      }
+    ],
+    "what": "About 45 Badagutittu and Tenkutittu melas tour the coast this season, playing somewhere almost every night. Already touring: Kamalashile (from 10 Nov), Saligrama (12 Nov), Mandarthi's five melas and Maranakatte (18 Nov), Perduru (20 Nov).",
+    "tips": "Many shows are now time-limited, but some still run all night; ask the start time. Most are free seva shows: ask at the temple office or local shops where a mela is playing tonight. Carry a shawl and avoid riding home after midnight. The 2027 end date is not announced; Pattanaje is traditionally the close.",
+    "sources": [
+      "https://hosakannada.com/latest/the-sound-of-drums-will-echo-along-the-coast-heres-the-complete-picture-of-the-2026-27-yakshagana-tour/",
+      "https://www.deccanchronicle.com/southern-states/karnataka/karnataka-kateel-mela-expands-with-seventh-yakshagana-troupe-1914113",
+      "https://en.wikipedia.org/wiki/Pattanaje"
+    ],
+    "confidence": "verified"
+  },
+  {
+    "id": "bhoota-kola-nagaradhane-season",
+    "name": "Bhoota Kola (Nema) and Nagaradhane season",
+    "category": "ritual-art",
+    "place": "Village shrines (daivasthanas) and family houses across Tulu Nadu",
+    "placeId": null,
+    "months": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "basis": "Seasonal: from Deepavali to Pattanaje (about 10th of Vrishabha masa, late May); individual kolas fixed by each shrine or family",
+    "frequency": "yearly",
+    "upcoming": [],
+    "what": "Night-long rituals where a performer in palm-frond costume and painted face becomes the daiva, dancing to drums and torchlight and speaking to the village. Nagamandala, the serpent ritual, runs into the early hours around a snake design drawn on the ground.",
+    "tips": "No public calendar exists; each shrine fixes its own date, so ask locals. These are worship, not shows: dress modestly, sit where you are told, and ask the organisers before taking any photo. Shrines close during Aati (July-August).",
+    "sources": [
+      "https://www.thenewsminute.com/article/dancing-bhoothas-spectacle-coastal-karnataka-s-ritual-arts-163209",
+      "https://www.deccanherald.com/content/468787/invoking-guardian-spirits.html",
+      "https://www.raveeshkumar.com/2016/01/a-night-of-bhuta-kola.html",
+      "https://en.wikipedia.org/wiki/Pattanaje",
+      "https://mangaloreheritage.com/bunt-traditions/aati-thingol/"
+    ],
+    "confidence": "partial"
+  }
+]
