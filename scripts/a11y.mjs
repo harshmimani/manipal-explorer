@@ -14,6 +14,16 @@ const VPS = {
 const want = process.argv.slice(2).length ? process.argv.slice(2) : Object.keys(VPS);
 const SECTIONS = ['.site-head', '#top', '#must-do', '#ch-coast', '#ch-gods', '#ch-ghats', '#ch-heritage', '#explore', '#map', '#ch-table', '#plan', '#festivals', '#practical', '#credits'];
 
+// Sections render as the reader nears them (rest.js): scroll down until all are in.
+const renderAll = async (page) => {
+  await page.waitForFunction(() => !document.querySelector('[data-intro]') && document.getElementById('must-do'), null, { timeout: 20000 });
+  for (let pass = 0; pass < 8 && await page.evaluate(() => !!document.querySelector('[data-lazy]')); pass++) {
+    await page.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += innerHeight * 0.8) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 60)); } });
+  }
+  await page.waitForFunction(() => document.querySelectorAll('#explore .card').length > 100, null, { timeout: 20000 });
+  await page.evaluate(() => scrollTo(0, 0));
+};
+
 const browser = await chromium.launch();
 await mkdir('review/qa', { recursive: true });
 let bad = 0;
@@ -24,7 +34,7 @@ for (const key of want) {
   await ctx.addInitScript(() => { try { sessionStorage.setItem('me:intro', '1'); } catch {} });
   const page = await ctx.newPage();
   await page.goto(BASE, { waitUntil: 'load' });
-  await page.waitForFunction(() => document.querySelectorAll('#explore .card').length > 100 && !document.querySelector('[data-intro]'), null, { timeout: 20000 });
+  await renderAll(page);
   // Walk the page so reveals finish and lazy content (map) mounts, then settle every animation.
   await page.evaluate(async () => {
     for (let y = 0; y < document.body.scrollHeight; y += innerHeight * 0.8) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 80)); }

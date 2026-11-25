@@ -131,6 +131,9 @@ html.is-intro .intro { display: block; position: fixed; inset: 0; z-index: var(-
 @media (min-width: 560px) { #ch-table > .wrap { --cv-h: 8000px; } #plan > .timeline { --cv-h: 2200px; } #festivals { --cv-h: 6100px; } #practical { --cv-h: 2100px; } }
 @media (min-width: 1000px) { #ch-table > .wrap { --cv-h: 5900px; } #plan > .timeline { --cv-h: 2500px; } #festivals { --cv-h: 5750px; } #practical { --cv-h: 1850px; } #credits > .wrap { --cv-h: 420px; } }
 
+/* Sections waiting to render (rest.js renders them as the reader nears them). */
+.lazy-sec { min-height: 100vh; min-height: 100svh; }
+
 /* Print: everything shown, nothing mid-reveal. */
 @media print {
   #ch-table > .wrap, #plan > .timeline, #festivals, #practical, #credits > .wrap { content-visibility: visible; }

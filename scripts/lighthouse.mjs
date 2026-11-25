@@ -11,7 +11,7 @@ const RUNS = Number(process.argv[2] || 3);
 mkdirSync('review/lighthouse', { recursive: true });
 const env = { ...process.env, CHROME_PATH: chromium.executablePath() };
 const lines = [];
-for (const profile of ['mobile', 'desktop']) {
+for (const profile of (process.env.PROFILES || 'mobile,desktop').split(',')) {
   const runs = [];
   for (let i = 0; i < RUNS; i++) {
     const out = `review/lighthouse/${profile}-${i}.json`;

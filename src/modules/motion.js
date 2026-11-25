@@ -35,8 +35,22 @@ export const motion = { lenis: null };
 // data arrives). `rest` resolves once every other section is in the DOM.
 // Returns a promise that settles when the intro is over or skipped: on a first
 // visit main.js holds the heavy render until then, so the intro runs smoothly.
+// Sections below the Top 10 render as the reader nears them (rest.js), so the
+// scroll effects are set up per section: addSection(root) wires a new one.
+let wire = null;
+export function addSection(root) { wire?.(root); }
+
+// Called as soon as the header and hero are on the page (they render before the
+// data arrives). `rest` resolves once the first sections are in the DOM.
+// Returns a promise that settles when the intro is over or skipped: on a first
+// visit main.js holds the heavier render until then, so the intro runs smoothly.
 export function initMotion(rest) {
-  if (reduce) { endIntro(); shaderSlot()?.classList.add('is-static'); rest.then(reducedFades); return Promise.resolve(); }
+  if (reduce) {
+    endIntro(); shaderSlot()?.classList.add('is-static');
+    const fades = reducedFades();
+    rest.then(() => { fades.add(document); wire = fades.add; });
+    return Promise.resolve();
+  }
   gsap.registerPlugin(ScrollTrigger, SplitText, Flip);
   // No automatic refresh on window load: it lands mid-intro on slow phones.
   // We refresh once ourselves when the intro ends.
@@ -48,31 +62,36 @@ export function initMotion(rest) {
   // Anything that changes page height above a pin (details opening, map load) re-measures.
   let t = 0;
   const refresh = () => { clearTimeout(t); t = setTimeout(() => ScrollTrigger.refresh(), 160); };
+  // Blocks below the map skip layout until near the screen (motion.css);
+  // when one first renders at its real height, pins below it re-measure.
+  const seen = new WeakSet();
+  const ro = new ResizeObserver((es) => { let grew = false; es.forEach((e) => { if (seen.has(e.target)) grew = true; else seen.add(e.target); }); if (grew) refresh(); });
+  const CV = '#ch-table > .wrap, #plan > .timeline, #festivals, #practical';
   rest.then(() => {
-    // Hidden states are set now; observing starts after the intro (scroll is
-    // locked during it, and ~330 observed targets cost ~300 ms of main thread
-    // on a throttled phone while the intro animates).
-    const watch = [cardReveals(), fadeUps()];
-    openers();
+    // Hidden states are set as sections arrive; observing starts after the intro
+    // (scroll is locked during it, and observing hundreds of targets costs main
+    // thread on a throttled phone while the intro animates).
+    const reveals = cardReveals(), fades = fadeUps(), splits = splitHeadings();
+    const setup = (root) => {
+      reveals.add(root); fades.add(root); splits.add(root);
+      openers(root); swipeTracks(root);
+      [root, ...root.querySelectorAll(CV)].filter((el) => el.matches?.(CV)).forEach((el) => ro.observe(el));
+    };
+    setup(document);
     flipFilters();
-    swipeTracks(document);
     feedback();
     sheetContent();
     if (fine) { cursor(); magnetic(); tilt(); }
+    wire = (root) => { setup(root); refresh(); };
     // Headline splits and the shader wait until the intro is done, so neither
     // competes with it for the main thread on a slow phone.
     introDone.then(() => idle(() => {
-      watch.forEach((start) => start());
+      reveals.start(); fades.start();
       (document.fonts?.ready ?? Promise.resolve()).then(() => {
-        splitHeadings();
+        splits.start();
         ScrollTrigger.refresh();
         document.addEventListener('toggle', refresh, true);
         onGridDone(refresh); // the grid's later batches push everything below it down
-        // Blocks below the map skip layout until near the screen (motion.css);
-        // when one first renders at its real height, pins below it re-measure.
-        const seen = new WeakSet();
-        const ro = new ResizeObserver((es) => { let grew = false; es.forEach((e) => { if (seen.has(e.target)) grew = true; else seen.add(e.target); }); if (grew) refresh(); });
-        document.querySelectorAll('#ch-table > .wrap, #plan > .timeline, #festivals, #practical').forEach((el) => ro.observe(el));
         addEventListener('load', refresh);
         idle(mountShader);
       });
@@ -112,6 +131,8 @@ function smoothScroll() {
     if (!a || e.defaultPrevented || a.hasAttribute('data-open') || a.classList.contains('skip')) return;
     const id = decodeURIComponent(a.getAttribute('href').slice(1));
     if (!id || id.startsWith('place-')) return;
+    // Sections render as the reader nears them (rest.js): bring in everything up to the target first.
+    document.dispatchEvent(new CustomEvent('me:need', { detail: id }));
     const el = document.getElementById(id);
     if (!el) return;
     e.preventDefault();
@@ -166,10 +187,13 @@ function intro(after) {
     .from(lines, { yPercent: 112, duration: 0.9, stagger: 0.07 }, 1.4)
     .from(rest, { y: 22, opacity: 0, duration: 0.7, stagger: 0.03, clearProps: 'transform,opacity' }, 1.5)
     .from(sub, { y: 22, duration: 0.7, clearProps: 'transform' }, 1.5);
+  // Phones get the same choreography at 2.4x speed (about 1 s): a long intro holds
+  // a phone's screen while the reader waits to scroll. Laptops keep the full ≈ 2.45 s.
+  if (matchMedia('(max-width: 999px)').matches) tl.timeScale(2.4);
   // Built paused (so the hero is already in its start pose) and played after the
   // page's first heavy paint, so a slow phone sees the whole thing.
   afterFirstPaint(() => tl.play());
-  // Total ≈ 2.45 s. Any key, click, wheel or touch skips straight to the end.
+  // Total ≈ 2.45 s (about 1 s on phones). Any key, click, wheel or touch skips straight to the end.
   const skip = () => tl.progress(1);
   const evs = ['keydown', 'pointerdown', 'wheel', 'touchstart'];
   evs.forEach((ev) => addEventListener(ev, skip, { passive: true }));
@@ -217,14 +241,16 @@ function cardReveals() {
     c.classList.remove('rv');
     setTimeout(() => c.style.removeProperty('--rv-d'), 2200); // so later hovers have no delay
   }), '0px 25% -6% 25%');
-  // Grid cards arrive in batches after first paint (explore.js): they join the
-  // same observer as they land.
-  const cards = new Set(document.querySelectorAll('.card'));
+  // Grid cards arrive in batches (explore.js) and sections as the reader nears
+  // them (rest.js): each card joins the same observer as it lands.
+  const cards = new Set();
   let live = false;
-  const add = (c) => { c.classList.add('rv'); if (live) io.observe(c); };
-  cards.forEach(add);
-  onCards((list) => list.forEach((c) => { if (!cards.has(c)) { cards.add(c); add(c); } }));
-  return () => { live = true; cards.forEach((c) => io.observe(c)); };
+  const one = (c) => { if (cards.has(c)) return; cards.add(c); c.classList.add('rv'); if (live) io.observe(c); };
+  onCards((list) => list.forEach(one));
+  return {
+    add: (root) => root.querySelectorAll('.card').forEach(one),
+    start: () => { live = true; cards.forEach((c) => { if (c.classList.contains('rv')) io.observe(c); }); },
+  };
 }
 
 function fadeUps() {
@@ -234,9 +260,12 @@ function fadeUps() {
     gsap.fromTo(els, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 1, ease: EXPO, stagger: 0.06, clearProps: 'transform,opacity' });
     els.forEach((el) => el.classList.remove('fu'));
   });
-  const els = document.querySelectorAll(CARD_FADE);
-  els.forEach((el) => el.classList.add('fu'));
-  return () => els.forEach((el) => io.observe(el));
+  const els = new Set();
+  let live = false;
+  return {
+    add: (root) => root.querySelectorAll(CARD_FADE).forEach((el) => { if (els.has(el)) return; els.add(el); el.classList.add('fu'); if (live) io.observe(el); }),
+    start: () => { live = true; els.forEach((el) => { if (el.classList.contains('fu')) io.observe(el); }); },
+  };
 }
 
 // ── Split headlines (after fonts, so line breaks are final) ──────────
@@ -253,19 +282,24 @@ function splitHeadings() {
     gsap.set(s.words, { yPercent: 110 });
     io.observe(el);
   }), { rootMargin: '0px 0px 120% 0px' });
-  document.querySelectorAll(HEADINGS).forEach((el) => pre.observe(el));
+  const els = new Set();
+  let live = false;
+  return {
+    add: (root) => root.querySelectorAll(HEADINGS).forEach((el) => { if (els.has(el)) return; els.add(el); if (live) pre.observe(el); }),
+    start: () => { live = true; els.forEach((el) => pre.observe(el)); },
+  };
 }
 
 // ── Chapter openers ───────────────────────────────────────────────────
 const ARCH_SHUT = 'inset(100% 0% 0% 0% round 999px 999px 6px 6px)';
 const ARCH_OPEN = 'inset(0% 0% 0% 0% round 999px 999px 6px 6px)';
-function openers() {
+function openers(root) {
   const mm = gsap.matchMedia();
   // Laptop: each opener pins for a beat. The numeral comes forward out of the
   // dark, the Gods' arch opens like a doorway, then everything recedes as the
   // pin lets go and the chapter's cards arrive.
   mm.add('(min-width: 1000px)', () => {
-    gsap.utils.toArray('.opener').forEach((op) => {
+    root.querySelectorAll('.opener').forEach((op) => {
       const num = op.querySelector('.opener__num'), text = op.querySelector('.opener__text'), arch = op.querySelector('.arch__img');
       gsap.fromTo(num, { yPercent: 18 }, { yPercent: 0, ease: 'none', scrollTrigger: { trigger: op, start: 'top bottom', end: 'top top', scrub: true } });
       const tl = gsap.timeline({ defaults: { ease: 'none' }, scrollTrigger: { trigger: op, start: 'top top', end: '+=75%', scrub: 0.6, pin: true, anticipatePin: 1 } });
@@ -283,10 +317,10 @@ function openers() {
   // Phone: no pinning (it fights thumb scrolling). The numeral drifts against
   // the scroll for depth and the arch opens once as it comes into view.
   mm.add('(max-width: 999px)', () => {
-    gsap.utils.toArray('.opener__num').forEach((num) => {
+    root.querySelectorAll('.opener__num').forEach((num) => {
       gsap.fromTo(num, { yPercent: -10 }, { yPercent: 12, ease: 'none', scrollTrigger: { trigger: num.parentElement, start: 'top bottom', end: 'bottom top', scrub: true } });
     });
-    gsap.utils.toArray('.arch__img').forEach((arch) => {
+    root.querySelectorAll('.arch__img').forEach((arch) => {
       gsap.fromTo(arch, { clipPath: ARCH_SHUT }, { clipPath: ARCH_OPEN, duration: 1.4, ease: FILM, scrollTrigger: { trigger: arch, start: 'top 85%', once: true } });
     });
   });
@@ -492,14 +526,14 @@ function tilt() {
 
 // ── Reduced motion: plain fades, nothing moves ────────────────────────
 function reducedFades() {
-  const els = new Set(document.querySelectorAll(`.card, .opener__text, ${CARD_FADE}`));
+  const els = new Set();
   const io = new IntersectionObserver((entries) => entries.forEach((e) => {
     if (!e.isIntersecting) return;
     io.unobserve(e.target);
     e.target.classList.remove('rm-wait');
     e.target.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 450, easing: 'linear' });
   }), { rootMargin: '0px 0px -4% 0px' });
-  const add = (el) => { el.classList.add('rm-wait'); io.observe(el); };
-  els.forEach(add);
-  onCards((list) => list.forEach((c) => { if (!els.has(c)) { els.add(c); add(c); } }));
+  const one = (el) => { if (els.has(el)) return; els.add(el); el.classList.add('rm-wait'); io.observe(el); };
+  onCards((list) => list.forEach(one));
+  return { add: (root) => root.querySelectorAll(`.card, .opener__text, ${CARD_FADE}`).forEach(one) };
 }

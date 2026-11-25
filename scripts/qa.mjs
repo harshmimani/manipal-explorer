@@ -89,7 +89,7 @@ for (const key of want) {
   await page.evaluate(async () => {
     await document.fonts.ready;
     document.querySelectorAll('img[loading="lazy"]').forEach((i) => { i.loading = 'eager'; });
-    for (let y = 0; y < document.body.scrollHeight; y += innerHeight * 0.8) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 90)); }
+    for (let pass = 0; pass < 8 && (pass === 0 || document.querySelector("[data-lazy]")); pass++) for (let y = 0; y < document.body.scrollHeight; y += innerHeight * 0.8) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 90)); } // sections render as they near the screen
     // Bounded: an image inside content that is still skipped (content-visibility) may not load until it nears the screen.
     await Promise.race([Promise.all([...document.images].map((i) => (i.complete ? 0 : new Promise((r) => { i.onload = i.onerror = r; })))), new Promise((r) => setTimeout(r, 15000))]);
   });

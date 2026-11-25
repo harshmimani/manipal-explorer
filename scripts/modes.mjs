@@ -48,11 +48,21 @@ const walk = (page) => page.evaluate(async () => {
   return left.map((e) => `${e.tagName.toLowerCase()}.${[...e.classList].join('.')} [${e.closest('[data-place]')?.dataset.place ?? e.closest('section')?.id}]`);
 });
 
+// Sections render as the reader nears them (rest.js): scroll down until all are in.
+const renderAll = async (page) => {
+  await page.waitForFunction(() => !document.querySelector('[data-intro]') && document.getElementById('must-do'), null, { timeout: 20000 });
+  for (let pass = 0; pass < 8 && await page.evaluate(() => !!document.querySelector('[data-lazy]')); pass++) {
+    await page.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += innerHeight * 0.8) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 60)); } });
+  }
+  await page.waitForFunction(() => document.querySelectorAll('#explore .card').length > 100, null, { timeout: 20000 });
+  await page.evaluate(() => scrollTo(0, 0));
+};
+
 const browser = await chromium.launch();
 for (const [w, h, mobile] of [[390, 844, true], [1440, 900, false]]) {
   await visit(browser, `reduced motion ${w}`, { viewport: { width: w, height: h }, isMobile: mobile, hasTouch: mobile, reducedMotion: 'reduce' }, async (page) => {
     await page.goto(BASE, { waitUntil: 'load' });
-    await page.waitForFunction(() => document.querySelectorAll('#explore .card').length > 100, null, { timeout: 20000 });
+    await renderAll(page);
     const st = await page.evaluate(() => ({
       intro: !!document.querySelector('[data-intro]') && getComputedStyle(document.querySelector('[data-intro]')).display !== 'none',
       isIntro: document.documentElement.classList.contains('is-intro'),
