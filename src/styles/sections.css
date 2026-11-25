@@ -5,13 +5,13 @@
   padding: calc(var(--letterbox) + var(--safe-top)) max(var(--gutter), var(--safe-right)) 6px max(var(--gutter), var(--safe-left)); min-height: 60px;
   transition: background var(--dur-base), padding var(--dur-base), border-color var(--dur-base); border-bottom: 1px solid transparent; }
 .site-head.is-solid { background: var(--surface-glass); backdrop-filter: var(--blur-glass); -webkit-backdrop-filter: var(--blur-glass); border-color: var(--line); padding-top: calc(6px + var(--safe-top)); }
-.brand { font: 400 var(--step-1)/1 var(--font-display); text-decoration: none; white-space: nowrap; }
+.brand { font: 400 var(--step-1)/1 var(--font-display); text-decoration: none; white-space: nowrap; display: inline-flex; align-items: center; min-height: var(--tap); }
 .brand i { color: var(--accent); }
 .site-head__nav { display: none; }
 .site-head .explored .ring { width: 36px; height: 36px; }
 @media (min-width: 1000px) {
   .site-head__nav { display: flex; gap: var(--space-m); }
-  .site-head__nav a { text-decoration: none; color: var(--text-muted); font: var(--weight-strong) var(--step--2)/1 var(--font-body); letter-spacing: .12em; text-transform: uppercase; min-height: var(--tap); display: inline-flex; align-items: center; }
+  .site-head__nav a { text-decoration: none; color: var(--text-muted); font: var(--weight-strong) var(--step--2)/1 var(--font-body); letter-spacing: .12em; text-transform: uppercase; min-height: var(--tap); min-width: var(--tap); justify-content: center; display: inline-flex; align-items: center; }
   .site-head__nav a:hover { color: var(--text); }
 }
 /* In the hero the ring lives in the hero row; header ring appears once scrolled. */
@@ -50,7 +50,7 @@
 .hero__credit { position: absolute; right: var(--gutter); bottom: calc(var(--letterbox) + 4px); margin: 0; font-size: .62rem; opacity: .8; display: none; }
 .rail { display: none; }
 .chips { display: flex; gap: 0 14px; flex-wrap: wrap; list-style: none; margin: var(--space-s) 0 0; padding: 0; }
-.chips a { display: inline-flex; align-items: center; gap: .4em; min-height: var(--tap); text-decoration: none; color: var(--text-muted); font: 400 1.1rem/1 var(--font-display); }
+.chips a { display: inline-flex; align-items: center; gap: .4em; min-height: var(--tap); min-width: var(--tap); text-decoration: none; color: var(--text-muted); font: 400 1.1rem/1 var(--font-display); }
 .chips b { font: var(--weight-strong) .6rem/1 var(--font-body); letter-spacing: .1em; color: var(--text-faint); }
 @media (max-height: 700px) and (max-width: 999px) {
   .hero h1 { font-size: clamp(3.6rem, 18vw, 4.6rem); }
@@ -169,7 +169,7 @@ html.has-filters .fbar { z-index: var(--z-sheet); }
 .search input { width: 100%; }
 .fselect select { appearance: none; -webkit-appearance: none; padding-right: 34px;
   background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23A7A398' stroke-width='1.6'/%3E%3C/svg%3E") right 14px center no-repeat; }
-.grid { display: grid; grid-template-columns: 1fr; gap: var(--space-m) var(--space-s); padding: 0 var(--gutter); max-width: var(--max-w); margin: 0 auto; }
+.grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-m) var(--space-s); padding: 0 var(--gutter); max-width: var(--max-w); margin: 0 auto; }
 .grid .card__media { aspect-ratio: 4 / 4.2; }
 .empty { padding: var(--space-xl) var(--gutter); text-align: center; color: var(--text-muted); font: italic 400 var(--step-2)/1.2 var(--font-display); }
 @media (min-width: 560px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .grid .card__media { aspect-ratio: var(--ratio-card); } }
@@ -359,8 +359,21 @@ html.has-filters .fbar { z-index: var(--z-sheet); }
 .credits, .sources { list-style: none; margin: var(--space-s) 0 var(--space-l); padding: 0; display: grid; gap: var(--space-s); columns: 1; }
 .credits li, .sources li { display: grid; gap: 4px; font-size: .78rem; color: var(--text-muted); min-width: 0; }
 .credits b, .sources b { color: var(--text-soft); font-weight: var(--weight-strong); }
-.sources a { color: var(--text-faint); overflow-wrap: anywhere; text-decoration: none; padding: 2px 0; }
+.sources a { color: var(--text-faint); overflow-wrap: anywhere; text-decoration: none; padding: 2px 0; display: flex; align-items: center; min-height: 28px; }
+.sources li { gap: 0; }
+@media (pointer: coarse) { .sources a { min-height: var(--tap); } }
 .sources a:hover { color: var(--text); text-decoration: underline; }
 @media (min-width: 760px) { .credits, .sources { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 1200px) { .credits, .sources { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .foot__small { margin-top: var(--space-l); color: var(--text-faint); font-size: var(--step--1); }
+
+/* ── Tap targets for links that sit in text ──────────────────
+   Padding on an inline link grows its hit box, not the line box, so the text
+   doesn't move. Standalone links (trip stops, festival names, temple meals,
+   facts, sources) reach 44 px on touch; credit links inside a sentence
+   (WCAG 2.5.8's inline exception) still get at least 24 px. */
+.stop__name a, .soon__name a, .anna__card h4 a, .mini dd a, .links a, .pr__src a { padding-block: calc(12px - .5em); }
+.credit a, .credits a { padding-block: calc(13px - .6em); }
+@media (pointer: coarse) {
+  .stop__name a, .soon__name a, .anna__card h4 a, .mini dd a, .links a, .pr__src a { padding-block: calc(22px - .55em); }
+}

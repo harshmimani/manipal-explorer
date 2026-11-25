@@ -30,3 +30,9 @@ lighthouse-*.html
 
 # Image pipeline cache (downloaded masters, API responses)
 .cache
+
+# Lighthouse per-run reports and traces (the median run per profile is kept)
+review/lighthouse/*-[0-9].json
+review/lighthouse/trace-*
+# Throwaway measurement probes
+scripts/_probe*.mjs

@@ -1,8 +1,8 @@
 // Explore everything: filter state → grid visibility, live count, and the map.
 import { places } from './data.js';
 import { isGoodNow } from './util.js';
-import { has, subscribe } from './state.js';
-import { CATEGORY } from './sections.js';
+import { has, subscribe, syncButtons } from './state.js';
+import { CATEGORY, GRID_FIRST, gridCard } from './sections.js';
 
 const CAT = Object.fromEntries(CATEGORY.map(([k, , fn]) => [k, fn]));
 const DIST = { near: (d) => d != null && d < 30, mid: (d) => d != null && d >= 30 && d <= 100, far: (d) => d != null && d > 100 };
@@ -15,6 +15,14 @@ export const visibleIds = () => currentIds ?? new Set(places.map((p) => p.id));
 // motion.js swaps this for a GSAP Flip that animates cards to their new places.
 let animate = (cards, mutate) => mutate();
 export const setAnimator = (fn) => { animate = fn; };
+// New grid cards (added in batches after first paint) are announced here, so
+// motion.js can give them reveals. Late subscribers get the cards already built.
+const cardSubs = new Set();
+let built = [];
+export const onCards = (fn) => { cardSubs.add(fn); if (built.length) fn(built, false); };
+let gridDone = false;
+const doneSubs = new Set();
+export const onGridDone = (fn) => { if (gridDone) fn(); else doneSubs.add(fn); };
 
 function readForm(form) {
   const fd = new FormData(form);
@@ -51,7 +59,8 @@ function match(p, f) {
 export function initExplore() {
   const sec = document.getElementById('explore');
   const form = sec.querySelector('[data-filter-form]');
-  const cards = [...sec.querySelectorAll('[data-grid] .card')];
+  const grid = sec.querySelector('[data-grid]');
+  const cards = [...grid.querySelectorAll('.card')];
   const sheet = sec.querySelector('[data-filters]');
   const openBtn = sec.querySelector('[data-filters-open]');
   const reset = sec.querySelector('[data-reset]');
@@ -63,7 +72,8 @@ export function initExplore() {
 
   // Desktop: each group is a dropdown in the sticky bar. Phone: all groups open in the sheet.
   const desk = matchMedia('(min-width: 1000px)');
-  const layout = () => groups.forEach((g) => { g.open = !desk.matches; });
+  // On phones the group titles are just labels (every group stays open), so they leave the tab order.
+  const layout = () => groups.forEach((g) => { g.open = !desk.matches; g.querySelector('summary').tabIndex = desk.matches ? 0 : -1; });
   desk.addEventListener('change', layout);
   layout();
   groups.forEach((g) => {
@@ -85,10 +95,13 @@ export function initExplore() {
     const g = groups.find((x) => x.open); if (g) { g.open = false; g.querySelector('summary').focus(); }
   });
 
+  // Filtering runs on the data, so counts and the map are right even while the
+  // last grid batches are still being built.
+  let ids = new Set(places.map((p) => p.id));
   const apply = () => {
     const f = readForm(form);
-    const ids = new Set();
-    const show = cards.map((c) => { const ok = match(places.find((p) => p.id === c.dataset.place), f); if (ok) ids.add(c.dataset.place); return ok; });
+    ids = new Set(places.filter((p) => match(p, f)).map((p) => p.id));
+    const show = cards.map((c) => ids.has(c.dataset.place));
     if (cards.some((c, i) => c.hidden === show[i])) animate(cards, () => cards.forEach((c, i) => { c.hidden = !show[i]; }));
     currentIds = ids;
     counts.forEach((el) => { el.textContent = ids.size; });
@@ -122,4 +135,38 @@ export function initExplore() {
   sheet.addEventListener('click', (e) => { if (e.target === sheet) setOpen(false); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && sheet.classList.contains('is-open')) setOpen(false); });
   apply();
+  announce(cards);
+  buildRest(grid, cards, () => ids);
 }
+
+function announce(list) {
+  built = built.concat(list);
+  cardSubs.forEach((fn) => fn(list, true));
+}
+
+// Build the remaining cards a few at a time when the main thread is free.
+// Each batch is parsed in a <template> (off the document), synced with the
+// visitor's stars and been-there marks, then appended in one go.
+function buildRest(grid, cards, getIds) {
+  const rest = places.slice(GRID_FIRST);
+  const BATCH = 12;
+  const tpl = document.createElement('template');
+  const step = (deadline) => {
+    do {
+      const chunk = rest.splice(0, BATCH);
+      if (!chunk.length) break;
+      tpl.innerHTML = chunk.map(gridCard).join('');
+      const fresh = [...tpl.content.children];
+      const ok = getIds();
+      fresh.forEach((c) => { c.hidden = !ok.has(c.dataset.place); c.classList.toggle('is-been', has('been', c.dataset.place)); });
+      syncButtons(tpl.content);
+      grid.append(tpl.content);
+      cards.push(...fresh);
+      announce(fresh);
+    } while (deadline?.timeRemaining?.() > 12);
+    if (rest.length) schedule(step);
+    else { grid.removeAttribute('aria-busy'); gridDone = true; doneSubs.forEach((fn) => fn()); }
+  };
+  schedule(step);
+}
+const schedule = (fn) => ('requestIdleCallback' in window ? requestIdleCallback(fn, { timeout: 400 }) : setTimeout(fn, 16));

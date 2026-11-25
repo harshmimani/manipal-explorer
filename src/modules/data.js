@@ -4,8 +4,12 @@
 import placesUrl from '../data/places.json?url';
 import creditsUrl from '../data/image-credits.json?url';
 
+import hero from 'virtual:hero-data';
+
 export const places = [];
-export const credits = {};
+// Seeded with the hero photo's credit so the hero can render before the data arrives.
+export const credits = { [hero.credit.id]: hero.credit };
+export { hero };
 export const byId = new Map();
 
 const getJson = (url) => fetch(url).then((r) => {

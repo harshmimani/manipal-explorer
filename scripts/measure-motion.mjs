@@ -101,6 +101,23 @@ for (const name of want.length ? want : Object.keys(PROFILES)) {
   }
   res.push(summarise('scroll page', await page.evaluate(() => window.__rec.stop()))); console.log(name, JSON.stringify(res[res.length - 1]));
 
+  // 3b · Scroll through the whole Explore grid (107 cards).
+  await page.evaluate((y) => scrollTo(0, y), explore);
+  await page.waitForTimeout(600);
+  const gridH = await page.evaluate(() => document.querySelector('[data-grid]').offsetHeight);
+  await page.evaluate(() => window.__rec.start());
+  if (P.isMobile) {
+    await page.evaluate(async ([from, to]) => {
+      await new Promise((done) => { const v = 2200; let y = from, last = performance.now();
+        const step = (t) => { y += (v * (t - last)) / 1000; last = t; scrollTo(0, y); if (y < to) requestAnimationFrame(step); else done(); };
+        requestAnimationFrame(step); });
+    }, [explore, explore + gridH]);
+  } else {
+    for (let y = 0; y < gridH; y += 120) { await page.mouse.wheel(0, 120); await page.waitForTimeout(16); }
+    await page.waitForTimeout(800);
+  }
+  res.push(summarise('scroll grid', await page.evaluate(() => window.__rec.stop()))); console.log(name, JSON.stringify(res[res.length - 1]));
+
   // 4 · Filter change: Flip on the Explore grid.
   await page.evaluate((y) => scrollTo(0, y + 200), explore);
   await page.waitForTimeout(1200);

@@ -17,7 +17,7 @@ import { SplitText } from 'gsap/SplitText';
 import { Flip } from 'gsap/Flip';
 import Lenis from 'lenis';
 import { places } from './data.js';
-import { setAnimator } from './explore.js';
+import { setAnimator, onCards, onGridDone } from './explore.js';
 
 const EXPO = 'expo.out';
 const FILM = 'power4.inOut';
@@ -31,8 +31,12 @@ const HEADINGS = '.head h2, .opener h2, .sub-h';
 
 export const motion = { lenis: null };
 
-export function initMotion() {
-  if (reduce) { reducedFades(); endIntro(); shaderSlot()?.classList.add('is-static'); return; }
+// Called as soon as the header and hero are on the page (they render before the
+// data arrives). `rest` resolves once every other section is in the DOM.
+// Returns a promise that settles when the intro is over or skipped: on a first
+// visit main.js holds the heavy render until then, so the intro runs smoothly.
+export function initMotion(rest) {
+  if (reduce) { endIntro(); shaderSlot()?.classList.add('is-static'); rest.then(reducedFades); return Promise.resolve(); }
   gsap.registerPlugin(ScrollTrigger, SplitText, Flip);
   // No automatic refresh on window load: it lands mid-intro on slow phones.
   // We refresh once ourselves when the intro ends.
@@ -40,31 +44,41 @@ export function initMotion() {
   gsap.config({ force3D: true });
   motion.lenis = smoothScroll();
   hero();
-  // Hidden states are set now; observing starts after the intro (scroll is
-  // locked during it, and ~330 observed targets cost ~300 ms of main thread
-  // on a throttled phone while the intro animates).
-  const watch = [cardReveals(), fadeUps()];
-  openers();
-  flipFilters();
-  swipeTracks(document);
-  feedback();
-  sheetContent();
-  if (fine) { cursor(); magnetic(); tilt(); }
+  const introDone = new Promise((done) => intro(done));
   // Anything that changes page height above a pin (details opening, map load) re-measures.
   let t = 0;
   const refresh = () => { clearTimeout(t); t = setTimeout(() => ScrollTrigger.refresh(), 160); };
-  // Headline splits and the shader wait until the intro is done, so neither
-  // competes with it for the main thread on a slow phone.
-  intro(() => idle(() => {
-    watch.forEach((start) => start());
-    (document.fonts?.ready ?? Promise.resolve()).then(() => {
-      splitHeadings();
-      ScrollTrigger.refresh();
-      document.addEventListener('toggle', refresh, true);
-      addEventListener('load', refresh);
-      idle(mountShader);
-    });
-  }));
+  rest.then(() => {
+    // Hidden states are set now; observing starts after the intro (scroll is
+    // locked during it, and ~330 observed targets cost ~300 ms of main thread
+    // on a throttled phone while the intro animates).
+    const watch = [cardReveals(), fadeUps()];
+    openers();
+    flipFilters();
+    swipeTracks(document);
+    feedback();
+    sheetContent();
+    if (fine) { cursor(); magnetic(); tilt(); }
+    // Headline splits and the shader wait until the intro is done, so neither
+    // competes with it for the main thread on a slow phone.
+    introDone.then(() => idle(() => {
+      watch.forEach((start) => start());
+      (document.fonts?.ready ?? Promise.resolve()).then(() => {
+        splitHeadings();
+        ScrollTrigger.refresh();
+        document.addEventListener('toggle', refresh, true);
+        onGridDone(refresh); // the grid's later batches push everything below it down
+        // Blocks below the map skip layout until near the screen (motion.css);
+        // when one first renders at its real height, pins below it re-measure.
+        const seen = new WeakSet();
+        const ro = new ResizeObserver((es) => { let grew = false; es.forEach((e) => { if (seen.has(e.target)) grew = true; else seen.add(e.target); }); if (grew) refresh(); });
+        document.querySelectorAll('#ch-table > .wrap, #plan > .timeline, #festivals, #practical').forEach((el) => ro.observe(el));
+        addEventListener('load', refresh);
+        idle(mountShader);
+      });
+    }));
+  });
+  return introDone;
 }
 
 const shaderSlot = () => document.querySelector('[data-shader-slot]');
@@ -116,14 +130,15 @@ function endIntro() {
 function intro(after) {
   const overlay = document.querySelector('[data-intro]');
   const lines = gsap.utils.toArray('.hero h1 .ln > span');
-  const rest = gsap.utils.toArray('.hero .kicker, .hero__row > *, .hero .chips, .rail');
+  const rest = gsap.utils.toArray('.hero .kicker, .hero__row > :not(.hero__sub), .hero .chips, .rail');
+  // The sub line lifts without a fade: it is the page's largest text, and a
+  // paragraph painted at opacity 0 would not count as painted (LCP) until it fades in.
+  const sub = '.hero__sub';
   if (!html.classList.contains('is-intro') || !overlay) {
-    // Repeat visit: no title card, but the headline still lands.
+    // Repeat visit: no title card. The headline still lands, but in CSS
+    // (motion.css .hero-rise) from the first paint, without waiting for this chunk.
     endIntro();
-    const tl = gsap.timeline({ paused: true, onComplete: after })
-      .from(lines, { yPercent: 112, duration: 1.1, ease: EXPO, stagger: 0.07 })
-      .from(rest, { y: 18, opacity: 0, duration: 0.9, ease: EXPO, stagger: 0.04, clearProps: 'transform,opacity' }, 0.25);
-    afterFirstPaint(() => tl.play());
+    after();
     return;
   }
   try { sessionStorage.setItem('me:intro', '1'); } catch { /* blocked storage: intro may replay */ }
@@ -142,7 +157,8 @@ function intro(after) {
     // scaleY, not height: compositor-only, no layout per frame.
     .to('.intro__bar', { scaleY: letterbox / (innerHeight * 0.505), duration: 1.0, ease: FILM }, 1.05)
     .from(lines, { yPercent: 112, duration: 0.9, stagger: 0.07 }, 1.4)
-    .from(rest, { y: 22, opacity: 0, duration: 0.7, stagger: 0.03, clearProps: 'transform,opacity' }, 1.5);
+    .from(rest, { y: 22, opacity: 0, duration: 0.7, stagger: 0.03, clearProps: 'transform,opacity' }, 1.5)
+    .from(sub, { y: 22, duration: 0.7, clearProps: 'transform' }, 1.5);
   // Built paused (so the hero is already in its start pose) and played after the
   // page's first heavy paint, so a slow phone sees the whole thing.
   afterFirstPaint(() => tl.play());
@@ -194,9 +210,14 @@ function cardReveals() {
     c.classList.remove('rv');
     setTimeout(() => c.style.removeProperty('--rv-d'), 2200); // so later hovers have no delay
   }), '0px 25% -6% 25%');
-  const cards = document.querySelectorAll('.card');
-  cards.forEach((c) => c.classList.add('rv'));
-  return () => cards.forEach((c) => io.observe(c));
+  // Grid cards arrive in batches after first paint (explore.js): they join the
+  // same observer as they land.
+  const cards = new Set(document.querySelectorAll('.card'));
+  let live = false;
+  const add = (c) => { c.classList.add('rv'); if (live) io.observe(c); };
+  cards.forEach(add);
+  onCards((list) => list.forEach((c) => { if (!cards.has(c)) { cards.add(c); add(c); } }));
+  return () => { live = true; cards.forEach((c) => io.observe(c)); };
 }
 
 function fadeUps() {
@@ -212,12 +233,18 @@ function fadeUps() {
 // ── Split headlines (after fonts, so line breaks are final) ──────────
 function splitHeadings() {
   const io = batcher((els) => els.forEach((el, i) => gsap.to(el._words, { yPercent: 0, duration: 1.1, ease: EXPO, stagger: 0.06, delay: i * 0.1 })), '0px 0px -10% 0px');
-  document.querySelectorAll(HEADINGS).forEach((el) => {
+  // Split each headline about a screen before it arrives, not all ~30 at once
+  // (that measured ~430 ms on a throttled phone, right as the intro ends).
+  const pre = new IntersectionObserver((entries) => entries.forEach((e) => {
+    if (!e.isIntersecting) return;
+    const el = e.target;
+    pre.unobserve(el);
     const s = SplitText.create(el, { type: 'words', mask: 'words', ignore: '.vh' });
     el._words = s.words;
     gsap.set(s.words, { yPercent: 110 });
     io.observe(el);
-  });
+  }), { rootMargin: '0px 0px 120% 0px' });
+  document.querySelectorAll(HEADINGS).forEach((el) => pre.observe(el));
 }
 
 // ── Chapter openers ───────────────────────────────────────────────────
@@ -456,12 +483,14 @@ function tilt() {
 
 // ── Reduced motion: plain fades, nothing moves ────────────────────────
 function reducedFades() {
-  const els = document.querySelectorAll(`.card, .opener__text, ${CARD_FADE}`);
+  const els = new Set(document.querySelectorAll(`.card, .opener__text, ${CARD_FADE}`));
   const io = new IntersectionObserver((entries) => entries.forEach((e) => {
     if (!e.isIntersecting) return;
     io.unobserve(e.target);
     e.target.classList.remove('rm-wait');
     e.target.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 450, easing: 'linear' });
   }), { rootMargin: '0px 0px -4% 0px' });
-  els.forEach((el) => { el.classList.add('rm-wait'); io.observe(el); });
+  const add = (el) => { el.classList.add('rm-wait'); io.observe(el); };
+  els.forEach(add);
+  onCards((list) => list.forEach((c) => { if (!els.has(c)) { els.add(c); add(c); } }));
 }

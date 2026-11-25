@@ -1,0 +1,7 @@
+Lighthouse 2026-11-25 · http://localhost:4174/manipal-explorer/
+mobile (median of 3): performance 66 · accessibility 100 · best practices 100 · seo 100
+  first contentful paint 0.9 s · largest contentful paint 0.9 s · total blocking time 2,650 ms · cumulative layout shift 0 · speed index 5.8 s
+  all runs: 66, 66, 67
+desktop (median of 3): performance 74 · accessibility 100 · best practices 100 · seo 100
+  first contentful paint 0.3 s · largest contentful paint 0.3 s · total blocking time 460 ms · cumulative layout shift 0.003 · speed index 2.6 s
+  all runs: 71, 74, 88

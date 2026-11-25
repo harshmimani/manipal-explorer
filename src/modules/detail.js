@@ -76,7 +76,7 @@ export function initDetail() {
   root = document.createElement('div');
   root.className = 'detail';
   root.hidden = true;
-  root.innerHTML = '<div class="detail__scrim" data-close></div><div class="detail__bg" aria-hidden="true"></div><article class="sheet" role="dialog" aria-modal="true" aria-labelledby="detail-h" tabindex="-1"></article>';
+  root.innerHTML = '<div class="detail__scrim" data-close></div><div class="detail__bg" aria-hidden="true"></div><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="detail-h" tabindex="-1"></div>';
   document.body.append(root);
   panel = root.querySelector('.sheet');
   scrim = root.querySelector('.detail__scrim');

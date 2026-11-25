@@ -11,7 +11,7 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
 a:hover { color: var(--text); }
 button, input, select { font: inherit; color: inherit; }
 h1, h2, h3, h4 { text-wrap: balance; }
-p { text-wrap: pretty; }
+/* No text-wrap: pretty on paragraphs: across ~600 of them it cost ~200 ms of first layout on a throttled phone. */
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: var(--radius-xs); }
 [hidden] { display: none !important; }
 

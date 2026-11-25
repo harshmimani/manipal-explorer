@@ -1,0 +1,42 @@
+{
+  "390": {
+    "axe": [],
+    "keyboard": {
+      "issues": [],
+      "first": {
+        "cls": "skip",
+        "txt": "Skip to content"
+      },
+      "stops": 260,
+      "sections": [
+        "HEADER",
+        "top",
+        "must-do",
+        "ch-coast",
+        "ch-gods",
+        "ch-ghats",
+        "ch-heritage"
+      ]
+    }
+  },
+  "1440": {
+    "axe": [],
+    "keyboard": {
+      "issues": [],
+      "first": {
+        "cls": "skip",
+        "txt": "Skip to content"
+      },
+      "stops": 260,
+      "sections": [
+        "HEADER",
+        "top",
+        "must-do",
+        "ch-coast",
+        "ch-gods",
+        "ch-ghats",
+        "ch-heritage"
+      ]
+    }
+  }
+}

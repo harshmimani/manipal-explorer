@@ -15,58 +15,12 @@ import { placeCard } from './card.js';
 const inChapter = (c) => places.filter((p) => p.chapter === c);
 // Counts only places with a real season (isGoodNow skips all-year ones).
 const goodNowCount = () => places.filter(isGoodNow).length;
-const ring = (cls = '') => `<svg class="ring ${cls}" viewBox="0 0 40 40" aria-hidden="true"><circle class="ring__bg" cx="20" cy="20" r="17"/><circle class="ring__fg" cx="20" cy="20" r="17" pathLength="100"/></svg>`;
 const srcLinks = (srcs) => {
   const s = readerSources(srcs);
   return s.length ? `<ul class="src">${s.map((u) => `<li><a href="${esc(u)}" rel="noopener">${esc(host(u))}</a></li>`).join('')}</ul>` : '';
 };
 const vt = (s) => (s == null ? `Not listed ${verifyTag}` : needsVerify(s) ? `${esc(String(s).replace(/[\s,;:.—-]*\(?verify locally\)?\.?\s*$/i, '.').replace(/\.\.$/, '.'))} ${verifyTag}` : esc(s));
 const gmaps = (lat, lng) => `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
-
-// ── Header (fixed) ─────────────────────────────────────────────────────
-export const header = () => `
-<header class="site-head" data-head>
-  <a class="brand" href="#top">Manipal <i>Explorer</i></a>
-  <nav class="site-head__nav" aria-label="Sections">
-    <a href="#must-do">Top 10</a><a href="#explore">Explore</a><a href="#map">Map</a><a href="#plan">Trips</a><a href="#festivals">Festivals</a>
-  </nav>
-  <a class="explored" href="#explore" data-explored aria-label="Places you've been to">
-    ${ring()}<span class="explored__txt"><b class="num" data-explored-pct>0%</b><span class="cap">explored</span></span>
-  </a>
-</header>`;
-
-// ── 1. Hero ────────────────────────────────────────────────────────────
-export function hero() {
-  const img = 'st-marys-island/73902011', hp = place('st-marys-island');
-  const monthName = MONTHS_LONG[thisMonth - 1];
-  return `
-<section class="hero" id="top" aria-labelledby="hero-h">
-  <div class="hero__media" aria-hidden="true">${picture(img, { eager: true, alt: '' })}</div>
-  <div class="hero__shader" data-shader-slot aria-hidden="true"></div>
-  <div class="leak leak--sun" aria-hidden="true"></div><div class="leak leak--sea" aria-hidden="true"></div>
-  <div class="bars" aria-hidden="true"><i></i><i></i></div>
-  <ol class="rail" aria-label="Chapters">
-    ${CHAPTERS.map((c) => `<li><a href="#ch-${c.id}"><b>${c.num}</b>${c.title}</a></li>`).join('')}
-  </ol>
-  <div class="hero__body">
-    <p class="kicker cap">A field guide from Manipal</p>
-    <h1 id="hero-h"><span class="ln"><span>Sea, gods</span></span><span class="ln"><span><span class="amp">&amp;</span> ghats,</span></span><span class="ln"><span><em>one ride</em> away.</span></span></h1>
-    <ol class="chips" aria-label="Chapters">${CHAPTERS.map((c) => `<li><a href="#ch-${c.id}"><b>${c.num}</b>${c.short}</a></li>`).join('')}</ol>
-  </div>
-  <div class="hero__row">
-    <p class="hero__sub">${places.length} places a bike or a Konkan train from Manipal: beaches, temples, falls, forts and peaks. ${trips.length} ready-made trips, ${festivals.length} festivals through the year, and every plate vegetarian.</p>
-    <div class="season">
-      <p>In ${monthName}, <b class="num">${goodNowCount()} places</b> are in their best season.</p>
-      ${monthStrip([], { label: 'Months of the year, this month marked' })}
-    </div>
-    <div class="hero__aside">
-      <a class="explored explored--hero" href="#explore" aria-label="How much of the guide you've explored">${ring()}<span class="explored__txt"><b class="num" data-explored-pct>0%</b><span class="cap">explored · <span data-been-count>0</span>/${places.length}</span></span></a>
-      <a class="scroll cap" href="#must-do"><i aria-hidden="true"></i>Scroll</a>
-    </div>
-  </div>
-  <p class="hero__credit credit">${creditLine(img)} · ${esc(hp.name)}</p>
-</section>`;
-}
 
 // ── 2. Top 10 must-dos ────────────────────────────────────────────────
 export function mustDo() {
@@ -149,6 +103,11 @@ const group = (name, legend, inner) => `
 const chipGroup = (name, legend, opts, type = 'checkbox') => group(name, legend,
   opts.map(([v, l]) => `<label class="fchip"><input type="${type}" name="${name}" value="${v}"><span>${l}</span></label>`).join(''));
 
+// The Explore grid renders its first cards with the page; explore.js adds the
+// rest in small idle-time batches, so a phone's first render stays short.
+export const GRID_FIRST = 8;
+export const gridCard = (p) => placeCard(p, { compact: true, sizes: '(min-width:1440px) 22vw, (min-width:1000px) 30vw, (min-width:560px) 45vw, 92vw' });
+
 export function explore() {
   return `
 <section class="explore" id="explore" aria-labelledby="explore-h">
@@ -179,8 +138,8 @@ export function explore() {
       </div>
     </div>
   </div>
-  <div class="grid" data-grid>
-    ${places.map((p) => placeCard(p, { compact: true, sizes: '(min-width:1440px) 22vw, (min-width:1000px) 30vw, (min-width:560px) 45vw, 92vw' })).join('')}
+  <div class="grid" data-grid aria-busy="true">
+    ${places.slice(0, GRID_FIRST).map(gridCard).join('')}
   </div>
   <p class="empty" data-empty hidden>Nothing matches all of that. Loosen a filter or two.</p>
 </section>`;
@@ -429,8 +388,8 @@ export function footer() {
   const allSrc = new Set();
   [...places, ...trips, ...festivals, ...watching, ...food.dishes, ...food.places, ...food.annadana].forEach((x) => readerSources(x.sources || []).forEach((u) => allSrc.add(u)));
   festivals.forEach((f) => (f.upcoming || []).forEach((u) => u.source && allSrc.add(u.source)));
-  const hosts = new Map();
-  [...allSrc].forEach((u) => { const h = host(u); hosts.set(h, (hosts.get(h) || 0) + 1); });
+  const hosts = new Map(); // host → its URLs (each URL parsed once)
+  [...allSrc].forEach((u) => { const h = host(u); if (!hosts.has(h)) hosts.set(h, []); hosts.get(h).push(u); });
   return `
 <footer class="foot" id="credits" aria-labelledby="foot-h">
   <div class="wrap">
@@ -445,7 +404,7 @@ export function footer() {
     <details class="foot__d">
       <summary><span class="cap">Data sources</span><b class="num">${allSrc.size}</b></summary>
       <p class="note">Every source cited anywhere in the guide, grouped by site. Routing and geocoding via OSRM and Nominatim (OpenStreetMap). Map tiles © OpenStreetMap contributors.</p>
-      <ul class="sources">${[...hosts].sort((a, b) => b[1] - a[1]).map(([h]) => `<li><b>${esc(h)}</b>${[...allSrc].filter((u) => host(u) === h).map((u) => `<a href="${esc(u)}" rel="noopener">${esc(decodeURIComponent(u.replace(/^https?:\/\/(www\.)?/, '')).slice(h.length, h.length + 90) || '/')}</a>`).join('')}</li>`).join('')}</ul>
+      <ul class="sources">${[...hosts].sort((a, b) => b[1].length - a[1].length).map(([h, us]) => `<li><b>${esc(h)}</b>${us.map((u) => `<a href="${esc(u)}" rel="noopener">${esc(decodeURIComponent(u.replace(/^https?:\/\/(www\.)?/, '')).slice(h.length, h.length + 90) || '/')}</a>`).join('')}</li>`).join('')}</ul>
     </details>
     <p class="foot__small">Built in Manipal. Strictly vegetarian recommendations. Type: Instrument Serif and Hanken Grotesk (OFL).</p>
   </div>

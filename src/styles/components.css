@@ -55,19 +55,21 @@
   .track > .card:nth-child(3n + 2) { transform: translateY(var(--space-2xl)); }
   .track { padding-bottom: var(--space-2xl); }
 }
-.card { scroll-snap-align: start; position: relative; min-width: 0; }
-.card__media { position: relative; aspect-ratio: var(--ratio-card); overflow: hidden; border-radius: var(--radius-s); box-shadow: var(--shadow-2); isolation: isolate; background: var(--surface-raised); }
+/* Photo and text share one grid cell: the photo's aspect ratio sets the minimum
+   height, and a long name grows the card (and its photo) instead of spilling out. */
+.card { scroll-snap-align: start; position: relative; min-width: 0; display: grid; grid-template: "stack" auto / minmax(0, 1fr); }
+.card__media { grid-area: stack; align-self: stretch; position: relative; aspect-ratio: var(--ratio-card); overflow: hidden; border-radius: var(--radius-s); box-shadow: var(--shadow-2); isolation: isolate; background: var(--surface-raised); }
 .card__media picture { position: absolute; inset: 0; transition: transform var(--dur-cinematic) var(--ease-out); }
 @media (hover: hover) { .card:hover .card__media picture { transform: scale(1.05); } }
 .card__media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgb(11 15 14 / .45), transparent 20%, transparent 32%, rgb(11 15 14 / .72) 54%, rgb(11 15 14 / .96) 80%); }
-.card__top { position: absolute; inset: var(--space-xs) var(--space-xs) auto; display: flex; justify-content: space-between; align-items: start; z-index: var(--z-raised); pointer-events: none; }
+.card__top { position: absolute; inset: var(--space-xs) var(--space-xs) auto; display: flex; justify-content: space-between; align-items: start; z-index: calc(var(--z-raised) + 1); pointer-events: none; }
 .card__top > * { pointer-events: auto; }
 .card__top .chip { margin-top: 8px; }
 .card__btns { display: flex; gap: 6px; align-items: center; }
 .been-badge { width: 30px; height: 30px; border-radius: 50%; background: var(--in-season); display: none; place-items: center; }
 .been-badge svg { width: 16px; height: 16px; fill: none; stroke: var(--text); stroke-width: 2.4; }
 .card.is-been .been-badge { display: grid; }
-.card__body { position: absolute; inset: auto var(--space-s) var(--space-s); z-index: var(--z-raised); }
+.card__body { grid-area: stack; align-self: end; min-width: 0; margin: calc(var(--space-xs) + 56px) var(--space-s) var(--space-s); z-index: var(--z-raised); }
 .card__ch { color: var(--text-soft); margin-bottom: 10px; text-shadow: 0 1px 12px rgb(0 0 0 / .6); }
 .card__ch b { color: var(--text); }
 .card h3 { font: 400 var(--step-3)/.94 var(--font-display); letter-spacing: var(--track-tight); margin: 0 0 8px; overflow-wrap: anywhere; }

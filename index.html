@@ -8,8 +8,9 @@
     <title>Manipal Explorer · Sea, gods & ghats, one ride away</title>
     <meta name="description" content="An evergreen, vegetarian travel and food guide to everything around Manipal and Udupi: beaches, temples, waterfalls, treks, forts and festivals, with distances, seasons and safety notes." />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <!-- Intro plays once per browser session, never under reduced motion or on a deep link. -->
-    <script>try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&!location.hash&&!sessionStorage.getItem('me:intro'))document.documentElement.classList.add('is-intro')}catch(e){}</script>
+    <!-- Intro plays once per browser session, never under reduced motion or on a deep link.
+         Otherwise the hero title rises in CSS (hero-rise) from the first paint. -->
+    <script>try{var c=document.documentElement.classList;if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&!location.hash&&!sessionStorage.getItem('me:intro'))c.add('is-intro');else c.add('hero-rise')}catch(e){document.documentElement.classList.add('hero-rise')}</script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
