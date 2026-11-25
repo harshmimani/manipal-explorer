@@ -1,6 +1,6 @@
-// Leaflet map, loaded when the section nears the viewport. Dark CARTO basemap
-// (OpenStreetMap data), chapter-coloured pins, clustering, tap → place detail.
-import places from '../data/places.json';
+// Leaflet map, loaded when the section nears the viewport. OSM tiles darkened
+// in CSS, chapter-coloured pins, clustering, tap → place detail.
+import { places } from './data.js';
 import { esc, chapterLabel } from './util.js';
 import { onFilter, visibleIds } from './explore.js';
 import { open } from './detail.js';

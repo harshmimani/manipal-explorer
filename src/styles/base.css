@@ -35,3 +35,6 @@ p { text-wrap: pretty; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .grain { display: none; }
 }
+
+/* Shown only if places/credits JSON fail to load. */
+.load-error { padding: var(--space-xl) var(--gutter); color: var(--text); max-width: 40ch; }

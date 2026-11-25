@@ -29,7 +29,7 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
 ## Art direction (locked in Part 3: Direction A "Konkan Chronicles", pushed further)
 - Source of truth: src/styles/tokens.css (colour, type scale, spacing, radii, depth, easing, durations, z-index). Components use semantic tokens only; never raw hex.
   Reference build: review/direction-final.html (screenshots in review/screenshots/direction-final-*.png).
-- Concept: a cinematic travel film told in chapters: I. The Coast · II. The Gods · III. The Ghats · IV. The Table · V. The Plan. Dark ink stage, letterbox bars, film grain, light leaks. Aim: Active Theory / Awwwards Site of the Day. Bold type, real depth, drama with a reason.
+- Concept: a cinematic travel film told in chapters: I. The Coast · II. The Gods · III. The Ghats · IV. The Old Stones (heritage) · V. The Table · VI. The Plan. Dark ink stage, letterbox bars, film grain, light leaks. Aim: Active Theory / Awwwards Site of the Day. Bold type, real depth, drama with a reason.
 - Palette: ink #0B0F0E, deep sea #0E3B3A, monsoon teal #1F6F6B, saffron #F29B38, laterite #B4532A, palm #4F7A3A, sand #EDE3D1, bone #F7F3EA.
   Saffron is the single accent: one saffron mark per view. Teal means "in season". Laterite is a fill only (never text on ink; use --warn-text). All text tokens pass WCAG AA on ink and on the sheet surface.
 - Type: Instrument Serif (display; italic for one accent word per headline) + Hanken Grotesk Variable (body, labels, numerals). Self-hosted via @fontsource, imported in src/styles/fonts.css. No other families.
@@ -96,8 +96,8 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
   - Not yet built: the three.js hero shader (the reference uses a photo with CSS/GSAP depth), GSAP Flip filtering, the real site in index.html.
 - Part 4 (all sections, layout only): DONE (awaiting review).
   - Real site in index.html + src/main.js; modules in src/modules (sections, card, detail, explore, map, gallery, state, util); styles in base/components/sections.css.
-  - Chapters: I Coast · II Gods · III Ghats · IV The Old Stones (heritage data) · V The Table · VI The Plan. The Part 4 prompt asked for
-    Coast/Gods/Ghats/Heritage as I–IV and Table as IV, which clash; heritage got its own chapter and Table/Plan shifted to V/VI. Open question.
+  - Chapters (confirmed in review): I Coast · II Gods · III Ghats · IV The Old Stones (heritage) · V The Table · VI The Plan.
+    Numbering lives in CHAPTERS in src/modules/util.js.
   - Brief overrides applied: "Dec–Jan verdict" filter → "Good right now" + best-in-month; weekend planner → the 15 Trip Ideas timeline;
     Dec–Jan festival strip → year-round 12-month calendar starting this month, with "Coming up" (next 75 days) and Worth Watching.
   - Filters: sticky bar of dropdowns on desktop, bottom sheet on phone; apply to grid and map. Deep link /#place-<id>. Been there + My List in localStorage.
@@ -105,4 +105,7 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
   - New data: src/data/practical.json (hand-authored, sourced: Konkan Railway monsoon timetable, 60-day ARP, Karnataka pillion helmet rule, Udupi rainfall).
   - Screenshots: `BASE=http://localhost:5173/manipal-explorer/ node scripts/shoot-site.mjs [390 375 1440]` → review/screenshots/site/<vp>/. Also reports overflow + console errors.
   - Pending for Part 5/6: motion (GSAP/Lenis/SplitText, pinned openers, Flip), hero WebGL shader in [data-shader-slot], custom cursor;
-    JS bundle is ~600 kB because places.json + image-credits.json are inlined (split or lazy-load in the perf pass).
+    remaining perf work (Lighthouse pass, images, fonts).
+  - Review round 1: chapter numbering confirmed. places.json + image-credits.json now load as separate hashed JSON files
+    (src/modules/data.js, `?url` imports; main.js renders after loadData()). Main JS bundle 593 kB → 183 kB (54 kB gzip).
+    The smaller JSON files (trips, festivals, food, worthWatching, practical) are still inlined.

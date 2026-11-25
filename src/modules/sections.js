@@ -1,12 +1,11 @@
 // Static section markup. Every fact comes from src/data; only headlines and
 // chapter lines are site copy.
-import places from '../data/places.json';
+import { places, credits } from './data.js';
 import trips from '../data/tripIdeas.json';
 import festivals from '../data/festivals.json';
 import watching from '../data/worthWatching.json';
 import food from '../data/food.json';
 import practical from '../data/practical.json';
-import credits from '../data/image-credits.json';
 import {
   CHAPTERS, MONTHS, MONTHS_LONG, thisMonth, today, esc, picture, credit, creditLine, monthStrip, monthRange,
   isGoodNow, place, host, readerSources, verifyTag, needsVerify, kmHtml, BASE,
@@ -14,8 +13,8 @@ import {
 import { placeCard } from './card.js';
 
 const inChapter = (c) => places.filter((p) => p.chapter === c);
-const seasonal = places.filter((p) => p.bestMonths?.length < 12);
-const goodNowCount = seasonal.filter(isGoodNow).length;
+// Counts only places with a real season (isGoodNow skips all-year ones).
+const goodNowCount = () => places.filter(isGoodNow).length;
 const ring = (cls = '') => `<svg class="ring ${cls}" viewBox="0 0 40 40" aria-hidden="true"><circle class="ring__bg" cx="20" cy="20" r="17"/><circle class="ring__fg" cx="20" cy="20" r="17" pathLength="100"/></svg>`;
 const srcLinks = (srcs) => {
   const s = readerSources(srcs);
@@ -57,7 +56,7 @@ export function hero() {
   <div class="hero__row">
     <p class="hero__sub">${places.length} places a bike or a Konkan train from Manipal: beaches, temples, falls, forts and peaks. ${trips.length} ready-made trips, ${festivals.length} festivals through the year, and every plate vegetarian.</p>
     <div class="season">
-      <p>In ${monthName}, <b class="num">${goodNowCount} places</b> are in their best season.</p>
+      <p>In ${monthName}, <b class="num">${goodNowCount()} places</b> are in their best season.</p>
       ${monthStrip([], { label: 'Months of the year, this month marked' })}
     </div>
     <div class="hero__aside">

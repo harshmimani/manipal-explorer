@@ -1,5 +1,5 @@
 // Visitor state: "Been there" and "My List", persisted in localStorage (guarded).
-import places from '../data/places.json';
+import { places } from './data.js';
 import { store } from './util.js';
 
 const KEYS = { been: 'me:been', list: 'me:list' };

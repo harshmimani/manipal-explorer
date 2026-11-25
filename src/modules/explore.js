@@ -1,5 +1,5 @@
 // Explore everything: filter state → grid visibility, live count, and the map.
-import places from '../data/places.json';
+import { places } from './data.js';
 import { isGoodNow } from './util.js';
 import { has, subscribe } from './state.js';
 import { CATEGORY } from './sections.js';
@@ -10,8 +10,8 @@ const annadanaTemples = new Set(['udupi-sri-krishna-matha', 'kollur-mookambika-t
 
 const listeners = new Set();
 export const onFilter = (fn) => { listeners.add(fn); return () => listeners.delete(fn); };
-let currentIds = new Set(places.map((p) => p.id));
-export const visibleIds = () => currentIds;
+let currentIds = null; // null until the first filter run: everything is visible
+export const visibleIds = () => currentIds ?? new Set(places.map((p) => p.id));
 
 function readForm(form) {
   const fd = new FormData(form);

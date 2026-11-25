@@ -1,6 +1,7 @@
 // Shared helpers: data lookups, escaping, <picture>, month strip, guarded storage.
-import places from '../data/places.json';
-import credits from '../data/image-credits.json';
+import { credits, byId } from './data.js';
+
+export { byId };
 
 export const BASE = import.meta.env.BASE_URL; // '/manipal-explorer/'
 export const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -19,7 +20,6 @@ export const CHAPTERS = [
 export const chapterOf = (id) => CHAPTERS.find((c) => c.id === id);
 export const chapterLabel = (id) => { const c = chapterOf(id); return c ? `${c.num} · ${c.title}` : ''; };
 
-export const byId = new Map(places.map((p) => [p.id, p]));
 export const place = (id) => byId.get(id);
 export const credit = (id) => credits[id];
 
