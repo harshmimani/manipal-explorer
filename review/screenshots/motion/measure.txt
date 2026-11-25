@@ -1,0 +1,32 @@
+mobile {"name":"intro (first 3s)","frames":89,"fps":9.4,"dropped":"52.8%","p95":616.6,"worst":1616.5,"longTasks":10,"longMax":1558}
+mobile {"name":"hero + shader","frames":95,"fps":37.7,"dropped":"2.1%","p95":16.8,"worst":499.9,"longTasks":0,"longMax":0}
+mobile {"name":"scroll page","frames":200,"fps":46.7,"dropped":"1.0%","p95":16.7,"worst":500,"longTasks":0,"longMax":0}
+mobile {"name":"filter Flip ×2","frames":112,"fps":41.5,"dropped":"11.6%","p95":66.7,"worst":400,"longTasks":3,"longMax":91}
+mobile {"name":"detail open/close","frames":104,"fps":42.7,"dropped":"5.8%","p95":33.3,"worst":300,"longTasks":3,"longMax":96}
+
+── mobile ── shader: 312×692 · ANGLE (Intel, Intel(R) Arc(TM) 130V GPU (8GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11) · intro removed: true
+┌─────────┬─────────────────────┬────────┬──────┬─────────┬───────┬────────┬───────────┬─────────┐
+│ (index) │ name                │ frames │ fps  │ dropped │ p95   │ worst  │ longTasks │ longMax │
+├─────────┼─────────────────────┼────────┼──────┼─────────┼───────┼────────┼───────────┼─────────┤
+│ 0       │ 'intro (first 3s)'  │ 89     │ 9.4  │ '52.8%' │ 616.6 │ 1616.5 │ 10        │ 1558    │
+│ 1       │ 'hero + shader'     │ 95     │ 37.7 │ '2.1%'  │ 16.8  │ 499.9  │ 0         │ 0       │
+│ 2       │ 'scroll page'       │ 200    │ 46.7 │ '1.0%'  │ 16.7  │ 500    │ 0         │ 0       │
+│ 3       │ 'filter Flip ×2'    │ 112    │ 41.5 │ '11.6%' │ 66.7  │ 400    │ 3         │ 91      │
+│ 4       │ 'detail open/close' │ 104    │ 42.7 │ '5.8%'  │ 33.3  │ 300    │ 3         │ 96      │
+└─────────┴─────────────────────┴────────┴──────┴─────────┴───────┴────────┴───────────┴─────────┘
+desktop {"name":"intro (first 3s)","frames":79,"fps":28.2,"dropped":"10.1%","p95":133.3,"worst":499.9,"longTasks":3,"longMax":831}
+desktop {"name":"hero + shader","frames":189,"fps":60,"dropped":"0.0%","p95":16.8,"worst":16.8,"longTasks":0,"longMax":0}
+desktop {"name":"scroll page","frames":1329,"fps":48.6,"dropped":"19.0%","p95":33.4,"worst":500,"longTasks":0,"longMax":0}
+desktop {"name":"filter Flip ×2","frames":103,"fps":37,"dropped":"19.4%","p95":49.9,"worst":483.3,"longTasks":3,"longMax":111}
+desktop {"name":"detail open/close","frames":133,"fps":57,"dropped":"3.8%","p95":16.8,"worst":50,"longTasks":0,"longMax":0}
+
+── desktop ── shader: 792×495 · ANGLE (Intel, Intel(R) Arc(TM) 130V GPU (8GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11) · intro removed: false
+┌─────────┬─────────────────────┬────────┬──────┬─────────┬───────┬───────┬───────────┬─────────┐
+│ (index) │ name                │ frames │ fps  │ dropped │ p95   │ worst │ longTasks │ longMax │
+├─────────┼─────────────────────┼────────┼──────┼─────────┼───────┼───────┼───────────┼─────────┤
+│ 0       │ 'intro (first 3s)'  │ 79     │ 28.2 │ '10.1%' │ 133.3 │ 499.9 │ 3         │ 831     │
+│ 1       │ 'hero + shader'     │ 189    │ 60   │ '0.0%'  │ 16.8  │ 16.8  │ 0         │ 0       │
+│ 2       │ 'scroll page'       │ 1329   │ 48.6 │ '19.0%' │ 33.4  │ 500   │ 0         │ 0       │
+│ 3       │ 'filter Flip ×2'    │ 103    │ 37   │ '19.4%' │ 49.9  │ 483.3 │ 3         │ 111     │
+│ 4       │ 'detail open/close' │ 133    │ 57   │ '3.8%'  │ 16.8  │ 50    │ 0         │ 0       │
+└─────────┴─────────────────────┴────────┴──────┴─────────┴───────┴───────┴───────────┴─────────┘

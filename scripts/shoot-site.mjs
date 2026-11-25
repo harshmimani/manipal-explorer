@@ -50,14 +50,18 @@ for (const name of want) {
   await page.addInitScript(() => addEventListener('DOMContentLoaded', () => { document.documentElement.style.scrollBehavior = 'auto'; }));
   await page.goto(BASE, { waitUntil: 'networkidle' });
   await page.evaluate(() => document.fonts.ready);
-  // Load every lazy image (and the map) by walking the page.
+  // Part 5: wait for the intro to finish (scroll is locked during it).
+  await page.waitForFunction(() => !document.querySelector('[data-intro]'), null, { timeout: 15000 });
+  await page.waitForTimeout(600);
+  // Load every lazy image (and the map) by walking the page; the walk also fires
+  // the scroll reveals, which only play as things enter the viewport.
   await page.evaluate(async () => {
     document.querySelectorAll('img[loading="lazy"]').forEach((i) => { i.loading = 'eager'; });
-    for (let y = 0; y < document.body.scrollHeight; y += innerHeight * 0.8) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 40)); }
+    for (let y = 0; y < document.body.scrollHeight; y += innerHeight * 0.8) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 140)); }
     await Promise.all([...document.images].map((i) => (i.complete ? 0 : new Promise((r) => { i.onload = i.onerror = r; }))));
     scrollTo(0, 0);
   });
-  await page.waitForTimeout(1200); // map tiles
+  await page.waitForTimeout(2600); // map tiles + reveal transitions
 
   for (const [file, sel] of SECTIONS) {
     const el = page.locator(sel).first();

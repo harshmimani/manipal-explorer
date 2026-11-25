@@ -1,0 +1,110 @@
+/* Part 5 · motion layer. Tokens only. JS lives in src/modules/motion.js. */
+
+/* ── Intro: a title card between two letterbox bars ─────────── */
+.intro { display: none; }
+html.is-intro { overflow: hidden; }
+html.is-intro .intro { display: block; position: fixed; inset: 0; z-index: var(--z-modal); pointer-events: none; }
+.intro__bar { position: absolute; left: 0; right: 0; height: 50.5%; background: var(--surface); }
+.intro__bar:first-child { top: 0; transform-origin: 50% 0; } .intro__bar:nth-child(2) { bottom: 0; transform-origin: 50% 100%; }
+.intro__bar { will-change: transform; }
+.intro__seam { position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--accent); transform: scaleX(0); opacity: .8; }
+.intro__slate { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: var(--space-s); margin: 0; text-align: center; opacity: 0; visibility: hidden; }
+.intro__ln { display: block; overflow: hidden; padding: 0 .05em .08em; font: 400 var(--step-5)/var(--lh-display) var(--font-display); letter-spacing: var(--track-display); color: var(--text); }
+.intro__ln .w { display: inline-block; }
+.intro__ln em { color: var(--text-display); }
+.intro__count { color: var(--text-muted); }
+.intro__count b { font: var(--weight-black) 1em/1 var(--font-body); color: var(--text); font-variant-numeric: tabular-nums; display: inline-block; min-width: 3ch; text-align: right; margin-right: .3em; }
+.intro__skip { position: absolute; right: max(var(--gutter), var(--safe-right)); bottom: calc(var(--space-s) + var(--safe-bottom)); pointer-events: auto; min-height: var(--tap); padding: 0 var(--space-s);
+  border: 1px solid var(--line-strong); border-radius: var(--radius-pill); background: transparent; color: var(--text-muted); cursor: pointer; }
+.intro__skip:hover, .intro__skip:focus-visible { color: var(--text); border-color: var(--text); }
+
+/* ── Hero shader ─────────────────────────────────────────────── */
+.hero__shader canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; opacity: 0; transition: opacity var(--dur-cinematic) var(--ease-out); }
+.hero__shader.is-live canvas { opacity: 1; }
+/* Static stand-in (no WebGL, lost context, or reduced motion): the same sea, still. */
+.hero__shader.is-static {
+  background:
+    radial-gradient(60% 45% at 82% 18%, rgb(242 155 56 / .16), transparent 70%),
+    radial-gradient(120% 55% at 35% 108%, rgb(31 111 107 / .55), transparent 72%),
+    linear-gradient(180deg, transparent 45%, rgb(14 59 58 / .5) 80%, rgb(11 15 14 / .7));
+}
+
+/* Slow drift on the hero photo: the shot is never quite still. */
+@media (prefers-reduced-motion: no-preference) {
+  .hero__media img { animation: drift var(--dur-ambient) var(--ease-drift) infinite alternate; transform-origin: 60% 40%; }
+  @keyframes drift { from { transform: scale(1) translate3d(0, 0, 0); } to { transform: scale(1.07) translate3d(-1.5%, -1%, 0); } }
+}
+/* Film grain flickers on laptops (on phones it stays still: one less full-screen layer to repaint). */
+@media (prefers-reduced-motion: no-preference) and (hover: hover) and (pointer: fine) {
+  .grain { inset: -10%; animation: grain 1.1s steps(6) infinite; will-change: transform; }
+  /* Freeze it while scrolling: measured p95 33 ms → 17 ms on a 1440 px scroll. */
+  html.lenis-scrolling .grain { animation-play-state: paused; }
+  @keyframes grain { 0% { transform: translate3d(0, 0, 0); } 20% { transform: translate3d(-3%, 2%, 0); } 40% { transform: translate3d(2%, -4%, 0); } 60% { transform: translate3d(-4%, -1%, 0); } 80% { transform: translate3d(3%, 3%, 0); } }
+}
+
+/* Openers: numeral is scaled while pinned, so give it its own layer. */
+@media (prefers-reduced-motion: no-preference) { .opener__num, .arch { will-change: transform; } }
+
+/* ── Custom cursor (fine pointers only; native cursor stays except over photos) ── */
+.cursor { position: fixed; left: 0; top: 0; z-index: var(--z-cursor); pointer-events: none; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%;
+  background: var(--c-bone); mix-blend-mode: difference; opacity: 0; display: none;
+  transition: width var(--dur-slow) var(--ease-out), height var(--dur-slow) var(--ease-out), margin var(--dur-slow) var(--ease-out), background var(--dur-base), opacity var(--dur-base), border-color var(--dur-base); }
+.has-cursor .cursor { display: block; }
+.cursor.is-on { opacity: 1; }
+.cursor span { position: absolute; inset: 0; display: grid; place-items: center; font: var(--weight-strong) .62rem/1 var(--font-body); letter-spacing: var(--track-caps); text-transform: uppercase; color: var(--on-accent); opacity: 0; transition: opacity var(--dur-base); }
+.cursor.is-link { width: 46px; height: 46px; margin: -23px 0 0 -23px; background: transparent; border: 1px solid var(--c-bone); mix-blend-mode: difference; }
+.cursor.is-media { width: 88px; height: 88px; margin: -44px 0 0 -44px; mix-blend-mode: normal; background: var(--accent); }
+.cursor.is-media span { opacity: 1; }
+.cursor.is-down { width: 6px; height: 6px; margin: -3px 0 0 -3px; }
+.cursor.is-media.is-down { width: 72px; height: 72px; margin: -36px 0 0 -36px; }
+.has-cursor .card:has([data-cursor="media"]) .card__media, .has-cursor .gal__i picture { cursor: none; }
+
+/* ── Swipe carousels: a thin thumb under each scroller ───────── */
+.swipe-bar { position: relative; height: 2px; margin: var(--space-xs) var(--gutter) 0; background: var(--line); border-radius: 2px; overflow: hidden; }
+.swipe-bar i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--text-muted); border-radius: 2px; will-change: transform; }
+.swipe-bar[hidden] { display: none; }
+.gal + .swipe-bar { margin-top: calc(var(--space-m) * -1 + 6px); margin-bottom: var(--space-m); }
+.track .card__media img, .mustdo__track .card__media img, .gal__i img { will-change: transform; }
+
+/* ── Toggle burst ────────────────────────────────────────────── */
+.burst { position: fixed; z-index: var(--z-toast); pointer-events: none; width: 0; height: 0; }
+.burst i { position: absolute; left: 0; top: 0; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+
+/* ── Phone bottom sheet: spring-driven ───────────────────────── */
+.detail .sheet.is-spring { transition: none; will-change: transform; }
+.detail .sheet.is-spring ~ .detail__scrim, .detail:has(.sheet.is-spring) .detail__scrim { transition: none; }
+@media (max-width: 999px) {
+  /* Covers the gap under the sheet when the spring overshoots upwards. */
+  .detail .sheet::after { content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 140px; background: var(--surface-sheet); }
+  .detail .grab { touch-action: none; cursor: grab; }
+}
+
+/* ── Pre-reveal states (removed by motion.js as things enter) ── */
+/* Cards: compositor-only (transform + opacity). --rv-d staggers a batch. */
+@media (prefers-reduced-motion: no-preference) {
+  .card__media::before { content: ""; position: absolute; inset: 0; z-index: 2; background: var(--surface); transform: scaleY(0); transform-origin: 50% 0;
+    transition: transform 1.1s var(--ease-film) var(--rv-d, 0s); pointer-events: none; }
+  .card__media > * { transition: transform var(--dur-cinematic) var(--ease-out) var(--rv-d, 0s); }
+  .card__body, .card__top { transition: opacity 1s var(--ease-out) calc(var(--rv-d, 0s) + .3s), transform 1s var(--ease-out) calc(var(--rv-d, 0s) + .3s); }
+  .rv .card__media::before { transform: scaleY(1); transition: none; }
+  .rv .card__media > * { transform: scale(1.3); transition: none; }
+  .rv .card__body, .rv .card__top { opacity: 0; transform: translateY(24px); transition: none; }
+}
+.fu { opacity: 0; visibility: hidden; transform: translateY(24px); }
+
+/* ── Reduced motion: plain fades only ────────────────────────── */
+.rm-wait { opacity: 0; }
+
+/* Phones: the 107 Explore cards skip style/layout/paint until near the screen.
+   Halves per-frame main-thread work while anything animates. (Desktop keeps
+   full layout so the pinned chapters below measure exact positions.) */
+@media (max-width: 999px) {
+  .grid > .card { content-visibility: auto; contain-intrinsic-size: auto 480px; }
+}
+
+/* Print: everything shown, nothing mid-reveal. */
+@media print {
+  .rv .card__media::before { transform: scaleY(0) !important; }
+  .rv .card__media > *, .rv .card__body, .rv .card__top, .fu { opacity: 1 !important; visibility: visible !important; transform: none !important; }
+  .intro, .cursor, .swipe-bar { display: none !important; }
+}

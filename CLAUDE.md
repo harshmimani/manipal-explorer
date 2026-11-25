@@ -109,3 +109,23 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
   - Review round 1: chapter numbering confirmed. places.json + image-credits.json now load as separate hashed JSON files
     (src/modules/data.js, `?url` imports; main.js renders after loadData()). Main JS bundle 593 kB → 183 kB (54 kB gzip).
     The smaller JSON files (trips, festivals, food, worthWatching, practical) are still inlined.
+- Part 5 (motion): DONE (awaiting review).
+  - src/modules/motion.js (GSAP + ScrollTrigger + SplitText + Flip + Lenis) loads as its own chunk in parallel with the data; site works if it fails.
+    src/modules/shader.js (three.js, lazy, after the intro); src/modules/spring.js (phone bottom sheet); src/styles/motion.css.
+  - Intro: title card + place counter between letterbox bars, ≈2.45 s, once per session (sessionStorage), skipped on deep links,
+    skip button / any key, click, wheel or touch. Inline flag script in index.html.
+  - Hero shader: domain-warped sea in the palette over the photo; cursor lens (desktop), scroll swell (phone); paused off-screen/hidden tab;
+    DPR ≤ 2 then rendered at 0.4–0.55 scale; static CSS gradient if WebGL fails, context is lost, or reduced motion.
+  - Scroll: Lenis (wheel only; phones keep native momentum), split-word headlines, card reveals (ink curtain + photo settle, CSS transform/opacity),
+    fade-ups, hero parallax, chapter openers pinned on desktop (numeral forward, Gods arch opens), numeral parallax + arch open on phone.
+  - Filters: GSAP Flip on desktop; phones get a staggered rise (Flip measured too heavy there). Count rolls.
+  - Desktop: cursor (dot / ring over links / saffron "View" over photos), magnetic buttons, card tilt ≤ 5°. Grain flickers, pauses while scrolling.
+  - Phone: spring bottom sheet (drag, rubber band, velocity-carrying release), carousel thumb + photo parallax, star burst, check draw, haptic tick (Android).
+  - Reduced motion: no intro, shader, Lenis, ScrollTrigger, splits, cursor; opacity fades only.
+  - Perf: `BASE=… node scripts/measure-motion.mjs [mobile desktop] [--frames]` (390 px @2x, 4× CPU, fast 4G). Results: review/screenshots/motion/measure.txt.
+    Simplified after measuring: CSS reveal states instead of gsap.set (−1 s), compositor-only card reveal (chapter scroll drops 12 % → 2 %),
+    lag smoothing + intro played after first paint, IO observation and splits deferred past the intro, phone Flip → fade,
+    content-visibility on phone grid cards, shader 5 → 3 fbm calls + highp/sine hash (no seams), grain paused while scrolling.
+  - Known: the Part 4 first render is a ~1.7 s long task on a 4× throttled phone (107 cards built at once); worth chunking in Part 6.
+    Headless runs show occasional ~500 ms compositor stalls with no main-thread work; check on a real iPhone.
+

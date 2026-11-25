@@ -1,10 +1,11 @@
-// Manipal Explorer · Part 4: every section, laid out with the Konkan Chronicles
-// design system. Motion is deliberately minimal here (Part 5 adds GSAP/Lenis).
+// Manipal Explorer: every section, laid out with the Konkan Chronicles design
+// system (Part 4), brought to life by src/modules/motion.js (Part 5).
 import './styles/fonts.css';
 import './styles/tokens.css';
 import './styles/base.css';
 import './styles/components.css';
 import './styles/sections.css';
+import './styles/motion.css';
 
 import { places, loadData } from './modules/data.js';
 import { header, hero, mustDo, chapter, explore, mapSection, table, plan, festivalsSection, practicalSection, footer } from './modules/sections.js';
@@ -16,13 +17,19 @@ import { initPinGallery } from './modules/gallery.js';
 
 const app = document.getElementById('app');
 
+const dropIntro = () => { document.querySelector('[data-intro]')?.remove(); document.documentElement.classList.remove('is-intro'); };
+
 // Places + image credits load as separate JSON files (kept out of the JS bundle).
-loadData().then(render, (err) => {
+// The motion chunk (GSAP, Lenis) downloads in parallel, so it never delays the page;
+// if it fails, the site still works without motion.
+const motionChunk = import('./modules/motion.js').catch((err) => { console.warn(err); return null; });
+Promise.all([loadData(), motionChunk]).then(([, motion]) => render(motion), (err) => {
   console.error(err);
+  dropIntro();
   app.innerHTML = '<p class="load-error" role="alert">The guide couldn’t load its places. Check your connection and refresh.</p>';
 });
 
-function render() {
+function render(motion) {
   app.innerHTML = `
   ${header()}
   <main id="main">
@@ -63,4 +70,6 @@ function render() {
   const head = document.querySelector('[data-head]');
   const heroEl = document.getElementById('top');
   new IntersectionObserver(([e]) => head.classList.toggle('is-solid', !e.isIntersecting), { rootMargin: '-64px 0px 0px 0px' }).observe(heroEl);
+
+  if (motion) motion.initMotion(); else dropIntro();
 }

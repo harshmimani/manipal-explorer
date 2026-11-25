@@ -8,10 +8,17 @@
     <title>Manipal Explorer · Sea, gods & ghats, one ride away</title>
     <meta name="description" content="An evergreen, vegetarian travel and food guide to everything around Manipal and Udupi: beaches, temples, waterfalls, treks, forts and festivals, with distances, seasons and safety notes." />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Intro plays once per browser session, never under reduced motion or on a deep link. -->
+    <script>try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&!location.hash&&!sessionStorage.getItem('me:intro'))document.documentElement.classList.add('is-intro')}catch(e){}</script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <div class="grain" aria-hidden="true"></div>
+    <div class="intro" data-intro>
+      <div class="intro__bars" aria-hidden="true"><i class="intro__bar"></i><i class="intro__bar"></i><i class="intro__seam"></i></div>
+      <p class="intro__slate" aria-hidden="true"><span class="intro__ln"><span class="w">Manipal</span> <em class="w">Explorer</em></span><span class="intro__count cap"><b data-intro-n>0</b> places, one ride away</span></p>
+      <button class="intro__skip cap" type="button">Skip intro</button>
+    </div>
     <div id="app"></div>
     <noscript><p style="padding:2rem;color:#F7F3EA;background:#0B0F0E">This guide needs JavaScript to load its places.</p></noscript>
     <script type="module" src="/src/main.js"></script>

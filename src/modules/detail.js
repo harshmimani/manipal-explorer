@@ -5,6 +5,7 @@ import {
   host, readerSources, verifyTag, needsVerify, rideHtml, kmHtml, STAR, CHECK,
 } from './util.js';
 import { syncButtons } from './state.js';
+import { spring } from './spring.js';
 
 const TRIP = { quick: 'Quick trip', day: 'Day trip', overnight: 'Overnight', 'long-ride': 'Long ride' };
 const gmaps = (p) => `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`;
@@ -13,7 +14,7 @@ const v = (s) => (needsVerify(s) ? ` ${verifyTag}` : '');
 const trim = (s) => String(s).replace(/[\s,;:.—-]*\(?verify locally\)?\.?\s*$/i, '.').replace(/\.\.$/, '.');
 const val = (s) => (s == null ? `Not confirmed ${verifyTag}` : esc(needsVerify(s) ? trim(s) : s) + v(s));
 
-let root, panel, scrollBox, lastFocus, current;
+let root, panel, scrim, scrollBox, lastFocus, current;
 
 function render(p) {
   const imgs = p.images || [];
@@ -78,6 +79,7 @@ export function initDetail() {
   root.innerHTML = '<div class="detail__scrim" data-close></div><div class="detail__bg" aria-hidden="true"></div><article class="sheet" role="dialog" aria-modal="true" aria-labelledby="detail-h" tabindex="-1"></article>';
   document.body.append(root);
   panel = root.querySelector('.sheet');
+  scrim = root.querySelector('.detail__scrim');
 
   root.addEventListener('click', (e) => { if (e.target.closest('[data-close]')) close(); });
   document.addEventListener('keydown', (e) => {
@@ -103,6 +105,17 @@ function fromHash() {
   else if (!root.hidden) close(false);
 }
 
+// Phone bottom sheet: the sheet's position is driven by a spring, so it lands
+// with a little give and, when flicked, leaves at the speed of the finger.
+const isSheet = () => !matchMedia('(min-width: 1000px)').matches;
+const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+let y = 0, stopSpring = null;
+function setY(v) {
+  y = v;
+  panel.style.transform = `translate3d(0,${v}px,0)`;
+  scrim.style.opacity = String(Math.max(0, Math.min(1, 1 - v / (panel.offsetHeight || 1))));
+}
+
 export function open(id, from) {
   const p = place(id);
   if (!p) return;
@@ -115,18 +128,33 @@ export function open(id, from) {
   scrollBox = panel.querySelector('[data-scroll]');
   root.hidden = false;
   document.documentElement.classList.add('has-detail');
-  requestAnimationFrame(() => root.classList.add('is-open'));
+  stopSpring?.();
+  if (isSheet() && !reducedMotion()) {
+    panel.classList.add('is-spring');
+    root.classList.add('is-open');
+    if (!panel.style.transform) setY(panel.offsetHeight);
+    stopSpring = spring({ from: y, to: 0, stiffness: 380, damping: 30, onUpdate: setY });
+  } else {
+    requestAnimationFrame(() => root.classList.add('is-open'));
+  }
   if (location.hash !== `#place-${id}`) history.pushState(null, '', `#place-${id}`);
   panel.focus({ preventScroll: true });
+  document.dispatchEvent(new CustomEvent('detail:open', { detail: panel }));
 }
 
-export function close(updateHash = true) {
+export function close(updateHash = true, velocity = 0) {
   if (root.hidden) return;
   root.classList.remove('is-open');
   document.documentElement.classList.remove('has-detail');
   current = null;
-  const done = () => { root.hidden = true; panel.style.transform = ''; };
-  matchMedia('(prefers-reduced-motion: reduce)').matches ? done() : setTimeout(done, 380);
+  const done = () => {
+    if (current) return; // reopened meanwhile
+    root.hidden = true; panel.style.transform = ''; scrim.style.opacity = ''; panel.classList.remove('is-spring'); y = 0;
+  };
+  stopSpring?.();
+  if (reducedMotion()) done();
+  else if (panel.classList.contains('is-spring')) stopSpring = spring({ from: y, to: panel.offsetHeight + 24, velocity, stiffness: 300, damping: 30, onUpdate: setY, onDone: done });
+  else setTimeout(done, 380);
   if (updateHash && /^#place-/.test(location.hash)) history.pushState(null, '', location.pathname + location.search);
   lastFocus?.focus?.({ preventScroll: true });
 }
@@ -139,30 +167,59 @@ function trapFocus(e) {
   else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
 }
 
-// Bottom sheet: drag the handle (or the sheet when scrolled to the top) down to close.
+// Drag the handle, or pull down on the sheet when it's scrolled to the top.
+// The sheet follows the finger (rubber-banding upwards); on release it either
+// springs home or closes, carrying the release velocity into the spring.
 function dragToClose() {
-  let y0 = null, dy = 0, t0 = 0;
-  const isSheet = () => !matchMedia('(min-width: 1000px)').matches;
-  panel.addEventListener('pointerdown', (e) => {
-    if (!isSheet()) return;
-    const onGrab = e.target.closest('[data-grab]');
-    const atTop = scrollBox && scrollBox.scrollTop <= 0;
-    if (!onGrab && !(atTop && e.pointerType === 'touch' && !e.target.closest('.gal'))) return;
-    y0 = e.clientY; dy = 0; t0 = performance.now();
-    panel.classList.add('is-dragging');
-  });
-  addEventListener('pointermove', (e) => {
-    if (y0 == null) return;
-    dy = Math.max(0, e.clientY - y0);
-    panel.style.transform = `translateY(${dy}px)`;
-  }, { passive: true });
-  const end = () => {
-    if (y0 == null) return;
-    panel.classList.remove('is-dragging');
-    const fast = dy / Math.max(1, performance.now() - t0) > 0.6;
-    if (dy > 140 || (fast && dy > 40)) close(); else panel.style.transform = '';
-    y0 = null;
+  let dragging = false, offset = 0, samples = [], t = null;
+  const begin = (cy) => {
+    stopSpring?.();
+    dragging = true; offset = cy - y; samples = [];
+    panel.classList.add('is-spring', 'is-dragging');
   };
-  addEventListener('pointerup', end);
-  addEventListener('pointercancel', end);
+  const move = (cy) => {
+    let ny = cy - offset;
+    if (ny < 0) ny = -Math.sqrt(-ny) * 3; // resist pulling past the top
+    setY(ny);
+    samples.push([performance.now(), ny]);
+    if (samples.length > 5) samples.shift();
+  };
+  const end = () => {
+    dragging = false;
+    panel.classList.remove('is-dragging');
+    const a = samples[0], b = samples[samples.length - 1];
+    const v = a && b && b[0] - a[0] > 0 ? ((b[1] - a[1]) / (b[0] - a[0])) * 1000 : 0; // px/s
+    if (y > panel.offsetHeight * 0.28 || (v > 900 && y > 24)) close(true, v);
+    else if (reducedMotion()) setY(0);
+    else stopSpring = spring({ from: y, to: 0, velocity: v, stiffness: 420, damping: 30, onUpdate: setY });
+  };
+  panel.addEventListener('touchstart', (e) => {
+    if (!isSheet() || e.touches.length > 1) { t = null; return; }
+    const p = e.touches[0];
+    t = { x: p.clientX, y: p.clientY, grab: !!e.target.closest('[data-grab]'), gal: !!e.target.closest('.gal') };
+  }, { passive: true });
+  panel.addEventListener('touchmove', (e) => {
+    if (!t) return;
+    const p = e.touches[0];
+    if (!dragging) {
+      const dy = p.clientY - t.y, dx = p.clientX - t.x;
+      const pull = scrollBox && scrollBox.scrollTop <= 0 && dy > 6 && dy > Math.abs(dx) && !t.gal;
+      if (!(t.grab || pull)) { if (Math.abs(dx) > 8 || dy < -6) t = null; return; }
+      begin(t.y);
+    }
+    e.preventDefault();
+    move(p.clientY);
+  }, { passive: false });
+  const tend = () => { t = null; if (dragging) end(); };
+  panel.addEventListener('touchend', tend);
+  panel.addEventListener('touchcancel', tend);
+  // Mouse on the handle (narrow desktop windows).
+  panel.addEventListener('pointerdown', (e) => {
+    if (e.pointerType !== 'mouse' || !isSheet() || !e.target.closest('[data-grab]')) return;
+    begin(e.clientY);
+    const mv = (ev) => move(ev.clientY);
+    const up = () => { removeEventListener('pointermove', mv); removeEventListener('pointerup', up); end(); };
+    addEventListener('pointermove', mv);
+    addEventListener('pointerup', up);
+  });
 }

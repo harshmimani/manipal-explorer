@@ -12,6 +12,9 @@ const listeners = new Set();
 export const onFilter = (fn) => { listeners.add(fn); return () => listeners.delete(fn); };
 let currentIds = null; // null until the first filter run: everything is visible
 export const visibleIds = () => currentIds ?? new Set(places.map((p) => p.id));
+// motion.js swaps this for a GSAP Flip that animates cards to their new places.
+let animate = (cards, mutate) => mutate();
+export const setAnimator = (fn) => { animate = fn; };
 
 function readForm(form) {
   const fd = new FormData(form);
@@ -85,7 +88,8 @@ export function initExplore() {
   const apply = () => {
     const f = readForm(form);
     const ids = new Set();
-    cards.forEach((c) => { const ok = match(places.find((p) => p.id === c.dataset.place), f); c.hidden = !ok; if (ok) ids.add(c.dataset.place); });
+    const show = cards.map((c) => { const ok = match(places.find((p) => p.id === c.dataset.place), f); if (ok) ids.add(c.dataset.place); return ok; });
+    if (cards.some((c, i) => c.hidden === show[i])) animate(cards, () => cards.forEach((c, i) => { c.hidden = !show[i]; }));
     currentIds = ids;
     counts.forEach((el) => { el.textContent = ids.size; });
     label.textContent = ids.size === 1 ? 'place' : 'places';
