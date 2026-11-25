@@ -4,8 +4,9 @@
 export const foodPatches = {
   places: {
     'ideal-cafe': { operatingStatus: 'temporarily closed per Wanderlog; verify locally' },
-    pabbas: { order: "Gadbad first, then come back another day for the Dilkhush. Pure-veg status isn't confirmed, so stick to the ice cream and clearly veg items. Weekday afternoons skip the token queue." },
-    'diana-udupi': { order: "Come for the gadbad and the Horlicks ice cream. Pure-veg status isn't confirmed, so order only clearly veg items such as the veg cutlet." },
+    // Part 6 review: pure-veg status unconfirmed, so these are labelled as ice-cream stops, not veg kitchens.
+    pabbas: { vegLabel: 'Ice-cream stop · mixed menu', order: "Gadbad first, then come back another day for the Dilkhush. Pure-veg status isn't confirmed, so stick to the ice cream and clearly veg items. Weekday afternoons skip the token queue." },
+    'diana-udupi': { vegLabel: 'Ice-cream stop · mixed menu', order: "Come for the gadbad and the Horlicks ice cream. Pure-veg status isn't confirmed, so order only clearly veg items such as the veg cutlet." },
   },
   dishes: {
     'veg-ghee-roast': { whatItIs: 'VEG VERSION of a famous non-veg dish. The original ghee roast is chicken, from Kundapura. Veg kitchens toss paneer (or mushroom) in the same ghee-rich roast masala. Ideal Cafe in Mangaluru serves a green paneer ghee roast with neer dosa (temporarily closed per Wanderlog; verify locally).' },
@@ -102,7 +103,29 @@ export default {
 
   // ---- Gap fills: darshan timings ----
   'kukke-subramanya-temple': {
-    temple: { darshanTimings: 'Darshan 6:00 AM–1:30 PM and 3:30–8:30 PM; temple closes at 9:00 PM; general darshan is free (kukkedevasthanam.org.in, which appears to be the devasthanam site, updated April 2026). Other guides list 6:30 AM starts or 8 PM closing, and timings change on festival and eclipse days, so verify locally.' },
-    addSources: ['https://kukkedevasthanam.org.in/temple-timings'],
+    // Part 6 review: kukkedevasthanam.org.in states it is NOT the official site (checked 25 Nov 2026).
+    temple: {
+      darshanTimings: 'No official timetable online: the devasthanam’s official portal (itms.kar.nic.in) is for sevas and bookings. An independent guide, kukkedevasthanam.org.in (it says it is not the official site; updated 15 Oct 2026), gives darshan 6:00 AM–1:30 PM and 3:30–8:30 PM with the temple shut 1:30–3:30 PM, but the same page also says 5 AM–9 PM. General darshan is free. Timings change on festival and eclipse days. Verify locally.',
+      annadana: 'Free lunch about 11:30 AM–2 PM and dinner about 7:30–9:30 PM, per independent guides (not an official source); hours shift on festival days, so verify locally. Sarpa Samskara is a two-day seva: register in advance and attend both days with photo ID.',
+    },
+    addSources: ['https://kukkedevasthanam.org.in/temple-timings', 'https://itms.kar.nic.in/hrcehome/index_temple.php?tid=21'],
+  },
+
+  // ---- Fixes from the independent review (Part 6) ----
+  'dharmasthala-manjunatha-temple': {
+    // Official routine page, checked 25 Nov 2026. It gives no annadana end time and no dinner hours.
+    temple: {
+      darshanTimings: '6:30–11 AM, 12:15–2:30 PM (or until the queue ends, whichever is first) and 5–8:30 PM (official temple routine). Darshan is held back around the noon Mahapooja (12:00) and Nithyabali (12:10), and again at 8:30–8:45 PM. Gates open 4 AM. Timings vary on special occasions.',
+      annadana: 'Free meals at the Annapoorna dining hall. Lunch begins after the Maha Naivedya at 11:30 AM (official routine); the temple doesn’t publish an end time or dinner hours, so verify locally. Breakfast is served in the queue line on crowded days.',
+    },
+    confidence: 'partial',
+    textFix: [['vegFoodNearby.0', 'lunch 11 am–2:30 pm, dinner 7–10 pm', 'lunch from 11:30 AM after the Maha Naivedya (official); end time and dinner hours per third-party guides only (about 7–10 pm), so verify locally']],
+  },
+  'dharmasthala-bahubali-manjusha-museums': {
+    textFix: [['vegFoodNearby.0', 'lunch 11 am–2:30 pm, dinner 7–10 pm', 'lunch from 11:30 AM after the Maha Naivedya (official); end time and dinner hours per third-party guides only (about 7–10 pm), so verify locally']],
+  },
+  'kumara-parvatha-trek': {
+    // One status for both routes, matching the season note and the trip.
+    textFix: [['trek.howToBook', 'Daily cap: 150/day for Kukke (minister, Mar 2026). Portal showed 300 slots/day for Beedahalli in Nov 2026.', 'Route status: Beedahalli reopened on 18 Oct 2026 (the portal showed 300 slots a day in Nov 2026); the Kukke route was still shut at our last check, so verify locally before you plan. When the Kukke side runs, its cap is 150 a day (minister, Mar 2026).']],
   },
 };

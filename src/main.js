@@ -15,7 +15,7 @@ import './styles/sections.css';
 import './styles/motion.css';
 
 import { loadData } from './modules/data.js';
-import { header, hero } from './modules/hero.js';
+import { header, hero, initMenu } from './modules/hero.js';
 
 const html = document.documentElement;
 const app = document.getElementById('app');
@@ -27,6 +27,7 @@ const dropIntro = () => { document.querySelector('[data-intro]')?.remove(); html
 app.innerHTML = `${header()}<main id="main">${hero()}</main>`;
 const main = document.getElementById('main');
 const head = document.querySelector('[data-head]');
+initMenu();
 new IntersectionObserver(([e]) => head.classList.toggle('is-solid', !e.isIntersecting), { rootMargin: '-64px 0px 0px 0px' }).observe(document.getElementById('top'));
 
 // 2 · Motion. Its chunk (GSAP, Lenis) is preloaded from the HTML. If it fails,

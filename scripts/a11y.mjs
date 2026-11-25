@@ -79,8 +79,10 @@ for (const key of want) {
   if (!/skip/.test(first.cls)) kb.issues.push(`first Tab stop is "${first.txt}", not the skip link`);
   // 2. Tab through the page: every stop must be visible and show a focus ring.
   const seen = []; let noRing = 0, hiddenStops = 0;
-  for (let i = 0; i < 260; i++) {
+  // Until focus reaches the footer (or wraps back to the top).
+  for (let i = 0; i < 2500; i++) {
     await page.keyboard.press('Tab');
+    if (await page.evaluate(() => !!document.activeElement.closest('footer') || document.activeElement.classList.contains('skip'))) { seen.push({ sec: 'credits' }); break; }
     const s = await page.evaluate(() => {
       const e = document.activeElement; if (!e || e === document.body) return null;
       const st = getComputedStyle(e); const r = e.getBoundingClientRect();
@@ -88,7 +90,7 @@ for (const key of want) {
       const ring = (st.outlineStyle !== 'none' && parseFloat(st.outlineWidth) > 0) || st.boxShadow !== 'none'
         || (card && getComputedStyle(card.querySelector('.card__media')).outlineStyle !== 'none');
       const vis = r.width > 0 && r.height > 0 && st.visibility !== 'hidden' && !e.closest('[hidden], [inert]');
-      return { tag: e.tagName.toLowerCase(), txt: (e.getAttribute('aria-label') || e.textContent).trim().slice(0, 40), ring, vis, sec: e.closest('section, header, footer')?.id || e.closest('header, footer')?.tagName };
+      return { tag: e.tagName.toLowerCase(), txt: (e.getAttribute('aria-label') || e.textContent).trim().slice(0, 40), ring, vis, sec: e.closest('main > section')?.id || e.closest('header, footer')?.tagName };
     });
     if (!s) continue;
     seen.push(s);
@@ -97,6 +99,12 @@ for (const key of want) {
   }
   kb.stops = seen.length;
   kb.sections = [...new Set(seen.map((s) => s.sec))];
+  // Every section with something tabbable (outside closed <details>) must be reached.
+  const want = await page.evaluate(() => [...new Set([...document.querySelectorAll('main > section a[href], main > section button, main > section summary, main > section input, main > section select, main > section [tabindex="0"]')]
+    .filter((e) => e.tabIndex >= 0 && !e.closest('[hidden], [inert], .detail, details:not([open]) > :not(summary)') && getComputedStyle(e).display !== 'none' && e.getClientRects().length)
+    .map((e) => e.closest('main > section').id))]);
+  const missed = want.filter((id) => !kb.sections.includes(id));
+  if (missed.length) kb.issues.push(`Tab never reaches: ${missed.join(', ')}`);
   // 3. A card opens its detail with Enter; Escape closes it and focus returns.
   await page.evaluate(() => document.querySelector('#explore .card h3 a').focus());
   const opener = await page.evaluate(() => document.activeElement.textContent.trim());

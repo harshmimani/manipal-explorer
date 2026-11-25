@@ -26,6 +26,7 @@
   --surface-raised: var(--c-ink-2);
   --surface-sheet: var(--c-ink-3);
   --surface-glass: rgb(11 15 14 / .42);
+  --surface-header: rgb(11 15 14 / .9);        /* solid header: bright numerals must not show through */
   --scrim: rgb(11 15 14 / .62);
   --text: var(--c-bone);                       /* 17.4:1 on ink */
   --text-soft: #D4CEC2;                        /* 12.3:1  body copy on photos/sheets */
@@ -41,13 +42,20 @@
   --warn-text: var(--c-laterite-text);
   /* Chapter colours: map pins and legend only (fills, never body text) */
   --ch-coast: var(--c-monsoon-teal);
-  --ch-gods: var(--c-saffron);
+  --ch-gods: var(--c-sand);            /* not saffron: the accent stays one per view */
   --ch-ghats: var(--c-palm);
   --ch-heritage: var(--c-laterite);
   --ch-home: var(--c-bone);
   --line: rgb(247 243 234 / .14);
   --line-strong: rgb(247 243 234 / .32);
   --focus: var(--c-saffron);
+  /* Typographic cards (places without a licensed photo): dark chapter-tinted grounds */
+  --grad-gods: #2A1A10;
+  --grad-ghats: #14221A;
+  --grad-heritage: #24140E;
+  /* Thin outlines of the Gods arch (chapter II only) */
+  --arch-line: color-mix(in oklab, var(--c-saffron) 45%, transparent);
+  --arch-line-faint: color-mix(in oklab, var(--c-saffron) 16%, transparent);
 
   /* ── Type · families ──────────────────────────────────────────────── */
   --font-display: 'Instrument Serif', 'Times New Roman', serif;

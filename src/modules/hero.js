@@ -10,13 +10,30 @@ export const ring = (cls = '') => `<svg class="ring ${cls}" viewBox="0 0 40 40" 
 export const header = () => `
 <header class="site-head" data-head>
   <a class="brand" href="#top">Manipal <i>Explorer</i></a>
-  <nav class="site-head__nav" aria-label="Sections">
-    <a href="#must-do">Top 10</a><a href="#explore">Explore</a><a href="#map">Map</a><a href="#plan">Trips</a><a href="#festivals">Festivals</a>
+  <nav class="site-head__nav" id="site-nav" aria-label="Sections">
+    <a href="#must-do">Top 10</a><a href="#explore">Explore</a><a href="#map">Map</a><a href="#plan">Trips</a><a href="#festivals">Festivals</a><a href="#practical">Practical</a>
   </nav>
   <a class="explored" href="#explore" data-explored aria-label="0% explored">
     ${ring()}<span class="explored__txt"><b class="num" data-explored-pct>0%</b><span class="cap">explored</span></span>
   </a>
+  <button class="menu-btn" type="button" data-menu aria-expanded="false" aria-controls="site-nav"><span class="cap">Menu</span><i aria-hidden="true"></i></button>
 </header>`;
+
+// Phone menu: the same section links, opened from the header.
+export function initMenu() {
+  const head = document.querySelector('[data-head]');
+  const btn = head.querySelector('[data-menu]');
+  const nav = head.querySelector('#site-nav');
+  const set = (on, focusBack = false) => {
+    head.classList.toggle('is-menu', on);
+    btn.setAttribute('aria-expanded', String(on));
+    if (on) nav.querySelector('a').focus(); else if (focusBack) btn.focus();
+  };
+  btn.addEventListener('click', () => set(!head.classList.contains('is-menu')));
+  nav.addEventListener('click', (e) => { if (e.target.closest('a')) set(false); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && head.classList.contains('is-menu')) set(false, true); });
+  document.addEventListener('click', (e) => { if (head.classList.contains('is-menu') && !e.target.closest('[data-head]')) set(false); });
+}
 
 // ── 1. Hero ────────────────────────────────────────────────────────────
 // Renders before places.json arrives: it reads only the build-time summary

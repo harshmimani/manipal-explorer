@@ -154,7 +154,9 @@ export const mapSection = () => `
   </div>
   <div class="legend" aria-hidden="true">${CHAPTERS.slice(0, 4).map((c) => `<span class="legend__i legend__i--${c.id}"><i></i>${c.num} ${c.short}</span>`).join('')}<span class="legend__i legend__i--home"><i></i>Manipal</span></div>
   <div class="map" data-map role="region" aria-label="Map of places. Use the list above for keyboard access."><p class="map__fallback">Map loads when you scroll here.</p></div>
+  ${unpinned().length ? `<p class="wrap note map__missing">Not on the map yet, because we couldn't verify their coordinates: ${unpinned().map((p) => `<a href="#place-${p.id}" data-open="${p.id}">${esc(p.name)}</a>`).join(', ')}.</p>` : ''}
 </section>`;
+const unpinned = () => places.filter((p) => p.lat == null || p.lng == null);
 
 // ── 7. The Table ───────────────────────────────────────────────────────
 export function table() {
@@ -195,7 +197,7 @@ export function table() {
     <div class="eats">
       ${food.places.map((e) => `
       <article class="eat" id="eat-${e.id}">
-        <div class="eat__top"><h4>${esc(e.name)}</h4><span class="cap eat__veg">${e.pureVeg ? 'Pure veg' : 'Veg options'}</span></div>
+        <div class="eat__top"><h4>${esc(e.name)}</h4><span class="cap eat__veg">${e.pureVeg ? 'Pure veg' : esc(e.vegLabel ?? 'Veg options')}</span></div>
         <p class="eat__where">${esc(e.area ? `${e.area}, ${e.town}` : e.town)}</p>
         <p class="eat__order">${esc(e.order)}</p>
         <dl class="mini">
@@ -252,7 +254,7 @@ export function plan() {
         <summary>
           <span class="trip__n num">${String(i + 1).padStart(2, '0')}</span>
           <span class="trip__main">
-            <span class="trip__title">${esc(t.title)}</span>
+            <h3 class="trip__title">${esc(t.title)}</h3>
             <span class="trip__hook">${esc(t.hook)}</span>
           </span>
           <span class="trip__meta num">
@@ -275,6 +277,7 @@ export function plan() {
               ${t.vegMealStops?.length ? `<div class="block"><h4 class="cap">Veg meal stops</h4><ul class="bul">${t.vegMealStops.map((m) => `<li>${esc(m)}</li>`).join('')}</ul></div>` : ''}
               ${t.packThis ? `<div class="block"><h4 class="cap">Pack this</h4><p>${esc(t.packThis)}</p></div>` : ''}
               ${t.safety ? `<div class="warn"><h4 class="cap">Safety</h4><p>${esc(t.safety)}</p></div>` : ''}
+              ${t.sources?.length ? `<details class="srcs"><summary class="cap">Sources</summary>${srcLinks(t.sources)}</details>` : ''}
             </div>
           </div>
         </div>
@@ -316,7 +319,7 @@ export function festivalsSection() {
     <section class="cal__m${m === thisMonth ? ' is-now' : ''}" aria-label="${MONTHS_LONG[m - 1]}">
       <h3 class="cal__h"><span>${MONTHS_LONG[m - 1]}</span><b class="num">${fs.length}</b></h3>
       <ul>${fs.map((f) => { const n = nextDate(f); return `<li class="fest${soonIds.has(f.id) ? ' is-soon' : ''}">
-        <details><summary><span class="fest__name">${esc(f.name)}</span><span class="fest__where">${esc(f.place)}</span>${n ? `<span class="fest__date num">${fmtDate(n.startDate)}${n.dateStatus !== 'confirmed' ? ' *' : ''}</span>` : '<span class="fest__date">Date: verify locally</span>'}</summary>
+        <details><summary><span class="fest__name">${esc(f.name)}</span><span class="fest__where">${esc(f.place)}</span>${n ? `<span class="fest__date num">${+n.startDate.slice(5, 7) !== m ? 'Next: ' : ''}${fmtDate(n.startDate)}${n.dateStatus !== 'confirmed' ? ' *' : ''}</span>` : '<span class="fest__date">Date: verify locally</span>'}</summary>
         <div class="fest__body"><p>${esc(f.what)}</p>${f.basis ? `<p class="note"><b>Calendar:</b> ${esc(f.basis)} · ${esc(f.frequency)}</p>` : ''}${f.tips ? `<p class="note">${esc(f.tips)}</p>` : ''}${n?.note ? `<p class="note">${esc(n.note)}</p>` : ''}${f.placeId ? `<a class="btn btn--small" href="#place-${f.placeId}" data-open="${f.placeId}">Open the place</a>` : ''}${srcLinks(f.sources)}</div></details>
       </li>`; }).join('') || '<li class="fest fest--none">No listed festivals.</li>'}</ul>
     </section>`; }).join('')}

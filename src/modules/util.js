@@ -68,8 +68,10 @@ export function gradientArt(p) {
 export function creditLine(id, prefix = 'Photo: ') {
   const c = credit(id);
   if (!c) return '';
-  const who = c.authorUrl ? `<a href="${esc(c.authorUrl)}" rel="noopener">${esc(c.author)}</a>` : esc(c.author);
-  return `${prefix}${who}, <a href="${esc(c.licenceUrl)}" rel="noopener license">${esc(c.licence)}</a> via <a href="${esc(c.sourcePage)}" rel="noopener">Wikimedia Commons</a>`;
+  // Some Commons URLs arrive HTML-encoded (&amp;); decode before escaping once.
+  const url = (u) => (u ? esc(String(u).replace(/&amp;/g, '&')) : '');
+  const link = (u, text, rel = 'noopener') => (u ? `<a href="${url(u)}" rel="${rel}">${esc(text)}</a>` : esc(text));
+  return `${prefix}${link(c.authorUrl, c.author)}, ${link(c.licenceUrl, c.licence, 'noopener license')} via ${link(c.sourcePage, 'Wikimedia Commons')}`;
 }
 
 export const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };

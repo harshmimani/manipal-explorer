@@ -129,3 +129,25 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
   - Known: the Part 4 first render is a ~1.7 s long task on a 4× throttled phone (107 cards built at once); worth chunking in Part 6.
     Headless runs show occasional ~500 ms compositor stalls with no main-thread work; check on a real iPhone.
 
+- Part 6 (QA and ship): DONE (awaiting review).
+  - Part 5 open items: Explore grid builds 8 cards with the page, the rest in idle-time batches (filters run on data).
+    Header + hero render before places.json from a build-time summary (`virtual:hero-data` in vite.config.js);
+    other sections render one per task once data is in (after the intro on a first visit). Entry JS 55 kB → 5 kB gzip.
+    Repeat-visit title rise is CSS (`.hero-rise`). content-visibility below the map and on phone carousel cards.
+    Long names no longer spill: card photo + text share one grid cell. Desktop grid scroll 56–58 fps (was ~48).
+    Throttled phone: first-render long task 2.7 s → 1.0 s; intro 9 → 55 fps; LCP (slow 4G, 4× CPU) ~4 s → 1.3–1.6 s.
+  - QA scripts (need `npx vite preview` and BASE): scripts/qa.mjs (6 viewports), a11y.mjs (axe + full keyboard walk),
+    modes.mjs (reduced motion, WebGL off), lighthouse.mjs (median of N). Reports in review/qa and review/lighthouse.
+  - Fixed: tap targets (44 px touch, ≥24 px inline credits), explored-link accessible name, reveal blocks no longer
+    `visibility: hidden` (Tab skipped The Table/The Plan), phone menu (Menu button → section links), nav landing on
+    content-visibility sections, header opaque when solid, saffron limited to month marker / Good-now chip / CTA / focus.
+  - Independent review (19 issues) fixed: Dharmasthala timings to the official routine (confidence partial); Kukke
+    timings relabelled third-party (site says it isn't official) + itms portal; trips now carry sources
+    (places + named eateries + OSRM route); Kumara Parvatha / Kudremukh route status made consistent + verify locally;
+    Kambala 2026–27 list complete (27 fixtures, v4news 12 Nov 2026); Kollur trip safety; Diana/Pabbas labelled
+    "Ice-cream stop · mixed menu"; credit links (null licence URL, &amp; in 49 author URLs); trip titles are h3;
+    festival dates outside their month column read "Next: …"; unmapped places listed under the map; gradart/arch tokens.
+  - Lighthouse: local runs are distorted by other load on this machine (a 696 ms "task" used 0.2 ms CPU);
+    final scores taken from PageSpeed Insights on the live site (see review/lighthouse/summary.txt).
+  - Not verified on a real iPhone (no notes were given). Open: 4 places lack coordinates; 33 festivals have no
+    confirmed date yet; real-device check of the 500 ms compositor stalls seen headless.

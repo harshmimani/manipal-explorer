@@ -3386,12 +3386,12 @@
     ],
     "seasonNote": "Open year-round. Laksha Deepotsava (around Karthika Amavasya, November–December) is the biggest event and the biggest crowd; weekends are always busy. Monsoon brings fog, leeches and landslide closures on the ghat roads. That applies if you continue up Charmadi.",
     "vegFoodNearby": [
-      "Annapoorna dining hall (temple annadana, free veg meal, inside the temple complex): lunch 11 am–2:30 pm, dinner 7–10 pm"
+      "Annapoorna dining hall (temple annadana, free veg meal, inside the temple complex): lunch from 11:30 AM after the Maha Naivedya (official); end time and dinner hours per third-party guides only (about 7–10 pm), so verify locally"
     ],
     "temple": {
       "dressCode": "Men must remove shirt and vest before entering the sanctum. Men in half-pants and women in nighties are not allowed in for darshan. No bags inside, no mobile phone use in the temple, children under 2 not allowed in the sanctum.",
-      "darshanTimings": "6:30 am–2:30 pm (darshan pauses around 12:00–12:15 pm for Mahapooja and Nithyabali; the afternoon line closes at 2:30 pm or when the queue ends) and 5:00–8:30 pm. Gates open 4 am. Timings may change on special days.",
-      "annadana": "Free meals at Annapoorna dining hall, 11 am–2:30 pm and 7–10 pm. Annadana begins after Maha Naivedya (11:30 am). Breakfast is served in the queue line on crowded days."
+      "darshanTimings": "6:30–11 AM, 12:15–2:30 PM (or until the queue ends, whichever is first) and 5–8:30 PM (official temple routine). Darshan is held back around the noon Mahapooja (12:00) and Nithyabali (12:10), and again at 8:30–8:45 PM. Gates open 4 AM. Timings vary on special occasions.",
+      "annadana": "Free meals at the Annapoorna dining hall. Lunch begins after the Maha Naivedya at 11:30 AM (official routine); the temple doesn’t publish an end time or dinner hours, so verify locally. Breakfast is served in the queue line on crowded days."
     },
     "trek": null,
     "bikeTips": "About 97 km via Karkala and Belthangady, roughly 1h 50m. Park only in the allotted parking slots (temple rule). Leave the riding jacket and bag with the bike or at your room: bags are not allowed inside.",
@@ -3412,7 +3412,7 @@
       "https://nominatim.openstreetmap.org/search?q=Manjunatha+Temple+Dharmasthala&format=json&limit=3",
       "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.3808212,12.9503656?overview=false"
     ],
-    "confidence": "verified",
+    "confidence": "partial",
     "lastChecked": "2026-11"
   },
   {
@@ -3452,7 +3452,7 @@
     ],
     "seasonNote": "Ratnagiri hill is best in the clear, cooler months, in the morning. The museums are indoors and fine any time.",
     "vegFoodNearby": [
-      "Annapoorna dining hall (temple annadana, free veg meal, about 1 km away): lunch 11 am–2:30 pm, dinner 7–10 pm"
+      "Annapoorna dining hall (temple annadana, free veg meal, about 1 km away): lunch from 11:30 AM after the Maha Naivedya (official); end time and dinner hours per third-party guides only (about 7–10 pm), so verify locally"
     ],
     "temple": null,
     "trek": null,
@@ -3585,8 +3585,8 @@
     ],
     "temple": {
       "dressCode": "Men remove shirt and vest before joining the darshan line; dhoti or white pancha for sevas such as Ashlesha Bali and Sarpa Samskara. Women: saree, churidar or salwar with dupatta, or other modest wear. Shorts and sleeveless tops are not appropriate.",
-      "darshanTimings": "Darshan 6:00 AM–1:30 PM and 3:30–8:30 PM; temple closes at 9:00 PM; general darshan is free (kukkedevasthanam.org.in, which appears to be the devasthanam site, updated April 2026). Other guides list 6:30 AM starts or 8 PM closing, and timings change on festival and eclipse days, so verify locally.",
-      "annadana": "Free lunch 11:30 am–2 pm and free dinner 7:30–9:30 pm (two non-official sources agree); hours may shift on festival days. Sarpa Samskara is a two-day seva: register in advance and attend both days with photo ID."
+      "darshanTimings": "No official timetable online: the devasthanam’s official portal (itms.kar.nic.in) is for sevas and bookings. An independent guide, kukkedevasthanam.org.in (it says it is not the official site; updated 15 Oct 2026), gives darshan 6:00 AM–1:30 PM and 3:30–8:30 PM with the temple shut 1:30–3:30 PM, but the same page also says 5 AM–9 PM. General darshan is free. Timings change on festival and eclipse days. Verify locally.",
+      "annadana": "Free lunch about 11:30 AM–2 PM and dinner about 7:30–9:30 PM, per independent guides (not an official source); hours shift on festival days, so verify locally. Sarpa Samskara is a two-day seva: register in advance and attend both days with photo ID."
     },
     "trek": null,
     "bikeTips": "About 164 km, roughly 2h 45m. The last stretch from Dharmasthala via Kokkada (SH37) passes Sowthadka. Stay the night if you're doing a seva or the trek.",
@@ -3603,7 +3603,8 @@
       "https://en.wikipedia.org/wiki/Kukke_Subramanya_Temple",
       "https://nominatim.openstreetmap.org/search?q=Kukke+Subramanya+Temple&format=json&limit=3",
       "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.6154570,12.6635238?overview=false",
-      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.615457,12.6635238?overview=false"
+      "https://router.project-osrm.org/route/v1/driving/74.7873,13.3524;75.615457,12.6635238?overview=false",
+      "https://itms.kar.nic.in/hrcehome/index_temple.php?tid=21"
     ],
     "confidence": "partial",
     "lastChecked": "2026-11"
@@ -3649,7 +3650,7 @@
       "difficulty": "hard",
       "duration": "Kukke round trip about 20–22 km, roughly 11–12 hours, in a single day. Beedahalli round trip about 14 km, 7–8 hours. Kukke side: 5:30 am start and 6 pm exit were reported for last season; this season's times are not confirmed.",
       "permitRequired": true,
-      "howToBook": "Online only via the Karnataka Forest Dept Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Book 1–30 days ahead. Carry the original ID used to book. Cancellations 8+ days out get a 50% refund, within 7 days nothing (rules effective 15 Jul 2026). Daily cap: 150/day for Kukke (minister, Mar 2026). Portal showed 300 slots/day for Beedahalli in Nov 2026. Fee about ₹350 reported in Dec 2025; confirm on portal. No overnight stay or camping, including at Bhattara Mane/Girigadde. Plastic and paper banned.",
+      "howToBook": "Online only via the Karnataka Forest Dept Aranya Vihaara portal (aranyavihaara.karnataka.gov.in). Book 1–30 days ahead. Carry the original ID used to book. Cancellations 8+ days out get a 50% refund, within 7 days nothing (rules effective 15 Jul 2026). Route status: Beedahalli reopened on 18 Oct 2026 (the portal showed 300 slots a day in Nov 2026); the Kukke route was still shut at our last check, so verify locally before you plan. When the Kukke side runs, its cap is 150 a day (minister, Mar 2026). Fee about ₹350 reported in Dec 2025; confirm on portal. No overnight stay or camping, including at Bhattara Mane/Girigadde. Plastic and paper banned.",
       "guideMandatory": null
     },
     "bikeTips": "Distance is to Kukke Subramanya (trailhead side). The Beedahalli checkpost (Kodagu side) is about 208 km, 3h 40m from Manipal. Sleep in Kukke the night before; you need to be at the gate before dawn. Don't plan to ride back the same evening after a 12-hour trek.",
@@ -4683,7 +4684,7 @@
       11,
       12
     ],
-    "seasonNote": "Post-monsoon to December, when the grass is green and skies are clear. The forest department closes these trails in the monsoon, and in 2026 it also shut them from 14 January for fire season, so treat late January onward as uncertain and check Aranya Vihaara before you plan.",
+    "seasonNote": "Post-monsoon to December, when the grass is green and skies are clear. The forest department closes these trails in the monsoon, and in 2026 it also shut them from 14 January for fire season, so treat late January onward as uncertain and check Aranya Vihaara before you plan. We found no dated notice of this season's reopening: verify locally on Aranya Vihaara before you go.",
     "vegFoodNearby": [
       "Mullodi homestays at the trailhead, e.g. Bella Homestay (its listing mentions packed lunches for treks). Kitchens may also cook non-veg, so confirm a veg-only meal when you book.",
       "Carry your own snacks: there is no food on the trail."

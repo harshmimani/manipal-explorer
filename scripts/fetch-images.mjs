@@ -200,7 +200,7 @@ function evaluate(page, place, ctx) {
     original: { url: ii.url.split('?')[0], width: ii.width, height: ii.height },
     downloadUrl: (ii.width > DL_W && ii.thumburl ? ii.thumburl : ii.url).split('?')[0],
     author: stripHtml(artistHtml) || stripHtml(v('Credit')) || 'Unknown (see source page)',
-    authorUrl: href ? (href.startsWith('//') ? `https:${href}` : href) : null,
+    authorUrl: href ? (href.startsWith('//') ? `https:${href}` : href).replace(/&amp;/g, '&') : null, // Commons hands back HTML-encoded hrefs
     licence: v('LicenseShortName') || licence,
     licenceCode: licence,
     licenceUrl: v('LicenseUrl') || (licence.startsWith('cc0') ? 'https://creativecommons.org/publicdomain/zero/1.0/' : null),

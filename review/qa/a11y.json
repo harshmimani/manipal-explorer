@@ -7,7 +7,7 @@
         "cls": "skip",
         "txt": "Skip to content"
       },
-      "stops": 260,
+      "stops": 708,
       "sections": [
         "HEADER",
         "top",
@@ -15,7 +15,14 @@
         "ch-coast",
         "ch-gods",
         "ch-ghats",
-        "ch-heritage"
+        "ch-heritage",
+        "explore",
+        "map",
+        "ch-table",
+        "plan",
+        "festivals",
+        "practical",
+        "credits"
       ]
     }
   },
@@ -27,7 +34,7 @@
         "cls": "skip",
         "txt": "Skip to content"
       },
-      "stops": 260,
+      "stops": 724,
       "sections": [
         "HEADER",
         "top",
@@ -35,7 +42,14 @@
         "ch-coast",
         "ch-gods",
         "ch-ghats",
-        "ch-heritage"
+        "ch-heritage",
+        "explore",
+        "map",
+        "ch-table",
+        "plan",
+        "festivals",
+        "practical",
+        "credits"
       ]
     }
   }

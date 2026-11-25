@@ -114,7 +114,7 @@ export default [
     ],
     vegMealStops: ['Kollur temple anna prasada (lunch).'],
     packThis: 'Dhoti or saree for darshan, grip sandals for the falls trail, leech socks after the rains, a headlamp.',
-    extraSafety: 'Arasinagundi Falls is closed by forest order: do not try it. Falls rocks are slippery in every season.',
+    extraSafety: 'Rocks at Belkal Theertha are slippery in every season: read its safety note before you go, and keep off the wet rock face. Arasinagundi Falls, nearby but not on this trip, is closed by forest order: don’t detour to it.',
   },
   {
     id: 'jain-heritage-loop',

@@ -89,7 +89,7 @@ export default {
   'varanga-kere-basadi': [ALL, `Not seasonal: the boat runs year-round. Cool mornings and water lilies make winter the prettiest. Boat hours: verify locally.`],
   'sringeri-sharada-peetham': [ALL, `Open year-round; October to March per Karnataka Tourism for weather. Navaratri (Sharada Sharannavaratri) is the big festival. ${GHAT_RAIN} That applies to the Agumbe approach.`],
   'horanadu-annapoorneshwari-temple': [ALL, `Any season. Clear roads and cool forest air in winter; heavy rain and the odd landslide on the Kalasa roads in the monsoon.`],
-  'kudremukh-peak-trek': [OCT_DEC, `Post-monsoon to December, when the grass is green and skies are clear. ${TREK}`],
+  'kudremukh-peak-trek': [OCT_DEC, `Post-monsoon to December, when the grass is green and skies are clear. ${TREK} We found no dated notice of this season's reopening: verify locally on Aranya Vihaara before you go.`],
   'netravati-peak-trek': [OCT_DEC, `Post-monsoon to December. ${TREK}`],
   'kurinjal-peak-trek': [OCT_DEC, `Post-monsoon to December; IndiaHikes advises against peak summer because the top is exposed. ${TREK}`],
   'narasimha-parvatha-trek': [OCT_DEC, `Post-monsoon to December. ${TREK}`],

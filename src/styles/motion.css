@@ -103,7 +103,7 @@ html.is-intro .intro { display: block; position: fixed; inset: 0; z-index: var(-
   @keyframes hero-in { from { opacity: 0; transform: translateY(18px); } }
   @keyframes hero-lift { from { transform: translateY(18px); } }
 }
-.fu { opacity: 0; visibility: hidden; transform: translateY(24px); }
+.fu { opacity: 0; transform: translateY(24px); } /* no visibility: hidden, so it stays focusable */
 
 /* ── Reduced motion: plain fades only ────────────────────────── */
 .rm-wait { opacity: 0; }

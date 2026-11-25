@@ -90,7 +90,8 @@ for (const key of want) {
     await document.fonts.ready;
     document.querySelectorAll('img[loading="lazy"]').forEach((i) => { i.loading = 'eager'; });
     for (let y = 0; y < document.body.scrollHeight; y += innerHeight * 0.8) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 90)); }
-    await Promise.all([...document.images].map((i) => (i.complete ? 0 : new Promise((r) => { i.onload = i.onerror = r; }))));
+    // Bounded: an image inside content that is still skipped (content-visibility) may not load until it nears the screen.
+    await Promise.race([Promise.all([...document.images].map((i) => (i.complete ? 0 : new Promise((r) => { i.onload = i.onerror = r; })))), new Promise((r) => setTimeout(r, 15000))]);
   });
   await page.waitForTimeout(1500);
   await page.evaluate(() => document.querySelectorAll('main details, footer details').forEach((d) => { d.open = true; }));

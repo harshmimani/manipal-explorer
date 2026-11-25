@@ -115,7 +115,14 @@ function smoothScroll() {
     const el = document.getElementById(id);
     if (!el) return;
     e.preventDefault();
-    lenis.scrollTo(el, { offset: id === 'top' ? 0 : -64, duration: 1.5, easing: (x) => 1 - Math.pow(1 - x, 4) });
+    // Blocks below the map skip layout until near the screen (content-visibility),
+    // so their real height can change mid-glide; land, then correct (twice at most).
+    const offset = id === 'top' ? 0 : -64;
+    const settle = (n) => () => {
+      const off = el.getBoundingClientRect().top + offset;
+      if (n && Math.abs(off) > 4) lenis.scrollTo(el, { offset, duration: 0.45, onComplete: settle(n - 1) });
+    };
+    lenis.scrollTo(el, { offset, duration: 1.5, easing: (x) => 1 - Math.pow(1 - x, 4), onComplete: settle(2) });
     history.pushState(null, '', `#${id}`);
   });
   return lenis;
@@ -222,7 +229,9 @@ function cardReveals() {
 
 function fadeUps() {
   const io = batcher((els) => {
-    gsap.fromTo(els, { autoAlpha: 0, y: 30 }, { autoAlpha: 1, y: 0, duration: 1, ease: EXPO, stagger: 0.06, clearProps: 'transform,opacity,visibility' });
+    // Opacity only, never visibility: content waiting to fade in must stay in
+    // the tab order (keyboard users reach it before scrolling to it).
+    gsap.fromTo(els, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 1, ease: EXPO, stagger: 0.06, clearProps: 'transform,opacity' });
     els.forEach((el) => el.classList.remove('fu'));
   });
   const els = document.querySelectorAll(CARD_FADE);

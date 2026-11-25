@@ -321,7 +321,8 @@
         "https://nominatim.openstreetmap.org/search?q=Diana,+Udupi&format=json"
       ],
       "confidence": "partial",
-      "lastChecked": "2026-11"
+      "lastChecked": "2026-11",
+      "vegLabel": "Ice-cream stop · mixed menu"
     },
     {
       "id": "woodlands-udupi",
@@ -378,7 +379,8 @@
         "https://nominatim.openstreetmap.org/search?q=Pabbas&format=json"
       ],
       "confidence": "verified",
-      "lastChecked": "2026-11"
+      "lastChecked": "2026-11",
+      "vegLabel": "Ice-cream stop · mixed menu"
     },
     {
       "id": "ideal-cafe",
