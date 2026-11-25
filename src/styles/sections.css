@@ -381,6 +381,10 @@ html.has-filters .fbar { z-index: var(--z-sheet); }
 @media (min-width: 760px) { .credits, .sources { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 1200px) { .credits, .sources { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .foot__small { margin-top: var(--space-l); color: var(--text-faint); font-size: var(--step--1); }
+.foot__by { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2xs) var(--space-s); margin: var(--space-l) 0 0; padding-top: var(--space-m); border-top: 1px solid var(--line); color: var(--text-faint); font-size: var(--step--1); }
+.foot__name { font: italic 400 var(--step-1)/1 var(--font-display); color: var(--text-soft); }
+.foot__in { display: inline-flex; align-items: center; gap: 4px; min-height: var(--tap); padding: 0 var(--space-xs); margin-left: calc(-1 * var(--space-xs)); color: var(--text-muted); text-decoration: none; letter-spacing: .08em; text-transform: uppercase; font-size: .72rem; font-weight: var(--weight-strong); }
+.foot__in:hover { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
 
 /* ── Tap targets for links that sit in text ──────────────────
    Padding on an inline link grows its hit box, not the line box, so the text

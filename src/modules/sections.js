@@ -410,6 +410,7 @@ export function footer() {
       <ul class="sources">${[...hosts].sort((a, b) => b[1].length - a[1].length).map(([h, us]) => `<li><b>${esc(h)}</b>${us.map((u) => `<a href="${esc(u)}" rel="noopener">${esc(decodeURIComponent(u.replace(/^https?:\/\/(www\.)?/, '')).slice(h.length, h.length + 90) || '/')}</a>`).join('')}</li>`).join('')}</ul>
     </details>
     <p class="foot__small">Built in Manipal. Strictly vegetarian recommendations. Type: Instrument Serif and Hanken Grotesk (OFL).</p>
+    <p class="foot__by">Created by <span class="foot__name">Harsh Mimani</span><a class="foot__in" href="https://www.linkedin.com/in/harsh-mimani/" rel="noopener" target="_blank" aria-label="Harsh Mimani on LinkedIn (opens in a new tab)">LinkedIn <span aria-hidden="true">↗</span></a></p>
   </div>
 </footer>`;
 }
