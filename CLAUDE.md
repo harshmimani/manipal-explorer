@@ -147,7 +147,11 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
     Kambala 2026–27 list complete (27 fixtures, v4news 12 Nov 2026); Kollur trip safety; Diana/Pabbas labelled
     "Ice-cream stop · mixed menu"; credit links (null licence URL, &amp; in 49 author URLs); trip titles are h3;
     festival dates outside their month column read "Next: …"; unmapped places listed under the map; gradart/arch tokens.
-  - Lighthouse: local runs are distorted by other load on this machine (a 696 ms "task" used 0.2 ms CPU);
-    final scores taken from PageSpeed Insights on the live site (see review/lighthouse/summary.txt).
+  - Lighthouse on the live site (median of 3, 25 Nov 2026; review/lighthouse/summary.txt):
+    desktop Performance 90 · Accessibility 100 · Best Practices 100 · SEO 100;
+    mobile Performance 69 (runs 61/69/80) · Accessibility 100 · Best Practices 100 · SEO 100.
+    Mobile misses the ≥ 90 target: LCP is 1.8 s, but Total Blocking Time (~1.2 s) and Speed Index (~6 s, the
+    first-visit intro holds the screen ~2.5 s) pull it down. Runs were on a loaded laptop; PageSpeed Insights'
+    free quota was used up, so re-check there. OPEN: decide how to reach 90 on mobile (see final report).
   - Not verified on a real iPhone (no notes were given). Open: 4 places lack coordinates; 33 festivals have no
     confirmed date yet; real-device check of the 500 ms compositor stalls seen headless.
