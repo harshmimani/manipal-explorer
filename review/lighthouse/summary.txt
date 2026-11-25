@@ -1,7 +1,6 @@
 Lighthouse 2026-11-25 · https://harshmimani.github.io/manipal-explorer/
-mobile (median of 3): performance 69 · accessibility 100 · best practices 100 · seo 100
-  first contentful paint 1.8 s · largest contentful paint 1.8 s · total blocking time 1,180 ms · cumulative layout shift 0 · speed index 6.2 s
-  all runs: 61, 69, 80
-desktop (median of 3): performance 90 · accessibility 100 · best practices 100 · seo 100
-  first contentful paint 0.3 s · largest contentful paint 0.3 s · total blocking time 180 ms · cumulative layout shift 0.003 · speed index 2.4 s
-  all runs: 73, 90, 96
+mobile (median of 5): performance 98 · accessibility 100 · best practices 100 · seo 100
+  first contentful paint 1.2 s · largest contentful paint 1.2 s · total blocking time 30 ms · cumulative layout shift 0 · speed index 4.2 s
+  all runs: 79, 87, 98, 99, 99
+desktop (median of 3, previous build, 25 Nov 2026): performance 90 · accessibility 100 · best practices 100 · seo 100
+  first contentful paint 0.3 s · largest contentful paint 0.3 s · total blocking time 180 ms · cumulative layout shift 0.003 · speed index 2.4 s

@@ -150,8 +150,16 @@ A cinematic, award-level travel and food guide to everything around Manipal / Ud
   - Lighthouse on the live site (median of 3, 25 Nov 2026; review/lighthouse/summary.txt):
     desktop Performance 90 · Accessibility 100 · Best Practices 100 · SEO 100;
     mobile Performance 69 (runs 61/69/80) · Accessibility 100 · Best Practices 100 · SEO 100.
-    Mobile misses the ≥ 90 target: LCP is 1.8 s, but Total Blocking Time (~1.2 s) and Speed Index (~6 s, the
-    first-visit intro holds the screen ~2.5 s) pull it down. Runs were on a loaded laptop; PageSpeed Insights'
-    free quota was used up, so re-check there. OPEN: decide how to reach 90 on mobile (see final report).
+    That missed the mobile target, so (as decided in review) the phone intro was shortened, not removed, and
+    lower sections now render as the reader nears them:
+  - Phone intro: same choreography at 2.4x speed (about 1 s); laptops keep ≈ 2.45 s.
+  - Lazy sections (src/modules/rest.js): Top 10 renders after the hero; every section below starts as a
+    screen-tall placeholder with its real id and renders within ~1.5 screens, always in page order, and ahead of
+    in-page/hash links (`me:need` event), keyboard focus, Ctrl/Cmd+F and printing. motion.js sets up effects per
+    section (`addSection`). First phone render ~6,000 → ~1,200 elements.
+  - Mobile Lighthouse after that (live site, median of 5): Performance 98 (runs 79/87/98/99/99) · Accessibility 100 ·
+    Best Practices 100 · SEO 100 · LCP 1.2 s · TBT 30 ms · CLS 0. Desktop was 90 before this change (not re-run).
+    PageSpeed Insights' free quota was used up both times, so these are local runs on a loaded laptop.
+  - Trade-off: find-in-page on a phone (no Ctrl+F) only searches sections already scrolled near.
   - Not verified on a real iPhone (no notes were given). Open: 4 places lack coordinates; 33 festivals have no
     confirmed date yet; real-device check of the 500 ms compositor stalls seen headless.
